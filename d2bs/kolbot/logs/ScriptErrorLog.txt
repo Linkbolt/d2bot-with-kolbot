@@ -1,0 +1,10 @@
+[01:45:16] <LinkboltMF> Error in Pindleskin (pindleskin.js line 33): Failed to use portal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pindleskin@pindleskin.js:33
+[02:24:14] <LinkboltMF> Error in Andariel (attack.js line 214): Failed to kill Andariel
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Andariel@andariel.js:49, Attack.kill@attack.js:214
+[02:25:11] <LinkboltMF> Error in Mephisto (attack.js line 214): Failed to kill Mephisto
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:158, Attack.kill@attack.js:214
+[02:29:58] <LinkboltMF> Error in Andariel (attack.js line 214): Failed to kill Andariel
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Andariel@andariel.js:49, Attack.kill@attack.js:214
+[02:36:12] <LinkboltMF> Error in Tristram (attack.js line 339): Attack.clear: Rakanishu not found
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Tristram@tristram.js:53, Attack.clear@attack.js:339
