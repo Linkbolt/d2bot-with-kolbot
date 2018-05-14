@@ -30,9 +30,9 @@ function LoadConfig() {
 	// *** act 1 ***
 	Scripts.Corpsefire = false;
 		Config.Corpsefire.ClearDen = false;
-	Scripts.Mausoleum = false;
+	Scripts.Mausoleum = true;
 		Config.Mausoleum.KillBloodRaven = false;
-		Config.Mausoleum.ClearCrypt = false;
+		Config.Mausoleum.ClearCrypt = true;
 	Scripts.Rakanishu = false;
 		Config.Rakanishu.KillGriswold = false;
 	Scripts.UndergroundPassage = false;
@@ -54,9 +54,9 @@ function LoadConfig() {
 	Scripts.Coldworm = false;
 		Config.Coldworm.KillBeetleburst = false;
 		Config.Coldworm.ClearMaggotLair = false; // Clear all 3 levels
-	Scripts.AncientTunnels = false;
-		Config.AncientTunnels.OpenChest = false; // Open special chest in Lost City
-		Config.AncientTunnels.KillDarkElder = false;
+	Scripts.AncientTunnels = true;
+		Config.AncientTunnels.OpenChest = true; // Open special chest in Lost City
+		Config.AncientTunnels.KillDarkElder = true;
 	Scripts.Summoner = false;
 		Config.Summoner.FireEye = false;
 	Scripts.Tombs = false;
@@ -92,13 +92,13 @@ function LoadConfig() {
 	Scripts.Pindleskin = true;
 		Config.Pindleskin.UseWaypoint = false;
 		Config.Pindleskin.KillNihlathak = false;
-		Config.Pindleskin.ViperQuit = false; // End script if Tomb Vipers are found.
+		Config.Pindleskin.ViperQuit = true; // End script if Tomb Vipers are found.
 	Scripts.Nihlathak = false;
 		Config.Nihlathak.ViperQuit = false; // End script if Tomb Vipers are found.
-	Scripts.Eldritch = false;
+	Scripts.Eldritch = true;
 		Config.Eldritch.OpenChest = true;
-		Config.Eldritch.KillShenk = true;
-		Config.Eldritch.KillDacFarren = true;
+		Config.Eldritch.KillShenk = false;
+		Config.Eldritch.KillDacFarren = false;
 	Scripts.Eyeback = false;
 	Scripts.SharpTooth = false;
 	Scripts.ThreshSocket = false;
@@ -114,8 +114,8 @@ function LoadConfig() {
 		Config.Baal.HotTPMessage = "Hot TP!";
 		Config.Baal.SafeTPMessage = "Safe TP!";
 		Config.Baal.BaalMessage = "Baal!";
-		Config.Baal.SoulQuit = false; // End script if Souls (Undead Soul Killers) are found.
-		Config.Baal.DollQuit = false; // End script if Dolls (Undead Stigyan Dolls) are found.
+		Config.Baal.SoulQuit = true; // End script if Souls (Undead Soul Killers) are found.
+		Config.Baal.DollQuit = true; // End script if Dolls (Undead Stigyan Dolls) are found.
 		Config.Baal.KillBaal = true; // Kill Baal. Leaves game after wave 5 if false.
 
 	/* ### leeching section ###
@@ -193,12 +193,13 @@ function LoadConfig() {
 		Config.ShopBot.ScanIDs = [];
 		Config.ShopBot.CycleDelay = 0; // Delay between shopping cycles in milliseconds, might help with crashes.
 		Config.ShopBot.QuitOnMatch = false; // Leave game as soon as an item is shopped.
-	Scripts.ChestMania = false; // Open chests in configured areas. See sdk/areas.txt
-		Config.ChestMania.Act1 = [13, 14, 15, 16, 18, 19]; // List of act 1 areas to open chests in
-		Config.ChestMania.Act2 = [55, 59, 65, 66, 67, 68, 69, 70, 71, 72]; // List of act 2 areas to open chests in
-		Config.ChestMania.Act3 = [79, 80, 81, 92, 93, 84, 85, 90]; // List of act 3 areas to open chests in
-		Config.ChestMania.Act4 = []; // List of act 4 areas to open chests in
-		Config.ChestMania.Act5 = [115, 116, 119, 125, 126, 127]; // List of act 5 areas to open chests in
+	Scripts.ChestMania = true; // Open chests in configured areas. See sdk/areas.txt
+		//Config.ChestMania.Act1 = [13, 14, 15, 16, 18, 19]; // List of act 1 areas to open chests in
+		//Config.ChestMania.Act2 = [55, 59, 65, 66, 67, 68, 69, 70, 71, 72]; // List of act 2 areas to open chests in
+		// Config.ChestMania.Act3 = [79, 80, 81, 92, 93, 84, 85, 90]; // List of act 3 areas to open chests in
+		Config.ChestMania.Act3 = [79, 81]; // List of act 3 areas to open chests in
+		//Config.ChestMania.Act4 = []; // List of act 4 areas to open chests in
+		//Config.ChestMania.Act5 = [115, 116, 119, 125, 126, 127]; // List of act 5 areas to open chests in
 	Scripts.ClearAnyArea = false; // Clear any area. Uses Config.ClearType to determine which type of monsters to kill.
 		Config.ClearAnyArea.AreaList = []; // List of area ids to clear. See sdk/areas.txt
 
@@ -223,7 +224,7 @@ function LoadConfig() {
 		Config.BaalAssistant.NextGameMessage = ["Next Game", "Next", "New Game"];	// Next Game message, this is a precautionary quit command, Reccomended setting up: Config.QuitList
 
 	// Town settings
-	Config.HealHP = 50; // Go to a healer if under designated percent of life.
+	Config.HealHP = 70; // Go to a healer if under designated percent of life.
 	Config.HealMP = 0; // Go to a healer if under designated percent of mana.
 	Config.HealStatus = false; // Go to a healer if poisoned or cursed
 	Config.UseMerc = true; // Use merc. This is ignored and always false in d2classic.
@@ -274,7 +275,7 @@ function LoadConfig() {
 	 */
 	Config.MinColumn[0] = 3;
 	Config.MinColumn[1] = 3;
-	Config.MinColumn[2] = 0;
+	Config.MinColumn[2] = 3;
 	Config.MinColumn[3] = 0;
 
 	// Pickit config. Default folder is kolbot/pickit.
@@ -284,11 +285,11 @@ function LoadConfig() {
 	Config.FastPick = false; // Check and pick items between attacks
 
 	// Additional item info log settings. All info goes to \logs\ItemLog.txt
-	Config.ItemInfo = false; // Log stashed, skipped (due to no space) or sold items.
+	Config.ItemInfo = true; // Log stashed, skipped (due to no space) or sold items.
 	Config.ItemInfoQuality = []; // The quality of sold items to log. See NTItemAlias.dbl for values. Example: Config.ItemInfoQuality = [6, 7, 8];
 
 	// Item identification settings
-	Config.CainID.Enable = false; // Identify items at Cain
+	Config.CainID.Enable = true; // Identify items at Cain
 	Config.CainID.MinGold = 2500000; // Minimum gold (stash + character) to have in order to use Cain.
 	Config.CainID.MinUnids = 3; // Minimum number of unid items in order to use Cain.
 	Config.FieldID = false; // Identify items in the field instead of going to town.
@@ -392,10 +393,10 @@ function LoadConfig() {
 	Config.MinGameTime = 60; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
 	Config.MaxGameTime = 0; // Maximum game time in seconds. Quit game when limit is reached.
 	Config.TeleSwitch = false; // Switch to slot II when teleporting more than 1 node.
-	Config.OpenChests = false; // Open chests. Controls key buying.
+	Config.OpenChests = true; // Open chests. Controls key buying.
 	Config.MiniShopBot = false; // Scan items in NPC shops.
 	Config.PacketShopping = false; // Use packets to shop. Improves shopping speed.
-	Config.TownCheck = false; // Go to town if out of potions
+	Config.TownCheck = true; // Go to town if out of potions
 	Config.LogExperience = false; // Print experience statistics in the manager.
 	Config.PingQuit = [{Ping: 0, Duration: 0}]; // Quit if ping is over the given value for over the given time period in seconds.
 
@@ -479,9 +480,9 @@ function LoadConfig() {
 	
 	
 	// AutoBuild System ( See /d2bs/kolbot/libs/config/Builds/README.txt for instructions )
-	Config.AutoBuild.Enabled = false;			//	This will enable or disable the AutoBuild system
+	Config.AutoBuild.Enabled = false	//	This will enable or disable the AutoBuild system
 	
-	Config.AutoBuild.Template = "BuildName";	//	The name of the build associated with an existing 
+	Config.AutoBuild.Template = "blizzard" //       The name of the build associated with an existing
 												//	template filename located in libs/config/Builds/
 
 	Config.AutoBuild.Verbose = true;			//	Allows script to print messages in console
