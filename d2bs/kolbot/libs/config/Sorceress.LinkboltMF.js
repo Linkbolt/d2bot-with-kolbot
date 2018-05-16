@@ -37,15 +37,15 @@ function LoadConfig() {
 		Config.Rakanishu.KillGriswold = false;
 	Scripts.UndergroundPassage = false;
 	Scripts.Coldcrow = false;
-	Scripts.Tristram = true;
+	Scripts.Tristram = false;
 		Config.Tristram.PortalLeech = false; // Set to true to open a portal for leechers.
 	Scripts.Pit = false;
 		Config.Pit.ClearPit1 = true;
 	Scripts.Treehead = false;
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
-	Scripts.Countess = true;
-		Config.Countess.KillGhosts = true;
+	Scripts.Countess = false;
+		Config.Countess.KillGhosts = false;
 	Scripts.Andariel = true;
 	Scripts.Cows = false;
 
@@ -67,7 +67,7 @@ function LoadConfig() {
 	Scripts.KurastTemples = false;
 	Scripts.Icehawk = false;
 	Scripts.Endugu = false;
-	Scripts.Travincal = true;
+	Scripts.Travincal = false;
 		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
 	Scripts.Mephisto = true;
 		Config.Mephisto.MoatTrick = false;
@@ -89,13 +89,13 @@ function LoadConfig() {
 	Scripts.SealLeader = false; // Clear a safe spot around seals and invite leechers in. Leechers should run SealLeecher script. Don't run with Diablo or FastDiablo.
 
 	// *** act 5 ***
-	Scripts.Pindleskin = true;
+	Scripts.Pindleskin = false;
 		Config.Pindleskin.UseWaypoint = false;
 		Config.Pindleskin.KillNihlathak = false;
 		Config.Pindleskin.ViperQuit = true; // End script if Tomb Vipers are found.
 	Scripts.Nihlathak = false;
 		Config.Nihlathak.ViperQuit = false; // End script if Tomb Vipers are found.
-	Scripts.Eldritch = true;
+	Scripts.Eldritch = false;
 		Config.Eldritch.OpenChest = true;
 		Config.Eldritch.KillShenk = false;
 		Config.Eldritch.KillDacFarren = false;
@@ -196,8 +196,8 @@ function LoadConfig() {
 	Scripts.ChestMania = true; // Open chests in configured areas. See sdk/areas.txt
 		//Config.ChestMania.Act1 = [13, 14, 15, 16, 18, 19]; // List of act 1 areas to open chests in
 		//Config.ChestMania.Act2 = [55, 59, 65, 66, 67, 68, 69, 70, 71, 72]; // List of act 2 areas to open chests in
-		// Config.ChestMania.Act3 = [79, 80, 81, 92, 93, 84, 85, 90]; // List of act 3 areas to open chests in
-		Config.ChestMania.Act3 = [79, 81]; // List of act 3 areas to open chests in
+		Config.ChestMania.Act3 = [79, 80, 81, 92, 93, 84, 85, 90]; // List of act 3 areas to open chests in
+		//Config.ChestMania.Act3 = [79, 81]; // List of act 3 areas to open chests in
 		//Config.ChestMania.Act4 = []; // List of act 4 areas to open chests in
 		//Config.ChestMania.Act5 = [115, 116, 119, 125, 126, 127]; // List of act 5 areas to open chests in
 	Scripts.ClearAnyArea = false; // Clear any area. Uses Config.ClearType to determine which type of monsters to kill.
@@ -225,7 +225,7 @@ function LoadConfig() {
 
 	// Town settings
 	Config.HealHP = 70; // Go to a healer if under designated percent of life.
-	Config.HealMP = 0; // Go to a healer if under designated percent of mana.
+	Config.HealMP = 5; // Go to a healer if under designated percent of mana.
 	Config.HealStatus = false; // Go to a healer if poisoned or cursed
 	Config.UseMerc = true; // Use merc. This is ignored and always false in d2classic.
 	Config.MercWatch = false; // Instant merc revive during battle.
@@ -242,11 +242,11 @@ function LoadConfig() {
 	Config.RejuvBuffer = 0; // Number of rejuvenation potions to keep in inventory.
 
 	// Chicken settings
-	Config.LifeChicken = 30; // Exit game if life is less or equal to designated percent.
+	Config.LifeChicken = 15; // Exit game if life is less or equal to designated percent.
 	Config.ManaChicken = 0; // Exit game if mana is less or equal to designated percent.
 	Config.MercChicken = 0; // Exit game if merc's life is less or equal to designated percent.
-	Config.TownHP = 0; // Go to town if life is under designated percent.
-	Config.TownMP = 0; // Go to town if mana is under designated percent.
+	Config.TownHP = 30; // Go to town if life is under designated percent.
+	Config.TownMP = 5; // Go to town if mana is under designated percent.
 
 	/* Inventory lock configuration. !!!READ CAREFULLY!!!
 	 * 0 = item is locked and won't be moved. If item occupies more than one slot, ALL of those slots must be set to 0 to lock it in place.
@@ -267,7 +267,7 @@ function LoadConfig() {
 	 */
 	Config.BeltColumn[0] = "hp";
 	Config.BeltColumn[1] = "mp";
-	Config.BeltColumn[2] = "mp";
+	Config.BeltColumn[2] = "rv";
 	Config.BeltColumn[3] = "rv";
 
 	/* Minimum amount of potions. If we have less, go to vendor to purchase more.
@@ -275,7 +275,7 @@ function LoadConfig() {
 	 */
 	Config.MinColumn[0] = 3;
 	Config.MinColumn[1] = 3;
-	Config.MinColumn[2] = 3;
+	Config.MinColumn[2] = 0;
 	Config.MinColumn[3] = 0;
 
 	// Pickit config. Default folder is kolbot/pickit.
@@ -314,7 +314,7 @@ function LoadConfig() {
 	/* Cubing config. All recipe names are available in Templates/Cubing.txt. For item names/classids check NTItemAlias.dbl
 	 * The format is Config.Recipes.push([recipe_name, item_name_or_classid, etherealness]). Etherealness is optional and only applies to some recipes.
 	 */
-	Config.Cubing = false; // Set to true to enable cubing.
+	Config.Cubing = true; // Set to true to enable cubing.
 
 	// Ingredients for the following recipes will be auto-picked, for classids check libs/NTItemAlias.dbl
 
@@ -391,7 +391,7 @@ function LoadConfig() {
 	Config.AutoMap = false; // Set to true to open automap at the beginning of the game.
 	Config.LastMessage = ""; // Message or array of messages to say at the end of the run. Use $nextgame to say next game - "Next game: $nextgame" (works with lead entry point)
 	Config.MinGameTime = 300; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
-	Config.MaxGameTime = 0; // Maximum game time in seconds. Quit game when limit is reached.
+	Config.MaxGameTime = 1800; // Maximum game time in seconds. Quit game when limit is reached.
 	Config.TeleSwitch = false; // Switch to slot II when teleporting more than 1 node.
 	Config.OpenChests = true; // Open chests. Controls key buying.
 	Config.MiniShopBot = false; // Scan items in NPC shops.
@@ -432,7 +432,7 @@ function LoadConfig() {
 	// Monster skip config
 	// Skip immune monsters. Possible options: "fire", "cold", "lightning", "poison", "physical", "magic".
 	// You can combine multiple resists with "and", for example - "fire and cold", "physical and cold and poison"
-	Config.SkipImmune = [];
+	Config.SkipImmune = ["Cold"];
 	// Skip enchanted monsters. Possible options: "extra strong", "extra fast", "cursed", "magic resistant", "fire enchanted", "lightning enchanted", "cold enchanted", "mana burn", "teleportation", "spectral hit", "stone skin", "multiple shots".
 	// You can combine multiple enchantments with "and", for example - "cursed and extra fast", "mana burn and extra strong and lightning enchanted"
 	Config.SkipEnchant = [];
@@ -448,12 +448,12 @@ function LoadConfig() {
 	Config.AttackSkill[2] = 55; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
 	Config.AttackSkill[3] = 59; // Primary skill to others.
 	Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
-	Config.AttackSkill[5] = 53; // Secondary skill if monster is immune to primary.
-	Config.AttackSkill[6] = 53; // Secondary untimed skill if monster is immune to primary untimed.
+	Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
+	Config.AttackSkill[6] = -1; // Secondary untimed skill if monster is immune to primary untimed.
 
 	// Low mana skills - these will be used if main skills can't be cast.
-	Config.LowManaSkill[0] = 55; // Timed low mana skill.
-	Config.LowManaSkill[1] = 55; // Untimed low mana skill.
+	Config.LowManaSkill[0] = -1; // Timed low mana skill.
+	Config.LowManaSkill[1] = -1; // Untimed low mana skill.
 
 	/* Advanced Attack config. Allows custom skills to be used on custom monsters.
 	 *	Format: "Monster Name": [timed skill id, untimed skill id]
@@ -476,7 +476,7 @@ function LoadConfig() {
 
 	// Class specific config
 	Config.CastStatic = 60; // Cast static until the target is at designated life percent. 100 = disabled.
-	Config.StaticList = []; // List of monster NAMES or CLASSIDS to static. Example: Config.StaticList = ["Andariel", 243];
+	Config.StaticList = [156, 211, 242, 243, 544]; // List of monster NAMES or CLASSIDS to static. Example: Config.StaticList = ["Andariel", 243];
 	
 	
 	// AutoBuild System ( See /d2bs/kolbot/libs/config/Builds/README.txt for instructions )

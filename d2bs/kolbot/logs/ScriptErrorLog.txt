@@ -8,3 +8,63 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Andariel@andariel.js:49, Attack.kill@attack.js:214
 [02:36:12] <LinkboltMF> Error in Tristram (attack.js line 339): Attack.clear: Rakanishu not found
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Tristram@tristram.js:53, Attack.clear@attack.js:339
+[22:20:59] <LinkboltMF> Error in Andariel (pather.js line 939): Pather.useWaypoint: Failed to go to waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Andariel@andariel.js:37, useWaypoint@pather.js:939
+[22:21:18] <LinkboltMF> Error in AncientTunnels (pather.js line 1303): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, AncientTunnels@ancienttunnels.js:9, useWaypoint@pather.js:935, Pather.getWP@pather.js:1303
+[22:21:19] <LinkboltMF> Error in Travincal (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Travincal@travincal.js:26, useWaypoint@pather.js:935, Pather.getWP@pather.js:1299, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
+[22:21:21] <LinkboltMF> Error in Mephisto (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:134, useWaypoint@pather.js:935, Pather.getWP@pather.js:1299, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
+[22:21:22] <LinkboltMF> Error in Pindleskin (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pindleskin@pindleskin.js:10, Town.goToTown@town.js:2176
+[22:21:23] <LinkboltMF> Error in Eldritch (pather.js line 1303): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:11, useWaypoint@pather.js:935, Pather.getWP@pather.js:1303
+[22:21:23] <LinkboltMF> Error in ChestMania (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
+[22:25:24] <LinkboltMF> Error in AncientTunnels (pather.js line 1303): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, AncientTunnels@ancienttunnels.js:9, useWaypoint@pather.js:935, Pather.getWP@pather.js:1303
+[22:25:25] <LinkboltMF> Error in Travincal (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Travincal@travincal.js:26, useWaypoint@pather.js:935, Pather.getWP@pather.js:1299, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
+[22:25:27] <LinkboltMF> Error in Mephisto (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:134, useWaypoint@pather.js:935, Pather.getWP@pather.js:1299, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
+[22:25:28] <LinkboltMF> Error in Pindleskin (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pindleskin@pindleskin.js:10, Town.goToTown@town.js:2176
+[22:25:29] <LinkboltMF> Error in Eldritch (pather.js line 1303): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:11, useWaypoint@pather.js:935, Pather.getWP@pather.js:1303
+[22:25:29] <LinkboltMF> Error in ChestMania (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
+[22:42:16] <LinkboltMF> Error in Duriel (pather.js line 939): Pather.useWaypoint: Failed to go to waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Duriel@duriel.js:48, useWaypoint@pather.js:939
+[22:42:24] <LinkboltMF> Error in Travincal (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Travincal@travincal.js:26, useWaypoint@pather.js:935, Pather.getWP@pather.js:1299, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
+[22:42:26] <LinkboltMF> Error in Mephisto (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:134, useWaypoint@pather.js:935, Pather.getWP@pather.js:1299, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
+[22:42:27] <LinkboltMF> Error in Diablo (pather.js line 1303): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Diablo@diablo.js:426, useWaypoint@pather.js:935, Pather.getWP@pather.js:1303
+[22:42:27] <LinkboltMF> Error in Pindleskin (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pindleskin@pindleskin.js:10, Town.goToTown@town.js:2176
+[22:42:28] <LinkboltMF> Error in Eldritch (pather.js line 1303): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:11, useWaypoint@pather.js:935, Pather.getWP@pather.js:1303
+[22:42:29] <LinkboltMF> Error in ChestMania (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
+[22:49:00] <LinkboltMF> Error in Duriel (pather.js line 939): Pather.useWaypoint: Failed to go to waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Duriel@duriel.js:48, useWaypoint@pather.js:939
+[22:49:08] <LinkboltMF> Error in Travincal (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Travincal@travincal.js:26, useWaypoint@pather.js:935, Pather.getWP@pather.js:1299, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
+[22:49:10] <LinkboltMF> Error in Mephisto (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:134, useWaypoint@pather.js:935, Pather.getWP@pather.js:1299, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
+[22:49:11] <LinkboltMF> Error in Diablo (pather.js line 1303): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Diablo@diablo.js:426, useWaypoint@pather.js:935, Pather.getWP@pather.js:1303
+[22:49:12] <LinkboltMF> Error in Pindleskin (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pindleskin@pindleskin.js:10, Town.goToTown@town.js:2176
+[22:49:12] <LinkboltMF> Error in Eldritch (pather.js line 1303): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:11, useWaypoint@pather.js:935, Pather.getWP@pather.js:1303
+[22:49:13] <LinkboltMF> Error in ChestMania (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
+[23:41:25] <LinkboltMF> Error in ChestMania (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
+[23:58:36] <LinkboltMF> Error in ChestMania (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
+[23:03:42] <LinkboltMF> Error in Mephisto (pather.js line 818): useUnit: Incomplete quest.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:134, useWaypoint@pather.js:935, Pather.getWP@pather.js:1299, Pather.journeyTo@pather.js:1445, Pather.moveToExit@pather.js:634, Pather.openExit@pather.js:723, Pather.useUnit@pather.js:818
