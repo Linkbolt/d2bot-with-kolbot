@@ -68,3 +68,7 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1348, Town.goToTown@town.js:2176
 [23:03:42] <LinkboltMF> Error in Mephisto (pather.js line 818): useUnit: Incomplete quest.
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:134, useWaypoint@pather.js:935, Pather.getWP@pather.js:1299, Pather.journeyTo@pather.js:1445, Pather.moveToExit@pather.js:634, Pather.openExit@pather.js:723, Pather.useUnit@pather.js:818
+[11:16:51] <LinkboltMF> Error in Mausoleum (mausoleum.js line 31): Failed to move to Crypt
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mausoleum@mausoleum.js:31
+[11:17:46] <LinkboltMF> Error in TownChicken.js (town.js line 2209): Town.visitTown: Failed to go back from town
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2209

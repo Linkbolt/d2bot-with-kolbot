@@ -334,9 +334,10 @@
 
 //          ==white==
 
-//[name] >= thresher && [name] <= greatpoleaxe && [quality] == normal && [flag] == ethereal # [sockets] == 0 # [maxquantity] == 1 // for socketing
+[name] >= thresher && [name] <= greatpoleaxe && [quality] == normal && [flag] == ethereal # [sockets] == 0 # [maxquantity] == 1 // for socketing
 [type] == polearm && [quality] <= superior && [flag] == ethereal && [class] == elite # [sockets] == 4
 [name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddamage] == 15
+[name] == crypticaxe && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4)
 
 //          ==unique==
 [name] == ogreaxe && [quality] == unique && [flag] == ethereal # [enhanceddamage] == 320 // bonehew
@@ -612,20 +613,20 @@
 [name] == rejuvenationpotion
 [name] == fullrejuvenationpotion
 
-[name] == perfectemerald || [name] == perfectamethyst || [name] == perfecttopaz || [name] == perfectdiamond || [name] == perfectsapphire
-[name] == flawlessemerald || [name] == flawlessamethyst || [name] == flawlesstopaz || [name] == flawlessdiamond || [name] == flawlesssapphire
+[name] == perfectemerald || [name] == perfectamethyst || [name] == perfecttopaz || [name] == perfectdiamond || [name] == perfectsapphire || [name] == perfectruby || [name] == perfectskull
+//[name] == flawlessemerald || [name] == flawlessamethyst || [name] == flawlesstopaz || [name] == flawlessdiamond || [name] == flawlesssapphire || [name] == flawlessruby || [name] == flawlessskull
 
 //[name] == flawlessemerald
 //[name] == flawlessdiamond # # [maxquantity] == 3
 
 //[name] == elrune # # [MaxQuantity] == 1
 //[name] == eldrune # # [MaxQuantity] == 1
-//[name] == tirrune # # [MaxQuantity] == 1
+[name] == tirrune # # [MaxQuantity] == 1
 //[name] == nefrune
-[name] == ethrune # # [MaxQuantity] == 3
+//[name] == ethrune # # [MaxQuantity] == 3
 //[name] == ithrune # # [MaxQuantity] == 1
-//[name] == talrune # # [MaxQuantity] == 1
-//[name] == ralrune # # [MaxQuantity] == 1
+[name] == talrune # # [MaxQuantity] == 1
+[name] == ralrune # # [MaxQuantity] == 1
 //[name] == ortrune # # [MaxQuantity] == 2
 //[name] == thulrune # # [MaxQuantity] == 2
 [name] == amnrune # # [MaxQuantity] == 3

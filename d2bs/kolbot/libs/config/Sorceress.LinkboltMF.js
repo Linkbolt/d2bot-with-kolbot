@@ -196,8 +196,8 @@ function LoadConfig() {
 	Scripts.ChestMania = true; // Open chests in configured areas. See sdk/areas.txt
 		//Config.ChestMania.Act1 = [13, 14, 15, 16, 18, 19]; // List of act 1 areas to open chests in
 		//Config.ChestMania.Act2 = [55, 59, 65, 66, 67, 68, 69, 70, 71, 72]; // List of act 2 areas to open chests in
-		Config.ChestMania.Act3 = [79, 80, 81, 92, 93, 84, 85, 90]; // List of act 3 areas to open chests in
-		//Config.ChestMania.Act3 = [79, 81]; // List of act 3 areas to open chests in
+		//Config.ChestMania.Act3 = [79, 80, 81, 92, 93, 84, 85, 90]; // List of act 3 areas to open chests in
+		Config.ChestMania.Act3 = [79, 81]; // List of act 3 areas to open chests in
 		//Config.ChestMania.Act4 = []; // List of act 4 areas to open chests in
 		//Config.ChestMania.Act5 = [115, 116, 119, 125, 126, 127]; // List of act 5 areas to open chests in
 	Scripts.ClearAnyArea = false; // Clear any area. Uses Config.ClearType to determine which type of monsters to kill.
@@ -257,7 +257,7 @@ function LoadConfig() {
 	Config.Inventory[0] = [1,1,1,1,1,1,1,1,0,0];
 	Config.Inventory[1] = [1,1,1,1,1,1,1,1,0,0];
 	Config.Inventory[2] = [1,1,1,1,1,1,1,1,0,0];
-	Config.Inventory[3] = [1,1,1,1,1,1,1,0,0,0];
+	Config.Inventory[3] = [1,1,1,1,1,1,1,1,0,0];
 
 	Config.StashGold = 100000; // Minimum amount of gold to stash.
 
@@ -314,17 +314,17 @@ function LoadConfig() {
 	/* Cubing config. All recipe names are available in Templates/Cubing.txt. For item names/classids check NTItemAlias.dbl
 	 * The format is Config.Recipes.push([recipe_name, item_name_or_classid, etherealness]). Etherealness is optional and only applies to some recipes.
 	 */
-	Config.Cubing = true; // Set to true to enable cubing.
+	Config.Cubing = false; // Set to true to enable cubing.
 
 	// Ingredients for the following recipes will be auto-picked, for classids check libs/NTItemAlias.dbl
 
-	Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
-	Config.Recipes.push([Recipe.Gem, "Flawless Topaz"]); // Make Perfect Topaz
-	Config.Recipes.push([Recipe.Gem, "Flawless Sapphire"]); // Make Perfect Sapphire
-	Config.Recipes.push([Recipe.Gem, "Flawless Emerald"]); // Make Perfect Emerald
-	Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
-	Config.Recipes.push([Recipe.Gem, "Flawless Diamond"]); // Make Perfect Diamond
-	Config.Recipes.push([Recipe.Gem, "Flawless Skull"]); // Make Perfect Skull
+	//Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
+	//Config.Recipes.push([Recipe.Gem, "Flawless Topaz"]); // Make Perfect Topaz
+	//Config.Recipes.push([Recipe.Gem, "Flawless Sapphire"]); // Make Perfect Sapphire
+	//Config.Recipes.push([Recipe.Gem, "Flawless Emerald"]); // Make Perfect Emerald
+	//Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
+	//Config.Recipes.push([Recipe.Gem, "Flawless Diamond"]); // Make Perfect Diamond
+	//Config.Recipes.push([Recipe.Gem, "Flawless Skull"]); // Make Perfect Skull
 
 	//Config.Recipes.push([Recipe.Token]); // Make Token of Absolution
 
@@ -402,7 +402,7 @@ function LoadConfig() {
 
 	// Shrine Scanner - scan for shrines while moving.
 	// Put the shrine types in order of priority (from highest to lowest). For a list of types, see sdk/shrines.txt
-	Config.ScanShrines = [];
+	//Config.ScanShrines = [];
 
 	// MF Switch
 	Config.MFSwitchPercent = 0; // Boss life % to switch weapons at. Set to 0 to disable.
@@ -469,7 +469,7 @@ function LoadConfig() {
 	Config.DodgeHP = 100; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = false; // Set to true to attack Unique/SuperUnique monsters first when clearing
 	Config.ClearType = 0xF; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
-	Config.TeleStomp = true; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
+	Config.TeleStomp = false; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
 
 	// Wereform setup. Make sure you read Templates/Attacks.txt for attack skill format.
 	Config.Wereform = false; // 0 / false - don't shapeshift, 1 / "Werewolf" - change to werewolf, 2 / "Werebear" - change to werebear

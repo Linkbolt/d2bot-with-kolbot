@@ -1,0 +1,154 @@
+//#################################################################
+//################# Index: Use Ctrl+F to search ###################
+//################# 1- Unique Helms                   ###################
+//################# 2- Unique Body Armor               ###################
+//################# 3- White                    ###################
+//################# 4- Runes                    ###################
+//################# 5- Sets                     ###################
+//################# 6- Charms/Jewels            ###################
+//################# 7- Misc                     ###################
+//#################################################################
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 1- Unique Helms ########################################################################################################################
+// ##############################################################################################################################################
+[name] == GrimHelm && [quality] == unique && [flag] != ethereal// # [lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // Vampire Gaze
+[name] == Shako && [quality] == unique && [flag] != ethereal// # [Defense] >= 141  // Harlequin Crest
+[name] == SpiredHelm && [quality] == unique # [passivecoldmastery] == 15 && [Dexterity] >= 20   // Nightwing's Veil
+[name] == Demonhead && [quality] == unique && [flag] != ethereal// # ([enhanceddefense] >= 140 || [Strength] >= 30 || [LifeLeech] >= 10) // Andariel's Visage
+[name] == Corona && [quality] == unique  // Crown of ages
+//[name] == Basinet && [quality] == unique # [FireResist] >= 40 // Darksight Helm || Darians ISO
+//[name] == BoneVisage && [quality] == unique // Giant Skull
+[Name] == SlayerGuard && [Quality] == unique// && [flag] != ethereal # [EnhancedDefense] == 200 && [lifeleech] == 6 // Arreat's Face
+[name] == furyvisor && [quality] == unique && [flag] != ethereal # [warcriesskilltab] == 3 && [skillwerewolf]+[skilllycanthropy]+[skillferalrage] == 18 && [strength]+[dexterity]+[vitality] >= 45 // wolfhowl
+[Name] == TotemicMask && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 200 // Jalal's Mane
+[Name] == EarthSpirit && [Quality] == unique && [Flag] != ethereal # [DruidSkills] == 2// && [FireResist] == 40 && [itemabsorblightpercent] == 14 && [itemabsorbcoldpercent] == 25 && [EnhancedDefense] == 190 // Spirit Keeper
+
+[name] == Casque && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 240 && [ItemMagicBonus] >= 50// Crown of Thieves Eth
+[name] == GrimHelm && [quality] == unique && [flag] == ethereal// # [lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // Vampire Gaze Eth
+[name] == Grandcrown && [quality] == unique && [flag] == ethereal// # [lifeleech] == 12 && [itemgoldbonus] >= 100 // Crown of Thieves Eth
+[name] == Demonhead && [quality] == unique && [flag] == ethereal// # ([enhanceddefense] >= 140 || [Strength] >= 30 || [LifeLeech] >= 10) // Andariel's Visage Eth
+//[Name] == SlayerGuard && [Quality] == unique && [flag] == ethereal # [EnhancedDefense] == 200 && [lifeleech] == 6 // Arreat's Face Eth
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 1- Unique Body Armor ###################################################################################################################
+// ##############################################################################################################################################
+[name] == FullPlate && [quality] == unique// && [flag] != ethereal # [enhanceddefense] == 150 //Goldskin
+[name] == SerpentskinArmor && [quality] == unique && [flag] != ethereal # [FireResist] >= 35 //&& [magicdamagereduction] == 13// Skin of the Vipermagi
+[name] == MeshArmor && [quality] == unique //&& [flag] != ethereal //# [enhanceddefense] == 220 // Shaftstop
+[name] == RussetArmor && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200  // Skullder's Ire
+[name] == DuskShroud && [quality] == unique && [flag] != ethereal # ([PassiveFireMastery] == 15 && ([SkillEnchant] == 3 || [SkillFireBall] == 3 || [SkillMeteor] == 3)) || ([PassiveLtngMastery] == 15 && [SkillLightning] == 3) || ([PassiveColdMastery] == 15 && ([SkillBlizzard] == 3 || [SkillIceBlast] == 3 || [SkillFrozenOrb] == 3)) // Ormus' Robes
+//[name] == BalrogSkin && [quality] == unique [flag] != ethereal # [ItemAllSkills] >= 2 // Arkaine's Valor
+//[name] == KrakenShell && [quality] == unique [flag] != ethereal # [enhanceddefense] >= 200 && [damageresist] == 25 && [plusdefense] == 150 && [strength] == 50// Leviathan
+//[name] == SacredArmor && [quality] == unique [flag] != ethereal # [strength] >= 20 // Tyrael's Might
+
+[name] == FullPlate && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 150 //Goldskin Eth
+[name] == demonhidearmor && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 190 // Skin of the Flayed One Eth
+[name] == tigulatedmail && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 180 // Crow Caw Eth
+[name] == linkedmail && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 160 // Spirit Forge Eth
+[name] == cuirass && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 200 // Duriel's Shell Eth
+[name] == MeshArmor && [quality] == unique && [flag] == ethereal //# [enhanceddefense] == 220 // Shaftstop Eth
+[name] == RussetArmor && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 200  // Skullder's Ire Eth
+[name] == TemplarCoat && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 200 // Guardian Angel Eth
+[name] == SharktoothArmor && [quality] == unique && [flag] == ethereal //# [Defense] >= 1330 //Toothrow Eth
+[name] == chaosarmor && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 200 // Black Hades Eth
+//[name] == BalrogSkin && [quality] == unique [flag] == ethereal # [ItemAllSkills] >= 2 // Arkaine's Valor Eth
+[name] == wirefleece && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 200 // Gladiator's Bane Eth
+[name] == ShadowPlate && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 220 && [coldresist] == 60 && [normaldamagereduction] == 14 // Steel Carapace
+[name] == SacredArmor && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 220 // Templar's Might
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 1- Unique Belts ###################################################################################################################
+// ##############################################################################################################################################
+
+[name] == heavybelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 && [itemgoldbonus] == 80 // goldwrap
+[name] == demonhidesash && [quality] == unique && [flag] != ethereal// # [damageresist] == 15 && [lifeleech] == 8 && [enhanceddefense] == 180 && [magicdamagereduction] == 15 //string of ears
+[Name] == BattleBelt && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 170 // Snowclash
+[Name] == WarBelt && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 200 // Thundergod's Vigor
+[Name] == SpiderwebSash && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 120  // Arachnid Mesh
+[name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7// && [defense] == 63 // nosferatu's coil
+[Name] == MithrilCoil && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 140 && [damageresist] == 15 && [Vitality] == 40 &&  // Verdungo's Hearty Cord
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 1- Unique Gloves ###################################################################################################################
+// ##############################################################################################################################################
+[name] == Leather Gloves && [quality] == unique && [flag] != ethereal // The Hand of Broc
+[name] == heavygloves && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // Bloodfist
+[Name] == ChainGloves && [Quality] == unique && [Flag] != ethereal// # [ItemMagicBonus] == 40 // Chance Guards
+[Name] == LightGauntlets && [Quality] == unique && [Flag] != ethereal # [EnhancedDefense] == 30 // Magefist
+[name] == gauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // Frostburn
+[name] == battlegauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // lava gout
+[Name] == WarGauntlets && [Quality] == unique [flag] != ethereal # [EnhancedDefense]== 200 // Hellmouth
+[Name] == VampireboneGloves && [Quality] == unique && [Flag] != ethereal # [EnhancedDefense] == 120 && [Strength] == 15 && [LifeLeech] == 10 // Dracul's Grasp
+[Name] == Vambraces && [Quality] == unique && [flag] != ethereal # [ManaLeech] >= 7 && [LifeLeech] >= 7 && [EnhancedDefense] >= 120 // Soul Drainer
+[Name] == OgreGauntlets && [Quality] == unique [flag] != ethereal # [EnhancedDamage] >= 60 && [Defense] >= 210 // Steelrend
+
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 1- Unique Boots ###################################################################################################################
+// ##############################################################################################################################################
+//[Name] == Boots && [Quality] == unique && [Flag] != ethereal # [EnhancedDefense] == 20 // Hotspur
+//[name] == lightplatedboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // goblin toe
+[name] == demonhideboots && [quality] == unique && [flag] != ethereal # [itemgoldbonus] == 70 && [enhanceddefense] == 150 // infernostride
+[Name] == SharkskinBoots && [Quality] == unique && [flag] != ethereal # [EnhancedDefense] == 210 && [MaxHP] == 65 // Waterwalk
+[Name] == MeshBoots && [Quality] == unique && [Flag] != ethereal # [EnhancedDefense] == 190 // Silkweave
+[Name] == BattleBoots && [Quality] == unique && [Flag] != ethereal// # [ItemMagicBonus] == 50 && [EnhancedDefense] == 190 // War Traveler
+//[Name] == WarBoots && [Quality] == unique && [Flag] != ethereal # [EnhancedDefense] == 200 // Gore Rider
+//[Name] == ScarabshellBoots && [Quality] == unique [Flag] != ethereal # [EnhancedDefense] == 170 && [strength] == 15 && [vitality] == 15 // Sandstorm Trek
+[Name] == BoneweaveBoots && [Quality] == unique && [Flag] != ethereal # [Strength] == 20 && [SkillSkeletonMastery] == 2// && [EnhancedDefense] == 200 // Marrowwalk
+[name] == myrmidongreaves && [quality] == unique && [flag] != ethereal # [shadowdisciplinesskilltab] == 2 && [dexterity] == 25// && [EnhancedDefense] == 100 // shadow dancer
+
+[Name] == ScarabshellBoots && [Quality] == unique && [Flag] == ethereal # [EnhancedDefense] == 170 && [strength] == 15 && [vitality] == 15 // Sandstorm Trek Eth
+
+
+
+
+
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 1- Unique Shields #####################################################################################################################
+// ##############################################################################################################################################
+[name] == GrimShield && [quality] == unique  # [enhanceddefense] == 130 && [itemmanaafterkill] == 5 // Lidless Wall
+[name] == Monarch && [quality] == unique// # [defense] == 148 // Stormshield
+//[name] == SpikedShield && [quality] == unique # [enhanceddefense] == 60 // Swordback Hold
+//[name] == defender && [quality] == unique # [enhanceddefense] == 150 // visceratuant
+//[name] == roundshield && [quality] == unique # [enhanceddefense] == 220 // moser
+[name] == hierophanttrophy && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // homunculus
+[name] == succubusskull && [quality] == unique && [flag] != ethereal # [necromancerskills] == 2 && [fireresist] == 30 && [enhanceddefense] == 150 // boneflame
+[name] == bloodlordskull && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 180 && [poisonandboneskilltab]+[cursesskilltab]+[necromancersummoningskilltab] == 9 //darkforce spawn
+[Name] == GildedShield && [Quality] == unique// # [EnhancedDefense] >= 200 // Herald Of Zakarum
+[name] == sacredrondache && [quality] == unique # [paladinskills] == 2 && [enhanceddefense] >= 200 && [enhanceddamage] >= 70 && [itemtohitpercent] >= 70 // alma negra
+
+[name] == SpikedShield && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 60 // Swordback Hold Eth
+[name] == trollnest && [quality] == unique && [flag] == ethereal # [sockets] == 3 // Head Hunter's Glory Eth
+[name] == barbedshield && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 120 // lanceguard eth
+
+
+
+
+
+
