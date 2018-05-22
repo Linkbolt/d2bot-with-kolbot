@@ -1,0 +1,170 @@
+//###################################################################
+//################# index: use ctrl+f to search #####################
+//################# 1- rare rings               #####################
+//################# 2- rare amulets             #####################
+//################# 3- rare helms               #####################
+//################# 4- rare body armor          #####################
+//################# 5- rare belts               #####################
+//################# 6- rare gloves              #####################
+//################# 7- rare boots               #####################
+//################# 8- rare shields             #####################
+//################# 9- rare weapons             #####################
+//###################################################################
+
+// ##############################################################################################################################################
+// ##### 6- potions ###################################################################################################################
+// ##############################################################################################################################################
+[name] == supermanapotion
+[name] == superhealingpotion
+[name] == fullrejuvenationpotion
+//[name] == rejuvenationpotion
+//[name] == greatermanapotion
+//[name] == greaterhealingpotion
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 9- runes ###############################################################################################################################
+// ##############################################################################################################################################
+//[name] == elrune # # [maxquantity] == 1
+//[name] == eldrune # # [maxquantity] == 1
+//[name] == tirrune # # [maxquantity] == 3
+//[name] == nefrune # # [maxquantity] == 3
+//[name] == ethrune # # [maxquantity] == 3
+//[name] == ithrune # # [maxquantity] == 1
+//[name] == talrune # # [maxquantity] == 1
+//[name] == ralrune # # [maxquantity] == 1
+//[name] == ortrune # # [maxquantity] == 2
+//[name] == thulrune # # [maxquantity] == 2
+//[name] == amnrune # # [maxquantity] == 3
+//[name] == solrune # # [maxquantity] == 3
+//[name] == shaelrune # # [maxquantity] == 3
+//[name] == dolrune # # [maxquantity] == 3
+//[name] == helrune # # [maxquantity] == 3
+//[name] == iorune # # [maxquantity] == 3
+//[name] == lumrune # # [maxquantity] == 3
+//[name] == korune # # [maxquantity] == 3
+//[name] == falrune/ # # [maxquantity] == 3
+//[name] == lemrune/ # # [maxquantity] == 3
+[name] >= iorune && [name] <= zodrune
+
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 7- gems ###################################################################################################################
+// ##############################################################################################################################################
+
+// ##### perfect ###########################
+[name] == perfectemerald || [name] == perfectamethyst || [name] == perfecttopaz || [name] == perfectdiamond || [name] == perfectsapphire || [name] == perfectruby || [name] == perfectskull
+
+// ##### flassless ###########################
+//[name] == flawlessemerald # # [maxquantity] == 3
+//[name] == flawlessamethyst # # [maxquantity] == 3
+//[name] == flawlesstopaz # # [maxquantity] == 3
+//[name] == flawlessdiamond # # [maxquantity] == 3
+//[name] == flawlesssapphire # # [maxquantity] == 3
+//[name] == flawlessruby # # [maxquantity] == 3
+//[name] == flawlessskull # # [maxquantity] == 3
+
+// ##### flawed ###########################
+//[name] == flawedemerald # # [maxquantity] == 2
+//[name] == flawedamethyst # # [maxquantity] == 1
+//[name] == flawedtopaz # # [maxquantity] == 2
+//[name] == flaweddiamond # # [maxquantity] == 2
+//[name] == flawedsapphire # # [maxquantity] == 1
+//[name] == flawedruby # # [maxquantity] == 2
+//[name] == flawedskull # # [maxquantity] == 2
+
+// ##### normal ###########################
+//[name] == emerald # # [maxquantity] == 2
+//[name] == amethyst # # [maxquantity] == 2
+//[name] == topaz # # [maxquantity] == 2
+//[name] == diamond # # [maxquantity] == 2
+//[name] == sapphire # # [maxquantity] == 2
+//[name] == ruby # # [maxquantity] == 2
+//[name] == skull # # [maxquantity] == 2
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 8- jewels #####################################################################################################################
+// ##############################################################################################################################################
+
+// ##### unique ###########################
+[name] == jewel && [quality] == unique # [passivecoldpierce]+[passivecoldmastery] >= 10 || [passivepoispierce]+[passivepoismastery] >= 10 || [passiveltngpierce]+[passiveltngmastery] >= 10 || [passivefirepierce]+[passivefiremastery] >= 10
+
+// ##### magic ###########################
+[name] == jewel && [quality] == magic # ([enhanceddamage] >= 40 || [tohit] == 100 || [maxdamage] >= 15) && ([maxhp] == 20 || [ias] >= 15 || [itemreqpercent] <= -15 || [strength] >= 9 || [dexterity] >= 9)
+[name] == jewel && [quality] == magic # ([fireresist] == 30 || [coldresist] == 30 || [lightresist] == 30 || [fireresist] >= 15 && [lightresist] >= 15 || [maxmana] == 20) && ([maxhp] == 20 || [fhr] == 7 || [ias] == 15 || [itemreqpercent] <= -15 || [strength] >= 9 || [dexterity] >= 9)
+[name] == jewel # [maxdamage] >= 30
+[name] == jewel # [enhanceddamage] >= 40
+[name] == jewel # [ias] >= 15
+[name] == jewel # [fhr] >= 15
+
+// ##### rare ###########################
+[name] == jewel && [quality] == rare # [strength] >= 9 && [dexterity] >= 9
+[name] == jewel && [quality] == rare # [fhr] == 7 && ([strength] >= 8 || [dexterity] >= 8 || [itemreqpercent] == -15) && ([maxmana] == 15 || [fireresist] >= 10 && [coldresist] >= 10 || [fireresist] >= 30 || [coldresist] >= 30 || [lightresist] >= 30)
+[name] == jewel && [quality] == rare # [fhr] == 7 && [energy] == 9 && [maxmana] == 15
+[name] == jewel && [quality] == rare # [enhanceddamage] >= 25 && ([strength] >= 8 || [dexterity] >= 8) && ([tohit] >= 40 || [itemreqpercent] == -15 || [defense] >= 30)
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 5- charms ###################################################################################################################
+// ##############################################################################################################################################
+
+// ##### unique ###########################
+[name] == smallcharm && [quality] == unique
+[name] == largecharm && [quality] == unique
+[name] == grandcharm && [quality] == unique
+
+// ##### small charms ##################
+[name] == smallcharm && [quality] == magic # [itemmagicbonus] >= 7 // mf
+//[name] == smallcharm && [quality] == magic # [itemgoldbonus] >= 10 // gold find
+[name] == smallcharm && [quality] == magic # [poisonmaxdam] >= 100 // poison damage
+[name] == smallcharm && [quality] == magic # ([fireresist] >= 11 || [lightresist] >= 11 || [coldresist] >= 11 || [poisonresist] >= 11 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 5) // resists
+[name] == smallcharm && [quality] == magic # ([defense] >= 30 || [attackrate] >= 36 || [maxmana] >= 17 || [fireresist] >= 11 || [lightresist] >= 11 || [coldresist] >= 11 || [poisonresist] >= 11 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 5 || [poisonmaxdam] >= 100) && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3 || [poisonmaxdam] >= 50) // perfect any sufix + perfect any affix
+
+// ##### large charms ##################
+[name] == largecharm && [quality] == magic # ([defense] >= 60 || [attackrate] >= 77 || [maxmana] >= 34 || [fireresist] >= 15 || [lightresist] >= 15 || [coldresist] >= 15 || [poisonresist] >= 15 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 8 || [poisonmaxdam] >= 175) && ([dexterity] >= 5 || [strength] >= 5 || [fhr] >=  8 || [maxhp] >= 35 || [poisonmaxdam] >= 50) // perfect any sufix + perfect any affix
+
+// ##### grand charms ##################
+[name] == grandcharm && [quality] == magic # [itemaddskilltab] == 1 // any skiller
+[name] == grandcharm && [quality] == magic # ([defense] >= 100 || [attackrate] >= 132 || [maxdamage] >= 10 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 15 || [itemaddskilltab] == 1 || [poisonmaxdam] >= 100)  && ([maxdamage] >= 4 || [fhr] >= 12 || [frw] >= 7 || [strength] >= 6 || [dexterity] >= 6 || [itemgoldbonus] >= 40 || [poisonmaxdam] >= 50) // perfect any sufix + perfect any affix
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 8- keys ################################################################################################################################
+// ##############################################################################################################################################
+[name] == keyofhate # # [maxquantity] == 3
+[name] == keyofterror # # [maxquantity] == 3
+[name] == keyofdestruction # # [maxquantity] == 3
+[name] == diablo'shorn
+[name] == mephisto'sbrain
+[name] == baal'seye
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 8- misc ################################################################################################################################
+// ##############################################################################################################################################
+
+// ##### gold ##########################
+[type] == gold # [gold] >= 4000
+
+//#####money maker######################
+[type] == armor && [class] >= elite && [quality] >= normal # [defense] >= 10000 // money maker

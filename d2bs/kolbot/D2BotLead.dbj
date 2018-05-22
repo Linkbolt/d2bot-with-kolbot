@@ -15,8 +15,8 @@ var StarterConfig = {
 	SwitchKeyDelay: 5, // Seconds to wait before switching a used/banned key or after realm down
 	CrashDelay: 5, // Seconds to wait after a d2 window crash
 	FTJDelay: 10, // Seconds to wait after failing to create a game
-	RealmDownDelay: 3, // Minutes to wait after getting Realm Down message
-	UnableToConnectDelay: 5, // Minutes to wait after Unable To Connect message
+	RealmDownDelay: 30, // Minutes to wait after getting Realm Down message
+	UnableToConnectDelay: 30, // Minutes to wait after Unable To Connect message
 	CDKeyInUseDelay: 5, // Minutes to wait before connecting again if CD-Key is in use.
 	ConnectingTimeout: 20, // Seconds to wait before cancelling the 'Connecting...' screen
 	PleaseWaitTimeout: 10, // Seconds to wait before cancelling the 'Please Wait...' screen

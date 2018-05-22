@@ -72,3 +72,230 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mausoleum@mausoleum.js:31
 [11:17:46] <LinkboltMF> Error in TownChicken.js (town.js line 2209): Town.visitTown: Failed to go back from town
 Stack: main@townchicken.js:94, Town.visitTown@town.js:2209
+[22:58:26] <LinkboltMF> Error in Baal (pather.js line 818): useUnit: Incomplete quest.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:200, useWaypoint@pather.js:935, Pather.getWP@pather.js:1299, Pather.journeyTo@pather.js:1445, Pather.moveToExit@pather.js:634, Pather.openExit@pather.js:729, Pather.useUnit@pather.js:818
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 331
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 332
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 333
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 334
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 335
+[01:39:57] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 391
+[01:39:57] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 392
+[01:39:57] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 393
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 529
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 530
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 531
+[01:39:57] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 813
+[01:39:57] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 814
+[01:39:57] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 815
+[01:39:57] <LinkboltMF> Unknown type: runictalons File: Phexix.nip Line: 139
+[01:39:57] <LinkboltMF> Unknown type: runictalons File: Phexix.nip Line: 140
+[01:39:57] <LinkboltMF> Unknown type: feralclaws File: Phexix.nip Line: 141
+[01:39:57] <LinkboltMF> Unknown type: feralclaws File: Phexix.nip Line: 142
+[01:39:57] <LinkboltMF> Unknown type: wristsword File: Phexix.nip Line: 143
+[01:39:57] <LinkboltMF> Unknown type: wristsword File: Phexix.nip Line: 144
+[01:39:57] <LinkboltMF> Unknown type: battlecestus File: Phexix.nip Line: 145
+[01:39:57] <LinkboltMF> Unknown type: battlecestus File: Phexix.nip Line: 146
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 331
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 331
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 332
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 332
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 333
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 333
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 334
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 334
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 335
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 335
+[01:39:57] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 391
+[01:39:57] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 392
+[01:39:57] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 391
+[01:39:57] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 393
+[01:39:57] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 392
+[01:39:57] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 393
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 529
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 530
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 529
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 531
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 530
+[01:39:57] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 531
+[01:39:57] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 813
+[01:39:57] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 814
+[01:39:57] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 813
+[01:39:57] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 815
+[01:39:57] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 814
+[01:39:57] <LinkboltMF> Unknown type: runictalons File: Phexix.nip Line: 139
+[01:39:57] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 815
+[01:39:57] <LinkboltMF> Unknown type: runictalons File: Phexix.nip Line: 140
+[01:39:57] <LinkboltMF> Unknown type: feralclaws File: Phexix.nip Line: 141
+[01:39:57] <LinkboltMF> Unknown type: feralclaws File: Phexix.nip Line: 142
+[01:39:57] <LinkboltMF> Unknown type: wristsword File: Phexix.nip Line: 143
+[01:39:57] <LinkboltMF> Unknown type: runictalons File: Phexix.nip Line: 139
+[01:39:57] <LinkboltMF> Unknown type: wristsword File: Phexix.nip Line: 144
+[01:39:57] <LinkboltMF> Unknown type: runictalons File: Phexix.nip Line: 140
+[01:39:57] <LinkboltMF> Unknown type: battlecestus File: Phexix.nip Line: 145
+[01:39:57] <LinkboltMF> Unknown type: feralclaws File: Phexix.nip Line: 141
+[01:39:57] <LinkboltMF> Unknown type: battlecestus File: Phexix.nip Line: 146
+[01:39:57] <LinkboltMF> Unknown type: feralclaws File: Phexix.nip Line: 142
+[01:39:57] <LinkboltMF> Unknown type: wristsword File: Phexix.nip Line: 143
+[01:39:57] <LinkboltMF> Unknown type: wristsword File: Phexix.nip Line: 144
+[01:39:57] <LinkboltMF> Unknown type: battlecestus File: Phexix.nip Line: 145
+[01:39:57] <LinkboltMF> Unknown type: battlecestus File: Phexix.nip Line: 146
+[01:49:45] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 331
+[01:49:45] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 332
+[01:49:45] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 333
+[01:49:45] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 334
+[01:49:45] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 335
+[01:49:45] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 391
+[01:49:45] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 392
+[01:49:45] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 393
+[01:49:45] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 529
+[01:49:45] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 530
+[01:49:45] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 531
+[01:49:45] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 813
+[01:49:45] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 814
+[01:49:45] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 815
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 331
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 331
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 332
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 332
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 333
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 333
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 334
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 334
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 335
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 335
+[01:49:46] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 391
+[01:49:46] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 391
+[01:49:46] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 392
+[01:49:46] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 392
+[01:49:46] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 393
+[01:49:46] <LinkboltMF> Unknown stat: maxmp File: EarlyLadder.nip Line: 393
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 529
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 529
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 530
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 530
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 531
+[01:49:46] <LinkboltMF> Unknown type: katars File: EarlyLadder.nip Line: 531
+[01:49:46] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 813
+[01:49:46] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 813
+[01:49:46] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 814
+[01:49:46] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 814
+[01:49:46] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 815
+[01:49:46] <LinkboltMF> Unknown stat: maxquantity File: EarlyLadder.nip Line: 815
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 331
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 332
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 333
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 334
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 335
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 529
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 530
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 531
+[02:04:40] <LinkboltMF> Unknown type: runictalons File: Phexix.nip Line: 139
+[02:04:40] <LinkboltMF> Unknown type: runictalons File: Phexix.nip Line: 140
+[02:04:40] <LinkboltMF> Unknown type: feralclaws File: Phexix.nip Line: 141
+[02:04:40] <LinkboltMF> Unknown type: feralclaws File: Phexix.nip Line: 142
+[02:04:40] <LinkboltMF> Unknown type: wristsword File: Phexix.nip Line: 143
+[02:04:40] <LinkboltMF> Unknown type: wristsword File: Phexix.nip Line: 144
+[02:04:40] <LinkboltMF> Unknown type: battlecestus File: Phexix.nip Line: 145
+[02:04:40] <LinkboltMF> Unknown type: battlecestus File: Phexix.nip Line: 146
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 331
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 332
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 331
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 333
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 332
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 334
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 333
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 335
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 334
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 335
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 529
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 530
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 529
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 531
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 530
+[02:04:40] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 531
+[02:04:40] <LinkboltMF> Unknown type: runictalons File: Phexix.nip Line: 139
+[02:04:40] <LinkboltMF> Unknown type: runictalons File: Phexix.nip Line: 140
+[02:04:40] <LinkboltMF> Unknown type: runictalons File: Phexix.nip Line: 139
+[02:04:40] <LinkboltMF> Unknown type: feralclaws File: Phexix.nip Line: 141
+[02:04:40] <LinkboltMF> Unknown type: runictalons File: Phexix.nip Line: 140
+[02:04:40] <LinkboltMF> Unknown type: feralclaws File: Phexix.nip Line: 142
+[02:04:40] <LinkboltMF> Unknown type: feralclaws File: Phexix.nip Line: 141
+[02:04:40] <LinkboltMF> Unknown type: wristsword File: Phexix.nip Line: 143
+[02:04:40] <LinkboltMF> Unknown type: feralclaws File: Phexix.nip Line: 142
+[02:04:40] <LinkboltMF> Unknown type: wristsword File: Phexix.nip Line: 144
+[02:04:40] <LinkboltMF> Unknown type: wristsword File: Phexix.nip Line: 143
+[02:04:40] <LinkboltMF> Unknown type: battlecestus File: Phexix.nip Line: 145
+[02:04:40] <LinkboltMF> Unknown type: wristsword File: Phexix.nip Line: 144
+[02:04:40] <LinkboltMF> Unknown type: battlecestus File: Phexix.nip Line: 146
+[02:04:40] <LinkboltMF> Unknown type: battlecestus File: Phexix.nip Line: 145
+[02:04:40] <LinkboltMF> Unknown type: battlecestus File: Phexix.nip Line: 146
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 331
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 332
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 333
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 334
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 335
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 529
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 530
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 531
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 331
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 331
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 332
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 332
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 333
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 333
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 334
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 334
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 335
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 335
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 529
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 529
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 530
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 530
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 531
+[02:15:04] <LinkboltMF> Unknown type: katar File: EarlyLadder.nip Line: 531
+[03:11:00] <LinkboltMF> Unknown name: fullplate File: EarlyLadder.nip Line: 41
+[03:11:00] <LinkboltMF> Unknown name: fullplate File: EarlyLadder.nip Line: 50
+[03:11:00] <LinkboltMF> Unknown name: fullplate File: EarlyLadder.nip Line: 41
+[03:11:00] <LinkboltMF> Unknown name: fullplate File: EarlyLadder.nip Line: 50
+[03:11:00] <LinkboltMF> Unknown name: fullplate File: EarlyLadder.nip Line: 41
+[03:11:00] <LinkboltMF> Unknown name: fullplate File: EarlyLadder.nip Line: 50
+[03:11:10] <LinkboltMF> Pickit error! Line # 90 Entry: [Name] == WarGauntlets && [Quality] == unique [flag] != ethereal # [EnhancedDefense]== 200 // Hellmouth (EarlyLadder.nip) Error message: missing ; before statement Trigger item: Stamina Potion
+[03:11:10] <LinkboltMF> Pickit error! Line # 93 Entry: [Name] == OgreGauntlets && [Quality] == unique [flag] != ethereal # [EnhancedDamage] >= 60 && [Defense] >= 210 // Steelrend (EarlyLadder.nip) Error message: missing ; before statement Trigger item: Stamina Potion
+[14:43:33] <LinkboltMF> Pickit error! Line # 93 Entry: [Name] == OgreGauntlets && [Quality] == unique [flag] != ethereal //# [EnhancedDamage] >= 60 && [Defense] >= 210 // Steelrend (EarlyLadder.nip) Error message: missing ; before statement Trigger item: Antidote Potion
+[16:22:11] <Testing> Unknown name: fullplate File: LinkUnique.nip Line: 44
+[16:22:11] <Testing> Unknown name: fullplate File: LinkUnique.nip Line: 53
+[16:22:12] <Testing> Unknown name: fullplate File: LinkUnique.nip Line: 44
+[16:22:12] <Testing> Unknown name: fullplate File: LinkUnique.nip Line: 53
+[04:33:00] <LinkboltMF> Error in Eldritch (town.js line 2160): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:109, Town.goToTown@town.js:2160
+[14:22:08] <LinkboltMF> Pickit error! Line # 632 Entry: name] == amnrune # # [MaxQuantity] == 1 (kolton.nip) Error message: missing ; before statement Trigger item: Bolts
+[21:02:23] <LinkboltMF> Pickit error! Line # 135 Entry: [Name] == WarGauntlets && [Quality] == unique [flag] != ethereal # [EnhancedDefense]== 200 // Hellmouth (LinkUnique.nip) Error message: missing ; before statement Trigger item: Gold
+[21:02:23] <LinkboltMF> Pickit error! Line # 138 Entry: [Name] == OgreGauntlets && [Quality] == unique [flag] != ethereal # [EnhancedDamage] >= 60 && [Defense] >= 210 // Steelrend (LinkUnique.nip) Error message: missing ; before statement Trigger item: Gold
+[21:02:23] <LinkboltMF> Pickit error! Line # 254 Entry: Name] == ColossusBlade && [Quality] == unique  // The Grandfather (LinkUnique.nip) Error message: missing ; before statement Trigger item: Gold
+[21:12:42] <LinkboltMF> Pickit error! Line # 135 Entry: [Name] == WarGauntlets && [Quality] == unique [flag] != ethereal # [EnhancedDefense]== 200 // Hellmouth (LinkUnique.nip) Error message: missing ; before statement Trigger item: Rancid Gas Potion
+[21:12:42] <LinkboltMF> Pickit error! Line # 138 Entry: [Name] == OgreGauntlets && [Quality] == unique [flag] != ethereal # [EnhancedDamage] >= 60 && [Defense] >= 210 // Steelrend (LinkUnique.nip) Error message: missing ; before statement Trigger item: Rancid Gas Potion
+[22:25:43] <LinkboltMF> Error in AncientTunnels (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, AncientTunnels@ancienttunnels.js:9, useWaypoint@pather.js:992
+[22:28:08] <LinkboltMF> Error in Mephisto (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:134, useWaypoint@pather.js:992
+[00:26:08] <LinkboltMF> Pickit error! Line # 155 Entry: [name] == scarabshellboots && [quality] == unique [flag] != ethereal # [enhanceddefense] == 170 && [strength] == 15 && [vitality] == 15 // sandstorm trek (LinkUnique.nip) Error message: missing ; before statement Trigger item: Full Rejuvenation Potion
+[00:32:26] <LinkboltMF> Pickit error! Line # 155 Entry: [name] == scarabshellboots && [quality] == unique [flag] != ethereal # [enhanceddefense] == 170 && [strength] == 15 && [vitality] == 15 // sandstorm trek (LinkUnique.nip) Error message: missing ; before statement Trigger item: Bone Knife
+[00:35:48] <LinkboltMF> Pickit error! Line # 155 Entry: [name] == scarabshellboots && [quality] == unique [flag] != ethereal # [enhanceddefense] == 170 && [strength] == 15 && [vitality] == 15 // sandstorm trek (LinkUnique.nip) Error message: missing ; before statement Trigger item: Antidote Potion
+[00:38:54] <LinkboltMF> Pickit error! Line # 155 Entry: [name] == scarabshellboots && [quality] == unique [flag] != ethereal # [enhanceddefense] == 170 && [strength] == 15 && [vitality] == 15 // sandstorm trek (LinkUnique.nip) Error message: missing ; before statement Trigger item: Shako
+[00:39:12] <LinkboltMF> Error in Andariel (town.js line 2160): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:109, Town.goToTown@town.js:2160
+[00:44:27] <LinkboltMF> Pickit error! Line # 155 Entry: [name] == scarabshellboots && [quality] == unique [flag] != ethereal # [enhanceddefense] == 170 && [strength] == 15 && [vitality] == 15 // sandstorm trek (LinkUnique.nip) Error message: missing ; before statement Trigger item: Hyperion Spear
+[00:44:27] <LinkboltMF> Pickit error! Line # 265 Entry: [name] == championsword && [quality] == unique [flag] == ethereal // doombringer (LinkUnique.nip) Error message: identifier starts immediately after numeric literal Trigger item: Hyperion Spear
+[00:52:32] <LinkboltMF> Pickit error! Line # 156 Entry: [name] == scarabshellboots && [quality] == unique [flag] != ethereal # [enhanceddefense] == 170 && [strength] == 15 && [vitality] == 15 // sandstorm trek (LinkUnique.nip) Error message: missing ; before statement Trigger item: Gold
+[00:52:32] <LinkboltMF> Pickit error! Line # 266 Entry: [name] == championsword && [quality] == unique [flag] == ethereal // doombringer (LinkUnique.nip) Error message: identifier starts immediately after numeric literal Trigger item: Gold
+[22:09:26] <LinkboltMF> Error in ChestMania (misc.js line 900): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:16, Misc.openChestsInArea@misc.js:900
+[00:11:13] <LinkboltMF> Pickit error! Line # 132 Entry: [name] == smallcharm && [quality] == magic # [itemgoldbonus] >= 10 && ([attackrate} >= 36 || [maxmana] >= 17 || [fireresist] >= 11 || [lightresist] >= 11 || [coldresist] >= 11 || [poisonresist] >= 11 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 5) // gold find (LinkMisc.nip) Error message: missing ) in parenthetical Trigger item: Small Charm
+[00:11:13] <LinkboltMF> Pickit error! Line # 137 Entry: [name] == smallcharm && [quality] == magic # [attackrate} >= 36 // attack rating (LinkMisc.nip) Error message: missing ; before statement Trigger item: Small Charm
+[00:17:25] <LinkboltMF> Pickit error! Line # 146 Entry: [name] == largecharm && [quality] == magic # [itemgoldbonus] >= 10 && ([attackrate} >= 64 || [maxmana] >= 34 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 15) // gold find (LinkMisc.nip) Error message: missing ) in parenthetical Trigger item: Large Charm
+[00:17:25] <LinkboltMF> Pickit error! Line # 151 Entry: [name] == largecharm && [quality] == magic # [attackrate} >= 64 // attack rating (LinkMisc.nip) Error message: missing ; before statement Trigger item: Large Charm
+[00:21:43] <LinkboltMF> Pickit error! Line # 132 Entry: [name] == smallcharm && [quality] == magic # [itemgoldbonus] >= 10 && ([attackrate} >= 36 || [maxmana] >= 17 || [fireresist] >= 11 || [lightresist] >= 11 || [coldresist] >= 11 || [poisonresist] >= 11 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 5) // gold find (LinkMisc.nip) Error message: missing ) in parenthetical Trigger item: Small Charm
+[00:21:43] <LinkboltMF> Pickit error! Line # 137 Entry: [name] == smallcharm && [quality] == magic # [attackrate} >= 36 // attack rating (LinkMisc.nip) Error message: missing ; before statement Trigger item: Small Charm
+[00:24:08] <LinkboltMF> Pickit error! Line # 144 Entry: [name] == largecharm && [quality] == magic # [itemgoldbonus] >= 22 && ([itemmagicbonus] >= 6 || [attackrate} >= 36 || [maxmana] >= 34 || [fireresist] >= 15 || [lightresist] >= 15 || [coldresist] >= 15 || [poisonresist] >= 15 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 8) // gold find (LinkMisc.nip) Error message: missing ) in parenthetical Trigger item: Large Charm
+[00:24:08] <LinkboltMF> Pickit error! Line # 145 Entry: [name] == largecharm && [quality] == magic # [fhr] >=  8 %% && ([itemmagicbonus] >= 6 || [attackrate} >= 36 || [maxmana] >= 34 || [fireresist] >= 15 || [lightresist] >= 15 || [coldresist] >= 15 || [poisonresist] >= 15 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 8) // fhr + something (LinkMisc.nip) Error message: syntax error Trigger item: Large Charm

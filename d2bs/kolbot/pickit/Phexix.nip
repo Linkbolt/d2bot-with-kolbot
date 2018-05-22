@@ -136,14 +136,14 @@
 [Type] == AssassinClaw && [Quality] == Rare && [Flag] == Ethereal # [EnhancedDamage] >= 250 && [ItemReplenishDurability] >= 1
 [Type] == HandToHand && [Quality] == Rare # [IAS] >= 20 && [EnhancedDamage] >= 250
 [Type] == HandToHand && [Quality] == Rare && [Flag] == Ethereal # [EnhancedDamage] >= 250 && [ItemReplenishDurability] >= 1
-[Type] == RunicTalons && [Quality] == Rare # [IAS] >= 20 && [EnhancedDamage] >= 250
-[Type] == RunicTalons && [Quality] == Rare && [Flag] == Ethereal # [EnhancedDamage] >= 250 && [ItemReplenishDurability] >= 1
-[Type] == FeralClaws && [Quality] == Rare # [IAS] >= 20 && [EnhancedDamage] >= 250
-[Type] == FeralClaws && [Quality] == Rare && [Flag] == Ethereal # [EnhancedDamage] >= 250 && [ItemReplenishDurability] >= 1
-[Type] == WristSword && [Quality] == Rare # [IAS] >= 20 && [EnhancedDamage] >= 250
-[Type] == WristSword && [Quality] == Rare && [Flag] == Ethereal # [EnhancedDamage] >= 250 && [ItemReplenishDurability] >= 1
-[Type] == BattleCestus && [Quality] == Rare # [IAS] >= 20 && [EnhancedDamage] >= 250
-[Type] == BattleCestus && [Quality] == Rare && [Flag] == Ethereal # [EnhancedDamage] >= 250 && [ItemReplenishDurability] >= 1
+//[Type] == RunicTalons && [Quality] == Rare # [IAS] >= 20 && [EnhancedDamage] >= 250
+//[Type] == RunicTalons && [Quality] == Rare && [Flag] == Ethereal # [EnhancedDamage] >= 250 && [ItemReplenishDurability] >= 1
+//[Type] == FeralClaws && [Quality] == Rare # [IAS] >= 20 && [EnhancedDamage] >= 250
+//[Type] == FeralClaws && [Quality] == Rare && [Flag] == Ethereal # [EnhancedDamage] >= 250 && [ItemReplenishDurability] >= 1
+//[Type] == WristSword && [Quality] == Rare # [IAS] >= 20 && [EnhancedDamage] >= 250
+//[Type] == WristSword && [Quality] == Rare && [Flag] == Ethereal # [EnhancedDamage] >= 250 && [ItemReplenishDurability] >= 1
+//[Type] == BattleCestus && [Quality] == Rare # [IAS] >= 20 && [EnhancedDamage] >= 250
+//[Type] == BattleCestus && [Quality] == Rare && [Flag] == Ethereal # [EnhancedDamage] >= 250 && [ItemReplenishDurability] >= 1
 
 
 //////////////
@@ -353,14 +353,14 @@
 [Name]== Suwayyah && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 3 && [SkillDragonFlight] >= 2 && [SkillMindBlast] >= 2        
 [Name]== Suwayyah && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 3 && [SkillShadowMaster] >= 1 && [SkillWeaponBlock] >= 1 && [SkillVenom] >= 1  
 [Name]== Suwayyah && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 3 && [SkillLightningSentry] >= 2 && [SkillWakeOfInferno] >= 2      
-[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 0 && [SkillDragonFlight] >= 2 && [SkillLightningSentry] >= 2  
-[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 0 && [SkillDragonFlight] >= 2 && [SkillMindBlast] >= 2        
-[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 0 && [SkillShadowMaster] >= 1 && [SkillWeaponBlock] >= 1 && [SkillVenom] >= 1  
-[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 0 && [SkillLightningSentry] >= 2 && [SkillWakeOfInferno] >= 2      
-[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 3 && [SkillDragonFlight] >= 2 && [SkillLightningSentry] >= 2  
-[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 3 && [SkillDragonFlight] >= 2 && [SkillMindBlast] >= 2    
-[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 3 && [SkillShadowMaster] >= 1 && [SkillWeaponBlock] >= 1 && [SkillVenom] >= 1  
-[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 3 && [SkillLightningSentry] >= 2 && [SkillWakeOfInferno] >= 2      
+//[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 0 && [SkillDragonFlight] >= 2 && [SkillLightningSentry] >= 2  
+//[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 0 && [SkillDragonFlight] >= 2 && [SkillMindBlast] >= 2        
+//[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 0 && [SkillShadowMaster] >= 1 && [SkillWeaponBlock] >= 1 && [SkillVenom] >= 1  
+//[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 0 && [SkillLightningSentry] >= 2 && [SkillWakeOfInferno] >= 2      
+//[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 3 && [SkillDragonFlight] >= 2 && [SkillLightningSentry] >= 2  
+//[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 3 && [SkillDragonFlight] >= 2 && [SkillMindBlast] >= 2    
+//[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 3 && [SkillShadowMaster] >= 1 && [SkillWeaponBlock] >= 1 && [SkillVenom] >= 1  
+//[Name]== RunicTalons && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 3 && [SkillLightningSentry] >= 2 && [SkillWakeOfInferno] >= 2      
 [Name]== ScissorsSuwayyah && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 0 && [SkillDragonFlight] >= 2 && [SkillLightningSentry] >= 2  
 [Name]== ScissorsSuwayyah && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 0 && [SkillDragonFlight] >= 2 && [SkillMindBlast] >= 2    
 [Name]== ScissorsSuwayyah && [Flag] != ethereal && [Quality] <= Superior # [Sockets] == 0 && [SkillShadowMaster] >= 1 && [SkillWeaponBlock] >= 1 && [SkillVenom] >= 1  
@@ -1063,10 +1063,10 @@
 [Name] == GreaterTalons && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && [SkillMindBlast] >= 1 && ([SkillWakeOfFire] >= 1 || [SkillShadowMaster] >= 1 || [SkillVenom] >= 1 || [SkillFade] >= 1 || [SkillDragonFlight] >= 1)
 [Name] == HandScythe && [Quality] <= Superior && [Flag] != Ethereal # [SkillDragonFlight] == 3 && [SkillMindBlast] == 3 && ([Sockets] == 0 || [Sockets] == 3)
 // ELITE
-[Name] == FeralClaws && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && ([SkillWeaponBlock] == 3 || [SkillMindBlast] == 3)
-[Name] == FeralClaws && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && [SkillWeaponBlock] >= 1 && [SkillMindBlast] >= 1
-[Name] == RunicTalons && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && ([SkillWeaponBlock] == 3 || [SkillMindBlast] == 3)
-[Name] == RunicTalons && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && [SkillWeaponBlock] >= 1 && [SkillMindBlast] >= 1
+//[Name] == FeralClaws && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && ([SkillWeaponBlock] == 3 || [SkillMindBlast] == 3)
+//[Name] == FeralClaws && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && [SkillWeaponBlock] >= 1 && [SkillMindBlast] >= 1
+//[Name] == RunicTalons && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && ([SkillWeaponBlock] == 3 || [SkillMindBlast] == 3)
+//[Name] == RunicTalons && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && [SkillWeaponBlock] >= 1 && [SkillMindBlast] >= 1
 [Name] == Suwayyah && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && ([SkillWeaponBlock] == 3 || [SkillMindBlast] == 3)
 [Name] == Suwayyah && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && [SkillWeaponBlock] >= 1 && [SkillMindBlast] >= 1
 
@@ -1329,59 +1329,59 @@
 [Name] == Greatertalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillvenom] >= 3 && [skillshadowmaster] >= 1
 [Name] == Greatertalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillvenom] >= 3 && [skillmindblast] >= 1
 
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [enhanceddamage] >= 15 && [skilllightningsentry] >= 3 
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [enhanceddamage] >= 15 && [skillvenom] >= 3 
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [enhanceddamage] >= 15 && [skillfade] >= 3 
-
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillmindblast] >= 3
-
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillmindblast] >= 2 && [skillvenom] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillmindblast] >= 2 && [skilldragonflight] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillmindblast] >= 2 && [skillweaponblock] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillmindblast] >= 2 && [skillshadowmaster] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillmindblast] >= 2 && [skillfade] >= 1
-
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillfade] >= 3
-
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillfade] >= 2 && [skillvenom] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillfade] >= 2 && [skilldragonflight] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillfade] >= 2 && [skillweaponblock] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillfade] >= 2 && [skillshadowmaster] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillfade] >= 2 && [skillmindblast] >= 1
-
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skillfade] >= 3
-
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skillfade] >= 2 && [skillmindblast] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skillfade] >= 2 && [skilldragonflight] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skillfade] >= 2 && [skillweaponblock] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skillfade] >= 2 && [skillshadowmaster] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skillfade] >= 2 && [skilllightningsentry] >= 1
-
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skilllightningsentry] >= 3
-
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skilllightningsentry] >= 2 && [skillmindblast] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skilllightningsentry] >= 2 && [skilldragonflight] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skilllightningsentry] >= 2 && [skillweaponblock] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skilllightningsentry] >= 2 && [skillshadowmaster] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skilllightningsentry] >= 2 && [skillfade] >= 1
-
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillmindblast] >= 3 && [skillvenom] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillmindblast] >= 3 && [skilldragonflight] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillmindblast] >= 3 && [skillweaponblock] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillmindblast] >= 3 && [skillshadowmaster] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillmindblast] >= 3 && [skillfade] >= 1
-
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillfade] >= 3 && [skillvenom] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillfade] >= 3 && [skilldragonflight] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillfade] >= 3 && [skillweaponblock] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillfade] >= 3 && [skillshadowmaster] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillfade] >= 3 && [skillmindblast] >= 1
-
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillvenom] >= 3 && [skillfade] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillvenom] >= 3 && [skilldragonflight] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillvenom] >= 3 && [skillweaponblock] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillvenom] >= 3 && [skillshadowmaster] >= 1
-[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillvenom] >= 3 && [skillmindblast] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [enhanceddamage] >= 15 && [skilllightningsentry] >= 3 
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [enhanceddamage] >= 15 && [skillvenom] >= 3 
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [enhanceddamage] >= 15 && [skillfade] >= 3 
+//
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillmindblast] >= 3
+//
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillmindblast] >= 2 && [skillvenom] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillmindblast] >= 2 && [skilldragonflight] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillmindblast] >= 2 && [skillweaponblock] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillmindblast] >= 2 && [skillshadowmaster] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillmindblast] >= 2 && [skillfade] >= 1
+//
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillfade] >= 3
+//
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillfade] >= 2 && [skillvenom] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillfade] >= 2 && [skilldragonflight] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillfade] >= 2 && [skillweaponblock] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillfade] >= 2 && [skillshadowmaster] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skilllightningsentry] >= 3 && [skillfade] >= 2 && [skillmindblast] >= 1
+//
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skillfade] >= 3
+//
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skillfade] >= 2 && [skillmindblast] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skillfade] >= 2 && [skilldragonflight] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skillfade] >= 2 && [skillweaponblock] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skillfade] >= 2 && [skillshadowmaster] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skillfade] >= 2 && [skilllightningsentry] >= 1
+//
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skilllightningsentry] >= 3
+//
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skilllightningsentry] >= 2 && [skillmindblast] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skilllightningsentry] >= 2 && [skilldragonflight] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skilllightningsentry] >= 2 && [skillweaponblock] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skilllightningsentry] >= 2 && [skillshadowmaster] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillvenom] >= 3 && [skilllightningsentry] >= 2 && [skillfade] >= 1
+//
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillmindblast] >= 3 && [skillvenom] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillmindblast] >= 3 && [skilldragonflight] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillmindblast] >= 3 && [skillweaponblock] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillmindblast] >= 3 && [skillshadowmaster] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillmindblast] >= 3 && [skillfade] >= 1
+//
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillfade] >= 3 && [skillvenom] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillfade] >= 3 && [skilldragonflight] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillfade] >= 3 && [skillweaponblock] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillfade] >= 3 && [skillshadowmaster] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillfade] >= 3 && [skillmindblast] >= 1
+//
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillvenom] >= 3 && [skillfade] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillvenom] >= 3 && [skilldragonflight] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillvenom] >= 3 && [skillweaponblock] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillvenom] >= 3 && [skillshadowmaster] >= 1
+//[Name] == Runictalons && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && [skillwakeoffire] >= 3 && [skillvenom] >= 3 && [skillmindblast] >= 1
 
 
 // Necromancer Wand For Runeword White
