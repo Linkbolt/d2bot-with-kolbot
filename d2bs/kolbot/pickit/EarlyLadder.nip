@@ -99,7 +99,7 @@
 //[name] == lightplatedboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // goblin toe
 [name] == demonhideboots && [quality] == unique && [flag] != ethereal # [itemgoldbonus] == 70 && [enhanceddefense] == 150 // infernostride
 [Name] == SharkskinBoots && [Quality] == unique && [flag] != ethereal # [EnhancedDefense] == 210 && [MaxHP] == 65 // Waterwalk
-[Name] == MeshBoots && [Quality] == unique && [Flag] != ethereal //# [EnhancedDefense] == 190 // Silkweave
+//[Name] == MeshBoots && [Quality] == unique && [Flag] != ethereal //# [EnhancedDefense] == 190 // Silkweave
 [Name] == BattleBoots && [Quality] == unique && [Flag] != ethereal// # [ItemMagicBonus] == 50 && [EnhancedDefense] == 190 // War Traveler
 [Name] == WarBoots && [Quality] == unique && [Flag] != ethereal # [EnhancedDefense] == 200 // Gore Rider
 //[Name] == ScarabshellBoots && [Quality] == unique [Flag] != ethereal # [EnhancedDefense] == 170 && [strength] == 15 && [vitality] == 15 // Sandstorm Trek

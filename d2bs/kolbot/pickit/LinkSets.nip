@@ -78,7 +78,7 @@
 // #################################################################################################################################################
 [Name] == WarHat && [Quality] == set // Cow King's Horns
 [Name] == StuddedLeather && [Quality] == set // Cow King's Hide
-[Name] == HeavyBoots && [Quality] == set// # [Dexterity] == 20 && [ItemMagicBonus] == 25 // Cow King's Hooves
+[Name] == HeavyBoots && [Quality] == set # [Dexterity] == 20 && [ItemMagicBonus] == 25 // Cow King's Hooves
 
 
 
@@ -89,7 +89,7 @@
 // #################################################################################################################################################
 [Name] == OrnatePlate && [Quality] == set # [Defense] >= 920 // Griswold's Heart
 [Name] == Corona && [Quality] == set # [EnhancedDefense] >= 55 // Griswold's Valor
-[Name] == Caduceus && [Quality] == set # [Sockets] >= 3 && [EnhancedDamage] >= 200 // Griswold's Redemption
+//[Name] == Caduceus && [Quality] == set # [Sockets] >= 3 && [EnhancedDamage] >= 200 // Griswold's Redemption
 [Name] == VortexShield && [Quality] == set # [Defense] >= 290 // Griswold's Honor
 
 
@@ -125,11 +125,11 @@
 // #################################################################################################################################################
 // ##### 1- Tal Rasha's Wrappings ##################################################################################################################
 // #################################################################################################################################################
-[Name] == SwirlingCrystal && [Quality] == set // Tal Rasha's Lidless Eye
-[Name] == DeathMask && [Quality] == set // Tal Rasha's Horadric Crest
-[Name] == LacqueredPlate && [Quality] == set // Tal Rasha's Guardianship
-[Type] == Amulet && [Quality] == set// # [SorceressSkills] == 2 // Tal Rasha's Adjucation
-[Name] == MeshBelt && [Quality] == set// # [ItemMagicBonus] >= 10 // Tal Rasha's Fine-Spun Cloth
+[Name] == SwirlingCrystal && [Quality] == set # [skilllightningmastery] == 2 &&  [SkillLightningMastery] == 2 && [SkillFireMastery] == 2// Tal Rasha's Lidless Eye
+//[Name] == DeathMask && [Quality] == set # [Defense] >= 131 // Tal Rasha's Horadric Crest
+[Name] == LacqueredPlate && [Quality] == set// # [Defense] >= 941 // Tal Rasha's Guardianship
+[Type] == Amulet && [Quality] == set # [SorceressSkills] == 2 // Tal Rasha's Adjucation
+[Name] == MeshBelt && [Quality] == set// # [ItemMagicBonus] >= 15 && [Defense] >= 40 // Tal Rasha's Fine-Spun Cloth
 
 
 

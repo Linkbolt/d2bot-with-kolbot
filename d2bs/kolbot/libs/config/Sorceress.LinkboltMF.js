@@ -240,7 +240,7 @@ function LoadConfig() {
 	Config.UseMercRejuv = 0; // Give a rejuvenation potion to your merc if his/her life is under designated percent.
 	Config.HPBuffer = 0; // Number of healing potions to keep in inventory.
 	Config.MPBuffer = 0; // Number of mana potions to keep in inventory.
-	Config.RejuvBuffer = 3; // Number of rejuvenation potions to keep in inventory.
+	Config.RejuvBuffer = 0; // Number of rejuvenation potions to keep in inventory.
 
 	// Chicken settings
 	Config.LifeChicken = 15; // Exit game if life is less or equal to designated percent.

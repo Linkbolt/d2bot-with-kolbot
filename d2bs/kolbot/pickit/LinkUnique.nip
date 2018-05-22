@@ -82,7 +82,7 @@
 // ##############################################################################################################################################
 // ##### 4- unique body armor ###################################################################################################################
 // ##############################################################################################################################################
-[name] == fullplatemail && [quality] == unique// && [flag] != ethereal # [enhanceddefense] == 150 //goldskin
+[name] == fullplatemail && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 150 //goldskin
 ([name] == serpentskinarmor || [name] == wyrmhide) && [quality] == unique && [flag] != ethereal # [fireresist] >= 35 //&& [magicdamagereduction] == 13// skin of the vipermagi
 [name] == mesharmor && [quality] == unique //&& [flag] != ethereal //# [enhanceddefense] == 220 // shaftstop
 [name] == russetarmor && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200  // skullder's ire
@@ -117,7 +117,7 @@
 ([name] == heavybelt || [name] == battlebelt || [name] == trollbelt) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 && [itemgoldbonus] == 80 // goldwrap
 [name] == demonhidesash && [quality] == unique && [flag] != ethereal// # [damageresist] == 15 && [lifeleech] == 8 && [enhanceddefense] == 180 && [magicdamagereduction] == 15 //string of ears
 [name] == battlebelt && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 170 // snowclash
-[name] == warbelt && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 200 // thundergod's vigor
+[name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // thundergod's vigor
 [name] == spiderwebsash && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 120  // arachnid mesh
 [name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7// && [defense] == 63 // nosferatu's coil
 [name] == mithrilcoil && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 140 && [damageresist] == 15 && [vitality] == 40 &&  // verdungo's hearty cord
@@ -219,7 +219,7 @@
 
 // ##### maces ##############################
 [name] == legendarymallet && [quality] == unique && [flag] == ethereal // schaefer's hammer
-[name] == tyrantclub && [quality] == unique && [flag] != ethereal //demon limb (for prebuff)
+[name] == tyrantclub && [quality] == unique && [flag] != ethereal # [enhanceddamage] == 230 //demon limb (for prebuff)
 [name] == scourge && [quality] == unique && [flag] == ethereal # [enhanceddamage] >= 300 //stormlash
 
 // ##### javelins ###########################

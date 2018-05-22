@@ -72,19 +72,19 @@
 //[name] == flawlessskull # # [maxquantity] == 3
 
 // ##### flawed ###########################
-//[name] == flawedemerald # # [maxquantity] == 2
+//[name] == flawedemerald # # [maxquantity] == 1
 //[name] == flawedamethyst # # [maxquantity] == 1
-//[name] == flawedtopaz # # [maxquantity] == 2
+//[name] == flawedtopaz # # [maxquantity] == 1
 //[name] == flaweddiamond # # [maxquantity] == 2
 //[name] == flawedsapphire # # [maxquantity] == 1
 //[name] == flawedruby # # [maxquantity] == 2
 //[name] == flawedskull # # [maxquantity] == 2
 
 // ##### normal ###########################
+//[name] == topaz # # [maxquantity] == 1
+//[name] == diamond # # [maxquantity] == 2
 //[name] == emerald # # [maxquantity] == 2
 //[name] == amethyst # # [maxquantity] == 2
-//[name] == topaz # # [maxquantity] == 2
-//[name] == diamond # # [maxquantity] == 2
 //[name] == sapphire # # [maxquantity] == 2
 //[name] == ruby # # [maxquantity] == 2
 //[name] == skull # # [maxquantity] == 2
@@ -131,15 +131,15 @@
 [name] == smallcharm && [quality] == magic # [itemmagicbonus] >= 7 // mf
 //[name] == smallcharm && [quality] == magic # [itemgoldbonus] >= 10 // gold find
 [name] == smallcharm && [quality] == magic # [poisonmaxdam] >= 100 // poison damage
-[name] == smallcharm && [quality] == magic # ([fireresist] >= 11 || [lightresist] >= 11 || [coldresist] >= 11 || [poisonresist] >= 11 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 5) // resists
-[name] == smallcharm && [quality] == magic # ([defense] >= 30 || [attackrate] >= 36 || [maxmana] >= 17 || [fireresist] >= 11 || [lightresist] >= 11 || [coldresist] >= 11 || [poisonresist] >= 11 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 5 || [poisonmaxdam] >= 100) && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3 || [poisonmaxdam] >= 50) // perfect any sufix + perfect any affix
+[name] == smallcharm && [quality] == magic # ([fireresist] >= 11 || [lightresist] >= 11 || [coldresist] >= 11 || [poisonresist] >= 11 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 12) // resists
+[name] == smallcharm && [quality] == magic # ([defense] >= 30 || [attackrate] >= 36 || [maxmana] >= 17 || [fireresist] >= 11 || [lightresist] >= 11 || [coldresist] >= 11 || [poisonresist] >= 11 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 20 || [poisonmaxdam] >= 100) && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3 || [poisonmaxdam] >= 50) // perfect any sufix + perfect any affix
 
 // ##### large charms ##################
-[name] == largecharm && [quality] == magic # ([defense] >= 60 || [attackrate] >= 77 || [maxmana] >= 34 || [fireresist] >= 15 || [lightresist] >= 15 || [coldresist] >= 15 || [poisonresist] >= 15 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 8 || [poisonmaxdam] >= 175) && ([dexterity] >= 5 || [strength] >= 5 || [fhr] >=  8 || [maxhp] >= 35 || [poisonmaxdam] >= 50) // perfect any sufix + perfect any affix
+[name] == largecharm && [quality] == magic # ([defense] >= 60 || [attackrate] >= 77 || [maxmana] >= 34 || [fireresist] >= 15 || [lightresist] >= 15 || [coldresist] >= 15 || [poisonresist] >= 15 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 32 || [poisonmaxdam] >= 175) && ([dexterity] >= 5 || [strength] >= 5 || [fhr] >=  8 || [maxhp] >= 35 || [poisonmaxdam] >= 50) // perfect any sufix + perfect any affix
 
 // ##### grand charms ##################
 [name] == grandcharm && [quality] == magic # [itemaddskilltab] == 1 // any skiller
-[name] == grandcharm && [quality] == magic # ([defense] >= 100 || [attackrate] >= 132 || [maxdamage] >= 10 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 15 || [itemaddskilltab] == 1 || [poisonmaxdam] >= 100)  && ([maxdamage] >= 4 || [fhr] >= 12 || [frw] >= 7 || [strength] >= 6 || [dexterity] >= 6 || [itemgoldbonus] >= 40 || [poisonmaxdam] >= 50) // perfect any sufix + perfect any affix
+[name] == grandcharm && [quality] == magic # ([defense] >= 100 || [attackrate] >= 132 || [maxdamage] >= 10 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [itemaddskilltab] == 1 || [poisonmaxdam] >= 100)  && ([maxdamage] >= 4 || [fhr] >= 12 || [frw] >= 7 || [strength] >= 6 || [dexterity] >= 6 || [itemgoldbonus] >= 40 || [poisonmaxdam] >= 50) // perfect any sufix + perfect any affix
 
 
 

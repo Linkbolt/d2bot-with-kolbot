@@ -299,3 +299,15 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 [00:21:43] <LinkboltMF> Pickit error! Line # 137 Entry: [name] == smallcharm && [quality] == magic # [attackrate} >= 36 // attack rating (LinkMisc.nip) Error message: missing ; before statement Trigger item: Small Charm
 [00:24:08] <LinkboltMF> Pickit error! Line # 144 Entry: [name] == largecharm && [quality] == magic # [itemgoldbonus] >= 22 && ([itemmagicbonus] >= 6 || [attackrate} >= 36 || [maxmana] >= 34 || [fireresist] >= 15 || [lightresist] >= 15 || [coldresist] >= 15 || [poisonresist] >= 15 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 8) // gold find (LinkMisc.nip) Error message: missing ) in parenthetical Trigger item: Large Charm
 [00:24:08] <LinkboltMF> Pickit error! Line # 145 Entry: [name] == largecharm && [quality] == magic # [fhr] >=  8 %% && ([itemmagicbonus] >= 6 || [attackrate} >= 36 || [maxmana] >= 34 || [fireresist] >= 15 || [lightresist] >= 15 || [coldresist] >= 15 || [poisonresist] >= 15 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 8) // fhr + something (LinkMisc.nip) Error message: syntax error Trigger item: Large Charm
+[10:52:47] <LinkboltMF> Error in AncientTunnels (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, AncientTunnels@ancienttunnels.js:9, useWaypoint@pather.js:992
+[10:54:30] <LinkboltMF> Error in Mephisto (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:134, useWaypoint@pather.js:992
+[10:56:23] <LinkboltMF> Error in Pindleskin (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pindleskin@pindleskin.js:10, Town.goToTown@town.js:2176
+[10:58:26] <LinkboltMF> Error in Eldritch (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:11, useWaypoint@pather.js:992
+[11:00:33] <LinkboltMF> Error in ChestMania (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1338, Pather.plotCourse@pather.js:1473, useWaypoint@pather.js:992
+[12:16:11] <LinkboltMF> Error in ChestMania (town.js line 2160): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1343, Town.goToTown@town.js:2160
