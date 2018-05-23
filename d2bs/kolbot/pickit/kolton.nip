@@ -135,7 +135,7 @@
 [name] == grandcrown && [quality] == unique && [flag] != ethereal # [itemgoldbonus] >= 100 && [enhanceddefense] >= 200 && [lifeleech] >= 12 //crown of thieves
 [name] == grandcrown && [quality] == unique && [flag] == ethereal # [itemgoldbonus] >= 100 // crown of thieves eth
 [name] == grimhelm && [quality] == unique && [flag] == ethereal # [lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // vampgaze eth
-[name] == shako && [quality] == unique && [flag] != ethereal # [defense] == 141 // harlequin crest
+//[name] == shako && [quality] == unique && [flag] != ethereal # [defense] == 141 // harlequin crest
 [name] == spiredhelm && [quality] == unique # [passivecoldmastery] == 15 // nightwing's veil
 [name] == demonhead && [quality] == unique && [flag] != ethereal # [strength] == 30 && [enhanceddefense] == 150 // andariel's visage
 [name] == demonhead && [quality] == unique && [flag] == ethereal // andariel's visage
@@ -322,7 +322,7 @@
 ([name] == flail || [name] == scourge) && [quality] <= superior # [sockets] == 4 && [enhanceddamage] == 15 && [tohit] == 3 //hoto
 
 //          ==unique==
-[name] == tyrantclub && [quality] == unique && [flag] != ethereal //demon limb (for prebuff)
+//[name] == tyrantclub && [quality] == unique && [flag] != ethereal //demon limb (for prebuff)
 [name] == scourge && [quality] == unique && [flag] == ethereal # [enhanceddamage] >= 300 //stormlash
 
 //          ==rare==

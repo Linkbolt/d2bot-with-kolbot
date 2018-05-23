@@ -101,7 +101,7 @@
 // #################################################################################################################################################
 //[Name] == WarBelt && [Quality] == set // Immortal King's Detail
 [Name] == AvengerGuard && [Quality] == set # [ItemMagicBonus] >= 40// Immortal King's Will
-[Name] == OgreMaul && [Quality] == set // Immortal King's Stone Crusher
+//[Name] == OgreMaul && [Quality] == set // Immortal King's Stone Crusher
 [Name] == SacredArmor && [Quality] == set // Immortal King's Soul Cage
 [Name] == WarGauntlets && [Quality] == set // Immortal King's Forge
 //[Name] == WarBoots && [Quality] == set // Immortal King's Pillar

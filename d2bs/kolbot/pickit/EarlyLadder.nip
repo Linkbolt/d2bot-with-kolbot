@@ -19,7 +19,7 @@
 
 // ##### Helms #########################
 [name] == GrimHelm && [quality] == unique && [flag] != ethereal// # [lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // Vampire Gaze
-[name] == Shako && [quality] == unique && [flag] != ethereal// # [Defense] >= 141  // Harlequin Crest
+//[name] == Shako && [quality] == unique && [flag] != ethereal// # [Defense] >= 141  // Harlequin Crest
 [name] == SpiredHelm && [quality] == unique # [passivecoldmastery] == 15 && [Dexterity] >= 20   // Nightwing's Veil
 [name] == Demonhead && [quality] == unique && [flag] != ethereal// # ([enhanceddefense] >= 140 || [Strength] >= 30 || [LifeLeech] >= 10) // Andariel's Visage
 [name] == Corona && [quality] == unique  // Crown of ages

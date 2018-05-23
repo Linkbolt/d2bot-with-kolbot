@@ -28,20 +28,20 @@
 // ##############################################################################################################################################
 // ##### 9- runes ###############################################################################################################################
 // ##############################################################################################################################################
-//[name] == elrune # # [maxquantity] == 1
+[name] == elrune # # [maxquantity] == 1
 //[name] == eldrune # # [maxquantity] == 1
 //[name] == tirrune # # [maxquantity] == 3
 //[name] == nefrune # # [maxquantity] == 3
 //[name] == ethrune # # [maxquantity] == 3
 //[name] == ithrune # # [maxquantity] == 1
 //[name] == talrune # # [maxquantity] == 1
-//[name] == ralrune # # [maxquantity] == 1
+[name] == ralrune # # [maxquantity] == 2
 //[name] == ortrune # # [maxquantity] == 2
-//[name] == thulrune # # [maxquantity] == 2
+[name] == thulrune # # [maxquantity] == 5
 //[name] == amnrune # # [maxquantity] == 3
-//[name] == solrune # # [maxquantity] == 3
+[name] == solrune # # [maxquantity] == 1
 //[name] == shaelrune # # [maxquantity] == 3
-//[name] == dolrune # # [maxquantity] == 3
+[name] == dolrune # # [maxquantity] == 1
 //[name] == helrune # # [maxquantity] == 3
 //[name] == iorune # # [maxquantity] == 3
 //[name] == lumrune # # [maxquantity] == 3
@@ -73,17 +73,17 @@
 
 // ##### flawed ###########################
 //[name] == flawedemerald # # [maxquantity] == 1
-//[name] == flawedamethyst # # [maxquantity] == 1
-//[name] == flawedtopaz # # [maxquantity] == 1
+[name] == flawedamethyst # # [maxquantity] == 1
+[name] == flawedtopaz # # [maxquantity] == 1
 //[name] == flaweddiamond # # [maxquantity] == 2
-//[name] == flawedsapphire # # [maxquantity] == 1
+[name] == flawedsapphire # # [maxquantity] == 1
 //[name] == flawedruby # # [maxquantity] == 2
 //[name] == flawedskull # # [maxquantity] == 2
 
 // ##### normal ###########################
 //[name] == topaz # # [maxquantity] == 1
-//[name] == diamond # # [maxquantity] == 2
-//[name] == emerald # # [maxquantity] == 2
+[name] == diamond # # [maxquantity] == 1
+[name] == emerald # # [maxquantity] == 1
 //[name] == amethyst # # [maxquantity] == 2
 //[name] == sapphire # # [maxquantity] == 2
 //[name] == ruby # # [maxquantity] == 2

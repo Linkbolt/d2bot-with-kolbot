@@ -5263,3 +5263,233 @@
 [00:35:40] <LinkboltMF> <Stashed> (normal) Io Rune
 [00:52:37] <LinkboltMF> <Kept> (magic) Amber Small Charm of Balance (85) | Keep in Inventory to Gain Bonus | Required Level: 32 | +5% Faster Hit Recovery | Lightning Resist +11%
 [00:52:37] <LinkboltMF> <Stashed> (magic) Amber Small Charm of Balance
+[02:00:03] <LinkboltMF> <Kept> (magic) Jewel of Fervor (83) | Can be Inserted into Socketed Items | Required Level: 31 | +15% Increased Attack Speed
+[02:00:03] <LinkboltMF> <Stashed> (magic) Jewel of Fervor
+[02:11:26] <LinkboltMF> <Kept> (magic) Sapphire Small Charm of Balance (81) | Keep in Inventory to Gain Bonus | Required Level: 32 | +5% Faster Hit Recovery | Cold Resist +11%
+[02:11:27] <LinkboltMF> <Stashed> (magic) Sapphire Small Charm of Balance
+[02:46:06] <LinkboltMF> <Kept> (magic) Spiritual Grand Charm of Strength (83) | Keep in Inventory to Gain Bonus | Required Level: 42 | +1 to Shape Shifting Skills (Druid Only) | +3 to Strength
+[02:46:07] <LinkboltMF> <Stashed> (magic) Spiritual Grand Charm of Strength
+[03:39:46] <LinkboltMF> <Kept> (magic) Jewel of Fervor (83) | Can be Inserted into Socketed Items | Required Level: 31 | +15% Increased Attack Speed
+[03:39:49] <LinkboltMF> <Stashed> (magic) Jewel of Fervor
+[04:06:12] <LinkboltMF> <Kept> (rare) Doom Song (87) | Greater Claws | One-Hand Damage: 74 to 152 | Durability: 117 of 156 | (Assassin Only) | Required Dexterity: 76 | Required Strength: 76 | Required Level: 48 | Claw Class - Very Slow Attack Speed | +20% Increased Attack Speed | +313% Enhanced Damage | +114 to Attack Rating | 6% Mana stolen per hit
+[04:06:14] <LinkboltMF> <Stashed> (rare) Doom Song Greater Claws
+[04:24:40] <LinkboltMF> <Kept> (unique) Tyrant Club (87) | One-Hand Damage: 32 to 58 | Durability: 48 of 65 | Required Strength: 133 | Mace Class - Normal Attack Speed | Unidentified
+[04:41:32] <LinkboltMF> <Kept> (normal) Lum Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Energy | Armor: +10 to Energy | Helms: +10 to Energy | Shields: +10 to Energy |  | Required Level: 37
+[04:41:40] <LinkboltMF> <Stashed> (normal) Lum Rune
+[05:01:00] <LinkboltMF> <Gambled> (rare) Ghoul Collar (90) | Amulet | Required Level: 67 | +2 to Barbarian Skill Levels | +10% Faster Cast Rate | Cold Resist +19% | Lightning Resist +19% | Fire Resist +19% | Poison Resist +25%
+[05:01:53] <LinkboltMF> <Stashed> (rare) Ghoul Collar Amulet
+[05:48:44] <LinkboltMF> <Kept> (unique) Totemic Mask (77) | Defense: 99 | Durability: 12 of 20 | (Druid Only) | Required Strength: 65 | Unidentified
+[05:57:41] <LinkboltMF> <Kept> (set) Ogre Maul (88) | Two-Hand Damage: 77 to 106 | Durability: 42 of 60 | Required Strength: 225 | Mace Class - Normal Attack Speed | Unidentified
+[06:20:43] <LinkboltMF> <Kept> (unique) Demonhide Sash (75) | Defense: 35 | Durability: 10 of 12 | Required Strength: 20 | Unidentified
+[06:42:44] <LinkboltMF> <No room for> (rare) War Scythe
+[06:44:05] <LinkboltMF> <Kept> (magic) Chilling Grand Charm (85) | Keep in Inventory to Gain Bonus | Required Level: 42 | +1 to Cold Skills (Sorceress Only)
+[06:51:19] <LinkboltMF> <No room for> (rare) Colossus Sword
+[06:51:22] <LinkboltMF> <No room for> (rare) Colossus Sword
+[06:52:31] <LinkboltMF> <Kept> (unique) Shako (86) | Defense: 128 | Durability: 8 of 12 | Required Strength: 50 | Unidentified
+[06:54:08] <LinkboltMF> <No room for> (magic) Blade Talons
+[06:54:47] <LinkboltMF> <No room for> (magic) Suwayyah
+[06:58:06] <LinkboltMF> <No room for> (magic) Grand Charm
+[06:58:28] <LinkboltMF> <No room for> (magic) Wrist Blade
+[06:58:28] <LinkboltMF> <No room for> (magic) Kite Shield
+[06:58:30] <LinkboltMF> <No room for> (magic) Cestus
+[06:59:17] <LinkboltMF> <No room for> (magic) Ghost Armor
+[07:00:32] <LinkboltMF> <No room for> (magic) Cestus
+[07:00:39] <LinkboltMF> <No room for> (magic) Cestus
+[07:01:41] <LinkboltMF> <No room for> (magic) Jared's Stone
+[07:01:41] <LinkboltMF> <No room for> (magic) Jared's Stone
+[07:01:41] <LinkboltMF> <No room for> (magic) Studded Leather
+[07:01:41] <LinkboltMF> <No room for> (magic) Jared's Stone
+[07:01:41] <LinkboltMF> <No room for> (magic) Studded Leather
+[07:01:42] <LinkboltMF> <No room for> (magic) Jared's Stone
+[07:01:57] <LinkboltMF> <No room for> (magic) Studded Leather
+[07:02:25] <LinkboltMF> <No room for> (rare) Wrist Sword
+[07:02:25] <LinkboltMF> <No room for> (rare) Wrist Sword
+[07:02:33] <LinkboltMF> <No room for> (rare) Wrist Sword
+[07:02:42] <LinkboltMF> <No room for> (magic) Sacred Armor
+[07:02:42] <LinkboltMF> <No room for> (magic) Sacred Armor
+[07:02:42] <LinkboltMF> <No room for> (magic) Sacred Armor
+[07:02:43] <LinkboltMF> <No room for> (magic) Sacred Armor
+[07:02:44] <LinkboltMF> <No room for> (magic) Sacred Armor
+[07:02:55] <LinkboltMF> <No room for> (magic) Splint Mail
+[07:04:30] <LinkboltMF> <No room for> (magic) Chain Mail
+[07:04:40] <LinkboltMF> <No room for> (magic) Cestus
+[07:04:51] <LinkboltMF> <No room for> (magic) Cestus
+[07:06:11] <LinkboltMF> <No room for> (rare) Wrist Blade
+[07:06:23] <LinkboltMF> <No room for> (rare) Scissors Quhab
+[07:06:38] <LinkboltMF> <No room for> (rare) Scissors Quhab
+[07:06:38] <LinkboltMF> <No room for> (rare) Wrist Blade
+[07:06:39] <LinkboltMF> <No room for> (rare) Wrist Blade
+[07:06:39] <LinkboltMF> <No room for> (rare) Scissors Quhab
+[07:06:42] <LinkboltMF> <No room for> (rare) Scissors Quhab
+[07:06:42] <LinkboltMF> <No room for> (rare) Wrist Blade
+[07:06:45] <LinkboltMF> <No room for> (rare) Wrist Blade
+[07:06:45] <LinkboltMF> <No room for> (rare) Scissors Quhab
+[07:06:46] <LinkboltMF> <No room for> (rare) Wrist Blade
+[07:06:46] <LinkboltMF> <No room for> (rare) Scissors Quhab
+[07:07:06] <LinkboltMF> <No room for> (rare) Short Siege Bow
+[07:07:46] <LinkboltMF> <No room for> (magic) Blade Talons
+[07:08:14] <LinkboltMF> <No room for> (magic) Studded Leather
+[07:10:40] <LinkboltMF> <No room for> (magic) Demonhide Armor
+[07:10:43] <LinkboltMF> <No room for> (magic) Demonhide Armor
+[07:10:43] <LinkboltMF> <No room for> (magic) Demonhide Armor
+[07:10:44] <LinkboltMF> <No room for> (magic) Demonhide Armor
+[07:10:44] <LinkboltMF> <No room for> (magic) Demonhide Armor
+[07:10:47] <LinkboltMF> <No room for> (magic) Demonhide Armor
+[07:10:56] <LinkboltMF> <No room for> (magic) Ring Mail
+[07:10:57] <LinkboltMF> <No room for> (magic) Ring Mail
+[07:14:28] <LinkboltMF> <No room for> (magic) Quhab
+[07:15:42] <LinkboltMF> <No room for> (magic) Hand Scythe
+[07:16:08] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:16:33] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:16:34] <LinkboltMF> <No room for> (magic) Kite Shield
+[07:16:35] <LinkboltMF> <No room for> (magic) Kite Shield
+[07:16:37] <LinkboltMF> <No room for> (magic) Kite Shield
+[07:16:37] <LinkboltMF> <No room for> (magic) Kite Shield
+[07:16:39] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:16:40] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:16:40] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:16:42] <LinkboltMF> <No room for> (magic) Bone Shield
+[07:16:43] <LinkboltMF> <No room for> (magic) Bone Shield
+[07:16:43] <LinkboltMF> <No room for> (magic) Kite Shield
+[07:16:43] <LinkboltMF> <No room for> (magic) Bone Shield
+[07:17:04] <LinkboltMF> <No room for> (rare) Cestus
+[07:18:10] <LinkboltMF> <No room for> (magic) Embossed Plate
+[07:18:29] <LinkboltMF> <No room for> (magic) Bone Shield
+[07:18:29] <LinkboltMF> <No room for> (magic) Bone Shield
+[07:20:39] <LinkboltMF> <No room for> (rare) Spiked Club
+[07:20:39] <LinkboltMF> <No room for> (rare) Spiked Club
+[07:20:46] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:21:32] <LinkboltMF> <No room for> (magic) Serpentskin Armor
+[07:21:32] <LinkboltMF> <No room for> (magic) Serpentskin Armor
+[07:21:35] <LinkboltMF> <No room for> (magic) War Scepter
+[07:21:35] <LinkboltMF> <No room for> (magic) Serpentskin Armor
+[07:21:37] <LinkboltMF> <No room for> (magic) Serpentskin Armor
+[07:21:37] <LinkboltMF> <No room for> (magic) War Scepter
+[07:21:38] <LinkboltMF> <No room for> (magic) War Scepter
+[07:21:38] <LinkboltMF> <No room for> (magic) Serpentskin Armor
+[07:21:55] <LinkboltMF> <No room for> (rare) Hunter's Bow
+[07:22:10] <LinkboltMF> <No room for> (rare) Spetum
+[07:22:10] <LinkboltMF> <No room for> (rare) Spetum
+[07:22:11] <LinkboltMF> <No room for> (rare) Spetum
+[07:22:11] <LinkboltMF> <No room for> (rare) Spetum
+[07:23:08] <LinkboltMF> <No room for> (magic) Tower Shield
+[07:23:08] <LinkboltMF> <No room for> (magic) Tigulated Mail
+[07:23:08] <LinkboltMF> <No room for> (magic) Tower Shield
+[07:23:08] <LinkboltMF> <No room for> (magic) Tigulated Mail
+[07:23:08] <LinkboltMF> <No room for> (magic) Tower Shield
+[07:23:08] <LinkboltMF> <No room for> (magic) Tigulated Mail
+[07:24:31] <LinkboltMF> <No room for> (rare) Cutlass
+[07:24:47] <LinkboltMF> <No room for> (rare) Quhab
+[07:25:11] <LinkboltMF> <No room for> (magic) Mage Plate
+[07:29:23] <LinkboltMF> <No room for> (magic) Ataghan
+[07:31:44] <LinkboltMF> <No room for> (magic) Matriarchal Javelin
+[07:31:44] <LinkboltMF> <No room for> (magic) Matriarchal Javelin
+[07:31:44] <LinkboltMF> <No room for> (magic) Matriarchal Javelin
+[07:37:14] <LinkboltMF> <No room for> (magic) Hand Scythe
+[07:37:27] <LinkboltMF> <No room for> (magic) Bone Shield
+[07:37:38] <LinkboltMF> <No room for> (magic) Breast Plate
+[07:37:39] <LinkboltMF> <No room for> (magic) Breast Plate
+[07:37:39] <LinkboltMF> <No room for> (magic) Breast Plate
+[07:37:49] <LinkboltMF> <No room for> (magic) Wrist Spike
+[07:37:57] <LinkboltMF> <No room for> (rare) Chain Mail
+[07:40:37] <LinkboltMF> <No room for> (magic) Ring Mail
+[07:40:37] <LinkboltMF> <No room for> (magic) Ring Mail
+[07:40:39] <LinkboltMF> <No room for> (magic) Ring Mail
+[07:42:07] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:42:09] <LinkboltMF> <No room for> (magic) Wrist Sword
+[07:42:55] <LinkboltMF> <No room for> (magic) Splint Mail
+[07:43:08] <LinkboltMF> <No room for> (magic) Archon Plate
+[07:44:05] <LinkboltMF> <No room for> (magic) Hatchet Hands
+[07:44:06] <LinkboltMF> <No room for> (magic) Hatchet Hands
+[07:44:10] <LinkboltMF> <No room for> (magic) Hatchet Hands
+[07:44:24] <LinkboltMF> <No room for> (magic) Hatchet Hands
+[07:45:13] <LinkboltMF> <No room for> (magic) Hatchet Hands
+[07:45:13] <LinkboltMF> <No room for> (magic) Hatchet Hands
+[07:46:15] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:46:18] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:46:18] <LinkboltMF> <No room for> (unique) Ghost Glaive
+[07:46:18] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:46:18] <LinkboltMF> <No room for> (unique) Ghost Glaive
+[07:46:20] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:46:20] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:46:23] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:47:31] <LinkboltMF> <No room for> (rare) Reflex Bow
+[07:47:40] <LinkboltMF> <No room for> (rare) Reflex Bow
+[07:48:48] <LinkboltMF> <No room for> (rare) Heraldic Shield
+[07:48:58] <LinkboltMF> <Kept> (normal) Cham Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Freezes target +3 | Armor: Cannot Be Frozen | Helms: Cannot Be Frozen | Shields: Cannot Be Frozen |  | Required Level: 67
+[07:48:58] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:48:58] <LinkboltMF> <No room for> (magic) Grand Charm
+[07:49:12] <LinkboltMF> <No room for> (rare) Heraldic Shield
+[07:50:23] <LinkboltMF> <No room for> (rare) Hard Leather Armor
+[07:50:39] <LinkboltMF> <No room for> (rare) Hard Leather Armor
+[07:50:40] <LinkboltMF> <No room for> (rare) Hard Leather Armor
+[07:50:41] <LinkboltMF> <No room for> (rare) Hard Leather Armor
+[07:51:23] <LinkboltMF> <No room for> (magic) Matriarchal Javelin
+[07:52:12] <LinkboltMF> <No room for> (magic) Tower Shield
+[07:52:35] <LinkboltMF> <No room for> (magic) Scale Mail
+[07:52:35] <LinkboltMF> <No room for> (magic) Hard Leather Armor
+[07:53:49] <LinkboltMF> <No room for> (magic) Barbed Shield
+[07:53:50] <LinkboltMF> <No room for> (magic) Barbed Shield
+[07:54:10] <LinkboltMF> <No room for> (magic) Barbed Shield
+[07:54:11] <LinkboltMF> <No room for> (magic) Barbed Shield
+[07:54:12] <LinkboltMF> <No room for> (magic) Barbed Shield
+[07:54:12] <LinkboltMF> <No room for> (magic) Barbed Shield
+[07:57:33] <LinkboltMF> <No room for> (magic) Wyrmhide
+[08:02:19] <LinkboltMF> <No room for> (magic) Tower Shield
+[08:02:21] <LinkboltMF> <No room for> (magic) Blade Talons
+[08:02:31] <LinkboltMF> <No room for> (magic) Blade Talons
+[08:02:44] <LinkboltMF> <No room for> (magic) Cestus
+[08:04:32] <LinkboltMF> <Kept> (normal) Vex Rune (1) | Can be Inserted into Socketed Items |  | Weapons: 7% Mana stolen per hit | Armor: +5% to Maximum Fire Resist | Helms: +5% to Maximum Fire Resist | Shields: +5% to Maximum Fire Resist |  | Required Level: 55
+[08:05:09] <LinkboltMF> <No room for> (magic) Scale Mail
+[08:05:09] <LinkboltMF> <No room for> (magic) Scale Mail
+[08:05:56] <LinkboltMF> <No room for> (rare) Crown
+[08:05:57] <LinkboltMF> <No room for> (rare) Crown
+[08:05:57] <LinkboltMF> <No room for> (rare) Crown
+[08:05:58] <LinkboltMF> <No room for> (rare) Crown
+[08:06:20] <LinkboltMF> <No room for> (rare) Bone Helm
+[08:06:20] <LinkboltMF> <No room for> (rare) Bone Helm
+[08:06:22] <LinkboltMF> <No room for> (rare) Bone Helm
+[08:06:23] <LinkboltMF> <No room for> (rare) Bone Helm
+[08:06:24] <LinkboltMF> <No room for> (rare) Bone Helm
+[08:06:24] <LinkboltMF> <No room for> (rare) Bone Helm
+[08:06:24] <LinkboltMF> <No room for> (rare) Bone Helm
+[08:06:59] <LinkboltMF> <No room for> (magic) Jawbone Visor
+[08:07:17] <LinkboltMF> <No room for> (magic) Suwayyah
+[08:07:17] <LinkboltMF> <No room for> (magic) Suwayyah
+[08:07:39] <LinkboltMF> <No room for> (rare) Gargoyle Head
+[08:07:39] <LinkboltMF> <No room for> (rare) Long Battle Bow
+[08:07:57] <LinkboltMF> <No room for> (rare) Flail
+[08:08:11] <LinkboltMF> <No room for> (magic) Wrist Spike
+[08:09:15] <LinkboltMF> <Kept> (normal) Lum Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Energy | Armor: +10 to Energy | Helms: +10 to Energy | Shields: +10 to Energy |  | Required Level: 37
+[08:09:37] <LinkboltMF> <No room for> (rare) Suwayyah
+[08:09:37] <LinkboltMF> <No room for> (rare) Bramble Mitts
+[08:09:38] <LinkboltMF> <Kept> (unique) Amulet (87) | Unidentified
+[08:09:39] <LinkboltMF> <No room for> (rare) Suwayyah
+[08:09:39] <LinkboltMF> <No room for> (rare) Bramble Mitts
+[08:09:43] <LinkboltMF> <No room for> (rare) Bramble Mitts
+[08:09:43] <LinkboltMF> <No room for> (rare) Suwayyah
+[08:09:44] <LinkboltMF> <No room for> (rare) Bramble Mitts
+[08:09:44] <LinkboltMF> <No room for> (rare) Suwayyah
+[08:09:46] <LinkboltMF> <No room for> (magic) Cuirass
+[08:09:46] <LinkboltMF> <No room for> (magic) Cuirass
+[08:09:48] <LinkboltMF> <No room for> (magic) Mask
+[08:09:48] <LinkboltMF> <No room for> (rare) Bramble Mitts
+[08:09:48] <LinkboltMF> <No room for> (rare) Suwayyah
+[08:09:48] <LinkboltMF> <No room for> (magic) Mask
+[08:09:48] <LinkboltMF> <No room for> (rare) Bramble Mitts
+[08:09:48] <LinkboltMF> <No room for> (rare) Suwayyah
+[08:10:26] <LinkboltMF> <No room for> (rare) Breast Plate
+[08:10:52] <LinkboltMF> <No room for> (rare) Zombie Head
+[08:10:52] <LinkboltMF> <No room for> (rare) Zombie Head
+[08:10:53] <LinkboltMF> <No room for> (rare) Zombie Head
+[08:11:21] <LinkboltMF> <No room for> (magic) Ring Mail
+[09:12:03] <LinkboltMF> <Kept> (normal) Emerald (1) | Can be Inserted into Socketed Items |  | Weapons: +40 poison damage over 5 seconds | Armor: +6 to Dexterity | Helms: +6 to Dexterity | Shields: Poison Resist +22% |  | Required Level: 12
+[09:12:40] <LinkboltMF> <Stashed> (normal) Emerald
+[09:17:46] <LinkboltMF> <Kept> (normal) Io Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Vitality | Armor: +10 to Vitality | Helms: +10 to Vitality | Shields: +10 to Vitality |  | Required Level: 35
+[09:19:47] <LinkboltMF> <Stashed> (normal) Io Rune
+[09:33:52] <LinkboltMF> <Kept> (unique) Demonhide Sash (80) | Defense: 35 | Durability: 11 of 12 | Required Strength: 20 | Unidentified
+[09:35:10] <LinkboltMF> <Stashed> (unique) Demonhide Sash
+[09:49:59] <LinkboltMF> <Kept> (normal) Flawed Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +60 to Attack Rating | Armor: +4 to Strength | Helms: +4 to Strength | Shields: +12 Defense |  | Required Level: 5
+[09:50:15] <LinkboltMF> <Stashed> (normal) Flawed Amethyst
+[09:50:39] <LinkboltMF> <Kept> (normal) Ral Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 5-30 fire damage | Armor: Fire Resist +30% | Helms: Fire Resist +30% | Shields: Fire Resist +35% |  | Required Level: 19
+[09:50:58] <LinkboltMF> <Stashed> (normal) Ral Rune
