@@ -25,6 +25,7 @@
 
 
 
+
 // ##############################################################################################################################################
 // ##### 3- socket shields #####################################################################################################################
 // ##############################################################################################################################################
@@ -56,8 +57,8 @@
 
 
 // ##### maces ##############################
-[name] == flail && [quality] <= superior && [flag] != ethereal # [sockets] == 4 // hoto
-[name] == flail && [quality] <= superior && [flag] != ethereal # [sockets] == 5 // call to arms
+[name] == flail && [quality] <= superior && [flag] != ethereal # [sockets] == 4 // hoto runeword
+[name] == flail && [quality] <= superior && [flag] != ethereal # [sockets] == 5 // call to arms runeword
 
 // ##### javelins ###########################
 
@@ -69,9 +70,10 @@
 
 
 // ##### polearms ###########################
-[name] == thresher && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // insight || pride
-[name] == crypticaxe && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // insight || pride
-[name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // insight || pride
+[name] == thresher && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // insight runeword || pride runeword
+[name] == crypticaxe && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // insight runeword || pride runeword
+[name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // insight runeword || pride runeword
+[name] == greatpoleaxe && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 6)// breath of the dying runeword
 
 // ##### scepters ###########################
 
@@ -83,10 +85,11 @@
 
 
 // ##### swords #############################
-[name] == phaseblade && [quality] == superior && [flag] == ethereal # 8[sockets] == 0 || [sockets] == 5) // grief
-[name] == phaseblade && [quality] == superior && [flag] == ethereal # 8[sockets] == 0 || [sockets] == 6) // last wish
+[name] == phaseblade && [quality] == superior && [flag] == ethereal # [sockets] == 0 || [sockets] == 5) // grief runeword
+[name] == phaseblade && [quality] == superior && [flag] == ethereal # [sockets] == 0 || [sockets] == 6) // last wish runeword
 
 // ##### throwing ###########################
 
 
 // ##### wands ##############################
+([Type] == Wand || [Type] == NecromancerItem) && [Quality] <= Superior && [flag] != ethereal # [SkillBoneSpear] >= 3 && [Sockets] != 1 // white runeword

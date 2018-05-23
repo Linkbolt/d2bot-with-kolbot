@@ -1,0 +1,607 @@
+//###################################################################
+//################# Index: Use Ctrl+F to search #####################
+//################# 1- Rare Rings               #####################
+//################# 2- Rare Amulets             #####################
+//################# 3- Rare Helms               #####################
+//################# 4- Rare Body Armor          #####################
+//################# 5- Rare Belts               #####################
+//################# 6- Rare Gloves              #####################
+//################# 7- Rare Boots               #####################
+//################# 8- Rare Shields             #####################
+//################# 9- Rare Weapons             #####################
+//###################################################################
+
+
+
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 1- Rare Rings ########################################################################################################################
+// ##############################################################################################################################################
+[Type] == Ring && [Quality] == Magic # [ItemMagicBonus] >= 25
+[Type] == Ring && [Quality] == Magic # [FCR] >= 10 && [Mana] >= 100
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 2- Rare Amulets ########################################################################################################################
+// ##############################################################################################################################################
+[Type] == Amulet && [Quality] == Magic # [ItemMagicBonus] >= 40 // MF
+[Type] == Amulet && [Quality] == Magic # [itemallskills] >= 2 // Skillers
+
+
+
+
+// ##############################################################################################################################################
+// ##### 3- Rare Helms ########################################################################################################################
+// ##############################################################################################################################################
+[Name] == bonehelm && [Quality] == magic && [Flag] != ethereal # [MaxHP] >= 35 && [Sockets] == 3
+[Name] == grimhelm && [Quality] == magic && [Flag] != ethereal # [MaxHP] >= 35 && [Sockets] == 3
+[Name] == bonevisage && [Quality] == magic && [Flag] != ethereal # [MaxHP] >= 35 && [Sockets] == 3
+[Type] == circlet && [Quality] == magic && [Flag] != ethereal # [Sockets] == 3 && ([MaxHP] >= 90 || [FRW] == 30)
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 4- Rare Body Armor ###################################################################################################################
+// ##############################################################################################################################################
+[Type] == AnyArmor && [Quality] == Magic && [Flag] != ethereal # ([MaxHP] >= 90 || [FHR] == 24) && [Sockets] >= 4
+//[Name] == Archonplate && [Quality] == magic && [Flag] != ethereal # ([MaxHP] >= 90 || [FHR] == 24) && [Sockets] >= 4
+//[Name] == duskshroud && [Quality] == magic && [Flag] != ethereal # ([MaxHP] >= 90 || [FHR] == 24) && [Sockets] >= 4
+//[Name] == mageplate && [Quality] == magic && [Flag] != ethereal # ([MaxHP] >= 90 || [FHR] == 24) && [Sockets] >= 4
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 5- Rare Belts ###################################################################################################################
+// ##############################################################################################################################################
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 6- Rare Gloves ###################################################################################################################
+// ##############################################################################################################################################
+
+
+
+
+// ##############################################################################################################################################
+// ##### 7- Rare Boots ###################################################################################################################
+// ##############################################################################################################################################
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 8- Rare Shields #####################################################################################################################
+// ##############################################################################################################################################
+
+
+
+
+
+// ##############################################################################################################################################
+// ##### 9- Rare Weapons #####################################################################################################################
+// ##############################################################################################################################################
+
+// ##### Amazon Weapons #####################
+
+
+// ##### Axes ###############################
+
+
+// ##### Bows ###############################
+
+
+// ##### Crossbows ##########################
+
+
+// ##### Daggers ############################
+
+
+// ##### Maces ##############################
+
+
+// ##### Javelins ###########################
+
+
+// ##### Katars #############################
+
+
+// ##### Sorceress Orbs #####################
+
+
+// ##### Polearms ###########################
+
+
+// ##### Scepters ###########################
+
+
+// ##### Spears #############################
+
+
+// ##### Staves #############################
+
+
+// ##### Swords #############################
+
+
+// ##### Throwing ###########################
+
+
+// ##### Wands ##############################
+
+
+
+//Support:
+//1.1 Rare amulets
+//1.2 Magic amulets
+// 
+//2.1 Rare rings
+//2.2 Magic rings
+// 
+//3.1 Rare helmets
+//3.2 Magic helmets
+// 
+//4.1 Rare armor
+//4.2 Magic armor
+// 
+//5.1 Rare gloves
+//5.2 Magic gloves
+// 
+//6.1 Rare boots
+//6.2 Magic boots
+// 
+//7.1 Rare belts
+//7.2 Magic belts
+// 
+//8.1 Rare weapons
+//8.2 Magic weapons
+// 
+//9.1 Rare shields
+//9.2 Magic shields
+// 
+//10.1 Rare jewels
+//10.2 Magic jewels
+// 
+//11.1 Magic grand charms
+//11.2 Magic large charms
+//11.3 Magic small charms
+// 
+// 
+//1.1 Rare amulets:
+// 
+//NOTE: When gambling amulets, you will need at least a level 95
+//character to be able to spawn any affixes of level 90 and below.
+//(Gambled items have clvl-5 <= ilvl <= clvl+4 and since amulets have
+//qlvl = 1 the alvl of an amulet equals the ilvl)
+// 
+//Prefixes
+//* 61-90 mana        (Great Wyrm's)        [37]    Desirable
+//* 41-60 mana        (Wyrm's)        [37]    (Desirable)
+//* 31-40 one res        (*)            [25]     Desirable
+//* 16-20 all res        (Prismatic)        [42]    Very desirable
+//* 2 skills        (*)            [90]    Essential
+//* 5-10 mf        (Felicitous)        [ 5]    Desirable
+// 
+//Suffixes
+//* 21-30 str         (Atlas)            [71]    Very desirable
+//* 16-20 str        (Titan)            [48]    (Desirable)
+//* 16-20 dex        (Perfection)        [59]    Very desirable
+//* 10-15 dex        (Precision)        [43]    (Desirable)
+//* 41-60 life        (Colossus)        [30]    Very desirable
+//* 31-40 life        (Mammoth)        [25]    (Desirable)
+//* 41-80 gf        (Wealth)        [17]    Desirable
+//* 16-25 mf        (Fortune)        [16]    Desirable
+//* 10 fcr        (Apprentice)        [ 5]    Very desirable
+// 
+// 
+//1.2 Magic amulets:
+// 
+//Prefixes
+//* 21-30 all res        (Chromatic)        [55]    Essential
+//* +3 skill tree        (*)            [60]    Essential
+// 
+//Suffixes
+//* 81-100 life        (Whale)            [50]    Very desirable
+//* 10-25 pdr        (Life Everlasting)    [45]    Very desirable
+//* 26-35 mf        (Luck)            [26]    Desirable
+//* 10 fcr        (Apprentice)        [ 5]    Desirable
+// 
+// 
+//2.1 Rare rings:
+// 
+//NOTE: When gambling rings, you will need at least a level 79 character
+//to be able to spawn any affixes of level 74 and below (all the very
+//desirable affixes).
+//(Gambled items have clvl-5 <= ilvl <= clvl+4 and since rings have
+//qlvl = 1 the alvl of a ring equals the ilvl)
+// 
+//Prefixes
+//* 101-120ar        (Platinum)        [22]    Desirable
+//* 61-90 mana        (Great Wyrm's)        [37]    Very desirable
+//* 41-60 mana        (Wyrm's)        [37]    (Desirable)
+//* 31-40 one res        (*)            [25]     Desirable
+//* 8-11 all res        (Rainbow)        [56]    Very desirable
+//* 5-10 mf        (Felicitous)        [ 5]    Desirable
+// 
+//Suffixes
+//* 16-20 str        (Titan)            [74]    Very desirable
+//* 10-15 str        (Giant)            [55]    (Desirable)
+//* 10-15 dex        (Precision)        [56]    Very desirable
+//* 31-40 life        (Mammoth)        [68]    Very desirable
+//* 21-30 life        (Tiger)            [51]    (Desirable)
+//* 3 light rad./30 ar    (Radiance)        [15]    Desirable mainly coupled with a Platinum prefix
+//* 5 light rad./+5% ar    (Sun)            [17]    Desirable mainly coupled with a Platinum prefix
+//* 5-8 ll        (*)            [47/77]    Desirable
+//* 4-6 ml        (*)            [58/86]    Desirable
+//* 25-40 gf        (Greed)            [ 1]    Desirable
+//* 5-15 mf        (Chance)        [12]    Desirable
+//* 10 fcr        (Apprentice)        [ 5]    Very desirable
+// 
+// 
+//2.2 Magic rings:
+// 
+//Even with perfect affixes, these don't trade for much.
+// 
+// 
+//3.1 Rare helmets:
+// 
+//NOTE: Special headgear (Druid pelts, Barbarian helmets) can spawn staffmods,
+//not mentioned in this list. These staffmods can add significantly to the
+//value of an item.
+// 
+//NOTE: Most of the affixes mentioned are only able to spawn on
+//Circlet/Coronet/Tiara/Diadem/Class-specific helmets.
+// 
+//Prefixes
+//* 21-30 edmg        (Deadly)        [ 5]    Desirable
+//* 1 %ar/lvl        (Visionary)        [25]    Desirable
+//* 61-90 mana        (Great Wyrm's)        [37]    Desirable
+//* 41-60 mana        (Wyrm's)        [30]    (Desirable)
+//* 31-40 one res        (*)            [25]     Desirable
+//* 16-20 all res        (Prismatic)        [42]    Very desirable
+//* 2 skills        (*)            [90]    Essential
+//* 5-10 mf        (Felicitous)        [ 5]    Desirable
+//* 2 sockets        (Mechanic's)        [10]    Very desirable
+// 
+//Suffixes
+//* 21-30 str        (Atlas)            [71]    Very desirable
+//* 16-20 str        (Titan)            [58]    (Desirable)
+//* 16-20 dex        (Perfection)        [59]    Very desirable
+//* 10-15 dex        (Precision)        [43]    (Desirable)
+//* 41-60 life        (Colossus)        [30]    Desirable
+//* 31-40 life        (Mammoth)        [25/68]    (Desirable)
+//* 10 fhr        (Balance)        [ 5]    Desirable
+//* 41-80 gf        (Wealth)        [17]    Desirable
+//* 16-25 mf        (Fortune)        [16]    Desirable
+//* 20 fcr        (Magus)            [29]    Very desirable
+//* 30 frw        (Speed)            [37]    Very desirable
+//* 20 frw        (Haste)            [22]    (Desirable)
+// 
+// 
+//3.2 Magic helmets:
+// 
+//NOTE: Special headgear (Druid pelts, Barbarian helmets) can spawn staffmods,
+//not mentioned in this list. These staffmods can add significantly to the
+//value of an item.
+// 
+//Prefixes
+//* 2 skills        (*)            [90]    Essential
+//* 3 skill tree        (*)            [60]    Essential
+//* 3 sockets        (Artisan's)        [33]    Essential
+// 
+//Suffixes
+//* 81-100 life        (Whale)            [50]    Very desirable
+//* 8-15 pdr        (Amicae)        [51]    Very desirable
+//* 26-35 mf        (Luck)            [26]    Desirable
+//* 20 fcr        (Magus)            [29]    Very desirable
+//* 30 frw        (Speed)            [37]    Very desirable
+//* 20 frw        (Haste)            [22]    (Desirable)
+// 
+// 
+//4.1 Rare armor:
+// 
+//NOTE: Etheralness coupled with self-repair affix will add
+//significantly to the value of an armor.
+// 
+//Prefixes
+//* 101-200 edef        (Godly)            [50]    Very desirable
+//* 31-40 mana        (Dragon's)        [52]    Desirable
+//* 21-30 one res        (*)            [18]     Desirable
+//* 2 sockets        (Mechanic's)        [10]    Very desirable
+// 
+//Suffixes
+//* 16-20 str        (Titan)            [74]    Very desirable
+//* 10-15 str        (Giant)            [55]    (Desirable)
+//* 6-9 dex        (Accuracy)        [46]    Desirable
+//* 41-60 life        (Colossus)        [30]    Desirable
+//* 31-40 life        (Mammoth)        [25]    (Desirable)
+//* 24 fhr        (Stability)        [18]    Very desirable
+//* 17 fhr        (Equilibrium)        [ 9]    (Desirable)
+//* -30 req        (Simplicity)        [25]    Desirable
+//* -20 req        (Ease)            [15]    (Desirable)
+//* Repair dur        (*)            [3/20]    Desirable
+// 
+// 
+//4.2 Magic armor:
+// 
+//Prefixes
+//* 4 sockets        (Jeweler's)        [55]    Essential
+// 
+//Suffixes
+//* 81-100 life        (Whale)            [50]    Very desirable
+//* 24 fhr        (Stability)        [18]    Very desirable
+//* 8-15 pdr        (Amicae)        [51]    Very desirable
+// 
+// 
+//5.1 Rare gloves:
+// 
+//Prefixes
+//* 2 skill tree        (*)            [40]    Essential
+//* 31-40 mana        (Dragon's)        [52]    Desirable
+//* 21-30 one res        (*)            [18]     Desirable
+// 
+//Suffixes
+//* 10-15 str        (Giant)            [59]    Very desirable
+//* 6-9 str        (Ox)            [45]    (Desirable)
+//* 10-15 dex        (Precision)        [56]    Very desirable
+//* 6-9 dex        (Accuracy)        [39]    (Desirable)
+//* 3 ll            (Leech)            [34]    Desirable
+//* 3 ml            (Bat)            [35]    Desirable
+//* 20 ias        (Alacrity)        [43]    Essential
+//* 41-80 gf        (Wealth)        [17]    Desirable
+//* 16-25 mf        (Fortune)        [16]    Desirable
+// 
+// 
+//5.2 Magic gloves:
+// 
+//Prefixes
+//* 3 skill tree        (*)            [60]    Essential
+// 
+//Suffixes
+//* 20 ias        (Alacrity)        [43]    Essential
+// 
+// 
+//6.1 Rare boots:
+// 
+//Prefixes
+//* 31-40 mana        (Dragon's)        [52]    Desirable
+//* 31-40 one res        (*)            [25]     Very desirable
+// 
+//Suffixes
+//* 6-9 dex        (Accuracy)        [46]    Desirable
+//* 10 fhr        (Balance)        [ 5]    Desirable
+//* 41-80 gf        (Wealth)        [17]    Desirable
+//* 16-25 mf        (Fortune)        [16]    Desirable
+//* 30 frw        (Speed)            [37]    Essential
+//* 20 frw        (Haste)            [22]    (Desirable)
+// 
+// 
+//6.2 Magic boots:
+// 
+//Even with perfect affixes, these don't trade for much.
+// 
+// 
+//7.1 Rare belts:
+// 
+//Prefixes
+//* 21-30 mana        (Drake's)        [20]    Desirable
+//* 21-30 one res        (*)            [18]    Desirable
+// 
+//Suffixes
+//* 21-30 str        (Atlas)            [71]    Very desirable
+//* 16-20 str        (Titan)            [58]    (Desirable)
+//* 41-60 life        (Colossus)        [30]    Very desirable
+//* 24 fhr        (Stability)        [18]    Very desirable
+//* 41-80 gf        (Wealth)        [17]    Desirable
+// 
+// 
+//7.2 Magic belts:
+// 
+//Even with perfect affixes, these don't trade for much.
+// 
+// 
+//8.1 Rare weapons:
+// 
+//NOTE: Special weapons (Wands, Orbs, Staves etc.) can spawn staffmods, not
+//mentioned in this list. These staffmods can add significantly to the value
+//of an item.
+// 
+//NOTE: Etheralness coupled with self-repair/replenish affixes will add
+//significantly to the value of a weapon.
+// 
+//Prefixes:
+//* 151-300 ar        (Strange)        [32]    Desirable
+//* 201-300 edmg        (Cruel)            [56]    Essential
+//* 1 %ar/level        (Visionary)        [25]    Desirable
+//* 16.5ar 0.5max pr. lvl    (Fool's)        [50]    Very desirable
+//* 0.75max pr. lvl    (Grinding)        [50]    Very desirable
+//* 101-150ed, 151-250ar    (Master's)        [56]    Very desirable
+//* 81-100ed, 121-150ar    (King''s)        [56]    (Desirable)
+//* 2 skills        (*)            [50/65]    Very desirable
+//* 2 skill tree        (*)            [40]    Very desirable
+//* 2 sockets        (Mechanic's)        [10]    Very desirable
+// 
+//Suffixes:
+//* 15-20 mindmg        (Transcendence)        [76]    Desirable
+//* 15-20 maxdmg        (Slaughter)        [25]    Desirable
+//* 6-9 ll        (Lamprey)        [20/55]    Desirable
+//* 6-9 ml        (Vampire)        [21/56]    Desirable
+//* 40 ias        (Quickness)        [46]    Very desirable
+//* 30 ias        (Swiftness)        [34]    (Desirable)
+//* 20 ias        (Alacrity)        [25]    (Desirable)
+//* Repair        (*)            [3/20]    Desirable
+//* Replenish quantity    (*)            [5/24]    Very desirable
+// 
+// 
+//8.2 Magic weapons:
+// 
+//Even with perfect affixes, these don't trade for much.
+// 
+// 
+//9.1 Rare shields:
+// 
+//Even with perfect affixes, these don't trade for much.
+// 
+// 
+//9.2 Magic shields:
+// 
+//Prefixes
+//* 4 sockets        (Jeweler's)        [55]    Essential
+// 
+//Suffixes
+//* 20/30 block/fbr    (Deflecting)        [11]    Very desirable
+//* 8-15 pdr        (Amicae)        [51]    Very desirable
+// 
+// 
+//10.1 Rare jewels:
+// 
+//NOTE: A jewel with two of the max damage affixes will not show two affixes
+//on screen, but combine the two to one, adding them up. Similarly a jewel with
+//two min damage affixes will combine the two. Furthermore if a jewel has both min
+//and max affixes, it will in some cases (min <= max) show up as a single affix.
+//A jewel with Crimson(5) and Carmine(8) will display "Adds 5 to 8 damage".
+//A jewel with Crimson(5) and Bliss(5) will display "Adds 5 damage".
+//Thus you may have a rare jewel with 4 affixes displaying only one.
+// 
+//Prefixes
+//* 5-8 min dmg        (Crimson)        [38]    Desirable
+//* 6-9 max dmg        (Carmine)        [35]    Desirable
+//* 21-30 edmg        (Realgar)        [45]    Very desirable
+//* 41-60 ar        (Silver)        [25]    Desirable
+//* 11-15 mana        (Jacinth)        [17]    Desirable
+//* 5-10 all res        (Shimmering)        [16]    Very desirable
+//* 16-30 one res        (*)            [19]    Desirable
+// 
+//Suffixes
+//* 6-9 max dmg        (Wrath)            [11]    Desirable
+//* 5-10 min dmg        (Bliss)            [43]    Desirable
+//* 7 fhr            (Truth)            [44]    Very desirable
+//* 3-8 life        (Spirit)        [ 1]    Desirable
+//* -15 req        (Freedom)        [ 1]    Very desirable
+//* 1-9 dex        (Daring)        [36]    Very desirable
+//* 1-9 energy        (Knowledge)        [41]    Desirable
+//* 1-9 str        (Virility)        [50]    Very desirable
+// 
+// 
+//10.2 Magic jewels:
+// 
+//NOTE: A jewel with a very desirable prefix and a very desirable suffix
+//will hold a great value when traded. A jewel with a very desirable prefix only
+//will hold some value, whereas a jewel with only a very desirable suffix will
+//hold a rather small value.
+//The reason Vermillion is 'Desirable' and Carnage 'Very desirable' comes from
+//the fact, that Vermillion is a prefix and has much higher level requirement
+//then Carnage.
+// 
+//Prefixes
+//* 11-15 max dmg        (Vermilion)        [58]    Desirable
+//* 31-40 edmg        (Ruby)            [66]    Very desirable
+//* 16-20 mana        (Turquoise)        [29]    Desirable
+//* 11-15 all res        (Scintillating)        [34]    Very desirable
+// 
+//Suffixes
+//* 15 ias        (Fervor)        [39]    Very desirable
+//* 11-15 max        (Carnage)        [25]    Very desirable
+//* 9-20 life        (Hope)            [45]    Desirable
+// 
+// 
+//11.1 Magic grand charms:
+// 
+//NOTE: Grand charms with the high Vita suffix (41-45 life) have an ilvl
+//of +91 (alvl = ilvl because qlvl = 1) and can only be found by Hell Baal,
+//Hell Diablo and Hell Nihlathak. A vita suffix of 41-45 life can thus be counted
+//as proof, that a Grand charm has ilvl +91 (also known as a Baal Grand charm).
+// 
+//Prefixes
+//* 7-10 max/49-76 ar    (Sharp)            [29]    Very desirable
+//* 53-59 mana        (Serpent's)        [49]    Desirable
+//* 13-15 all res        (Shimmering)        [35]    Very desirable
+//* 26-30 one res        (*)            [30]    Desirable
+//* 1 skill tree        (*)            [50]    Very desirable
+// 
+//Suffixes
+//* 3-4 max dmg        (Maiming)        [71]    Desirable (Very desirable with Sharp prefix)
+//* 5-6 dex        (Dexterity)        [14]    Desirable
+//* 12 fhr        (Balance)        [ 1]    Desirable
+//* 31-40 gf        (Greed)            [19]    Desirable
+//* 5-10 life        (Life)            [ 1]    (Desirable)
+//* 11-15 life        (Life)            [ 9]    (Desirable)
+//* 15-20 life        (Life)            [19]    (Desirable)
+//* 21-25 life        (Sustenance)        [31]    (Desirable)
+//* 26-30 life        (Sustenance)        [45]    (Desirable)
+//* 31-35 life        (Sustenance)        [61]    (Desirable)
+//* 36-40 life        (Vita)            [77]    (Desirable)
+//* 41-45 life        (Vita)            [91]    Very Desirable
+//* 5-6 str        (Strength)        [14]    Desirable
+//* 7 frw            (Inertia)        [19]    Desirable
+// 
+// 
+//11.2 Magic large charms:
+// 
+//NOTE: Large charms are generally not as sought after as Small and Grand
+//charms. This is due to the fact, that almost any combination of affixes can be
+//found better on these other types of charms (per inventory space). The only
+//exception being 5 str/dex Large charms.
+// 
+//Prefixes
+//* 4-6 max dmg/21-48 ar    (Sharp)            [28]    Very desirable
+//* 30-34 mana        (Serpent's)        [49]    Desirable
+//* 6-8 all res        (Shimmering)        [34]    Very desirable
+//* 13-15 one res        (*)            [35]    Desirable
+// 
+//Suffixes
+//* 2 max dmg        (Quality)        [56]    Desirable (Very desirable with Sharp prefix)
+//* 4-5 dex        (Dexterity)        [18]    Very desirable
+//* 8 fhr            (Balance)        [19]    Desirable
+//* 6-10 life        (Life)            [ 1]    (Desirable)
+//* 11-15 life        (Life)            [12]    (Desirable)
+//* 16-20 life        (Sustenance)        [26]    (Desirable)
+//* 21-25 life        (Sustenance)        [42]    (Desirable)
+//* 26-30 life        (Vita)            [58]    (Desirable)
+//* 31-35 life        (Vita)            [74]    Very desirable
+//* 4-5 str        (Strength)        [18]    Very desirable
+//* 5 frw            (Inertia)        [24]    Desirable
+// 
+// 
+//11.3 Magic small charms:
+// 
+//NOTE: Small charms can be some of the most valuable items both to trade and
+//use. The most sought after include 3 max/20 ar/20 life, 4 max/20 ar, 17 mana/20 life,
+//17 mana/5 fhr, 17 mana/7 mf, 5@/20 life, 5@/7mf, 11 one res/7 mf, 11 one res/20 life.
+// 
+//Prefixes
+//* 25-36 ar        (Steel)            [57]    Desirable
+//* 1-3 max dmg/10-20 ar    (Fine)            [28]    Very desirable
+//* 13-17 mana        (Serpent's)        [48]    Very desirable
+//* 3-5 all res        (Shimmering)        [33]    Very desirable
+//* 10-11 one res        (*)            [40]    Very desirable (fire>lightning>cold>poison)
+//* 100 pdmg/5 secs    (Toxic)            [63]    (Desirable) {most usefull when combined with a poison suffix}
+//* 175 pdmg/6 secs    (Pestilent)        [88]    Desirable   {most usefull when combined with a poison suffix}
+// 
+//Suffixes
+//* 1 max dmg        (Craftmanship)        [85]    Desirable (Very desirable with Fine prefix)
+//* 5 fhr            (Balance)        [37]    Very desirable
+//* 5-10 gf        (Greed)            [ 1]    Desirable
+//* 6-7 mf        (Good luck)        [47]    Very desirable
+//* 5-10 life        (Life)            [ 1]    (Desirable)
+//* 11-15 life        (Sustenance)        [23]    (Desirable)
+//* 16-20 life        (Vita)            [47]    Very desirable
+//* 2 str            (Strength)        [22]    Desirable
+//* 2 dex            (Dexterity)        [22]    Desirable
+//* 3 frw            (Inertia)        [35]    Desirable
+//* 25 pdmg/5 secs    (Pestilence)        [32]    (Desirable) {most usefull when combined with a poison prefix}
+//* 50 pdmg/6 secs    (Anthrax)        [44]    Desirable   {most usefull when combined with a poison prefix}
