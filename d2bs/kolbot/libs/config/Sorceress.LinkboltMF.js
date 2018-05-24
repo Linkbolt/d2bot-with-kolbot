@@ -39,13 +39,13 @@ function LoadConfig() {
 	Scripts.Coldcrow = false;
 	Scripts.Tristram = false;
 		Config.Tristram.PortalLeech = false; // Set to true to open a portal for leechers.
-	Scripts.Pit = false;
+	Scripts.Pit = true;
 		Config.Pit.ClearPit1 = true;
 	Scripts.Treehead = false;
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
-	Scripts.Countess = false;
-		Config.Countess.KillGhosts = false;
+	Scripts.Countess = true;
+		Config.Countess.KillGhosts = true;
 	Scripts.Andariel = true;
 	Scripts.Cows = false;
 
@@ -57,7 +57,7 @@ function LoadConfig() {
 	Scripts.AncientTunnels = true;
 		Config.AncientTunnels.OpenChest = true; // Open special chest in Lost City
 		Config.AncientTunnels.KillDarkElder = true;
-	Scripts.Summoner = false;
+	Scripts.Summoner = true;
 		Config.Summoner.FireEye = false;
 	Scripts.Tombs = false;
 	Scripts.Duriel = false;
@@ -81,11 +81,11 @@ function LoadConfig() {
 	Scripts.Vizier = false; // Intended for classic sorc, kills Vizier only.
 	Scripts.FastDiablo = false;
 	Scripts.Diablo = false;
-		Config.Diablo.Entrance = true; // Start from entrance
-		Config.Diablo.SealWarning = "Leave the seals alone!";
-		Config.Diablo.EntranceTP = "Entrance TP up";
-		Config.Diablo.StarTP = "Star TP up";
-		Config.Diablo.DiabloMsg = "Diablo";
+		Config.Diablo.Entrance = false; // Start from entrance
+		//Config.Diablo.SealWarning = "Leave the seals alone!";
+		//Config.Diablo.EntranceTP = "Entrance TP up";
+		//Config.Diablo.StarTP = "Star TP up";
+		//Config.Diablo.DiabloMsg = "Diablo";
 	Scripts.SealLeader = false; // Clear a safe spot around seals and invite leechers in. Leechers should run SealLeecher script. Don't run with Diablo or FastDiablo.
 
 	// *** act 5 ***
@@ -110,7 +110,7 @@ function LoadConfig() {
 	Scripts.Snapchip = false;
 		Config.Snapchip.ClearIcyCellar = true;
 	Scripts.Worldstone = false;
-	Scripts.Baal = false;
+	Scripts.Baal = true;
 		Config.Baal.HotTPMessage = "Hot TP!";
 		Config.Baal.SafeTPMessage = "Safe TP!";
 		Config.Baal.BaalMessage = "Baal!";
@@ -194,9 +194,9 @@ function LoadConfig() {
 		Config.ShopBot.CycleDelay = 0; // Delay between shopping cycles in milliseconds, might help with crashes.
 		Config.ShopBot.QuitOnMatch = false; // Leave game as soon as an item is shopped.
 	Scripts.ChestMania = true; // Open chests in configured areas. See sdk/areas.txt
-		Config.ChestMania.Act2 = [74]; // List of act 2 areas to open chests in
+		//Config.ChestMania.Act2 = [74]; // List of act 2 areas to open chests in
 		Config.ChestMania.Act3 = [79, 80, 81, 82, 83, 93]; // List of act 3 areas to open chests in
-		Config.ChestMania.Act4 = [107];
+		//Config.ChestMania.Act4 = [107];
 		Config.ChestMania.Act5 = [125, 126, 127]; // List of act 5 areas to open chests in
 		
 		//Config.ChestMania.Act1 = [13, 14, 15, 16, 18, 19]; // List of act 1 areas to open chests in
@@ -233,10 +233,10 @@ function LoadConfig() {
 	Config.HealMP = 5; // Go to a healer if under designated percent of mana.
 	Config.HealStatus = false; // Go to a healer if poisoned or cursed
 	Config.UseMerc = true; // Use merc. This is ignored and always false in d2classic.
-	Config.MercWatch = false; // Instant merc revive during battle.
+	Config.MercWatch = true; // Instant merc revive during battle.
 
 	// Potion settings
-	Config.UseHP = 75; // Drink a healing potion if life is under designated percent.
+	Config.UseHP = 90; // Drink a healing potion if life is under designated percent.
 	Config.UseRejuvHP = 30;  // Drink a rejuvenation potion if life is under designated percent.
 	Config.UseMP = 50; // Drink a mana potion if mana is under designated percent.
 	Config.UseRejuvMP = 25; // Drink a rejuvenation potion if mana is under designated percent.
@@ -250,8 +250,8 @@ function LoadConfig() {
 	Config.LifeChicken = 15; // Exit game if life is less or equal to designated percent.
 	Config.ManaChicken = 0; // Exit game if mana is less or equal to designated percent.
 	Config.MercChicken = 0; // Exit game if merc's life is less or equal to designated percent.
-	Config.TownHP = 30; // Go to town if life is under designated percent.
-	Config.TownMP = 5; // Go to town if mana is under designated percent.
+	Config.TownHP = 0; // Go to town if life is under designated percent.
+	Config.TownMP = 0; // Go to town if mana is under designated percent.
 
 	/* Inventory lock configuration. !!!READ CAREFULLY!!!
 	 * 0 = item is locked and won't be moved. If item occupies more than one slot, ALL of those slots must be set to 0 to lock it in place.
@@ -262,7 +262,7 @@ function LoadConfig() {
 	Config.Inventory[0] = [1,1,1,1,1,1,1,0,0,0];
 	Config.Inventory[1] = [1,1,1,1,1,1,1,0,0,0];
 	Config.Inventory[2] = [1,1,1,1,1,1,1,0,0,0];
-	Config.Inventory[3] = [1,1,1,1,1,1,1,0,0,0];
+	Config.Inventory[3] = [1,1,1,1,1,1,0,0,0,0];
 
 	Config.StashGold = 100000; // Minimum amount of gold to stash.
 
@@ -271,15 +271,15 @@ function LoadConfig() {
 	 * Supported potions - Healing ("hp"), Mana ("mp") and Rejuvenation ("rv")
 	 */
 	Config.BeltColumn[0] = "hp";
-	Config.BeltColumn[1] = "mp";
+	Config.BeltColumn[1] = "rv";
 	Config.BeltColumn[2] = "rv";
 	Config.BeltColumn[3] = "rv";
 
 	/* Minimum amount of potions. If we have less, go to vendor to purchase more.
 	 * Set rejuvenation columns to 0, because they can't be bought.
 	 */
-	Config.MinColumn[0] = 3;
-	Config.MinColumn[1] = 3;
+	Config.MinColumn[0] = 4;
+	Config.MinColumn[1] = 0;
 	Config.MinColumn[2] = 0;
 	Config.MinColumn[3] = 0;
 
@@ -289,6 +289,12 @@ function LoadConfig() {
 	Config.PickitFiles.push("LinkMagicRare.nip");
 	Config.PickitFiles.push("LinkSockets.nip");
 	Config.PickitFiles.push("LinkMisc.nip");
+	
+	Config.PickitFiles.push("DubCharms.nip");
+	Config.PickitFiles.push("DubMagic.nip");
+	Config.PickitFiles.push("DubRare.nip");
+	Config.PickitFiles.push("DubUnique.nip");
+	Config.PickitFiles.push("DubWhite.nip");
 	
 	Config.PickitFiles.push("kolton.nip");
 	Config.PickitFiles.push("LLD.nip");
@@ -405,7 +411,7 @@ function LoadConfig() {
 	Config.LastMessage = ""; // Message or array of messages to say at the end of the run. Use $nextgame to say next game - "Next game: $nextgame" (works with lead entry point)
 	Config.MinGameTime = 300; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
 	Config.MaxGameTime = 1800; // Maximum game time in seconds. Quit game when limit is reached.
-	Config.TeleSwitch = true; // Switch to slot II when teleporting more than 1 node.
+	Config.TeleSwitch = false; // Switch to slot II when teleporting more than 1 node.
 	Config.OpenChests = true; // Open chests. Controls key buying.
 	Config.MiniShopBot = false; // Scan items in NPC shops.
 	Config.PacketShopping = false; // Use packets to shop. Improves shopping speed.
@@ -445,7 +451,7 @@ function LoadConfig() {
 	// Monster skip config
 	// Skip immune monsters. Possible options: "fire", "cold", "lightning", "poison", "physical", "magic".
 	// You can combine multiple resists with "and", for example - "fire and cold", "physical and cold and poison"
-	Config.SkipImmune = ["Cold"];
+	Config.SkipImmune = ["Fire and Cold"];
 	// Skip enchanted monsters. Possible options: "extra strong", "extra fast", "cursed", "magic resistant", "fire enchanted", "lightning enchanted", "cold enchanted", "mana burn", "teleportation", "spectral hit", "stone skin", "multiple shots".
 	// You can combine multiple enchantments with "and", for example - "cursed and extra fast", "mana burn and extra strong and lightning enchanted"
 	Config.SkipEnchant = [];
@@ -456,17 +462,28 @@ function LoadConfig() {
 	 * To disable an attack, set it to -1
 	 * Skills MUST be POSITIVE numbers. For reference see http://pastebin.com/baShRwWM
 	 */
+	// Frozen Orb + Fire Wall
 	Config.AttackSkill[0] = 55; // Preattack skill.
-	Config.AttackSkill[1] = 59; // Primary skill to bosses.
+	Config.AttackSkill[1] = 64; // Primary skill to bosses.
 	Config.AttackSkill[2] = 55; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
-	Config.AttackSkill[3] = 59; // Primary skill to others.
+	Config.AttackSkill[3] = 64; // Primary skill to others.
 	Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
-	Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
-	Config.AttackSkill[6] = -1; // Secondary untimed skill if monster is immune to primary untimed.
+	
+	Config.AttackSkill[5] = 51; // Secondary skill if monster is immune to primary.
+	Config.AttackSkill[6] = 42; // Secondary untimed skill if monster is immune to primary untimed.
+	
+	// Blizzard
+	//Config.AttackSkill[0] = 55; // Preattack skill.
+	//Config.AttackSkill[1] = 59; // Primary skill to bosses.
+	//Config.AttackSkill[2] = 55; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
+	//Config.AttackSkill[3] = 59; // Primary skill to others.
+	//Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
+	//Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
+	//Config.AttackSkill[6] = -1; // Secondary untimed skill if monster is immune to primary untimed.
 
 	// Low mana skills - these will be used if main skills can't be cast.
 	Config.LowManaSkill[0] = -1; // Timed low mana skill.
-	Config.LowManaSkill[1] = -1; // Untimed low mana skill.
+	Config.LowManaSkill[1] = -1; // Untimed low mana skill.	
 
 	/* Advanced Attack config. Allows custom skills to be used on custom monsters.
 	 *	Format: "Monster Name": [timed skill id, untimed skill id]
@@ -482,7 +499,7 @@ function LoadConfig() {
 	Config.DodgeHP = 100; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = false; // Set to true to attack Unique/SuperUnique monsters first when clearing
 	Config.ClearType = 0xF; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
-	Config.TeleStomp = false; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
+	Config.TeleStomp = true; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
 
 	// Wereform setup. Make sure you read Templates/Attacks.txt for attack skill format.
 	Config.Wereform = false; // 0 / false - don't shapeshift, 1 / "Werewolf" - change to werewolf, 2 / "Werebear" - change to werebear

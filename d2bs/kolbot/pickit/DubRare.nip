@@ -161,11 +161,11 @@
 [Name] == ShadowBow && [Quality] == rare # ([EnhancedDamage] >= 400 || [EnhancedDamage] >= 350 && [Sockets] == 2) && [ItemLevelReq] <= 49 
 [Name] == SpiderBow && [Quality] == rare # [EnhancedDamage] >= 400 && ([Ias] == 20 || [Sockets] == 2) && [ItemLevelReq] <= 49
 // LEVEL < 30
-[Name] == RazorBow && [Quality] == rare # [EnhancedDamage] >= 80 && [IAS] >= 20 && ([Description] == "amplify damage" || [Sockets] == 2) && [ItemLevelReq] <= 30
-[Name] == CedarBow && [Quality] == rare # [EnhancedDamage] >= 80 && [IAS] >= 20 && ([Description] == "amplify damage" || [Sockets] == 2) && [ItemLevelReq] <= 30
-[Name] == DoubleBow && [Quality] == rare # [EnhancedDamage] >= 80 && [IAS] >= 20 && ([Description] == "amplify damage" || [Sockets] == 2) && [ItemLevelReq] <= 30
-[Name] == RuneBow && [Quality] == rare # [EnhancedDamage] >= 80 && [IAS] >= 20 && ([Description] == "amplify damage" || [Sockets] == 2) && [ItemLevelReq] <= 30
-[Name] == EdgeBow && [Quality] == rare # [IAS] == 20 && [Sockets] == 2 && [Description] == "amplify damage" && [ItemLevelReq] <= 18
+[Name] == RazorBow && [Quality] == rare # [EnhancedDamage] >= 80 && [IAS] >= 20 && [Sockets] == 2 && [ItemLevelReq] <= 30
+[Name] == CedarBow && [Quality] == rare # [EnhancedDamage] >= 80 && [IAS] >= 20 && [Sockets] == 2 && [ItemLevelReq] <= 30
+[Name] == DoubleBow && [Quality] == rare # [EnhancedDamage] >= 80 && [IAS] >= 20 && [Sockets] == 2 && [ItemLevelReq] <= 30
+[Name] == RuneBow && [Quality] == rare # [EnhancedDamage] >= 80 && [IAS] >= 20 && [Sockets] == 2 && [ItemLevelReq] <= 30
+[Name] == EdgeBow && [Quality] == rare # [IAS] == 20 && [Sockets] == 2 && [ItemLevelReq] <= 18
 
 
 // ### RARE DAGGERS ###
@@ -407,7 +407,7 @@
 [Name] == HighlandBlade && [Quality] == Rare && [Flag] == Ethereal # [IAS] >= 20 && ([EnhancedDamage] >= 325 || [EnhancedDamage] >= 250 && [ItemMaxDamagePerLevel] >= 4 && [ItemToHitPerLevel] >= 33) && [ItemReplenishDurability] >= 1 && [ItemLevelReq] <= 49
 [Name] == Falcata && [Quality] == Rare && [Flag] == Ethereal # ([EnhancedDamage] >= 400 || [EnhancedDamage] >= 275 && [ItemMaxDamagePerLevel] >= 4 && [ItemToHitPerLevel] >= 33) && [ItemReplenishDurability] >= 1 && [ItemLevelReq] <= 49
 // LEVEL < 30
-[Name] == Cutlass && [Quality] == Rare # [IAS] >= 30 && [Description] == "amplify damage" && [Sockets] == 2 && [ItemLevelReq] <= 30
+[Name] == Cutlass && [Quality] == Rare # [IAS] >= 30 && [Sockets] == 2 && [ItemLevelReq] <= 30
 [Name] == RuneSword && [Quality] == Rare && [Flag] == Ethereal # [IAS] >= 30 && [EnhancedDamage] >= 100 && [ItemReplenishDurability] >= 1 && [ItemLevelReq] <= 30
 [Name] == Zweihander && [Quality] == Rare && [Flag] == Ethereal # [IAS] >= 30 && [EnhancedDamage] >= 100 && [ItemReplenishDurability] >= 1 && [ItemLevelReq] <= 30
 // LEVEL < 18
@@ -422,18 +422,18 @@
 
 // ### RARE AMAZON WEAPONS ###
 // NORMAL
-[Name] == StagBow && [Quality] == Rare # [IAS] == 20 && [EnhancedDamage] >= 400 && ([Sockets] == 2 || [Description] == "amplify damage")
-[Name] == ReflexBow && [Quality] == Rare # [IAS] == 20 && [EnhancedDamage] >= 400 && ([Sockets] == 2 || [Description] == "amplify damage")
+[Name] == StagBow && [Quality] == Rare # [IAS] == 20 && [EnhancedDamage] >= 400 && [Sockets] == 2
+[Name] == ReflexBow && [Quality] == Rare # [IAS] == 20 && [EnhancedDamage] >= 400 && [Sockets] == 2
 [Name] == MaidenJavelin && [Quality] == Rare && [Flag] == Ethereal # ([EnhancedDamage] >= 400 || [EnhancedDamage] >= 275 && [ItemMaxDamagePerLevel] >= 4 && [ItemToHitPerLevel] >= 33) && [ItemReplenishQuantity] >= 1
 [Name] == MaidenJavelin && [Quality] == Rare # [AmazonSkills]+[JavelinAndSpearSkillTab] >= 4 && [IAS] == 40 && [ItemReplenishQuantity] >= 1
 // EXCEPTIONAL
-[Name] == AshwoodBow && [Quality] == Rare # [IAS] == 20 && [EnhancedDamage] >= 400 && ([Sockets] == 2 || [Description] == "amplify damage")
-[Name] == CeremonialBow && [Quality] == Rare # [IAS] == 20 && [EnhancedDamage] >= 400 && ([Sockets] == 2 || [Description] == "amplify damage")
+[Name] == AshwoodBow && [Quality] == Rare # [IAS] == 20 && [EnhancedDamage] >= 400 && [Sockets] == 2
+[Name] == CeremonialBow && [Quality] == Rare # [IAS] == 20 && [EnhancedDamage] >= 400 && [Sockets] == 2
 [Name] == CeremonialJavelin && [Quality] == Rare && [Flag] == Ethereal # ([EnhancedDamage] >= 400 || [EnhancedDamage] >= 275 && [ItemMaxDamagePerLevel] >= 4 && [ItemToHitPerLevel] >= 33) && [ItemReplenishQuantity] >= 1
 [Name] == CeremonialJavelin && [Quality] == Rare # [AmazonSkills]+[JavelinAndSpearSkillTab] >= 4 && [IAS] == 40 && [ItemReplenishQuantity] >= 1
 // ELITE
-[Name] == MatriarchalBow && [Quality] == Rare # [IAS] == 20 && [EnhancedDamage] >= 400 && ([Sockets] == 2 || [Description] == "amplify damage")
-[Name] == GrandMatronBow && [Quality] == Rare # [IAS] == 20 && [EnhancedDamage] >= 400 && ([Sockets] == 2 || [Description] == "amplify damage")
+[Name] == MatriarchalBow && [Quality] == Rare # [IAS] == 20 && [EnhancedDamage] >= 400 && [Sockets] == 2
+[Name] == GrandMatronBow && [Quality] == Rare # [IAS] == 20 && [EnhancedDamage] >= 400 && [Sockets] == 2
 [Name] == MatriarchalJavelin && [Quality] == Rare && [Flag] == Ethereal # ([EnhancedDamage] >= 400 || [EnhancedDamage] >= 275 && [ItemMaxDamagePerLevel] >= 4 && [ItemToHitPerLevel] >= 33) && [ItemReplenishQuantity] >= 1
 [Name] == MatriarchalJavelin && [Quality] == Rare # [AmazonSkills]+[JavelinAndSpearSkillTab] >= 4 && [IAS] == 40 && [ItemReplenishQuantity] >= 1
 // LEVEL < 49
@@ -441,10 +441,10 @@
 [Name] == MatriarchalBow && [Quality] == Rare # [IAS] == 20 && [EnhancedDamage] >= 375 && [ItemLevelReq] <= 49
 // LEVEL < 30
 [Name] == MaidenJavelin && [Quality] == Rare # [AmazonSkills]+[JavelinAndSpearSkillTab] >= 4 && [IAS] == 30 && ([ItemReplenishQuantity] >= 1 || [ItemKnockback] >= 1) && [ItemLevelReq] <= 30
-[Name] == AshwoodBow && [Quality] == rare # [IAS] == 20 && [EnhancedDamage] >= 100 && ([Description] == "amplify damage" || [Sockets] == 2) && [ItemLevelReq] <= 30
+[Name] == AshwoodBow && [Quality] == rare # [IAS] == 20 && [EnhancedDamage] >= 100 && [Sockets] == 2 && [ItemLevelReq] <= 30
 [Name] == CeremonialJavelin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 100 && [ItemReplenishQuantity] >= 1 && [ItemLevelReq] <= 30
 // LEVEL < 18
-[Name] == StagBow && [QUality] == rare # [IAS] == 20 && [Sockets] == 2 && [Description] == "amplify damage" && [ItemLevelReq] <= 18
+[Name] == StagBow && [QUality] == rare # [IAS] == 20 && [Sockets] == 2 && [ItemLevelReq] <= 18
 
 
 // ### RARE CLAWS ###
@@ -614,8 +614,8 @@
 
 
 
-[Type] == Staff && [Class] <= Exceptional && [Quality] == Rare # [Description] == "level 5 teleport" && [FCR] == 20 && [ItemLevelReq] <= 30
-[Type] == Staff && [Class] <= Exceptional && [Quality] == Rare # [Description] == "level 4 teleport" && [FCR] == 20 && [ItemLevelReq] <= 30
+[Type] == Staff && [Class] <= Exceptional && [Quality] == Rare # [FCR] == 20 && [ItemLevelReq] <= 30
+[Type] == Staff && [Class] <= Exceptional && [Quality] == Rare # [FCR] == 20 && [ItemLevelReq] <= 30
 
 [Type] == Weapon && [Quality] == Rare && [Flag] == Ethereal # [EnhancedDamage] >= 400 && [Sockets] == 2
 [Type] == Weapon && [Quality] == Rare && [Flag] == Ethereal # [EnhancedDamage] >= 250 && [ItemMaxDamagePerLevel] >= 4 && [ItemToHitPerLevel] >= 33 && [Sockets] == 2

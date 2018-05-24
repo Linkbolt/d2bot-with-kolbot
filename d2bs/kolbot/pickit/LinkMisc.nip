@@ -38,7 +38,7 @@
 //[name] == ralrune # # [maxquantity] == 2
 //[name] == ortrune # # [maxquantity] == 2
 //[name] == thulrune # # [maxquantity] == 5
-//[name] == amnrune # # [maxquantity] == 3
+[name] == amnrune # # [maxquantity] == 3
 //[name] == solrune # # [maxquantity] == 1
 //[name] == shaelrune # # [maxquantity] == 3
 //[name] == dolrune # # [maxquantity] == 1
@@ -73,15 +73,15 @@
 
 // ##### flawed ###########################
 //[name] == flawedemerald # # [maxquantity] == 1
-[name] == flawedamethyst # # [maxquantity] == 1
-[name] == flawedtopaz # # [maxquantity] == 2
+//[name] == flawedamethyst # # [maxquantity] == 1
+//[name] == flawedtopaz # # [maxquantity] == 2
 //[name] == flaweddiamond # # [maxquantity] == 2
-[name] == flawedsapphire # # [maxquantity] == 1
-[name] == flawedruby # # [maxquantity] == 1
+//[name] == flawedsapphire # # [maxquantity] == 1
+//[name] == flawedruby # # [maxquantity] == 1
 //[name] == flawedskull # # [maxquantity] == 2
 
 // ##### normal ###########################
-[name] == topaz # # [maxquantity] == 1
+//[name] == topaz # # [maxquantity] == 1
 //[name] == diamond # # [maxquantity] == 1
 //[name] == emerald # # [maxquantity] == 1
 //[name] == amethyst # # [maxquantity] == 2
@@ -151,8 +151,8 @@
 [name] == keyofhate # # [maxquantity] == 3
 [name] == keyofterror # # [maxquantity] == 3
 [name] == keyofdestruction # # [maxquantity] == 3
-[name] == twistedessenceofsuffering # # [maxquantity] == 3
-[name] == chargedessenceofhatred # # [maxquantity] == 3
+//[name] == twistedessenceofsuffering # # [maxquantity] == 3
+//[name] == chargedessenceofhatred # # [maxquantity] == 3
 [name] == burningessenceofterror # # [maxquantity] == 3
 [name] == festeringessenceofdestruction # # [maxquantity] == 3
 [name] == tokenofabsolution

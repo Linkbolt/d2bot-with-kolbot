@@ -125,11 +125,11 @@
 // #################################################################################################################################################
 // ##### 1- Tal Rasha's Wrappings ##################################################################################################################
 // #################################################################################################################################################
-[Name] == SwirlingCrystal && [Quality] == set # [skilllightningmastery] == 2 &&  [SkillLightningMastery] == 2 && [SkillFireMastery] == 2// Tal Rasha's Lidless Eye
+[Name] == SwirlingCrystal && [Quality] == set # [skillcoldmastery] == 2 && [SkillFireMastery] == 2 //&& [SkillLightningMastery] == 2 // Tal Rasha's Lidless Eye
 //[Name] == DeathMask && [Quality] == set # [Defense] >= 131 // Tal Rasha's Horadric Crest
 [Name] == LacqueredPlate && [Quality] == set// # [Defense] >= 941 // Tal Rasha's Guardianship
 [Type] == Amulet && [Quality] == set # [SorceressSkills] == 2 // Tal Rasha's Adjucation
-[Name] == MeshBelt && [Quality] == set// # [ItemMagicBonus] >= 15 && [Defense] >= 40 // Tal Rasha's Fine-Spun Cloth
+[Name] == MeshBelt && [Quality] == set # [ItemMagicBonus] >= 15 //&& [Defense] >= 40 // Tal Rasha's Fine-Spun Cloth
 
 
 

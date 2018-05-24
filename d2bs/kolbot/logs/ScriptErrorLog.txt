@@ -319,3 +319,106 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 [09:19:21] <LinkboltMF> Pickit error! Line # 22 Entry: [name] == duskshroud [Quality] == Superior && [Flag] != Ethereal # ([Sockets] == 0 || [Sockets] == 4) // Chains of honor (LinkSockets.nip) Error message: identifier starts immediately after numeric literal Trigger item: Wrist Sword
 [09:26:20] <LinkboltMF> Pickit error! Line # 21 Entry: [name] == duskshroud [Quality] == Superior && [Flag] != Ethereal # ([Sockets] == 0 || [Sockets] == 3) // Enigma (LinkSockets.nip) Error message: identifier starts immediately after numeric literal Trigger item: Fanged Helm
 [09:26:20] <LinkboltMF> Pickit error! Line # 22 Entry: [name] == duskshroud [Quality] == Superior && [Flag] != Ethereal # ([Sockets] == 0 || [Sockets] == 4) // Chains of honor (LinkSockets.nip) Error message: identifier starts immediately after numeric literal Trigger item: Fanged Helm
+[08:42:53] <LinkboltMF> Error in ChestMania (town.js line 2160): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:19, Town.doChores@town.js:66, Town.goToTown@town.js:2160
+[22:57:52] <LinkboltMF> NIP file doesn't exist: pickit/DubCharms
+[22:57:52] <LinkboltMF> NIP file doesn't exist: pickit/DubMagic
+[22:57:52] <LinkboltMF> NIP file doesn't exist: pickit/DubRare
+[22:57:52] <LinkboltMF> NIP file doesn't exist: pickit/DubUnique
+[22:57:52] <LinkboltMF> NIP file doesn't exist: pickit/DubWhite
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 164
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 165
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 166
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 167
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 168
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 410
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 425
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 426
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 430
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 431
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 435
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 436
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 444
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 447
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 617
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 618
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 164
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 164
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 165
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 165
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 166
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 166
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 167
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 167
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 168
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 168
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 410
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 410
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 425
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 425
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 426
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 426
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 430
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 431
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 430
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 435
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 431
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 436
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 435
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 444
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 436
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 447
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 444
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 447
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 617
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 618
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 617
+[23:18:28] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 618
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 164
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 165
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 166
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 167
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 168
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 410
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 425
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 426
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 430
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 431
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 435
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 436
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 444
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 447
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 617
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 618
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 164
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 165
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 164
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 166
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 165
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 167
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 166
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 168
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 167
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 168
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 410
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 425
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 410
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 426
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 425
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 430
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 426
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 431
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 430
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 435
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 431
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 436
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 444
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 435
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 447
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 436
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 444
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 617
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 447
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 618
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 617
+[23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 618
