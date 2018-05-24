@@ -731,7 +731,7 @@
 // --set items--
 
 // --tal rasha's--
-[name] == swirlingcrystal && [quality] == set # # [maxquantity] == 1
+//[name] == swirlingcrystal && [quality] == set # # [maxquantity] == 1
 [name] == deathmask && [quality] == set # [defense] == 131
 [name] == lacqueredplate && [quality] == set # [defense] == 541
 [name] == amulet && [quality] == set # [lightresist] == 33

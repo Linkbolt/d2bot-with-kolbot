@@ -87,7 +87,7 @@
 // #################################################################################################################################################
 // ##### 1- Griswold's Legacy ######################################################################################################################
 // #################################################################################################################################################
-[Name] == OrnatePlate && [Quality] == set # [Defense] >= 920 // Griswold's Heart
+[Name] == OrnatePlate && [Quality] == set # [Defense] >= 950 // Griswold's Heart
 [Name] == Corona && [Quality] == set # [EnhancedDefense] >= 55 // Griswold's Valor
 //[Name] == Caduceus && [Quality] == set # [Sockets] >= 3 && [EnhancedDamage] >= 200 // Griswold's Redemption
 [Name] == VortexShield && [Quality] == set # [Defense] >= 290 // Griswold's Honor
@@ -113,7 +113,7 @@
 // #################################################################################################################################################
 // ##### 1- Orphan's Call ##########################################################################################################################
 // #################################################################################################################################################
-[Name] == WingedHelm && [Quality] == set // Guillaume's Face
+[Name] == WingedHelm && [Quality] == set # [defense] >= 217 // Guillaume's Face
 //[Name] == RoundShield && [Quality] == set // Whistan's Guard
 //[Name] == SharkskinGloves && [Quality] == set // Magnus' Skin
 //[Name] == BattleBelt && [Quality] == set // Wilhelm's Pride
@@ -142,4 +142,4 @@
 //[Name] == ChaosArmor && [Quality] == set // Trang-Oul's Scales
 //[Name] == CantorTrophy && [Quality] == set // Trang-Oul's Wing
 //[Name] == TrollBelt && [Quality] == set // Trang-Oul's Girth
-//[Name] == HeavyBracers && [Quality] == set // Trang-Oul's Claws
+[Name] == HeavyBracers && [Quality] == set # [defense] >= 74 // Trang-Oul's Claws

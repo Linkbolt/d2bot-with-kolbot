@@ -1,0 +1,343 @@
+// Made by Dubb @ d2etal.com
+
+// ### WHITE HELMS ###
+// NORMAL
+//[Name] == Crown && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+//[Name] == GreatHelm && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+//[Name] == Mask && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+// ELITE
+[Name] == BoneVisage && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+[Name] == Diadem && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+
+
+// ### WHITE BARB HELMS ###
+// NORMAL
+[Name] == AssaultHelmet && [Quality] <= Superior && [Flag] != Ethereal # [SkillConcentrate] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == AssaultHelmet && [Quality] <= Superior && [Flag] != Ethereal # [SkillConcentrate] >= 2 && ([SkillIronSkin] >= 2 || [SkillShout] >= 2) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == AssaultHelmet && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == AssaultHelmet && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] >= 2 && ([SkillBattleCommand] >= 1 || [SkillBattleOrders] >= 1 || [SkillIncreasedSpeed] >= 1 || [SkillNaturalResistance] >= 1) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == AvengerGuard && [Quality] <= Superior && [Flag] != Ethereal # [SkillConcentrate] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == AvengerGuard && [Quality] <= Superior && [Flag] != Ethereal # [SkillConcentrate] >= 2 && ([SkillIronSkin] >= 2 || [SkillShout] >= 2) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == AvengerGuard && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == AvengerGuard && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] >= 2 && ([SkillBattleCommand] >= 1 || [SkillBattleOrders] >= 1 || [SkillIncreasedSpeed] >= 1 || [SkillNaturalResistance] >= 1) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == FangedHelm && [Quality] <= Superior && [Flag] != Ethereal # [SkillBash] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 9
+[Name] == FangedHelm && [Quality] <= Superior && [Flag] != Ethereal # [SkillConcentrate] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == FangedHelm && [Quality] <= Superior && [Flag] != Ethereal # [SkillConcentrate] >= 2 && ([SkillIronSkin] >= 2 || [SkillShout] >= 2) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == FangedHelm && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == FangedHelm && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] >= 2 && ([SkillBattleCommand] >= 1 || [SkillBattleOrders] >= 1 || [SkillIncreasedSpeed] >= 1 || [SkillNaturalResistance] >= 1) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == HornedHelm && [Quality] <= Superior && [Flag] != Ethereal # [SkillConcentrate] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == HornedHelm && [Quality] <= Superior && [Flag] != Ethereal # [SkillConcentrate] >= 2 && ([SkillIronSkin] >= 2 || [SkillShout] >= 2) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == HornedHelm && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == HornedHelm && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] >= 2 && ([SkillBattleCommand] >= 1 || [SkillBattleOrders] >= 1 || [SkillIncreasedSpeed] >= 1 || [SkillNaturalResistance] >= 1) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == JawboneCap && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] >= 2 && ([SkillBattleCommand] >= 1 || [SkillBattleOrders] >= 1 || [SkillIncreasedSpeed] >= 1 || [SkillNaturalResistance] >= 1) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == JawboneCap && [Quality] <= Superior && [Flag] != Ethereal # [SkillBash] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 9
+[Name] == JawboneCap && [Quality] <= Superior && [Flag] != Ethereal # [SkillConcentrate] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == JawboneCap && [Quality] <= Superior && [Flag] != Ethereal # [SkillConcentrate] >= 2 && ([SkillIronSkin] >= 2 || [SkillShout] >= 2) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == JawboneCap && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+// EXCEPTIONAL
+[Name] == JawboneVisor && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == JawboneVisor && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] >= 2 && ([SkillBattleCommand] >= 1 || [SkillBattleOrders] >= 1 || [SkillIncreasedSpeed] >= 1 || [SkillNaturalResistance] >= 1) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == LionHelm && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == LionHelm && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] >= 2 && ([SkillBattleCommand] >= 1 || [SkillBattleOrders] >= 1 || [SkillIncreasedSpeed] >= 1 || [SkillNaturalResistance] >= 1) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == RageMask && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == RageMask && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] >= 2 && ([SkillBattleCommand] >= 1 || [SkillBattleOrders] >= 1 || [SkillIncreasedSpeed] >= 1 || [SkillNaturalResistance] >= 1) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == SavageHelmet && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == SavageHelmet && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] >= 2 && ([SkillBattleCommand] >= 1 || [SkillBattleOrders] >= 1 || [SkillIncreasedSpeed] >= 1 || [SkillNaturalResistance] >= 1) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == SlayerGuard && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == SlayerGuard && [Quality] <= Superior && [Flag] != Ethereal # [SkillWhirlwind] >= 2 && ([SkillBattleCommand] >= 1 || [SkillBattleOrders] >= 1 || [SkillIncreasedSpeed] >= 1 || [SkillNaturalResistance] >= 1) && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+
+
+// ### WHITE DRUID HELMS ###
+// NORMAL
+[Name] == Antlers && [Quality] <= Superior && [Flag] != Ethereal # [SkillFissure] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == Antlers && [Quality] <= Superior && [Flag] != Ethereal # [SkillFury] == 3 && [SkillHeartOfWolverine] >= 1 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == FalconMask && [Quality] <= Superior && [Flag] != Ethereal # [SkillFissure] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == FalconMask && [Quality] <= Superior && [Flag] != Ethereal # [SkillFury] == 3 && [SkillHeartOfWolverine] >= 1 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == HawkHelm && [Quality] <= Superior && [Flag] != Ethereal # [SkillFissure] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == HawkHelm && [Quality] <= Superior && [Flag] != Ethereal # [SkillFury] == 3 && [SkillHeartOfWolverine] >= 1 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == SpiritMask && [Quality] <= Superior && [Flag] != Ethereal # [SkillFissure] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == SpiritMask && [Quality] <= Superior && [Flag] != Ethereal # [SkillFury] == 3 && [SkillHeartOfWolverine] >= 1 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == Wolfhead && [Quality] <= Superior && [Flag] != Ethereal # [SkillFissure] == 3 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 18
+[Name] == Wolfhead && [Quality] <= Superior && [Flag] != Ethereal # [SkillFury] == 3 && [SkillHeartOfWolverine] >= 1 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+// EXCEPTIONAL
+[Name] == AlphaHelm && [Quality] <= Superior && [Flag] != Ethereal # [SkillFury] == 3 && [SkillHeartOfWolverine] >= 1 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == GriffonHeaddress && [Quality] <= Superior && [Flag] != Ethereal # [SkillFury] == 3 && [SkillHeartOfWolverine] >= 1 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+[Name] == Hunter'sGuise && [Quality] <= Superior && [Flag] != Ethereal # [SkillFury] == 3 && [SkillHeartOfWolverine] >= 1 && ([Sockets] == 0 || [Sockets] == 3) && [ItemLevelReq] <= 30
+
+
+// ### WHITE AXES ###
+// NORMAL
+//[Name] == MilitaryPick && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 6)
+[Name] == WarAxe && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 6)
+// EXCEPTIONAL
+[Name] == Naga && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 6)
+[Name] == Naga && [Quality] <= Superior && [Flag] == Ethereal # [EnhancedDamage] == 15 && [Sockets] == 4
+// ELITE
+[Name] == BerserkerAxe && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDamage] == 15 && [Sockets] == 5
+[Name] == BerserkerAxe && [Quality] == Superior && [Flag] == Ethereal # [EnhancedDamage] == 15 && ([Sockets] == 0 || [Sockets] == 6)
+[Name] == GloriousAxe && [Quality] == Superior && [Flag] == Ethereal # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] == 5
+[Name] == WarSpike && [Quality] == Superior && [Flag] == Ethereal # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 6)
+
+
+// ### WHITE BOWS ###
+// ELITE
+[Name] == BladeBow && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == DiamondBow && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] == 4
+[Name] == GreatBow && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == ShadowBow && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] == 4
+
+
+// ### WHITE MACES ###
+// NORMAL
+[Name] == Flail && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] == 4
+//[Name] == Flail && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 5)
+[Name] == WarScepter && [Quality] <= Superior && [Flag] != Ethereal # [SkillDefiance] == 3 && ([Sockets] == 0 || [Sockets] == 5) && [ItemLevelReq] <= 9
+[Name] == WarScepter && [Quality] <= Superior && [Flag] != Ethereal # [SkillZeal] >= 2 && [SkillDefiance] >= 2 && ([Sockets] == 0 || [Sockets] == 5) && [ItemLevelReq] <= 18
+[Name] == WarScepter && [Quality] <= Superior && [Flag] != Ethereal # [SkillCharge] >= 2 && [SkillMight] >= 2 && ([Sockets] == 0 || [Sockets] == 5) && [ItemLevelReq] <= 18
+[Name] == WarScepter && [Quality] <= Superior && [Flag] != Ethereal # [SkillZeal] >= 2 && [SkillConcentration] >= 2 && ([Sockets] == 0 || [Sockets] == 5) && [ItemLevelReq] <= 18
+[Name] == WarScepter && [Quality] <= Superior # [SkillHolyShield] >= 1 && ([Sockets] == 0 || [Sockets] == 5)
+[Name] == WarScepter && [Quality] <= Superior && [Flag] != Ethereal # [SkillBlessedHammer] == 3 && [SkillConcentration] == 3 && ([Sockets] == 0 || [Sockets] == 5)
+[Name] == WarScepter && [Quality] <= Superior && [Flag] != Ethereal # [SkillFistOfTheHeavens] == 3 && [SkillConviction] == 3 && ([Sockets] == 0 || [Sockets] == 5)
+// EXCEPTIONAL
+[Name] == Knout && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] == 4
+[Name] == Knout && [Quality] == Superior && [Flag] == Ethereal # [EnhancedDamage] == 15 && [Sockets] == 4
+//[Name] == Knout && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 5)
+[Name] == DivineScepter && [Quality] <= Superior # [SkillHolyShield] >= 1 && ([Sockets] == 0 || [Sockets] == 5)
+[Name] == DivineScepter && [Quality] <= Superior && [Flag] != Ethereal # [SkillZeal] >= 2 && [SkillFanaticism] >= 2 && ([Sockets] == 0 || [Sockets] == 5) && [ItemLevelReq] <= 30
+[Name] == DivineScepter && [Quality] <= Superior && [Flag] != Ethereal # [SkillCharge] >= 2 && [SkillMight] >= 2 && ([Sockets] == 0 || [Sockets] == 5) && [ItemLevelReq] <= 30
+[Name] == DivineScepter && [Quality] <= Superior && [Flag] != Ethereal # [SkillBlessedHammer] >= 2 && [SkillConcentration] >= 2 && ([Sockets] == 0 || [Sockets] == 5)
+[Name] == DivineScepter && [Quality] <= Superior && [Flag] != Ethereal # [SkillFistOfTheHeavens] >= 2 && [SkillConviction] >= 2 && ([Sockets] == 0 || [Sockets] == 5) 
+// ELITE
+[Name] == Scourge && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] == 4
+//[Name] == Scourge && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 5)
+[Name] == Caduceus && [Quality] <= Superior # [SkillHolyShield] >= 1 && ([Sockets] == 0 || [Sockets] == 5)
+[Name] == Caduceus && [Quality] <= Superior && [Flag] != Ethereal # [SkillBlessedHammer] == 3 && [SkillConcentration] == 3 && ([Sockets] == 0 || [Sockets] == 5)
+[Name] == Caduceus && [Quality] <= Superior && [Flag] != Ethereal # [SkillFistOfTheHeavens] == 3 && [SkillConviction] == 3 && ([Sockets] == 0 || [Sockets] == 5)
+
+
+// ### WHITE POLEARMS ###
+// NORMAL
+[Name] == WarScythe && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 6)
+// EXCEPTIONAL
+//[Name] == GrimScythe && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 6)
+// ELITE
+[Name] == ColossusVoulge && [Quality] <= Superior && [Flag] == Ethereal # [Sockets] == 4
+[Name] == CrypticAxe && [Quality] <= Superior && [Flag] == Ethereal # [Sockets] == 4
+[Name] == GiantThresher && [Quality] <= Superior && [Flag] == Ethereal # [Sockets] == 4
+[Name] == Thresher && [Quality] <= Superior && [Flag] == Ethereal # [Sockets] == 4
+
+
+// ### WHITE SPEARS ###
+[Name] == GhostSpear && [Quality] == Superior && [Flag] == Ethereal # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 6) 
+[Name] == WarPike && [Quality] == Superior && [Flag] == Ethereal # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 6)
+
+
+// ### WHITES STAFFS ###
+// NORMAL
+[Name] == BattleStaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] == 3 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == BattleStaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] >= 1 && ([SkillThunderStorm] >= 1 || [SkillEnchant] >= 1) && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == BattleStaff && [Quality] <= Superior # [SkillWarmth] == 3 && [SkillChillingArmor] >= 1 && ([Sockets] == 0 || [Sockets] == 4) && [ItemLevelReq] <= 30
+[Name] == GnarledStaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] == 3 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == GnarledStaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] >= 1 && ([SkillThunderStorm] >= 1 || [SkillEnchant] >= 1) && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == GnarledStaff && [Quality] <= Superior # [SkillWarmth] == 3 && [SkillChillingArmor] >= 1 && ([Sockets] == 0 || [Sockets] == 4) && [ItemLevelReq] <= 30
+[Name] == WarStaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] == 3 && [Sockets] == 4
+[Name] == WarStaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] >= 1 && ([SkillThunderStorm] >= 1 || [SkillEnchant] >= 1) && [Sockets] == 4
+[Name] == WarStaff && [Quality] <= Superior # [SkillWarmth] == 3 && [SkillChillingArmor] >= 1 && ([Sockets] == 0 || [Sockets] == 4) && [Sockets] == 4 && [ItemLevelReq] <= 30
+// EXCEPTIONAL
+[Name] == Cedarstaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] == 3 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == Cedarstaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] >= 1 && ([SkillThunderStorm] >= 1 || [SkillEnchant] >= 1) && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == Cedarstaff && [Quality] <= Superior # [SkillWarmth] == 3 && [SkillChillingArmor] >= 1 && ([Sockets] == 0 || [Sockets] == 4) && [ItemLevelReq] <= 30
+[Name] == GothicStaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] == 3 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == GothicStaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] >= 1 && ([SkillThunderStorm] >= 1 || [SkillEnchant] >= 1) && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == GothicStaff && [Quality] <= Superior # [SkillWarmth] == 3 && [SkillChillingArmor] >= 1 && ([Sockets] == 0 || [Sockets] == 4) && [ItemLevelReq] <= 30
+[Name] == RuneStaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] == 3 && [Sockets] == 4
+[Name] == RuneStaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] >= 1 && ([SkillThunderStorm] >= 1 || [SkillEnchant] >= 1) && [Sockets] == 4
+[Name] == RuneStaff && [Quality] <= Superior # [SkillWarmth] == 3 && [SkillChillingArmor] >= 1 && [Sockets] == 4 && [ItemLevelReq] <= 30
+// ELITE
+[Name] == ArchonStaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] == 3 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == ArchonStaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] >= 1 && ([SkillThunderStorm] >= 1 || [SkillEnchant] >= 1) && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == ElderStaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] == 3 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == ElderStaff && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] >= 1 && ([SkillThunderStorm] >= 1 || [SkillEnchant] >= 1) && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == Shillelagh && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] == 3 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == Shillelagh && [Quality] <= Superior # [SkillEnergyShield] == 3 && [SkillChillingArmor] >= 1 && ([SkillThunderStorm] >= 1 || [SkillEnchant] >= 1) && ([Sockets] == 0 || [Sockets] == 4)
+
+
+// ### WHITE SWORDS ###
+// NORMAL
+[Name] == BroadSword && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] == 4
+[Name] == CrystalSword && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 4 || [Sockets] == 5)
+[Name] == LongSword && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] == 4
+// EXCEPTIONAL
+[Name] == BattleSword && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] == 4
+[Name] == DimensionalBlade && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] == 4
+[Name] == RuneSword && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] == 4
+//[Name] == Zweihander && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 5)
+// ELITE
+[Name] == ColossusBlade && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] == 5
+[Name] == ColossusBlade && [Quality] == Superior && [Flag] == Ethereal # [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 6)
+[Name] == ConquestSword && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] == 4
+[Name] == CrypticSword && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] == 4
+[Name] == HighlandBlade && [Quality] == Superior && [Flag] == Ethereal # [EnhancedDamage] == 15 && [Sockets] == 4
+[Name] == PhaseBlade && [Quality] == Superior # [EnhancedDamage] == 15 && [ToHit] == 3 && [Sockets] >= 4
+
+
+// ### WHITE WANDS ###
+// NORMAL
+[Name] == BoneWand && [Quality] <= Superior # [SkillBoneArmor] == 3 && [SkillClayGolem] == 3 && ([Sockets] == 0 || [Sockets] == 2) && [ItemLevelReq] <= 9
+[Name] == BoneWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillRevive] >= 1 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == BoneWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillBoneSpirit] == 3 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == BoneWand && [Quality] <= Superior # [SkillPoisonNova] == 3 && [SkillLowerResist] >= 1 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == GrimWand && [Quality] <= Superior # [SkillBoneArmor] == 3 && [SkillClayGolem] == 3 && ([Sockets] == 0 || [Sockets] == 2) && [ItemLevelReq] <= 9
+[Name] == GrimWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillRevive] >= 1 && ([Sockets] == 0 || [Sockets] == 2)
+[Name] == GrimWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillBoneSpirit] == 3 && ([Sockets] == 0 || [Sockets] == 2)
+[Name] == GrimWand && [Quality] <= Superior # [SkillPoisonNova] == 3 && [SkillLowerResist] >= 1 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == YewWand && [Quality] <= Superior # [SkillBoneArmor] == 3 && [SkillClayGolem] == 3 && [SkillAmplifyDamage] >= 1 && [ItemLevelReq] <= 9
+[Name] == Wand && [Quality] <= Superior # [SkillBoneArmor] == 3 && [SkillClayGolem] == 3 && [SkillAmplifyDamage] >= 1 && [ItemLevelReq] <= 9
+// EXCEPTIONAL
+[Name] == GraveWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillRevive] >= 1 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == GraveWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillBoneSpirit] == 3 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == GraveWand && [Quality] <= Superior # [SkillPoisonNova] == 3 && [SkillLowerResist] == 3 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == PetrifiedWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillRevive] >= 1 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == PetrifiedWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillBoneSpirit] == 3 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == PetrifiedWand && [Quality] <= Superior # [SkillPoisonNova] == 3 && [SkillLowerResist] == 3 && ([Sockets] == 0 || [Sockets] == 2)
+[Name] == TombWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillRevive] >= 1 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == TombWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillBoneSpirit] == 3 && ([Sockets] == 0 || [Sockets] == 2)
+[Name] == TombWand && [Quality] <= Superior # [SkillPoisonNova] == 3 && [SkillLowerResist] == 3 && ([Sockets] == 0 || [Sockets] == 2)
+// ELITE
+[Name] == GhostWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillRevive] >= 1 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == GhostWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillBoneSpirit] == 3 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == GhostWand && [Quality] <= Superior # [SkillPoisonNova] == 3 && [SkillLowerResist] == 3 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == LichWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillRevive] >= 1 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == LichWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillBoneSpirit] == 3 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == LichWand && [Quality] <= Superior # [SkillPoisonNova] == 3 && [SkillLowerResist] == 3 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == PolishedWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillRevive] >= 1 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == PolishedWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillBoneSpirit] == 3 && ([Sockets] == 0 || [Sockets] == 2)
+[Name] == PolishedWand && [Quality] <= Superior # [SkillPoisonNova] == 3 && [SkillLowerResist] == 3 && ([Sockets] == 0 || [Sockets] == 2)
+[Name] == UnearthedWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillRevive] >= 1 && ([Sockets] == 0 || [Sockets] == 2) 
+[Name] == UnearthedWand && [Quality] <= Superior # [SkillBoneSpear] == 3 && [SkillBoneSpirit] == 3 && ([Sockets] == 0 || [Sockets] == 2)
+[Name] == UnearthedWand && [Quality] <= Superior # [SkillPoisonNova] == 3 && [SkillLowerResist] == 3 && ([Sockets] == 0 || [Sockets] == 2)
+// ### WHITE AMAZON WEAPONS ###
+// NORMAL
+[Name] == StagBow && [Quality] == Superior # [bowandcrossbowskilltab] == 3 && [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 5)
+// EXCEPTIONAL
+[Name] == AshwoodBow && [Quality] == Superior # [bowandcrossbowskilltab] == 3 && [EnhancedDamage] == 15 && [ToHit] == 3 && ([Sockets] == 0 || [Sockets] == 5)
+// ELITE
+[Name] == GrandMatronBow && [Quality] == Superior # [bowandcrossbowskilltab] == 3 && [EnhancedDamage] == 15 && [Sockets] == 4
+[Name] == MatriarchalBow && [Quality] == Superior # [bowandcrossbowskilltab] == 3 && [EnhancedDamage] == 15 && [Sockets] == 4
+
+
+// ### WHITE ASSASSIN WEAPONS
+// EXCEPTIONAL
+[Name] == GreaterTalons && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && ([SkillWeaponBlock] == 3 || [SkillMindBlast] == 3)
+[Name] == GreaterTalons && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && [SkillWeaponBlock] >= 1 && [SkillMindBlast] >= 1
+[Name] == GreaterTalons && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && [SkillMindBlast] >= 1 && ([SkillWakeOfFire] >= 1 || [SkillShadowMaster] >= 1 || [SkillVenom] >= 1 || [SkillFade] >= 1 || [SkillDragonFlight] >= 1)
+[Name] == HandScythe && [Quality] <= Superior && [Flag] != Ethereal # [SkillDragonFlight] == 3 && [SkillMindBlast] == 3 && ([Sockets] == 0 || [Sockets] == 3)
+// ELITE
+[Name] == FeralClaws && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && ([SkillWeaponBlock] == 3 || [SkillMindBlast] == 3)
+[Name] == FeralClaws && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && [SkillWeaponBlock] >= 1 && [SkillMindBlast] >= 1
+[Name] == RunicTalons && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && ([SkillWeaponBlock] == 3 || [SkillMindBlast] == 3)
+[Name] == RunicTalons && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && [SkillWeaponBlock] >= 1 && [SkillMindBlast] >= 1
+[Name] == Suwayyah && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && ([SkillWeaponBlock] == 3 || [SkillMindBlast] == 3)
+[Name] == Suwayyah && [Quality] <= Superior && [Flag] != Ethereal # [SkillLightningSentry] == 3 && [SkillWeaponBlock] >= 1 && [SkillMindBlast] >= 1
+
+
+// ### WHITE ARMORS ###
+// NORMAL
+[Name] == AncientArmor && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] >= 3)
+//[Name] == BreastPlate && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+[Name] == FullPlateMail && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && [Sockets] == 3
+[Name] == GothicPlate && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && [Sockets] == 3
+[Name] == LightPlate && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+[Name] == RingMail && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+// EXCEPTIONAL
+[Name] == Cuirass && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+//[Name] == LinkedMail && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+[Name] == MagePlate && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+[Name] == MagePlate && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 0 && ([Sockets] == 0 || [Sockets] == 3)
+//[Name] == MeshArmor && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+[Name] == RussetArmor && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+[Name] == SharktoothArmor && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+//[Name] == TigulatedMail && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+//[Name] == TemplarCoat && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 3)
+// ELITE
+[Name] == ArchonPlate && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] >= 3)
+[Name] == ArchonPlate && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 0 && [Sockets] == 3
+//[Name] == BalrogSkin && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 4)
+//[Name] == Boneweave && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 4)
+//[Name] == DiamondMail && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == DuskShroud && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] >= 3)
+[Name] == DuskShroud && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 0 && [Sockets] == 3
+[Name] == GreatHauberk && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && [Sockets] == 3
+//[Name] == HellforgePlate && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 4)
+//[Name] == KrakenShell && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 4)
+//[Name] == LacqueredPlate && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 4)
+//[Name] == LoricatedMail && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == SacredArmor && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] >= 3)
+[Name] == ScarabHusk && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] >= 3)
+[Name] == ScarabHusk && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 0 && [Sockets] == 3
+//[Name] == ShadowPlate && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == WireFleece && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] >= 3)
+[Name] == WireFleece && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 0 && [Sockets] == 3
+[Name] == Wyrmhide && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] >= 3)
+[Name] == Wyrmhide && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 0 && [Sockets] == 3
+
+
+// ### WHITE SHIELDS ###
+// ELITE
+[Name] == Aegis && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == Monarch && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == Monarch && [Quality] <= Superior && [Flag] != Ethereal # [Sockets] == 4 && [Defense] >= 140
+[Name] == Ward && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] == 15 && [ItemMaxDurabilityPercent] == 15 && ([Sockets] == 0 || [Sockets] == 4)
+
+
+// ### WHITE NECROMANCER SHIELDS ###
+// NORMAL
+[Name] == DemonHead && [Quality] <= Superior # [SkillBoneArmor] == 3 && [SkillClayGolem] == 3 && ([Sockets] == 0 || [Sockets] == 2) && [ItemLevelReq] <= 18
+[Name] == DemonHead && [Quality] <= Superior # [SkillBoneSpirit] == 3 && [SkillBoneSpear] == 3 && ([Sockets] == 0 || [Sockets] == 2) && [ItemLevelReq] <= 30
+[Name] == GargoyleHead && [Quality] <= Superior # [SkillBoneArmor] == 3 && [SkillClayGolem] == 3 && ([Sockets] == 0 || [Sockets] == 2) && [ItemLevelReq] <= 18
+[Name] == GargoyleHead && [Quality] <= Superior # [SkillBoneSpirit] == 3 && [SkillBoneSpear] == 3 && ([Sockets] == 0 || [Sockets] == 2) && [ItemLevelReq] <= 30
+[Name] == PreservedHead && [Quality] <= Superior # [SkillBoneArmor] == 3 && [SkillClayGolem] == 3 && ([Sockets] == 0 || [Sockets] == 2) && [ItemLevelReq] <= 18
+[Name] == PreservedHead && [Quality] <= Superior # [SkillBoneSpirit] == 3 && [SkillBoneSpear] == 3 && ([Sockets] == 0 || [Sockets] == 2) && [ItemLevelReq] <= 30
+[Name] == UnravellerHead && [Quality] <= Superior # [SkillBoneArmor] == 3 && [SkillClayGolem] == 3 && ([Sockets] == 0 || [Sockets] == 2) && [ItemLevelReq] <= 18
+[Name] == UnravellerHead && [Quality] <= Superior # [SkillBoneSpirit] == 3 && [SkillBoneSpear] == 3 && ([Sockets] == 0 || [Sockets] == 2) && [ItemLevelReq] <= 30
+[Name] == ZombieHead && [Quality] <= Superior # [SkillBoneArmor] == 3 && [SkillClayGolem] == 3 && ([Sockets] == 0 || [Sockets] == 2) && [ItemLevelReq] <= 18
+[Name] == ZombieHead && [Quality] <= Superior # [SkillBoneSpirit] == 3 && [SkillBoneSpear] == 3 && ([Sockets] == 0 || [Sockets] == 2) && [ItemLevelReq] <= 30
+// EXCEPTIONAL
+[Name] == MummifiedTrophy && [Quality] <= Superior # [SkillBoneSpirit] == 3 && [SkillBoneSpear] == 3 && ([Sockets] == 0 || [Sockets] == 2) && [ItemLevelReq] <= 30
+[Name] == FetishTrophy && [Quality] <= Superior # [SkillBoneSpirit] == 3 && [SkillBoneSpear] == 3 && ([Sockets] == 0 || [Sockets] == 2) && [ItemLevelReq] <= 30
+
+
+// ### WHITE PALADIN SHIELDS ###
+// NORMAL
+[Name] == Rondache && [Quality] <= Superior && [Flag] != Ethereal # [EnhancedDamage] == 65 && [ToHit] == 121 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == HeraldicShield && [Quality] <= Superior && [Flag] != Ethereal # [EnhancedDamage] == 65 && [ToHit] == 121 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == AerinShield && [Quality] <= Superior && [Flag] != Ethereal # [EnhancedDamage] == 65 && [ToHit] == 121 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == CrownShield && [Quality] <= Superior && [Flag] != Ethereal # [EnhancedDamage] == 65 && [ToHit] >= 120 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == CrownShield && [Quality] <= Superior && [Flag] != Ethereal # [FireResist] == 45 && [LightResist] == 45 && [Sockets] == 4
+// EXCEPTIONAL
+//[Name] == AkaranRondache && [Quality] <= Superior && [Flag] != Ethereal # [EnhancedDamage] == 65 && [ToHit] == 121 && ([Sockets] == 0 || [Sockets] == 4)
+//[Name] == AkaranRondache && [Quality] <= Superior && [Flag] != Ethereal # [FireResist] == 45 && [LightResist] == 45 && ([Sockets] == 0 || [Sockets] == 4)
+// ELITE
+[Name] == SacredTarge && [Quality] <= Superior && [Flag] != Ethereal # [EnhancedDamage] == 65 && [ToHit] == 121 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == SacredTarge && [Quality] <= Superior && [Flag] != Ethereal # [FireResist] == 45 && [LightResist] == 45 && ([Sockets] == 0 || [Sockets] == 4)
+//[Name] == SacredRondache && [Quality] <= Superior && [Flag] != Ethereal # [FireResist] == 45 && [LightResist] == 45 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == VortexShield && [Quality] <= Superior && [Flag] != Ethereal # [EnhancedDamage] == 65 && [ToHit] == 121 && ([Sockets] == 0 || [Sockets] == 4)
+[Name] == VortexShield && [Quality] <= Superior && [Flag] != Ethereal # [FireResist] == 45 && [LightResist] == 45 && ([Sockets] == 0 || [Sockets] == 4)
+
+
+// ### CUBE BUG ITEMS ###
+[Name] == CrypticAxe && [Quality] == Normal && [Flag] == Ethereal # [Sockets] == 0 
+[Name] == Thresher && [Quality] == Normal && [Flag] == Ethereal # [Sockets] == 0 
+[Name] == GiantThresher && [Quality] == Normal && [Flag] == Ethereal # [Sockets] == 0 
+[Name] == SacredArmor && [Quality] == Normal && [Flag] == Ethereal # [Defense] >= 850 && [Sockets] == 0
+[Name] == SacredArmor && [Quality] == Normal && [Flag] == Ethereal # [Defense] >= 1275 && [Sockets] >= 3
+[Name] == ArchonPlate && [Quality] == Normal && [Flag] == Ethereal # [Defense] >= 750 && [Sockets] == 0
+[Name] == ArchonPlate && [Quality] == Normal && [Flag] == Ethereal # [Defense] >= 1125 && [Sockets] >= 3
+[Name] == SacredTarge && [Quality] == Normal && [Flag] == Ethereal # [EnhancedDamage] == 65 && [ToHit] == 121 && [Defense] >= 126 && [Sockets] == 0
+[Name] == SacredTarge && [Quality] == Normal && [Flag] == Ethereal # [FireResist] == 45 && [LightResist] == 45 && [Defense] >= 126 && [Sockets] == 0
+[Name] == VortexShield && [Quality] == Normal && [Flag] == Ethereal # [EnhancedDamage] == 65 && [ToHit] == 121 && [Defense] >= 126 && [Sockets] == 0
+[Name] == VortexShield && [Quality] == Normal && [Flag] == Ethereal # [FireResist] == 45 && [LightResist] == 45 && [Defense] >= 126 && [Sockets] == 0
+
+
+// ### IMBUE ITEMS ###
+//[Name] == ThrowingSpear && [Quality] <= Superior && [Flag] == ethereal

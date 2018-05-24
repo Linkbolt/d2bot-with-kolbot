@@ -1,0 +1,286 @@
+// Made by Dubb @ d2etal.com
+
+// ### MAGIC CIRCLETS ###
+// Level 49 >
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [ItemToHitPercentPerLevel] >= 1 && ([Strength] == 30 || [Dexterity] == 30 || [MaxHp] == 100)
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [MaxMana] == 120 && ([MagicDamageReduction] == 6 || [NormalDamageReduction] == 25)
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [MaxMana] == 120 && [FRW] == 30 && [ItemLevelReq] <= 49
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # ([AmazonSkills] == 1 || [PassiveAndMagicSkillTab] == 3) && ([MaxHp] == 100 || [FRW] == 30) && [ItemLevelReq] <= 49
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # ([FireSkillTab] == 3 || [ColdSkillTab] == 3) && ([MaxHp] == 100 || [FCR] == 20)
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [LightningSkillTab] == 3 && ([Strength] == 30 || [MaxHp] == 100 || [FCR] == 20)
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [PoisonAndBoneSkillTab] == 3 && ([MaxHp] == 100 || [FCR] == 20)
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [PaliCombatSkillTab] == 3 && ([MaxHp] == 100 || [FCR] == 20)
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [ShapeShiftingSkillTab] == 3 && [FRW] == 30
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [ElementalSkillTab] == 3 && ([MaxHp] == 100 || [FCR] == 20)
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [ShadowDisciplinesSkillTab] == 3 && [Strength] == 30
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 3 && ([Strength] == 30 || [Dexterity] == 30 || [Energy] == 30 || [MaxHp] == 100 || [MinDamage] == 13 || [HpRegen] == 15 || [NormalDamageReduction] == 15 || [MagicDamageReduction] == 6) 
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 3 && ([ItemGoldBonus] == 80 || [ItemMagicBonus] == 35 || [FCR] == 20 || [FRW] == 30)
+// Level < 30
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [EnhancedDamage] == 30 && ([MaxHp] == 80 || [FRW] == 30) && [ItemLevelReq] <= 30
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [MaxMana] == 90 && [FRW] == 30 && [ItemLevelReq] <= 30
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # ([AmazonSkills] == 1 || [PassiveAndMagicSkillTab] == 2) && ([MaxHp] == 80 || [FRW] == 30) && [ItemLevelReq] <= 30
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # ([FireSkillTab] == 2 || [ColdSkillTab] == 2 || [LightningSkillTab] == 2) && ([MaxHp] == 80 || [FCR] == 20) && [ItemLevelReq] <= 30
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [PaliCombatSkillTab] == 2 && ([MaxHp] == 80 || [FCR] == 20) && [ItemLevelReq] <= 30
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [ShapeShiftingSkillTab] == 2 && [FRW] == 30 && [ItemLevelReq] <= 30
+// LEVEL < 18
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [ToHit] == 120 && [MaxHp] == 40 && [ItemLevelReq] <= 18
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [EnhancedDamage] == 30 && ([MaxHp] == 40 || [FRW] == 20) && [ItemLevelReq] <= 18
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [PassiveAndMagicSkillTab] == 1 && ([MaxHp] == 40 || [HpRegen] == 10 || [FRW] == 20) && [ItemLevelReq] <= 18
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # ([FireSkillTab] == 1 || [ColdSkillTab] == 1 || [LightningSkillTab] == 1) && ([MaxHp] == 40 || [HpRegen] == 10 || [FCR] == 10 || [FRW] == 20) && [ItemLevelReq] <= 18
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [PoisonAndBoneSkillTab] == 1 && ([MaxHp] == 40 || [HpRegen] == 10 || [FCR] == 10 || [FRW] == 20) && [ItemLevelReq] <= 18
+[Type] == Circlet && [Quality] == Magic && [Flag] != Ethereal # [PaliCombatSkillTab] == 1 && ([MaxHp] == 40 || [HpRegen] == 10 || [FCR] == 10 || [FRW] == 20) && [ItemLevelReq] <= 18
+
+
+// ### MAGIC BARBARIAN HELMETS ###
+// LEVEL 49 >
+[Type] == PrimalHelm && [Quality] == Magic && [Flag] != Ethereal # [BarbarianSkills] == 2 && [SkillBattleOrders] == 3 && [MaxHp] >= 40
+[Type] == PrimalHelm && [Quality] == Magic # [WarcriesSkillTab] == 3 && [SkillBattleOrders] == 3
+[Type] == PrimalHelm && [Quality] == Magic && [Flag] != Ethereal # [SkillWhirlwind] == 3 && [SkillBattleOrders] == 3 && [MaxHp] >= 50 && [Sockets] == 3
+// LEVEL < 30
+[Type] == PrimalHelm && [Quality] == Magic && [Flag] != Ethereal # [BarbarianSkills] == 1 && [SkillBattleOrders] == 3 && ([SkillWhirlwind] >= 1 || [MaxHp] >= 60) && [ItemLevelReq] <= 30
+[Type] == PrimalHelm && [Quality] == Magic && [Flag] != Ethereal # [WarcriesSkillTab] == 2 && [SkillWhirlwind] >= 1 && [SkillBattleOrders] == 3 && [ItemLevelReq] <= 30
+[Type] == PrimalHelm && [Quality] == Magic && [Flag] != Ethereal # [SkillWhirlwind] >= 1 && [Sockets] == 3 && [ItemLevelReq] <= 30
+// LEVEL < 18
+[Type] == PrimalHelm && [Quality] == Magic && [Flag] != Ethereal # [SkillConcentrate] >= 2 && [SkillShout] >= 2 && [ItemLevelReq] <= 18
+
+
+// ### MAGIC DRUID HELMETS ###
+// LEVEL 49 >
+[Type] == Pelt && [Quality] == Magic && [Flag] != Ethereal # [DruidSkills] == 2 && ([SkillFireClaws] == 3 || [SkillRabies] == 3 || [SkillFury] == 3) && [MaxHp] >= 40
+[Type] == Pelt && [Quality] == Magic && [Flag] != Ethereal # [DruidSkills] == 2 && ([SkillFissure] == 3 || [SkillVolcano] == 3 || [SkillTornado] == 3 || [SkillArmageddon] == 3) && [MaxHp] >= 40
+[Type] == Pelt && [Quality] == Magic && [Flag] != Ethereal # [DruidSummoningSkillTab] == 3 && ([SkillHeartofWolverine] >= 1 && [SkillSummonGrizzly] == 3 || [SkillOakSage] >= 1 && [SkillSummonGrizzly] == 3)
+[Type] == Pelt && [Quality] == Magic && [Flag] != Ethereal # [ShapeShiftingSkillTab] == 3 && ([SkillFireClaws] == 3 || [SkillRabies] == 3 || [SkillFury] == 3) && [MaxHp] >= 40
+[Type] == Pelt && [Quality] == Magic && [Flag] != Ethereal # [ElementalSkillTab] == 3 && ([SkillFissure] == 3 || [SkillVolcano] == 3 || [SkillTornado] == 3 || [SkillArmageddon] == 3) && [MaxHp] >= 40
+// LEVEL < 30
+[Type] == Pelt && [Quality] == Magic && [Flag] != Ethereal # [ShapeShiftingSkillTab] == 2 && ([SkillFireClaws] == 3 || [SkillRabies] == 3 || [SkillFury] == 3) && [ItemLevelReq] <= 30
+[Type] == Pelt && [Quality] == Magic && [Flag] != Ethereal # [ElementalSkillTab] == 2 && ([SkillFissure] == 3 || [SkillTornado] == 3) && [FHR] == 10 && [ItemLevelReq] <= 30
+// LEVEL < 18
+[Type] == Pelt && [Quality] == Magic && [Flag] != Ethereal # [ElementalSkillTab] == 1 && [SkillFissure] == 3 && [ItemLevelReq] <= 18
+
+
+// ### MAGIC AMULETS ###
+// LEVEL 49 >
+[Type] == Amulet && [Quality] == Magic # [MaxMana] == 120 && ([MaxHp] == 100 || [HpRegen] == 15 || [NormalDamageReduction] == 25 || [MagicDamageReduction] == 6)
+[Type] == Amulet && [Quality] == Magic # [BarbarianSkills] == 2 && [ItemGoldBonus] == 80 
+[Type] == Amulet && [Quality] == Magic # [PassiveAndMagicSkillTab] == 3 && [MaxHp] == 100
+[Type] == Amulet && [Quality] == Magic # [FireSkillTab] == 3 && [MaxHp] == 100
+[Type] == Amulet && [Quality] == Magic # [ColdSkillTab] == 3 && [MaxHp] == 100
+[Type] == Amulet && [Quality] == Magic # [PoisonAndBoneSkillTab] == 3 && [MaxHp] == 100
+[Type] == Amulet && [Quality] == Magic # [PaliCombatSkillTab] == 3 && [MaxHp] == 100
+[Type] == Amulet && [Quality] == Magic # [WarcriesSkillTab] == 3 && ([MaxHp] == 100 || [ItemGoldBonus] == 80)
+[Type] == Amulet && [Quality] == Magic # [ShapeShiftingSkillTab] == 3 && [MaxHp] == 100
+[Type] == Amulet && [Quality] == Magic # [ElementalSkillTab] == 3 && [MaxHp] == 100
+[Type] == Amulet && [Quality] == Magic # [ShadowDisciplinesSkillTab] == 3 && [Strength] == 30
+[Type] == Amulet && [Quality] == Magic # [ItemMagicBonus] == 50
+// Level < 30
+[Type] == Amulet && [Quality] == Magic # [FireSkillTab] == 2 && [MaxHp] == 80
+[Type] == Amulet && [Quality] == Magic # [ColdSkillTab] == 2 && [MaxHp] == 80
+[Type] == Amulet && [Quality] == Magic # [PaliCombatSkillTab] == 2 && [MaxHp] == 80
+[Type] == Amulet && [Quality] == Magic # [ShapeShiftingSkillTab] == 2 && [MaxHp] == 80
+
+
+// ### MAGIC BOWS ###
+// EXCEPTIONAL
+[Name] == RazorBow && [Quality] == Magic # [EnhancedDamage] >= 80 && [IAS] == 20 && [ItemLevelReq] <= 30
+[Name] == CedarBow && [Quality] == Magic # [EnhancedDamage] >= 80 && [IAS] == 20 && [ItemLevelReq] <= 30
+[Name] == DoubleBow && [Quality] == Magic # [EnhancedDamage] >= 80 && [IAS] == 20 && [ItemLevelReq] <= 30
+// ELITE
+[Name] == BladeBow && [Quality] == Magic # [EnhancedDamage] >= 290 && [MaxDamage] >= 50
+[Name] == ShadowBow && [Quality] == Magic # [EnhancedDamage] >= 290 && [MaxDamage] >= 50
+
+
+// ### MAGIC JAVELINS ###
+// ELITE
+//[Name] == StygianPilum && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDamage] == 300 && [ItemReplenishQuantity] >= 1
+
+
+// ### MAGIC MACES ###
+// NORMAL
+[Name] == Flail && [Quality] == Magic && [Flag] != Ethereal # [PaliCombatSkillTab] == 3 && [IAS] == 40
+[Name] == Flail && [Quality] == Magic # [WarcriesSkillTab] == 3 && [Strength] >= 15
+// EXCEPTIONAL
+[Name] == Knout && [Quality] == Magic && [Flag] != Ethereal # ([PaladinSkills] == 2 || [PaliCombatSkillTab] == 3) && [IAS] == 40
+
+
+// ### MAGIC POLEARMS ###
+// EXCEPTIONAL
+[Name] == GrimScythe && [Quality] == Magic && [Flag] != Ethereal # [EnhancedDamage] == 100 && [IAS] == 30
+
+
+// ### MAGIC SCEPTERS ###
+// LEVEL 49 >
+[Type] == Scepter && [Quality] == Magic && [Flag] != Ethereal # [PaliCombatSkillTab] == 3 && [SkillConcentration] == 3 && [SkillBlessedHammer] == 3 && [FCR] >= 10
+[Type] == Scepter && [Quality] == Magic && [Flag] != Ethereal # [PaliCombatSkillTab] == 3 && [SkillConviction] == 3 && [SkillFistOfTheHeavens] == 3
+// LEVEL < 30
+[Type] == Scepter && [Quality] == Magic && [Flag] != Ethereal # [PaliCombatSkillTab] == 2 && [SkillConviction] == 3 && [SkillFistOfTheHeavens] == 3 && [ItemLevelReq] <= 30
+[Type] == Scepter && [Quality] == Magic && [Flag] != Ethereal # [PaliCombatSkillTab] == 2 && [SkillConcentration] == 3 && [SkillBlessedHammer] == 3 && [FCR] >= 10 && [ItemLevelReq] <= 30
+// LEVEL < 18
+[Type] == Scepter && [Quality] == Magic && [Flag] != Ethereal # [PaliCombatSkillTab] == 1 && [SkillConcentration] == 3 && [SkillBlessedHammer] == 3 && [FCR] >= 10 && [ItemLevelReq] <= 30
+
+
+// ### MAGIC SWORDS ###
+// EXCEPTIONAL
+[Name] == Cutlass && [Quality] == Magic && [Flag] != Ethereal # [EnhancedDamage] == 100 && [IAS] == 30
+[Name] == Zweihander && [Quality] == Magic && [Flag] != Ethereal # [EnhancedDamage] == 100 && [IAS] == 30
+
+
+// ### MAGIC WANDS ###
+// NORMAL
+[Name] == BoneWand && [Quality] == Magic # [PoisonAndBoneSkillTab] == 2 && [SkillBoneSpirit] == 3 && [FCR] == 20 && [ItemLevelReq] <= 30
+[Name] == GrimWand && [Quality] == Magic # [PoisonAndBoneSkillTab] == 2 && [SkillBoneSpirit] == 3 && [FCR] == 20 && [ItemLevelReq] <= 30
+// EXCEPTIONAL
+[Name] == PetrifiedWand && [Quality] == Magic # [PoisonAndBoneSkillTab] == 2 && [SkillBoneSpirit] == 3 && [FCR] == 20 && [ItemLevelReq] <= 30
+[Name] == TombWand && [Quality] == Magic # [PoisonAndBoneSkillTab] == 2 && [SkillBoneSpirit] == 3 && [FCR] == 20 && [ItemLevelReq] <= 30
+[Name] == GraveWand && [Quality] == Magic # [PoisonAndBoneSkillTab] == 2 && [SkillBoneSpirit] == 3 && [FCR] == 20 && [ItemLevelReq] <= 30
+// NORMAL
+[Name] == BoneWand && [Quality] == Magic # [PoisonAndBoneSkillTab] == 1 && [SkillBoneSpear] == 3 && [FCR] == 10 && [ItemLevelReq] <= 18
+[Name] == BoneWand && [Quality] == Magic # [PoisonAndBoneSkillTab] == 1 && [SkillBoneSpear] == 3 && [FCR] == 10 && [ItemLevelReq] <= 18
+
+
+// ### MAGIC AMAZON WEAPONS ###
+// NORMAL
+[Name] == MaidenJavelin && [Quality] == Magic && [Flag] != Ethereal # [JavelinAndSpearSkillTab] >= 5 && [IAS] == 40
+[Name] == MaidenJavelin && [Quality] == Magic && [Flag] != Ethereal # [AmazonSkills] == 2 && [JavelinAndSpearSkillTab] >= 3 && [IAS] == 40
+// EXCEPTIONAL
+[Name] == AshwoodBow && [Quality] == Magic # [EnhancedDamage] == 100 && [IAS] == 20 && [BowAndCrossbowSkillTab] == 3
+[Name] == CeremonialJavelin && [Quality] == Magic && [Flag] != Ethereal # [JavelinAndSpearSkillTab] >= 5 && [IAS] == 40
+[Name] == CeremonialJavelin && [Quality] == Magic && [Flag] != Ethereal # [AmazonSkills] == 2 && [JavelinAndSpearSkillTab] >= 3 && [IAS] == 40
+// ELITE
+[Name] == GrandMatronBow && [Quality] == Magic # [EnhancedDamage] == 300 && [MaxDamage] == 63 && [BowAndCrossbowSkillTab] == 3
+[Name] == MatriarchalBow && [Quality] == Magic # [EnhancedDamage] >= 280 && [MaxDamage] >= 50 && [BowAndCrossbowSkillTab] == 3
+[Name] == MatriarchalJavelin && [Quality] == Magic && [Flag] != Ethereal # [JavelinAndSpearSkillTab] >= 5 && [IAS] == 40
+[Name] == MatriarchalJavelin && [Quality] == Magic && [Flag] != Ethereal # [AmazonSkills] == 2 && [JavelinAndSpearSkillTab] >= 3 && [IAS] == 40
+[Name] == MatriarchalJavelin && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDamage] == 300 && [JavelinAndSpearSkillTab] == 3 && [ItemReplenishQuantity] >= 1
+
+
+// ### MAGIC ASSASSIN KATARS ###
+// EXCEPTIONAL
+[Name] == GreaterTalons && [Quality] == Magic && [Flag] != Ethereal # [ItemToHitPerLevel] >= 1 && [SkillLightningSentry] == 3
+[Name] == GreaterTalons && [Quality] == Magic && [Flag] != Ethereal # [ItemToHitPerLevel] >= 1 && [SkillVenom] == 3
+[Name] == GreaterTalons && [Quality] == Magic && [Flag] != Ethereal # [AssassinSkills] == 2 && [SkillLightningSentry] == 3
+[Name] == GreaterTalons && [Quality] == Magic && [Flag] != Ethereal # [AssassinSkills] == 2 && [SkillWakeOfFire] == 3
+[Name] == GreaterTalons && [Quality] == Magic && [Flag] != Ethereal # [ShadowDisciplinesSkillTab] == 3 && [SkillFade] == 3 && [SkillVenom] == 3
+[Name] == GreaterTalons && [Quality] == Magic && [Flag] != Ethereal # [TrapsSkillTab] == 3 && [SkillLightningSentry] == 3
+[Name] == GreaterTalons && [Quality] == Magic && [Flag] != Ethereal # [TrapsSkillTab] == 3 && [SkillWakeOfFire] == 3
+// ELITE
+[Name] == FeralClaws && [Quality] == Magic && [Flag] != Ethereal # [ItemToHitPerLevel] >= 1 && [SkillLightningSentry] == 3
+[Name] == FeralClaws && [Quality] == Magic && [Flag] != Ethereal # [ItemToHitPerLevel] >= 1 && [SkillVenom] == 3
+[Name] == FeralClaws && [Quality] == Magic && [Flag] != Ethereal # [AssassinSkills] == 2 && [SkillLightningSentry] == 3 && [IAS] >= 30
+[Name] == RunicTalons && [Quality] == Magic && [Flag] != Ethereal # [ItemToHitPerLevel] >= 1 && [SkillLightningSentry] == 3
+[Name] == RunicTalons && [Quality] == Magic && [Flag] != Ethereal # [ItemToHitPerLevel] >= 1 && [SkillVenom] == 3
+[Name] == RunicTalons && [Quality] == Magic && [Flag] != Ethereal # [AssassinSkills] == 2 && [SkillLightningSentry] == 3 && [IAS] >= 30
+// EXCEPTIONAL
+[Name] == HandScythe && [Quality] == Magic && [Flag] != Ethereal # [ShadowDisciplinesSkillTab] == 2 && ([SkillMindBlast] == 3 || [SkillVenom] == 3) && [ItemLevelReq] <= 30
+[Name] == HandScythe && [Quality] == Magic && [Flag] != Ethereal # [TrapsSkillTab] == 2 && [SkillLightningSentry] == 3 && [ItemlevelReq] <= 30
+
+
+// ### MAGIC SORCERESS ORBS ###
+// LEVEL 49 >
+[Type] == Orb && [Quality] == Magic # [SorceressSkills] == 2 && ([SkillFirebolt] == 3 || [SkillFireball] == 3 || [SkillFireWall] == 3) && [SkillFireMastery] == 3 && [FCR] == 20
+[Type] == Orb && [Quality] == Magic # [SorceressSkills] == 2 && [SkillLightning] == 3 && [SkillLightningMastery] == 3 && [FCR] == 20
+[Type] == Orb && [Quality] == Magic # [SorceressSkills] == 2 && ([SkillBlizzard] == 3 || [SkillFrozenOrb] == 3) && [SkillColdMastery] == 3 && [FCR] == 20 && [ItemLevelReq] <= 49
+[Type] == Orb && [Quality] == Magic # [FireSkillTab] == 3 && ([SkillFireBolt] == 3 || [SkillFireBall] == 3 || [SkillFireWall] == 3) && [FCR] == 20
+[Type] == Orb && [Quality] == Magic # [FireSkillTab] == 3 && [SkillEnchant] == 3 && [SkillFireMastery] == 3
+[Type] == Orb && [Quality] == Magic # [LightningSkillTab] == 3 && [SkillLightning] == 3 && [FCR] == 20
+[Type] == Orb && [Quality] == Magic # [ColdSkillTab] == 3 && ([SkillBlizzard] == 3 || [SkillFrozenOrb] == 3) && [FCR] == 20 && [ItemLevelReq] <= 49
+// LEVEL < 30
+[Type] == Orb && [Quality] == Magic # [FireSkillTab] == 2 && ([SkillFireBall] == 3 || [SkillFireWall] == 3) && [FCR] == 20 && [ItemLevelReq] <= 30
+[Type] == Orb && [Quality] == Magic # [LightningSkillTab] == 2 && [SkillLightning] == 3 && [FCR] == 20 && [ItemLevelReq] <= 30
+[Type] == Orb && [Quality] == Magic # [ColdSkillTab] == 2 && [SkillBlizzard] == 3 && [FCR] == 20 && [ItemLevelReq] <= 30
+
+
+// ### MAGIC ARMORS ###
+// NORMAL
+[Name] == AncientArmor && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 35 && [ItemReplenishDurability] >= 1
+[Name] == BreastPlate && [Quality] == Magic && [Flag] != Ethereal # [MaxHp] == 80 && [Sockets] == 3
+[Name] == LightPlate && [Quality] == Magic && [Flag] != Ethereal # [MaxHp] == 80 && [Sockets] == 3
+// EXCEPTIONAL
+[Name] == Cuirass && [Quality] == Magic && [Flag] != Ethereal # [MaxHp] == 80 && [Sockets] == 3
+[Name] == MagePlate && [Quality] == Magic && [Flag] != Ethereal # [MaxHp] == 80 && [Sockets] == 3
+[Name] == OrnatePlate && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 80 && [ItemReplenishDurability] >= 1 && [ItemLevelReq] <= 30
+// ELITE
+[Name] == ArchonPlate && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 4 && ([MaxHp] == 100 || [NormalDamageReduction] == 15 || [MagicDamageReduction] == 6)
+[Name] == ArchonPlate && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+[Name] == BalrogSkin && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+[Name] == Boneweave && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+[Name] == DiamondMail && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+[Name] == DuskShroud && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 4 && ([MaxHp] >= 90 || [NormalDamageReduction] == 15 || [MagicDamageReduction] == 6)
+[Name] == DuskShroud && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+[Name] == GreatHauberk && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+[Name] == HellforgePlate && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+[Name] == KrakenShell && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+[Name] == LacqueredPlate	 && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+[Name] == LoricatedMail && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+[Name] == SacredArmor && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+[Name] == ScarabHusk && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 4 && ([MaxHp] == 100 || [NormalDamageReduction] == 15 || [MagicDamageReduction] == 6)
+[Name] == ScarabHusk && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+[Name] == ShadowPlate && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+[Name] == WireFleece && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 4 && ([MaxHp] >= 90 || [NormalDamageReduction] == 15 || [MagicDamageReduction] == 6)
+[Name] == WireFleece && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+[Name] == Wyrmhide && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 4 && ([MaxHp] == 100 || [NormalDamageReduction] == 15 || [MagicDamageReduction] == 6)
+[Name] == Wyrmhide && [Quality] == Magic && [Flag] == Ethereal # [EnhancedDefense] >= 195 && [ItemReplenishDurability] >= 1
+
+
+// ### MAGIC SHIELDS ###
+// NORMAL
+[Name] == BoneShield && [Quality] == Magic && [Flag] != Ethereal # [ItemDamageToMana] == 12 && [FBR] == 30
+[Name] == KiteShield && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 3 && ([MaxHp] == 40 || [MaxHp] == 60 || [HpRegen] == 5 || [FBR] == 30) 
+[Name] == TowerShield && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 3 && [FBR] == 30 && [Defense] == 25
+// EXCEPTIONAL
+[Name] == DragonShield && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 3 && ([HpRegen] == 5 || [FBR] == 30) 
+// ELITE
+[Name] == Hyperion && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 3 && [FBR] == 30
+[Name] == Monarch && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 4 && ([MaxHp] >= 50 || [HpRegen] == 5 || [FBR] == 30 || [NormalDamageReduction] == 15 || [MagicDamageReduction] == 6 || [ItemReqPercent] <= -30) 
+
+
+// ### MAGIC PALADIN SHIELD ###
+// ELITE
+[Name] == KurastShield && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 4 && [FBR] == 30 && ([EnhancedDamage] >= 60 || [FireResist] >= 40)
+[Name] == SacredTarge && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 4 && [FBR] == 30 && ([EnhancedDamage] >= 60 || [FireResist] >= 40)
+[Name] == SacredTarge && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 4 && [MaxHp] >= 40 && ([EnhancedDamage] >= 60 || [FireResist] >= 40)
+[Name] == SacredRondache && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 4 && [FBR] == 30 && ([EnhancedDamage] >= 60 || [FireResist] >= 40)
+[Name] == VortexShield && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 4 && [FBR] == 30 && ([EnhancedDamage] >= 60 || [FireResist] >= 40)
+[Name] == ZakarumShield && [Quality] == Magic && [Flag] != Ethereal # [Sockets] == 4 && [FBR] == 30 && ([EnhancedDamage] >= 60 || [FireResist] >= 40)
+
+
+// ### MAGIC NECROMANCER SHRUNKEN HEADS ###
+// LEVEL 49 >
+[Type] == VoodooHeads && [Quality] == Magic && [Flag] != Ethereal # [NecromancerSkills] == 2 && [SkillBoneSpirit] == 3 && [FBR] == 30
+[Type] == VoodooHeads && [Quality] == Magic && [Flag] != Ethereal # [NecromancerSkills] == 2 && [SkillNova] == 3 && [SkillLowerResist] == 3 && [FBR] == 30
+[Type] == VoodooHeads && [Quality] == Magic && [Flag] != Ethereal # [PoisonAndBoneSkillTab] == 3 && [SkillBoneSpear] == 3 && [SkillBoneSpirit] == 3
+[Type] == VoodooHeads && [Quality] == Magic && [Flag] != Ethereal # [PoisonAndBoneSkillTab] == 3 && [SkillNova] == 3 && [SkillLowerResist] == 3
+[Type] == VoodooHeads && [Quality] == Magic && [Flag] != Ethereal # [PoisonAndBoneSkillTab] == 3 && [SkillBoneSpirit] == 3 && [FBR] == 30
+// LEVEL < 30
+[Type] == VoodooHeads && [Quality] == Magic && [Flag] != Ethereal # [PoisonAndBoneSkillTab] == 2 && [SkillBoneSpirit] == 3 && [FBR] == 30
+// LEVEL < 18
+[Type] == VoodooHeads && [Quality] == Magic && [Flag] != Ethereal # [PoisonAndBoneSkillTab] == 1 && [SkillBoneSpear] == 3 && [FBR] == 30
+
+
+// ### MAGIC JEWELS ###
+// LEVEL 49 >
+[Type] == Jewel && [Quality] == Magic # [PlusDefense] == 64 && ([IAS] == 15 || [MaxDamage] == 15 || [MinDamage] == 10 || [MaxHp] == 20 || [ItemReqPercent] == -15 || [Dexterity] == 9 || [Strength] == 9)
+[Type] == Jewel && [Quality] == Magic # [MaxDamage] == 15 && ([IAS] == 15 || [MinDamage] == 10 || [ItemGoldBonus] == 30 || [MaxHp] == 20 || [ItemReqPercent] == -15 || [Dexterity] == 9 || [Strength] == 9)
+[Type] == Jewel && [Quality] == Magic # [MaxDamage] == 30
+[Type] == Jewel && [Quality] == Magic # [EnhancedDamage] == 40 && ([IAS] == 15 || [MaxDamage] == 15 || [MinDamage] == 10 || [HpRegen] == 4 || [ItemGoldBonus] == 30 || [MaxHp] == 20 || [ItemReqPercent] == -15 || [Dexterity] == 9 || [Strength] == 9)
+[Type] == Jewel && [Quality] == Magic # [ToHit] == 100 && ([MaxDamage] == 15 || [MinDamage] == 10 || [HpRegen] == 4 || [ItemGoldBonus] == 30 || [MaxHp] == 20 || [ItemReqPercent] == -15 || [Dexterity] == 9 || [Strength] == 9)
+[Type] == Jewel && [Quality] == Magic # [ItemMagicBonus] == 7 && [ItemGoldBonus] == 30
+[Type] == Jewel && [Quality] == Magic # [MaxMana] == 20 && ([HpRegen] == 4 || [MaxHp] == 20 || [ItemReqPercent] == -15 || [Dexterity] == 9 || [Strength] == 9)
+[Type] == Jewel && [Quality] == Magic # [FireResist]+[LightResist] == 30 && ([IAS] == 15 || [MaxDamage] == 15 || [FHR] == 7 || [HpRegen] == 4 || [ItemGoldBonus] == 30 || [MaxHp] == 20 || [ItemReqPercent] == -15 || [Dexterity] == 9 || [Strength] == 9)
+[Type] == Jewel && [Quality] == Magic # [ColdResist] == 30 && ([IAS] == 15 || [MaxDamage] == 15 || [FHR] == 7 || [HpRegen] == 4 || [MaxHp] == 20 || [Dexterity] == 9)
+[Type] == Jewel && [Quality] == Magic # [FireResist] == 30 && ([IAS] == 15 || [MaxDamage] == 15 || [FHR] == 7 || [HpRegen] == 4 || [MaxHp] == 20 || [Dexterity] == 9)
+[Type] == Jewel && [Quality] == Magic # [LightResist] == 30 && ([IAS] == 15 || [MaxDamage] == 15 || [FHR] == 7 || [HpRegen] == 4 || [MaxHp] == 20 || [Dexterity] == 9)
+// LEVEL < 30
+[Type] == Jewel && [Quality] == Magic # [PlusDefense] == 40 && [MaxDamage] == 15 && [ItemLevelReq] <= 30
+[Type] == Jewel && [Quality] == Magic # [MinDamage]+[MaxDamage] >= 23 && [ItemLevelReq] <= 30
+[Type] == Jewel && [Quality] == Magic # [MaxDamage] >= 22 && [ItemLevelReq] <= 30
+[Type] == Jewel && [Quality] == Magic # [EnhancedDamage] == 20 && [MaxDamage] == 15 && [ItemLevelReq] <= 30
+[Type] == Jewel && [Quality] == Magic # [MaxMana] == 20 && [Dexterity] == 9 && [ItemLevelReq] <= 30
+[Type] == Jewel && [Quality] == Magic # [FireResist]+[LightResist] == 30 && ([MaxDamage] == 15 || [Dexterity] == 9) && [ItemLevelReq] <= 30
+// LEVEL < 18
+[Type] == Jewel && [Quality] == Magic # [PlusDefense] == 20 && [MaxDamage] == 15 && [ItemLevelReq] <= 18
+[Type] == Jewel && [Quality] == Magic # [MinDamage] == 4 && [MaxDamage] == 15 && [ItemLevelReq] <= 18
+[Type] == Jewel && [Quality] == Magic # [MaxDamage] >= 19 && [ItemLevelReq] <= 18
+[Type] == Jewel && [Quality] == Magic # [EnhancedDamage] == 20 && [MaxDamage] == 15 && [ItemLevelReq] <= 18
+[Type] == Jewel && [Quality] == Magic # [ItemDamageToMana] == 12 && [MaxDamage] == 15 && [ItemLevelReq] <= 18
+[Type] == Jewel && [Quality] == Magic # [ToHit] == 60 && [MaxDamage] == 15
+[Type] == Jewel && [Quality] == Magic # [FireResist]+[LightResist] == 20 && [MaxDamage] == 15

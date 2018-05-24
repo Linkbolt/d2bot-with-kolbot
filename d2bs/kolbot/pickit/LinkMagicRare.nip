@@ -21,8 +21,8 @@
 // ##############################################################################################################################################
 // ##### 1- Rare Rings ########################################################################################################################
 // ##############################################################################################################################################
-[Type] == Ring && [Quality] == Magic # [ItemMagicBonus] >= 25
-[Type] == Ring && [Quality] == Magic # [FCR] >= 10 && [Mana] >= 100
+[Type] == Ring && [Quality] <= Rare # [ItemMagicBonus] >= 25
+[Type] == Ring && [Quality] <= Rare # [FCR] >= 10 && [Mana] >= 100
 
 
 
@@ -31,9 +31,14 @@
 // ##############################################################################################################################################
 // ##### 2- Rare Amulets ########################################################################################################################
 // ##############################################################################################################################################
-[Type] == Amulet && [Quality] == Magic # [ItemMagicBonus] >= 40 // MF
-[Type] == Amulet && [Quality] == Magic # [itemallskills] >= 2 // Skillers
-
+[Type] == Amulet && [Quality] == Rare # [ItemMagicBonus] >= 40 // MF
+[Type] == Amulet && [Quality] == Rare # [itemallskills] >= 2 // Skillers
+[Type] == Amulet && [Quality] == rare # [AmazonSkills] == 2 && [Dexterity]+[Strength]+[MaxHp] >= 95
+[Type] == Amulet && [Quality] == rare # [BarbarianSkills] == 2 && [Dexterity]+[Strength]+[MaxHp] >= 95
+[Type] == Amulet && [Quality] == rare # [BarbarianSkills] == 2 && [ItemGoldBonus] >= 75
+[Type] == Amulet && [Quality] == rare # [PaladinSkills] == 2 && [Dexterity]+[Strength]+[MaxHp] >= 95
+[Type] == Amulet && [Quality] == rare # [PaladinSkills] == 2 && [FCR] == 10 && [MaxHp]+[MaxMana] >= 100
+[Type] == Amulet && [Quality] == rare # [SorceressSkills] == 2 && [FCR] == 10 && [MaxHp]+[MaxMana] >= 100
 
 
 
@@ -121,7 +126,10 @@
 
 
 // ##### Sorceress Orbs #####################
-
+[Type] == Orb && [Quality] <= Rare # [SorceressSkills] == 2 && [SkillLightning] == 3 && [FCR] == 20 && ([SkillLightningMastery] >= 2 || [Sockets] == 2)
+[Type] == Orb && [Quality] <= Rare # [SorceressSkills] == 2 && [SkillFireball] == 3 && [FCR] == 20 && ([SkillFireMastery] >= 2 || [Sockets] == 2)
+[Type] == Orb && [Quality] <= Rare # [SorceressSkills] == 2 && [SkillFirewall] == 3 && [FCR] == 20 && ([SkillFireMastery] >= 2 || [Sockets] == 2)
+[Type] == Orb && [Quality] <= Rare # [SorceressSkills] == 2 && ([SkillBlizzard] == 3 || [SkillFrozenOrb] == 3) && [FCR] == 20 && ([SkillColdMastery] >= 2 || [Sockets] == 2)
 
 // ##### Polearms ###########################
 

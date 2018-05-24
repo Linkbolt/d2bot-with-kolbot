@@ -1,0 +1,97 @@
+// Made by Dubb @ d2etal.com
+
+// ### SKILLER GRAND CHARMS ###
+[Name] == GrandCharm && [Quality] == Magic # [JavelinAndSpearSkillTab] == 1 && ([MaxHp] >= 30 || [FRW] == 7 || [FHR] == 12)
+[Name] == GrandCharm && [Quality] == Magic # [PassiveAndMagicSkillTab] == 1 && [MaxHp] == 45
+[Name] == GrandCharm && [Quality] == Magic # [BowAndCrossbowSkillTab] == 1 && [MaxHp] == 45
+[Name] == GrandCharm && [Quality] == Magic # [MartialArtsSkillTab] == 1 && [MaxHp] == 45
+[Name] == GrandCharm && [Quality] == Magic # [ShadowDisciplinesSkillTab] == 1 && ([MaxHp] >= 30 || [FHR] == 12)
+[Name] == GrandCharm && [Quality] == Magic # [TrapsSkillTab] == 1 && ([MaxHp] >= 30 || [FHR] == 12)
+[Name] == GrandCharm && [Quality] == Magic # [NecromancerSummoningSkillTab] == 1 && [MaxHp] == 45
+[Name] == GrandCharm && [Quality] == Magic # [PoisonAndBoneSkillTab] == 1 && ([MaxHp] >= 30 || [FHR] == 12)
+[Name] == GrandCharm && [Quality] == Magic # [CursesSkillTab] == 1 && [MaxHp] == 45
+[Name] == GrandCharm && [Quality] == Magic # [WarcriesSkillTab] == 1 && ([MaxHp] >= 30 || [ItemGoldBonus] >= 30)
+[Name] == GrandCharm && [Quality] == Magic # [MasteriesSkillTab] == 1 && [MaxHp] >= 40
+[Name] == GrandCharm && [Quality] == Magic # [BarbCombatSkillTab] == 1 && [MaxHp] >= 40
+[Name] == GrandCharm && [Quality] == Magic # [DefensiveAurasSkillTab] == 1 && [MaxHp] == 45
+[Name] == GrandCharm && [Quality] == Magic # [OffensiveAurasSkillTab] == 1 && [MaxHp] >= 40
+[Name] == GrandCharm && [Quality] == Magic # [PaliCombatSkillTab] == 1 && ([MaxHp] >= 10 || [Dexterity] == 6 || [FHR] == 12)
+[Name] == GrandCharm && [Quality] == Magic # [ColdSkillTab] == 1 && ([MaxHp] >= 30 || [FHR] == 12)
+[Name] == GrandCharm && [Quality] == Magic # [LightningSkillTab] == 1 && ([MaxHp] >= 10 || [FHR] == 12)
+[Name] == GrandCharm && [Quality] == Magic # [FireSkillTab] == 1 && ([MaxHp] >= 30 || [FHR] == 12)
+[Name] == GrandCharm && [Quality] == Magic # [ElementalSkillTab] == 1 && ([MaxHp] >= 30 || [FHR] == 12)
+[Name] == GrandCharm && [Quality] == Magic # [ShapeShiftingSkillTab] == 1 && [MaxHp] >= 30
+[Name] == GrandCharm && [Quality] == Magic # [DruidSummoningSkillTab] == 1 && [MaxHp] == 45
+
+
+// ### GRAND CHARMS ###
+// Level 49 >
+// MAX DAMAGE
+[Name] == GrandCharm && [Quality] == Magic # [MaxDamage] == 10 && [ToHit] >= 49 && [MaxHp] >= 40
+[Name] == GrandCharm && [Quality] == Magic # [MaxDamage] == 10 && [ToHit] >= 49 && [ItemGoldBonus] >= 30
+[Name] == GrandCharm && [Quality] == Magic # [MaxDamage] == 14 && [ToHit] >= 49
+// MIN DAMAGE
+[Name] == GrandCharm && [Quality] == Magic # [MinDamage] == 3 && [MaxHp] == 45
+// ATTACK RATING
+[Name] == GrandCharm && [Quality] == Magic # [ToHit] >= 130 && [MaxHp] >= 40
+// MANA
+[Name] == GrandCharm && [Quality] == Magic # [MaxMana] == 59 && [MaxHp] == 45
+// RESIST
+[Name] == GrandCharm && [Quality] == Magic # ([FireResist] == 30 || [LightResist] == 30) && [ItemGoldBonus] == 40
+[Name] == GrandCharm && [Quality] == Magic # [FireResist] == 15 && [LightResist] == 15 && ([MaxHp] == 45 || [ItemGoldBonus] == 40)
+// Level < 49
+[Name] == GrandCharm && [Quality] == Magic # [MaxDamage] == 10 && [ToHit] == 76 && [MaxHp] == 30
+// Level < 30
+[Name] == GrandCharm && [Quality] == Magic # [MaxDamage] == 10 && [ToHit] == 76 && [MaxHp] == 25
+// Level < 18
+[Name] == GrandCharm && [Quality] == Magic # [MaxDamage] == 6 && [ToHit] >= 10 && ([MaxHp] == 20 || [FRW] == 7 || [Strength] == 6 || [Dexterity] == 6) && [ItemLevelReq] <= 18
+[Name] == GrandCharm && [Quality] == Magic # [MaxMana] == 33 && [FRW] == 7
+
+
+// ### LARGE CHARMS ###
+// Level 49 >
+[Name] == LargeCharm && [Quality] == Magic # [MaxDamage] == 6 && [ToHit] >= 21 && ([MaxHp] == 35 || [ItemGoldBonus] == 22)
+// Level < 9
+[Name] == LargeCharm && [Quality] == Magic # ([MaxMana] == 7 || [ToHit] == 12) && [MaxHp] == 15
+
+
+// ### SMALL CHARMS ###
+// Level 49 >
+// DEFENSE
+[Name] == SmallCharm && [Quality] == Magic # [PlusDefense] == 30 && [MaxHp] == 20
+// MIN DAMAGE
+[Name] == SmallCharm && [Quality] == Magic # [MinDamage] == 1 && ([MaxHp] == 20 || [ItemGoldBonus] == 10 || [ItemMagicBonus] == 7)
+// ATTACK RATING
+[Name] == SmallCharm && [Quality] == Magic # [ToHit] == 36 && ([MaxHp] == 20 || [FHR] == 5)
+// MAX DAMAGE
+[Name] == SmallCharm && [Quality] == Magic # [MaxDamage] == 4 && [ToHit] == 20
+[Name] == SmallCharm && [Quality] == Magic # [MaxDamage] == 3 && [ToHit] == 20 && ([FHR] == 5 || [FRW] == 3)
+[Name] == SmallCharm && [Quality] == Magic # [MaxDamage] == 3 && [ToHit] >= 10 && ([ItemGoldBonus] == 10 || [ItemMagicBonus] == 7)
+[Name] == SmallCharm && [Quality] == Magic # [MaxDamage] == 3 && [ToHit] >= 10 && [MaxHp] >= 19
+// MANA
+[Name] == SmallCharm && [Quality] == Magic # [MaxMana] >= 16 && [MaxHp] >= 19
+[Name] == SmallCharm && [Quality] == Magic # [MaxMana] == 17 && [FHR] == 5
+// RESIST
+[Name] == SmallCharm && [Quality] == Magic # [ColdResist]+[FireResist]+[LightResist] == 15 && ([FHR] == 5 && [ItemGoldBonus] == 10 || [ItemMagicBonus] == 7 || [FRW] == 3 || [MaxHp] >= 10)
+[Name] == SmallCharm && [Quality] == Magic # [ColdResist]+[FireResist]+[LightResist] >= 12 && [MaxHp] == 20
+[Name] == SmallCharm && [Quality] == Magic # ([ColdResist] == 11 || [FireResist] == 11 || [LightResist] == 11) && ([ItemGoldBonus] == 10 || [ItemMagicBonus] == 7 || [FRW] == 3)
+[Name] == SmallCharm && [Quality] == Magic # ([ColdResist] == 11 || [FireResist] == 11 || [LightResist] == 11) && [MaxHp] >= 19
+[Name] == SmallCharm && [Quality] == Magic # ([ColdResist] >= 10 || [FireResist] >= 10 || [LightResist] >= 10 || [PoisonResist] == 11) && [MaxHp] == 20
+// Level < 30
+// DEFENSE
+[Name] == SmallCharm && [Quality] == Magic # [PlusDefense] == 20 && [MaxHp] == 15
+// MAX DAMAGE
+[Name] == SmallCharm && [Quality] == Magic # [MaxDamage] == 3 && [ToHit] >= 10 && [MaxHp] >= 14 && [ItemLevelReq] <= 30
+// MANA
+[Name] == SmallCharm && [Quality] == Magic # [MaxMana] == 12 && ([MaxHp] >= 14 || [FRW] == 3) && [ItemLevelReq] <= 30
+[Name] == SmallCharm && [Quality] == Magic # [MaxMana] >= 10 && [MaxHp] == 15 && [ItemLevelReq] <= 30
+// RESIST
+[Name] == SmallCharm && [Quality] == Magic # [ColdResist]+[FireResist]+[LightResist] == 15 && [MaxHp] == 15
+[Name] == SmallCharm && [Quality] == Magic # [ColdResist] == 9 && [MaxHp] == 15
+// Level < 18
+// DEFENSE
+[Name] == SmallCharm && [Quality] == Magic # [PlusDefense] == 8 && [MaxHp] == 15
+// ATTACK RATING
+[Name] == SmallCharm && [Quality] == Magic # [ToHit] == 12 && [MaxHp] == 15
+// RESIST
+[Name] == SmallCharm && [Quality] == Magic # ([FireResist] == 7 || [LightResist] == 7) && [MaxHp] == 15 && [ItemlevelReq] <= 18

@@ -42,7 +42,7 @@
 //[type] == amulet && [quality] == unique # [poisonresist] == 75 // atma's scarab
 //[type] == amulet && [quality] == unique # [hpregen] == 10 // the rising sun
 [type] == amulet && [quality] == unique # [lightresist] == 35 // highlord's wrath
-[type] == amulet && [quality] == unique// # [strength] == 5 && [coldresist] >= 20 // mara's kaleidoscope
+[type] == amulet && [quality] == unique # [strength] == 5 && [coldresist] >= 20 // mara's kaleidoscope
 [type] == amulet && [quality] == unique # [defensiveaurasskilltab] >= 2 // seraph's hymn
 [type] == amulet && [quality] == unique # [tohit] >= 450 && [coldresist] >= 35 // metalgrid
 
@@ -136,7 +136,7 @@
 [name] == gauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // frostburn
 [name] == battlegauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // lava gout
 [name] == wargauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // hellmouth
-[name] == vampirebonegloves && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 120 && [strength] == 15 && [lifeleech] == 10 // dracul's grasp
+[name] == vampirebonegloves && [quality] == unique && [flag] != ethereal # [lifeleech] == 10 //&& [enhanceddefense] == 120 && [strength] == 15 // dracul's grasp
 [name] == vambraces && [quality] == unique && [flag] != ethereal # [manaleech] >= 7 && [lifeleech] >= 7 && [enhanceddefense] >= 120 // soul drainer
 [name] == ogregauntlets && [quality] == unique && [flag] != ethereal # [enhanceddamage] >= 60 && [defense] >= 210 // steelrend
 
@@ -195,7 +195,6 @@
 [name] == ceremonialjavelin && [quality] == unique && [flag] == ethereal # [enhanceddamage] >= 200 // titan's revenge
 [name] == matriarchaljavelin && [quality] == unique && [flag] != ethereal # [javelinandspearskilltab] == 4 && [enhanceddamage] == 200 //thunderstroke
 
-
 // ##### axes ###############################
 [name] == ettinaxe && [quality] == unique && [flag] == ethereal # [enhanceddamage] == 270 && [sockets] == 5 //rune master
 [name] == tomahawk && [quality] == unique && [flag] == ethereal # [enhanceddamage] == 225 // razor's edge
@@ -212,9 +211,9 @@
 
 
 // ##### daggers ############################
-[name] == boneknife && [quality] == unique // gull
+[name] == dagger && [quality] == unique // gull
 [name] == fangedknife && [quality] == unique && [flag] == ethereal # [enhanceddamage] == 300 // fleshripper
-[name] == dagger && [quality] == unique // wizardspike
+//[name] == boneknife && [quality] == unique // wizardspike
 
 
 // ##### maces ##############################
@@ -223,8 +222,7 @@
 [name] == scourge && [quality] == unique && [flag] == ethereal # [enhanceddamage] >= 300 //stormlash
 
 // ##### javelins ###########################
-[name] == ghostglaive && [quality] == unique # [enhanceddamage] == 190 && [lifeleech] == 13
-
+[name] == ghostglaive && [quality] == unique # [enhanceddamage] == 190 && [lifeleech] == 13 //Wraith Flight
 
 // ##### katars #############################
 [name] == greatertalons && [quality] == unique # [enhanceddamage] == 200 && [lifeleech] == 9 // bartuc's cut-throat

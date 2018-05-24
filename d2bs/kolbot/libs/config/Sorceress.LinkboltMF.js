@@ -194,13 +194,17 @@ function LoadConfig() {
 		Config.ShopBot.CycleDelay = 0; // Delay between shopping cycles in milliseconds, might help with crashes.
 		Config.ShopBot.QuitOnMatch = false; // Leave game as soon as an item is shopped.
 	Scripts.ChestMania = true; // Open chests in configured areas. See sdk/areas.txt
+		Config.ChestMania.Act2 = [74]; // List of act 2 areas to open chests in
+		Config.ChestMania.Act3 = [79, 80, 81, 82, 83, 93]; // List of act 3 areas to open chests in
+		Config.ChestMania.Act4 = [107];
+		Config.ChestMania.Act5 = [125, 126, 127]; // List of act 5 areas to open chests in
+		
 		//Config.ChestMania.Act1 = [13, 14, 15, 16, 18, 19]; // List of act 1 areas to open chests in
 		//Config.ChestMania.Act2 = [55, 59, 65, 66, 67, 68, 69, 70, 71, 72]; // List of act 2 areas to open chests in
 		//Config.ChestMania.Act3 = [79, 80, 81, 92, 93, 84, 85, 90]; // List of act 3 areas to open chests in
-		Config.ChestMania.Act3 = [79, 81]; // List of act 3 areas to open chests in
 		//Config.ChestMania.Act4 = []; // List of act 4 areas to open chests in
 		//Config.ChestMania.Act5 = [115, 116, 119, 125, 126, 127]; // List of act 5 areas to open chests in
-		Config.ChestMania.Act5 = [125, 126, 127]; // List of act 5 areas to open chests in
+		
 	Scripts.ClearAnyArea = false; // Clear any area. Uses Config.ClearType to determine which type of monsters to kill.
 		Config.ClearAnyArea.AreaList = []; // List of area ids to clear. See sdk/areas.txt
 
@@ -258,7 +262,7 @@ function LoadConfig() {
 	Config.Inventory[0] = [1,1,1,1,1,1,1,0,0,0];
 	Config.Inventory[1] = [1,1,1,1,1,1,1,0,0,0];
 	Config.Inventory[2] = [1,1,1,1,1,1,1,0,0,0];
-	Config.Inventory[3] = [1,1,1,1,1,1,1,1,0,0];
+	Config.Inventory[3] = [1,1,1,1,1,1,1,0,0,0];
 
 	Config.StashGold = 100000; // Minimum amount of gold to stash.
 
@@ -282,9 +286,10 @@ function LoadConfig() {
 	// Pickit config. Default folder is kolbot/pickit.
 	Config.PickitFiles.push("LinkUnique.nip");
 	Config.PickitFiles.push("LinkSets.nip");
-	Config.PickitFiles.push("LinkRare.nip");
+	Config.PickitFiles.push("LinkMagicRare.nip");
 	Config.PickitFiles.push("LinkSockets.nip");
 	Config.PickitFiles.push("LinkMisc.nip");
+	
 	Config.PickitFiles.push("kolton.nip");
 	Config.PickitFiles.push("LLD.nip");
 	Config.PickitFiles.push("EarlyLadder.nip");
@@ -400,7 +405,7 @@ function LoadConfig() {
 	Config.LastMessage = ""; // Message or array of messages to say at the end of the run. Use $nextgame to say next game - "Next game: $nextgame" (works with lead entry point)
 	Config.MinGameTime = 300; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
 	Config.MaxGameTime = 1800; // Maximum game time in seconds. Quit game when limit is reached.
-	Config.TeleSwitch = false; // Switch to slot II when teleporting more than 1 node.
+	Config.TeleSwitch = true; // Switch to slot II when teleporting more than 1 node.
 	Config.OpenChests = true; // Open chests. Controls key buying.
 	Config.MiniShopBot = false; // Scan items in NPC shops.
 	Config.PacketShopping = false; // Use packets to shop. Improves shopping speed.

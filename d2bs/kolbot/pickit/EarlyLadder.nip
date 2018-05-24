@@ -84,7 +84,7 @@
 [name] == Leather Gloves && [quality] == unique && [flag] != ethereal // The Hand of Broc
 [name] == heavygloves && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // Bloodfist
 //[Name] == ChainGloves && [Quality] == unique && [Flag] != ethereal// # [ItemMagicBonus] == 40 // Chance Guards
-[Name] == LightGauntlets && [Quality] == unique && [Flag] != ethereal //# [EnhancedDefense] == 30 // Magefist
+//[Name] == LightGauntlets && [Quality] == unique && [Flag] != ethereal # [EnhancedDefense] == 30 // Magefist
 [name] == gauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // Frostburn
 [name] == battlegauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // lava gout
 //[Name] == WarGauntlets && [Quality] == unique [flag] != ethereal # [EnhancedDefense]== 200 // Hellmouth
