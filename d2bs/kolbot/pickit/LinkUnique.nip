@@ -67,7 +67,7 @@
 [name] == bloodspirit && [quality] == unique # [enhanceddefense] == 140 && [itemtohitpercent] == 120 && [shapeshiftingskilltab] == 4 && [skillferalrage] == 2 && [lifeleech] == 10 // cerebus' bite
 [name] == earthspirit && [quality] == unique && [flag] != ethereal # [druidskills] == 2// && [fireresist] == 40 && [itemabsorblightpercent] == 14 && [itemabsorbcoldpercent] == 25 && [enhanceddefense] == 190 // spirit keeper
 [name] == tiara && [quality] == unique # [poisonresist] >= 70  // kira's guardian
-[name] == diadem && [quality] == unique // griffon's eye
+[name] == diadem && [quality] == unique //# [PassiveLtngMastery] == 20 && [PassiveLtngPierce] == 15 && [Defense] == 290 // griffon's eye
 
 [name] == casque && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 240 && [itemmagicbonus] >= 50// crown of thieves eth
 [name] == grimhelm && [quality] == unique && [flag] == ethereal// # [lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // vampire gaze eth
@@ -231,7 +231,7 @@
 
 // ##### sorceress orbs #####################
 [name] == swirlingcrystal && [quality] == unique // the oculus
-[name] == eldritchorb && [quality] == unique  # [sorceressskills] == 3 && ([passivefiremastery] == 20 || [passiveltngmastery] == 20) && [energy] >= 30 // eschuta's temper
+[name] == eldritchorb && [quality] == unique  # [sorceressskills] == 3 //&& ([passivefiremastery] == 20 || [passiveltngmastery] == 20) && [energy] >= 30 // eschuta's temper
 [name] == dimensionalshard && [quality] == unique # [passivecoldmastery] == 30 && [lightresist] == 40 && [fireresist] == 40 // death's fathom
 
 
