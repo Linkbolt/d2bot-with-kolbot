@@ -18,9 +18,9 @@
 // ##############################################################################################################################################
 // ##### 2- socket body armor ###################################################################################################################
 // ##############################################################################################################################################
-([name] == duskshroud || [name] == archonplate) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3) // enigma
-([name] == duskshroud || [name] == archonplate) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) // chains of honor
-([name] == duskshroud || [name] == archonplate) && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // fortitude
+([name] == duskshroud || [name] == archonplate || [name] == wyrmhide) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3) // enigma runeword
+([name] == duskshroud || [name] == archonplate || [name] == wyrmhide) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) // chains of honor runeword
+([name] == duskshroud || [name] == archonplate || [name] == wyrmhide) && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // fortitude runeword
 
 
 
@@ -29,9 +29,9 @@
 // ##############################################################################################################################################
 // ##### 3- socket shields #####################################################################################################################
 // ##############################################################################################################################################
-[name] == trollnest && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 2) // spirit
-[name] == sacredtarge && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 2) // spirit
-[name] == vortexshield && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // exile
+([name] == trollnest || [name] == sacredtarge) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 2) // rhyme runeword
+([name] == monarch || [name] == sacredtarge) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) // spirit runeword
+([name] == monarch || [name] == sacredtarg) && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // exile runeword
 
 
 
@@ -70,10 +70,8 @@
 
 
 // ##### polearms ###########################
-[name] == thresher && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // insight runeword || pride runeword
-[name] == crypticaxe && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // insight runeword || pride runeword
-[name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // insight runeword || pride runeword
-[name] == greatpoleaxe && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 6)// breath of the dying runeword
+([name] == thresher || [name] == crypticaxe || [name] == colossusvoulge) && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // insight runeword || pride runeword || fortitude runeword
+([name] == thresher || [name] == greatpoleaxe) && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 6)// breath of the dying runeword
 
 // ##### scepters ###########################
 
@@ -92,4 +90,4 @@
 
 
 // ##### wands ##############################
-([Type] == Wand || [Type] == NecromancerItem) && [Quality] <= Superior && [flag] != ethereal # [SkillBoneSpear] >= 3 && [Sockets] != 1 // white runeword
+([type] == wand || [type] == necromanceritem) && [quality] <= superior && [flag] != ethereal # [skillbonespear] >= 3 && [sockets] != 1 // white runeword
