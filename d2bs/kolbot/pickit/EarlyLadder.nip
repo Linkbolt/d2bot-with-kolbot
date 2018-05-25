@@ -113,7 +113,7 @@
 [name] == heavybelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 && [itemgoldbonus] == 80 // goldwrap
 [name] == demonhidesash && [quality] == unique && [flag] != ethereal// # [damageresist] == 15 && [lifeleech] == 8 && [enhanceddefense] == 180 && [magicdamagereduction] == 15 //string of ears
 [Name] == BattleBelt && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 170 // Snowclash
-[Name] == WarBelt && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 200 // Thundergod's Vigor
+//[Name] == WarBelt && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 200 // Thundergod's Vigor
 [Name] == SpiderwebSash && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 120  // Arachnid Mesh
 [name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7// && [defense] == 63 // nosferatu's coil
 [Name] == MithrilCoil && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 140 && [damageresist] == 15 && [Vitality] == 40 &&  // Verdungo's Hearty Cord
@@ -147,7 +147,7 @@
 
 
 // ##### Daggers #######################
-[Name] == BoneKnife && [Quality] == unique // Wizardspike
+//[Name] == BoneKnife && [Quality] == unique // Wizardspike
 
 
 // ##### Polearms ######################

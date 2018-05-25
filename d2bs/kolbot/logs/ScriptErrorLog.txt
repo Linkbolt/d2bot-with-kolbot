@@ -422,3 +422,11 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 [23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 618
 [23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 617
 [23:22:07] <LinkboltMF> Unknown stat: description File: DubRare.nip Line: 618
+[05:45:17] <LinkboltMF> Error in Pindleskin (pindleskin.js line 33): Failed to use portal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pindleskin@pindleskin.js:33
+[05:46:44] <LinkboltMF> Error in Eldritch (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:11, useWaypoint@pather.js:992
+[05:48:12] <LinkboltMF> Error in ChestMania (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1338, Pather.plotCourse@pather.js:1473, useWaypoint@pather.js:992
+[09:35:53] <LinkboltMF> Error in Pit (pit.js line 13): Failed to move to Pit level 1
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13

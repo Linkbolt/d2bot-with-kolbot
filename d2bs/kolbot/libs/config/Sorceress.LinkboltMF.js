@@ -17,7 +17,7 @@ function LoadConfig() {
 	Scripts.UserAddon = false; // !!!YOU MUST SET THIS TO FALSE IF YOU WANT TO RUN BOSS/AREA SCRIPTS!!!
 
 	// Battle orders script - Use this for 2+ characters (for example BO barb + sorc)
-	Scripts.BattleOrders = false;
+	Scripts.BattleOrders = true;
 		Config.BattleOrders.Mode = 0; // 0 = give BO, 1 = get BO
 		Config.BattleOrders.Wait = false; // Idle until the player that received BO leaves.
 		Config.BattleOrders.Getters = []; // List of players to wait for before casting Battle Orders (mode 0). All players must be in the same area as the BOer.
@@ -44,7 +44,7 @@ function LoadConfig() {
 	Scripts.Treehead = false;
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
-	Scripts.Countess = true;
+	Scripts.Countess = false;
 		Config.Countess.KillGhosts = true;
 	Scripts.Andariel = true;
 	Scripts.Cows = false;
@@ -60,7 +60,7 @@ function LoadConfig() {
 	Scripts.Summoner = true;
 		Config.Summoner.FireEye = false;
 	Scripts.Tombs = false;
-	Scripts.Duriel = false;
+	Scripts.Duriel = true;
 
 	// *** act 3 ***
 	Scripts.Stormtree = false;
@@ -110,7 +110,7 @@ function LoadConfig() {
 	Scripts.Snapchip = false;
 		Config.Snapchip.ClearIcyCellar = true;
 	Scripts.Worldstone = false;
-	Scripts.Baal = true;
+	Scripts.Baal = false;
 		Config.Baal.HotTPMessage = "Hot TP!";
 		Config.Baal.SafeTPMessage = "Safe TP!";
 		Config.Baal.BaalMessage = "Baal!";
@@ -451,7 +451,7 @@ function LoadConfig() {
 	// Monster skip config
 	// Skip immune monsters. Possible options: "fire", "cold", "lightning", "poison", "physical", "magic".
 	// You can combine multiple resists with "and", for example - "fire and cold", "physical and cold and poison"
-	Config.SkipImmune = ["Fire and Cold"];
+	Config.SkipImmune = ["Cold"];
 	// Skip enchanted monsters. Possible options: "extra strong", "extra fast", "cursed", "magic resistant", "fire enchanted", "lightning enchanted", "cold enchanted", "mana burn", "teleportation", "spectral hit", "stone skin", "multiple shots".
 	// You can combine multiple enchantments with "and", for example - "cursed and extra fast", "mana burn and extra strong and lightning enchanted"
 	Config.SkipEnchant = [];
@@ -462,25 +462,27 @@ function LoadConfig() {
 	 * To disable an attack, set it to -1
 	 * Skills MUST be POSITIVE numbers. For reference see http://pastebin.com/baShRwWM
 	 */
-	// Frozen Orb + Fire Wall
-	Config.AttackSkill[0] = 55; // Preattack skill.
-	Config.AttackSkill[1] = 64; // Primary skill to bosses.
-	Config.AttackSkill[2] = 55; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
-	Config.AttackSkill[3] = 64; // Primary skill to others.
-	Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
-	
-	Config.AttackSkill[5] = 51; // Secondary skill if monster is immune to primary.
-	Config.AttackSkill[6] = 42; // Secondary untimed skill if monster is immune to primary untimed.
 	
 	// Blizzard
-	//Config.AttackSkill[0] = 55; // Preattack skill.
-	//Config.AttackSkill[1] = 59; // Primary skill to bosses.
-	//Config.AttackSkill[2] = 55; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
-	//Config.AttackSkill[3] = 59; // Primary skill to others.
-	//Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
+	Config.AttackSkill[0] = 55; // Preattack skill.
+	Config.AttackSkill[1] = 59; // Primary skill to bosses.
+	Config.AttackSkill[2] = 55; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
+	Config.AttackSkill[3] = 59; // Primary skill to others.
+	Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
 	//Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
-	//Config.AttackSkill[6] = -1; // Secondary untimed skill if monster is immune to primary untimed.
+	//Config.AttackSkill[6] = -1; // Secondary skill if monster is immune to primary.
+	Config.AttackSkill[5] = 43; // Secondary skill if monster is immune to primary.
+	Config.AttackSkill[6] = 42; // Secondary untimed skill if monster is immune to primary untimed.
 
+	// Frozen Orb + Fire Wall
+	//Config.AttackSkill[0] = 55; // Preattack skill.
+	//Config.AttackSkill[1] = 64; // Primary skill to bosses.
+	//Config.AttackSkill[2] = 55; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
+	//Config.AttackSkill[3] = 64; // Primary skill to others.
+	//Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
+	//Config.AttackSkill[5] = 51; // Secondary skill if monster is immune to primary.
+	//Config.AttackSkill[6] = 42; // Secondary untimed skill if monster is immune to primary untimed.
+	
 	// Low mana skills - these will be used if main skills can't be cast.
 	Config.LowManaSkill[0] = -1; // Timed low mana skill.
 	Config.LowManaSkill[1] = -1; // Untimed low mana skill.	

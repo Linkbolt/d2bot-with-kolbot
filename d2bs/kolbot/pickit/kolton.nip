@@ -111,7 +111,7 @@
 [name] == grimshield && [quality] == unique # [enhanceddefense] == 130 && [itemmanaafterkill] == 5 // lidless wall
 
 // upgrades
-[name] == barbedshield && [quality] == unique && [flag] == identified // # [defense] == 134 || [defense] == 197 // swordback hold x1 (noneth/eth)
+[name] == barbedshield && [quality] == unique && [flag] == identified # [defense] == 134 || [defense] == 197 // swordback hold x1 (noneth/eth)
 [name] == bladebarrier && [quality] == unique && [flag] == identified # [defense] == 270 || [defense] == 401 // swordback hold x2 (noneth/eth)
 [name] == bladebarrier && [quality] == unique && [flag] == identified # [defense] == 536 // lanceguard eth x1
 [name] == luna && [quality] == unique && [flag] == identified # [defense] == 393 || [defense] == 588 // moser x1 (noneth/eth)

@@ -38,7 +38,7 @@
 //[name] == ralrune # # [maxquantity] == 2
 //[name] == ortrune # # [maxquantity] == 2
 //[name] == thulrune # # [maxquantity] == 5
-[name] == amnrune # # [maxquantity] == 3
+//[name] == amnrune # # [maxquantity] == 3
 //[name] == solrune # # [maxquantity] == 1
 //[name] == shaelrune # # [maxquantity] == 3
 //[name] == dolrune # # [maxquantity] == 1
@@ -148,7 +148,7 @@
 // ##############################################################################################################################################
 // ##### 8- keys ################################################################################################################################
 // ##############################################################################################################################################
-[name] == keyofhate # # [maxquantity] == 3
+//[name] == keyofhate # # [maxquantity] == 3
 [name] == keyofterror # # [maxquantity] == 3
 [name] == keyofdestruction # # [maxquantity] == 3
 //[name] == twistedessenceofsuffering # # [maxquantity] == 3
