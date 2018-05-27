@@ -27,7 +27,7 @@
 //[name] == BoneVisage && [quality] == unique // Giant Skull
 [Name] == SlayerGuard && [Quality] == unique// && [flag] != ethereal # [EnhancedDefense] == 200 && [lifeleech] == 6 // Arreat's Face
 [name] == furyvisor && [quality] == unique && [flag] != ethereal # [warcriesskilltab] == 3 && [skillwerewolf]+[skilllycanthropy]+[skillferalrage] == 18 && [strength]+[dexterity]+[vitality] >= 45 // wolfhowl
-[Name] == TotemicMask && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 200 // Jalal's Mane
+//[Name] == TotemicMask && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 200 // Jalal's Mane
 [Name] == EarthSpirit && [Quality] == unique && [Flag] != ethereal # [DruidSkills] == 2// && [FireResist] == 40 && [itemabsorblightpercent] == 14 && [itemabsorbcoldpercent] == 25 && [EnhancedDefense] == 190 // Spirit Keeper
 
 [name] == Casque && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 240 && [ItemMagicBonus] >= 50// Crown of Thieves Eth

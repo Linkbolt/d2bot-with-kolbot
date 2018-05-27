@@ -430,3 +430,55 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1338, Pather.plotCourse@pather.js:1473, useWaypoint@pather.js:992
 [09:35:53] <LinkboltMF> Error in Pit (pit.js line 13): Failed to move to Pit level 1
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pit@pit.js:13
+[23:07:34] <LinkboltMF> Error in Andariel (town.js line 2209): Town.visitTown: Failed to go back from town
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Andariel@andariel.js:53, Pickit.pickItems@pickit.js:142, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2209
+[23:09:33] <LinkboltMF> Error in AncientTunnels (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, AncientTunnels@ancienttunnels.js:9, useWaypoint@pather.js:992
+[23:11:41] <LinkboltMF> Error in Summoner (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Summoner@summoner.js:9, useWaypoint@pather.js:992
+[23:13:49] <LinkboltMF> Error in Duriel (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Duriel@duriel.js:48, useWaypoint@pather.js:992
+[23:15:53] <LinkboltMF> Error in Mephisto (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:134, useWaypoint@pather.js:992
+[23:17:34] <LinkboltMF> Error in Pindleskin (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pindleskin@pindleskin.js:10, Town.goToTown@town.js:2176
+[23:19:37] <LinkboltMF> Error in Eldritch (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:11, useWaypoint@pather.js:992
+[23:22:37] <LinkboltMF> Error in ChestMania (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1338, Pather.plotCourse@pather.js:1473, useWaypoint@pather.js:992
+[18:04:38] <LinkboltMF> Error in TownChicken.js (town.js line 2209): Town.visitTown: Failed to go back from town
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2209
+[21:03:02] <LinkboltMF> Error in AncientTunnels (town.js line 2209): Town.visitTown: Failed to go back from town
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, AncientTunnels@ancienttunnels.js:24, Attack.clearLevel@attack.js:781, Pather.moveTo@pather.js:232, NodeAction.go@pather.js:15, NodeAction.popChests@pather.js:55, Misc.openChests@misc.js:976, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2209
+[21:04:09] <LinkboltMF> Error in Mephisto (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:134, useWaypoint@pather.js:992
+[21:04:42] <LinkboltMF> Error in Pindleskin (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pindleskin@pindleskin.js:10, Town.goToTown@town.js:2176
+[21:05:33] <LinkboltMF> Error in Eldritch (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:11, useWaypoint@pather.js:992
+[21:06:50] <LinkboltMF> Error in ChestMania (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1338, Pather.plotCourse@pather.js:1473, useWaypoint@pather.js:992
+[21:46:10] <LinkboltMF> Error in BattleOrders (pather.js line 1014): makePortal: No TP tomes.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:109, Town.goToTown@town.js:2155, Pather.makePortal@pather.js:1014
+[21:46:10] <LinkboltMF> Error in Mausoleum (pather.js line 1014): makePortal: No TP tomes.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:109, Town.goToTown@town.js:2155, Pather.makePortal@pather.js:1014
+[21:46:10] <LinkboltMF> Error in Andariel (pather.js line 1014): makePortal: No TP tomes.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:109, Town.goToTown@town.js:2155, Pather.makePortal@pather.js:1014
+[21:46:10] <LinkboltMF> Error in AncientTunnels (pather.js line 1014): makePortal: No TP tomes.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:109, Town.goToTown@town.js:2155, Pather.makePortal@pather.js:1014
+[21:46:10] <LinkboltMF> Error in Mephisto (pather.js line 1014): makePortal: No TP tomes.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:109, Town.goToTown@town.js:2155, Pather.makePortal@pather.js:1014
+[21:46:10] <LinkboltMF> Error in Pindleskin (pather.js line 1014): makePortal: No TP tomes.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:109, Town.goToTown@town.js:2155, Pather.makePortal@pather.js:1014
+[21:46:10] <LinkboltMF> Error in Eldritch (pather.js line 1014): makePortal: No TP tomes.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:109, Town.goToTown@town.js:2155, Pather.makePortal@pather.js:1014
+[21:46:10] <LinkboltMF> Error in ChestMania (pather.js line 1014): makePortal: No TP tomes.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:109, Town.goToTown@town.js:2155, Pather.makePortal@pather.js:1014
+[21:50:15] <LinkboltMF> Error in Mausoleum (mausoleum.js line 13): Failed to move to Burial Grounds
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mausoleum@mausoleum.js:13
+[21:55:49] <LinkboltMF> Error in Pindleskin (pindleskin.js line 33): Failed to use portal.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pindleskin@pindleskin.js:33
+[21:57:06] <LinkboltMF> Error in Eldritch (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:11, useWaypoint@pather.js:992
+[21:58:40] <LinkboltMF> Error in ChestMania (pather.js line 992): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1338, Pather.plotCourse@pather.js:1473, useWaypoint@pather.js:992

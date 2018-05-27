@@ -28,7 +28,7 @@
 // ##############################################################################################################################################
 // ##### 9- runes ###############################################################################################################################
 // ##############################################################################################################################################
-[name] == elrune # # [maxquantity] == 1
+//[name] == elrune # # [maxquantity] == 1
 //[name] == eldrune # # [maxquantity] == 1
 //[name] == tirrune # # [maxquantity] == 3
 //[name] == nefrune # # [maxquantity] == 3
@@ -60,13 +60,19 @@
 // ##############################################################################################################################################
 
 // ##### perfect ###########################
-[name] == perfectemerald || [name] == perfectamethyst || [name] == perfecttopaz || [name] == perfectdiamond || [name] == perfectsapphire || [name] == perfectruby || [name] == perfectskull
+//[name] == perfectemerald # # [maxquantity] == 10
+//[name] == perfectamethyst # # [maxquantity] == 10
+//[name] == perfecttopaz # # [maxquantity] == 10
+//[name] == perfectdiamond # # [maxquantity] == 10
+//[name] == perfectsapphire # # [maxquantity] == 10
+//[name] == perfectruby # # [maxquantity] == 10
+//[name] == perfectskull # # [maxquantity] == 10
 
 // ##### flassless ###########################
 //[name] == flawlessemerald # # [maxquantity] == 3
 //[name] == flawlessamethyst # # [maxquantity] == 3
 //[name] == flawlesstopaz # # [maxquantity] == 3
-//[name] == flawlessdiamond # # [maxquantity] == 3
+[name] == flawlessdiamond # # [maxquantity] == 1
 //[name] == flawlesssapphire # # [maxquantity] == 3
 //[name] == flawlessruby # # [maxquantity] == 3
 //[name] == flawlessskull # # [maxquantity] == 3
@@ -168,14 +174,21 @@
 // ##############################################################################################################################################
 
 // ##### craft ######################
-//[Type] == jewel && [Quality] <= rare # # [MaxQuantity] == 10 // Craft
+//[type] == jewel && [quality] <= rare # # [maxquantity] == 3
+//[type] == ring && [quality] <= magic # # [maxquantity] == 2
+//[name] == perfectruby # # [maxquantity] == 2
+//[name] == solrune # # [maxquantity] == 2
+//[type] == amulet && [quality] <= magic # # [maxquantity] == 2
+//[name] == ralrune # # [maxquantity] == 2
+//[name] == perfectamethyst # # [maxquantity] == 2
+
 
 // #####  public mf drop games ######
-//[Quality] <= superior # [FRW] > 9000
-//[Quality] == magic # [FRW] > 9000
-//[Quality] == rare # [FRW] > 9000
-//[Quality] == Set # [FRW] > 9000
-//[Quality] == Unique # [FRW] > 9000
+//[quality] <= superior # [frw] > 9000
+//[quality] == magic # [frw] > 9000
+//[quality] == rare # [frw] > 9000
+//[quality] == set # [frw] > 9000
+//[quality] == unique # [frw] > 9000
 
 // ##### gold ##########################
 [type] == gold # [gold] >= 4000

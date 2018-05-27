@@ -55,7 +55,7 @@
 // ##############################################################################################################################################
 //[name] == sallet && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 210 // rockstopper
 [name] == grimhelm && [quality] == unique && [flag] != ethereal// # [lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // vampire gaze
-[name] == shako && [quality] == unique && [flag] != ethereal # [defense] >= 141  // harlequin crest
+[name] == shako && [quality] == unique && [flag] != ethereal # [defense] >= 135  // harlequin crest
 [name] == spiredhelm && [quality] == unique # [passivecoldmastery] == 15 && [dexterity] >= 20   // nightwing's veil
 [name] == demonhead && [quality] == unique && [flag] != ethereal// # ([enhanceddefense] >= 140 || [strength] >= 30 || [lifeleech] >= 10) // andariel's visage
 [name] == corona && [quality] == unique  // crown of ages
@@ -63,7 +63,7 @@
 //[name] == bonevisage && [quality] == unique // giant skull
 ([name] == slayerguard || [name] == guardiancrown) && [quality] == unique// && [flag] != ethereal # [enhanceddefense] == 200 && [lifeleech] == 6 // arreat's face
 [name] == furyvisor && [quality] == unique && [flag] != ethereal # [warcriesskilltab] == 3 && [skillwerewolf]+[skilllycanthropy]+[skillferalrage] == 18 && [strength]+[dexterity]+[vitality] >= 45 // wolfhowl
-([name] == totemicmask || [name] == bloodspirit) && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 200 // jalal's mane
+([name] == totemicmask || [name] == bloodspirit) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // jalal's mane
 [name] == bloodspirit && [quality] == unique # [enhanceddefense] == 140 && [itemtohitpercent] == 120 && [shapeshiftingskilltab] == 4 && [skillferalrage] == 2 && [lifeleech] == 10 // cerebus' bite
 [name] == earthspirit && [quality] == unique && [flag] != ethereal # [druidskills] == 2// && [fireresist] == 40 && [itemabsorblightpercent] == 14 && [itemabsorbcoldpercent] == 25 && [enhanceddefense] == 190 // spirit keeper
 [name] == tiara && [quality] == unique # [poisonresist] >= 70  // kira's guardian
@@ -84,7 +84,7 @@
 // ##############################################################################################################################################
 [name] == fullplatemail && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 150 //goldskin
 ([name] == serpentskinarmor || [name] == wyrmhide) && [quality] == unique && [flag] != ethereal # [fireresist] >= 35 //&& [magicdamagereduction] == 13// skin of the vipermagi
-[name] == mesharmor && [quality] == unique //&& [flag] != ethereal //# [enhanceddefense] == 220 // shaftstop
+[name] == mesharmor && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 220 // shaftstop
 [name] == russetarmor && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200  // skullder's ire
 [name] == duskshroud && [quality] == unique && [flag] != ethereal # ([passivefiremastery] == 15 && ([skillenchant] == 3 || [skillfireball] == 3 || [skillmeteor] == 3)) || ([passiveltngmastery] == 15 && [skilllightning] == 3) || ([passivecoldmastery] == 15 && ([skillblizzard] == 3 || [skilliceblast] == 3 || [skillfrozenorb] == 3)) // ormus' robes
 //[name] == balrogskin && [quality] == unique [flag] != ethereal # [itemallskills] >= 2 // arkaine's valor
@@ -129,7 +129,7 @@
 // ##############################################################################################################################################
 // ##### 6- unique gloves ###################################################################################################################
 // ##############################################################################################################################################
-[name] == leather gloves && [quality] == unique && [flag] != ethereal // the hand of broc
+//[name] == leather gloves && [quality] == unique && [flag] != ethereal // the hand of broc
 ([name] == heavygloves || [name] == sharkskingloves || [name] == vampirebonegloves)&& [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // bloodfist
 [name] == chaingloves && [quality] == unique && [flag] != ethereal # [itemmagicbonus] == 40 // chance guards
 ([name] == lightgauntlets || [name] == battlegauntlets || [name] == crusadergauntlets)&& [quality] == unique && [flag] != ethereal # [enhanceddefense] == 30 // magefist
@@ -261,7 +261,7 @@
 [name] == tulwar && [quality] == unique && [flag] == ethereal// # [enhanceddamage] == 120 && [dexterity] == 15 // blade of ali baba
 //[name] == battlesword && [quality] == unique && [flag] == ethereal // headstriker
 [name] == espandon && [quality] == unique && [flag] == ethereal # [enhanceddamage] == 200 // crainte vomir
-[name] == phaseblade && [quality] == unique # [ias] == 20// && [enhanceddamage] == 200 // lightsaber
+[name] == phaseblade && [quality] == unique # [ias] == 20 && [enhanceddamage] == 200 // lightsaber
 [name] == championsword && [quality] == unique && [flag] == ethereal // doombringer
 [name] == phaseblade && [quality] == unique # [sanctuaryaura] == 13 && [enhanceddamage] == 270 && [strength] == 10 // azurewrath
 [name] == colossusblade && [quality] == unique  // the grandfather

@@ -39,7 +39,7 @@ function LoadConfig() {
 	Scripts.Coldcrow = false;
 	Scripts.Tristram = false;
 		Config.Tristram.PortalLeech = false; // Set to true to open a portal for leechers.
-	Scripts.Pit = true;
+	Scripts.Pit = false;
 		Config.Pit.ClearPit1 = true;
 	Scripts.Treehead = false;
 	Scripts.Smith = false;
@@ -57,10 +57,10 @@ function LoadConfig() {
 	Scripts.AncientTunnels = true;
 		Config.AncientTunnels.OpenChest = true; // Open special chest in Lost City
 		Config.AncientTunnels.KillDarkElder = true;
-	Scripts.Summoner = true;
+	Scripts.Summoner = false;
 		Config.Summoner.FireEye = false;
 	Scripts.Tombs = false;
-	Scripts.Duriel = true;
+	Scripts.Duriel = false;
 
 	// *** act 3 ***
 	Scripts.Stormtree = false;
@@ -259,9 +259,9 @@ function LoadConfig() {
 	 * 1 = item is unlocked and will be dropped, stashed or sold.
 	 * If you don't change the default values, the bot won't stash items.
 	 */
-	Config.Inventory[0] = [1,1,1,1,1,1,1,0,0,0];
-	Config.Inventory[1] = [1,1,1,1,1,1,1,0,0,0];
-	Config.Inventory[2] = [1,1,1,1,1,1,1,0,0,0];
+	Config.Inventory[0] = [1,1,1,1,1,1,0,0,0,0];
+	Config.Inventory[1] = [1,1,1,1,1,1,0,0,0,0];
+	Config.Inventory[2] = [1,1,1,1,1,1,0,0,0,0];
 	Config.Inventory[3] = [1,1,1,1,1,1,0,0,0,0];
 
 	Config.StashGold = 100000; // Minimum amount of gold to stash.
@@ -333,28 +333,37 @@ function LoadConfig() {
 	/* Cubing config. All recipe names are available in Templates/Cubing.txt. For item names/classids check NTItemAlias.dbl
 	 * The format is Config.Recipes.push([recipe_name, item_name_or_classid, etherealness]). Etherealness is optional and only applies to some recipes.
 	 */
-	Config.Cubing = false; // Set to true to enable cubing.
+	Config.Cubing = true; // Set to true to enable cubing.
 
 	// Ingredients for the following recipes will be auto-picked, for classids check libs/NTItemAlias.dbl
 
-	Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
-	Config.Recipes.push([Recipe.Gem, "Flawless Topaz"]); // Make Perfect Topaz
-	Config.Recipes.push([Recipe.Gem, "Flawless Sapphire"]); // Make Perfect Sapphire
-	Config.Recipes.push([Recipe.Gem, "Flawless Emerald"]); // Make Perfect Emerald
-	Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
-	Config.Recipes.push([Recipe.Gem, "Flawless Diamond"]); // Make Perfect Diamond
-	Config.Recipes.push([Recipe.Gem, "Flawless Skull"]); // Make Perfect Skull
+	//Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
+	//Config.Recipes.push([Recipe.Gem, "Flawless Topaz"]); // Make Perfect Topaz
+	//Config.Recipes.push([Recipe.Gem, "Flawless Sapphire"]); // Make Perfect Sapphire
+	//Config.Recipes.push([Recipe.Gem, "Flawless Emerald"]); // Make Perfect Emerald
+	//Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
+	//Config.Recipes.push([Recipe.Gem, "Flawless Diamond"]); // Make Perfect Diamond
+	//Config.Recipes.push([Recipe.Gem, "Flawless Skull"]); // Make Perfect Skull
 
 	//Config.Recipes.push([Recipe.Token]); // Make Token of Absolution
 
-	//Config.Recipes.push([Recipe.Rune, "Pul Rune"]); // Upgrade Pul to Um
-	//Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
-	//Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
-	//Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
-	//Config.Recipes.push([Recipe.Rune, "Gul Rune"]); // Upgrade Gul to Vex
+	Config.Recipes.push([Recipe.Rune, "Io Rune"]); // Upgrade Io to Lum
+	Config.Recipes.push([Recipe.Rune, "Lum Rune"]); // Upgrade Lum to Ko
+	Config.Recipes.push([Recipe.Rune, "Ko Rune"]); // Upgrade Ko to Fal
+	Config.Recipes.push([Recipe.Rune, "Fal Rune"]); // Upgrade Fal to Lem
+	Config.Recipes.push([Recipe.Rune, "Lem Rune"]); // Upgrade Lem to Pul
+	Config.Recipes.push([Recipe.Rune, "Pul Rune"]); // Upgrade Pul to Um
+	Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
+	Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
+	Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
+	Config.Recipes.push([Recipe.Rune, "Gul Rune"]); // Upgrade Gul to Vex
+	Config.Recipes.push([Recipe.Rune, "Vex Rune"]); // Upgrade Vex to Ohm
+	Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
+	Config.Recipes.push([Recipe.Rune, "Lo Rune"]); // Upgrade Lo to Sur
+	Config.Recipes.push([Recipe.Rune, "Sur Rune"]); // Upgrade Sur to Ber
 
-	//Config.Recipes.push([Recipe.Caster.Amulet]); // Craft Caster Amulet
-	//Config.Recipes.push([Recipe.Blood.Ring]); // Craft Blood Ring
+	Config.Recipes.push([Recipe.Caster.Amulet]); // Craft Caster Amulet
+	Config.Recipes.push([Recipe.Blood.Ring]); // Craft Blood Ring
 	//Config.Recipes.push([Recipe.Blood.Helm, "Armet"]); // Craft Blood Armet
 	//Config.Recipes.push([Recipe.HitPower.Gloves, "Vambraces"]); // Craft Hit Power Vambraces
 
@@ -382,17 +391,17 @@ function LoadConfig() {
 	/* Runeword config. All recipes are available in Templates/Runewords.txt
 	 * Keep lines follow pickit format and any given runeword is tested vs ALL lines so you don't need to repeat them
 	 */
-	Config.MakeRunewords = false; // Set to true to enable runeword making/rerolling
+	Config.MakeRunewords = true; // Set to true to enable runeword making/rerolling
 
 	//Config.Runewords.push([Runeword.Insight, "Thresher"]); // Make Insight Thresher
 	//Config.Runewords.push([Runeword.Insight, "Cryptic Axe"]); // Make Insight Cryptic Axe
 
 	//Config.KeepRunewords.push("[type] == polearm # [meditationaura] == 17");
 
-	//Config.Runewords.push([Runeword.Spirit, "Monarch"]); // Make Spirit Monarch
+	Config.Runewords.push([Runeword.Spirit, "Monarch"]); // Make Spirit Monarch
 	//Config.Runewords.push([Runeword.Spirit, "Sacred Targe"]); // Make Spirit Sacred Targe
 
-	//Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] == 35");
+	Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] >= 30");
 
 	// Public game options
 

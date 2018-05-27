@@ -96,9 +96,9 @@
 [name] == monarch && [quality] == normal && [flag] == ethereal # [sockets] == 0 && [defense] == 222 || [sockets] == 4 && [defense] == 333
 //[name] == trollnest && [quality] == normal && [flag] == ethereal # [sockets] == 0
 //[name] == monarch && [quality] <= superior # [sockets] == 4 # [maxquantity] == 1
-[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 2 # [maxquantity] == 1
-[name] == trollnest && [quality] <= superior && [flag] != ethereal # [sockets] == 2 # [maxquantity] == 1
-[name] == boneshield && [quality] <= superior && [flag] != ethereal # [sockets] == 2 # [maxquantity] == 1
+//[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 2 # [maxquantity] == 1
+//[name] == trollnest && [quality] <= superior && [flag] != ethereal # [sockets] == 2 # [maxquantity] == 1
+//[name] == boneshield && [quality] <= superior && [flag] != ethereal # [sockets] == 2 # [maxquantity] == 1
 
 //          ==unique==
 [name] == spikedshield && [quality] == unique # [enhanceddefense] == 60 // swordback hold

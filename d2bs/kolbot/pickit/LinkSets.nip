@@ -1,145 +1,145 @@
 //###################################################################
-//################# Index: Use Ctrl+F to search #####################
-//################# 1- Rare Rings               #####################
-//################# 2- Rare Amulets             #####################
-//################# 3- Rare Helms               #####################
-//################# 4- Rare Body Armor          #####################
-//################# 5- Rare Belts               #####################
-//################# 6- Rare Gloves              #####################
-//################# 7- Rare Boots               #####################
-//################# 8- Rare Shields             #####################
-//################# 9- Rare Weapons             #####################
+//################# index: use ctrl+f to search #####################
+//################# 1- rare rings               #####################
+//################# 2- rare amulets             #####################
+//################# 3- rare helms               #####################
+//################# 4- rare body armor          #####################
+//################# 5- rare belts               #####################
+//################# 6- rare gloves              #####################
+//################# 7- rare boots               #####################
+//################# 8- rare shields             #####################
+//################# 9- rare weapons             #####################
 //###################################################################
 
 
 // #################################################################################################################################################
-// ##### 1- Angelic Raiment ########################################################################################################################
+// ##### 1- angelic raiment ########################################################################################################################
 // #################################################################################################################################################
-//[Name] == RingMail && [Quality] == set // Angelic Mantle
-//[Name] == Sabre && [Quality] == set // Angelic Sickle
-//[Type] == ring && [Quality] == set # [MaxHP] == 20 // Angelic Halo
-//[Type] == amulet && [Quality] == set # [ItemLightRadius] == 3 && [ItemDamageToMana] == 20 // Angelic Wings
+//[name] == ringmail && [quality] == set // angelic mantle
+//[name] == sabre && [quality] == set // angelic sickle
+//[type] == ring && [quality] == set # [maxhp] == 20 // angelic halo
+//[type] == amulet && [quality] == set # [itemlightradius] == 3 && [itemdamagetomana] == 20 // angelic wings
 
 
 
 
 
 // ##############################################################################################################################################
-// ##### 1- Arctic Gear #########################################################################################################################
+// ##### 1- arctic gear #########################################################################################################################
 // ##############################################################################################################################################
-//[Name] == QuiltedArmor && [Quality] == set // Arctic Furs
-//[Name] == LightBelt && [Quality] == set // Arctic Binding
-//[Name] == LightGauntlets && [Quality] == set # [MaxHP] == 20 && [IAS] == 10 // Arctic Mitts
-//[Name] == ShortWarBow && [Quality] == set // Arctic Horn
+//[name] == quiltedarmor && [quality] == set // arctic furs
+//[name] == lightbelt && [quality] == set // arctic binding
+//[name] == lightgauntlets && [quality] == set # [maxhp] == 20 && [ias] == 10 // arctic mitts
+//[name] == shortwarbow && [quality] == set // arctic horn
 
 
 
 
 
 // ##############################################################################################################################################
-// ##### 1- Hsaru's Defense #####################################################################################################################
+// ##### 1- hsaru's defense #####################################################################################################################
 // ##############################################################################################################################################
-//[Name] == Buckler && [Quality] == set // Hsarus' Iron Fist
-//[Name] == Belt && [Quality] == set # [ColdResist] == 20 && [MaxHP] == 20 // Hsarus' Iron Stay
-//[Name] == ChainBoots && [Quality] == set // Hsarus' Iron Heel
+//[name] == buckler && [quality] == set // hsarus' iron fist
+//[name] == belt && [quality] == set # [coldresist] == 20 && [maxhp] == 20 // hsarus' iron stay
+//[name] == chainboots && [quality] == set // hsarus' iron heel
 
 
 
 
 
 // #################################################################################################################################################
-// ##### 1- Iratha's Finery ########################################################################################################################
+// ##### 1- iratha's finery ########################################################################################################################
 // #################################################################################################################################################
-//[Name] == HeavyBelt && [Quality] == set # [MinDamage] == 5 // Iratha's Cord
-//[Name] == Crown && [Quality] == set # [FireResist] == 30 && [LightResist] == 30 // Iratha's Coil
-//[Type] == amulet && [Quality] == set # [PoisonResist] == 30 && [PoisonLength] == -75 // Iratha's Collar
-//[Name] == LightGauntlets && [Quality] == set # [ColdResist] == 30 // Iratha's Cuff
-
-
-
-
-
-// #################################################################################################################################################
-// ##### 1- Sigon's Steel ##########################################################################################################################
-// #################################################################################################################################################
-//[Name] == GreatHelm && [Quality] == set // Sigon's Visor
-//[Name] == GothicPlate && [Quality] == set // Sigon's Shelter
-//[Name] == Greaves && [Quality] == set // Sigon's Sabot
-//[Name] == TowerShield && [Quality] == set // Sigon's Guard
-//[Name] == PlatedBelt && [Quality] == set // Sigon's Warp
-//[Name] == Gauntlets && [Quality] == set // Sigon's Gage
+//[name] == heavybelt && [quality] == set # [mindamage] == 5 // iratha's cord
+//[name] == crown && [quality] == set # [fireresist] == 30 && [lightresist] == 30 // iratha's coil
+//[type] == amulet && [quality] == set # [poisonresist] == 30 && [poisonlength] == -75 // iratha's collar
+//[name] == lightgauntlets && [quality] == set # [coldresist] == 30 // iratha's cuff
 
 
 
 
 
 // #################################################################################################################################################
-// ##### 1- Cow King's Leathers ####################################################################################################################
+// ##### 1- sigon's steel ##########################################################################################################################
 // #################################################################################################################################################
-[Name] == WarHat && [Quality] == set // Cow King's Horns
-[Name] == StuddedLeather && [Quality] == set // Cow King's Hide
-[Name] == HeavyBoots && [Quality] == set # [Dexterity] == 20 && [ItemMagicBonus] == 25 // Cow King's Hooves
-
-
-
-
-
-// #################################################################################################################################################
-// ##### 1- Griswold's Legacy ######################################################################################################################
-// #################################################################################################################################################
-[Name] == OrnatePlate && [Quality] == set # [Defense] >= 950 // Griswold's Heart
-[Name] == Corona && [Quality] == set # [EnhancedDefense] >= 55 // Griswold's Valor
-//[Name] == Caduceus && [Quality] == set # [Sockets] >= 3 && [EnhancedDamage] >= 200 // Griswold's Redemption
-[Name] == VortexShield && [Quality] == set # [Defense] >= 290 // Griswold's Honor
+//[name] == greathelm && [quality] == set // sigon's visor
+//[name] == gothicplate && [quality] == set // sigon's shelter
+//[name] == greaves && [quality] == set // sigon's sabot
+//[name] == towershield && [quality] == set // sigon's guard
+//[name] == platedbelt && [quality] == set // sigon's warp
+//[name] == gauntlets && [quality] == set // sigon's gage
 
 
 
 
 
 // #################################################################################################################################################
-// ##### 1- Immortal King ##########################################################################################################################
+// ##### 1- cow king's leathers ####################################################################################################################
 // #################################################################################################################################################
-//[Name] == WarBelt && [Quality] == set // Immortal King's Detail
-[Name] == AvengerGuard && [Quality] == set # [ItemMagicBonus] >= 40// Immortal King's Will
-//[Name] == OgreMaul && [Quality] == set // Immortal King's Stone Crusher
-[Name] == SacredArmor && [Quality] == set // Immortal King's Soul Cage
-[Name] == WarGauntlets && [Quality] == set // Immortal King's Forge
-//[Name] == WarBoots && [Quality] == set // Immortal King's Pillar
+[name] == warhat && [quality] == set // cow king's horns
+[name] == studdedleather && [quality] == set // cow king's hide
+[name] == heavyboots && [quality] == set # [dexterity] == 20 && [itemmagicbonus] == 25 // cow king's hooves
 
 
 
 
 
 // #################################################################################################################################################
-// ##### 1- Orphan's Call ##########################################################################################################################
+// ##### 1- griswold's legacy ######################################################################################################################
 // #################################################################################################################################################
-[Name] == WingedHelm && [Quality] == set # [defense] >= 217 // Guillaume's Face
-//[Name] == RoundShield && [Quality] == set // Whistan's Guard
-//[Name] == SharkskinGloves && [Quality] == set // Magnus' Skin
-//[Name] == BattleBelt && [Quality] == set // Wilhelm's Pride
-
-
-
-
-
-// #################################################################################################################################################
-// ##### 1- Tal Rasha's Wrappings ##################################################################################################################
-// #################################################################################################################################################
-[Name] == SwirlingCrystal && [Quality] == set # [skillcoldmastery] == 2 && [SkillFireMastery] == 2 //&& [SkillLightningMastery] == 2 // Tal Rasha's Lidless Eye
-//[Name] == DeathMask && [Quality] == set # [Defense] >= 131 // Tal Rasha's Horadric Crest
-[Name] == LacqueredPlate && [Quality] == set// # [Defense] >= 941 // Tal Rasha's Guardianship
-[Type] == Amulet && [Quality] == set # [SorceressSkills] == 2 // Tal Rasha's Adjucation
-[Name] == MeshBelt && [Quality] == set # [ItemMagicBonus] >= 15 //&& [Defense] >= 40 // Tal Rasha's Fine-Spun Cloth
+[name] == ornateplate && [quality] == set # [defense] >= 950 // griswold's heart
+[name] == corona && [quality] == set # [enhanceddefense] >= 55 // griswold's valor
+//[name] == caduceus && [quality] == set # [sockets] >= 3 && [enhanceddamage] >= 200 // griswold's redemption
+[name] == vortexshield && [quality] == set # [defense] >= 290 // griswold's honor
 
 
 
 
 
 // #################################################################################################################################################
-// ##### 1- Trang-Oul's Avatar #####################################################################################################################
+// ##### 1- immortal king ##########################################################################################################################
 // #################################################################################################################################################
-//[Name] == BoneVisage && [Quality] == set // Trang-Oul's Guise
-//[Name] == ChaosArmor && [Quality] == set // Trang-Oul's Scales
-//[Name] == CantorTrophy && [Quality] == set // Trang-Oul's Wing
-//[Name] == TrollBelt && [Quality] == set // Trang-Oul's Girth
-[Name] == HeavyBracers && [Quality] == set # [defense] >= 74 // Trang-Oul's Claws
+//[name] == warbelt && [quality] == set // immortal king's detail
+[name] == avengerguard && [quality] == set # [itemmagicbonus] >= 40// immortal king's will
+//[name] == ogremaul && [quality] == set // immortal king's stone crusher
+[name] == sacredarmor && [quality] == set // immortal king's soul cage
+//[name] == wargauntlets && [quality] == set // immortal king's forge
+//[name] == warboots && [quality] == set // immortal king's pillar
+
+
+
+
+
+// #################################################################################################################################################
+// ##### 1- orphan's call ##########################################################################################################################
+// #################################################################################################################################################
+//[name] == wingedhelm && [quality] == set # [defense] >= 217 // guillaume's face
+//[name] == roundshield && [quality] == set // whistan's guard
+//[name] == sharkskingloves && [quality] == set // magnus' skin
+//[name] == battlebelt && [quality] == set // wilhelm's pride
+
+
+
+
+
+// #################################################################################################################################################
+// ##### 1- tal rasha's wrappings ##################################################################################################################
+// #################################################################################################################################################
+[name] == swirlingcrystal && [quality] == set # [skillcoldmastery] == 2 && [skillfiremastery] == 2 && [skilllightningmastery] == 2 // tal rasha's lidless eye
+//[name] == deathmask && [quality] == set # [defense] >= 131 // tal rasha's horadric crest
+[name] == lacqueredplate && [quality] == set # [defense] >= 941 // tal rasha's guardianship
+[type] == amulet && [quality] == set # [sorceressskills] == 2 // tal rasha's adjucation
+[name] == meshbelt && [quality] == set # [itemmagicbonus] >= 15 //&& [defense] >= 40 // tal rasha's fine-spun cloth
+
+
+
+
+
+// #################################################################################################################################################
+// ##### 1- trang-oul's avatar #####################################################################################################################
+// #################################################################################################################################################
+//[name] == bonevisage && [quality] == set // trang-oul's guise
+//[name] == chaosarmor && [quality] == set // trang-oul's scales
+//[name] == cantortrophy && [quality] == set // trang-oul's wing
+//[name] == trollbelt && [quality] == set // trang-oul's girth
+[name] == heavybracers && [quality] == set # [defense] >= 74 // trang-oul's claws
