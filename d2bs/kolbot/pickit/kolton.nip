@@ -318,8 +318,8 @@
 //---------------maces----------------------
 
 //          ==white==
-[name] == flail && [quality] <= superior # [sockets] == 4 // hoto
-([name] == flail || [name] == scourge) && [quality] <= superior # [sockets] == 4 && [enhanceddamage] == 15 && [tohit] == 3 //hoto
+//[name] == flail && [quality] <= superior # [sockets] == 4 // hoto
+//([name] == flail || [name] == scourge) && [quality] <= superior # [sockets] == 4 && [enhanceddamage] == 15 && [tohit] == 3 //hoto
 
 //          ==unique==
 //[name] == tyrantclub && [quality] == unique && [flag] != ethereal //demon limb (for prebuff)

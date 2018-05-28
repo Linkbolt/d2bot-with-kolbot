@@ -440,6 +440,29 @@ ModeLoop:
 	},
 
 	/*
+		Pather.walkAway(unit, range);
+		unit - a valid Unit or PresetUnit object
+		range - range distance from unit before returning true
+	*/
+	walkAway: function (unit, range) {
+		var i, coordx, coordy,
+			angle = Math.round(Math.atan2(me.y - unit.y, me.x - unit.x) * 180 / Math.PI),
+			angles = [0, 45, -45, 90, -90, 135, -135, 180];
+
+		for (i = 0; i < angles.length; i += 1) {
+			// Avoid the position where the unit tries to move to
+			coordx = Math.round((Math.cos((angle + angles[i]) * Math.PI / 180)) * range + unit.x); // unit.targetx
+			coordy = Math.round((Math.sin((angle + angles[i]) * Math.PI / 180)) * range + unit.y); // unit.targety
+
+			if (Attack.validSpot(coordx, coordy)) {
+				return this.walkTo(coordx, coordy);
+			}
+		}
+
+		return false;
+	},
+	
+	/*
 		Pather.openDoors(x, y);
 		x - the x coord of the node close to the door
 		y - the y coord of the node close to the door
@@ -651,6 +674,29 @@ ModeLoop:
 		return true;
 	},
 
+	/*
+		Pather.moveAway(unit, range);
+		unit - a valid Unit or PresetUnit object
+		range - range distance from unit before returning true
+	*/
+	moveAway: function (unit, range) {
+		var i, coordx, coordy,
+			angle = Math.round(Math.atan2(me.y - unit.y, me.x - unit.x) * 180 / Math.PI),
+			angles = [0, 45, -45, 90, -90, 135, -135, 180];
+
+		for (i = 0; i < angles.length; i += 1) {
+			// Avoid the position where the unit tries to move to
+			coordx = Math.round((Math.cos((angle + angles[i]) * Math.PI / 180)) * range + unit.x); // unit.targetx
+			coordy = Math.round((Math.sin((angle + angles[i]) * Math.PI / 180)) * range + unit.y); // unit.targety
+
+			if (Attack.validSpot(coordx, coordy)) {
+				return this.moveTo(coordx, coordy);
+			}
+		}
+
+		return false;
+	},
+	
 	/*
 		Pather.getNearestRoom(area);
 		area - the id of area to search for the room nearest to the player character
@@ -1337,7 +1383,7 @@ MainLoop:
 
 		target = this.plotCourse(area, me.area);
 
-		print(target.course);
+		//print(target.course);
 
 		if (target.useWP) {
 			Town.goToTown();

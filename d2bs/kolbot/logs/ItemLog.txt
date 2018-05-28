@@ -10512,3 +10512,4 @@
 [23:34:00] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Sewers Level 2}
 [23:37:09] <LinkboltMF> <Kept> (normal) Sol Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +9 to Minimum Damage | Armor: Damage Reduced by 7 | Helms: Damage Reduced by 7 | Shields: Damage Reduced by 7 |  | Required Level: 27 {Area: Crypt} {Cubing 1}
 [23:37:36] <LinkboltMF> <Stashed> (normal) Sol Rune {Area: Crypt}
+[23:46:53] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Infernal Pit} {Cubing 2}

@@ -164,25 +164,6 @@ function main() {
 		break;
 	}
 
-	// A simple but fast player dodge function
-	this.moveAway = function (unit, range) {
-		var i, coordx, coordy,
-			angle = Math.round(Math.atan2(me.y - unit.y, me.x - unit.x) * 180 / Math.PI),
-			angles = [0, 45, -45, 90, -90, 135, -135, 180];
-
-		for (i = 0; i < angles.length; i += 1) {
-			// Avoid the position where the player actually tries to move to
-			coordx = Math.round((Math.cos((angle + angles[i]) * Math.PI / 180)) * range + unit.x); // unit.targetx
-			coordy = Math.round((Math.sin((angle + angles[i]) * Math.PI / 180)) * range + unit.y); // unit.targety
-
-			if (Attack.validSpot(coordx, coordy)) {
-				return Pather.moveTo(coordx, coordy);
-			}
-		}
-
-		return false;
-	};
-
 	addEventListener("scriptmsg", this.scriptEvent);
 	print("ÿc2Anti-Hostile thread loaded.");
 
@@ -332,7 +313,7 @@ function main() {
 						if (missile) {
 							do {
 								if (getPlayerFlag(me.gid, missile.owner, 8) && (getDistance(me, missile) < 15 || (missile.targetx && getDistance(me, missile.targetx, missile.targety) < 15))) {
-									this.moveAway(missile, Skill.getRange(Config.AttackSkill[1]));
+									Pather.moveAway(missile, Skill.getRange(Config.AttackSkill[1]));
 
 									break;
 								}
@@ -341,7 +322,7 @@ function main() {
 
 						// Move away if the player is too close or if he tries to move too close (telestomp)
 						if (Skill.getRange(Config.AttackSkill[1]) > 20 && (getDistance(me, player) < 30 || (player.targetx && getDistance(me, player.targetx, player.targety) < 15))) {
-							this.moveAway(player, Skill.getRange(Config.AttackSkill[1]));
+							Pather.moveAway(player, Skill.getRange(Config.AttackSkill[1]));
 						}
 
 						break;
