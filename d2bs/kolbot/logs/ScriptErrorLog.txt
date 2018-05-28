@@ -526,3 +526,7 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 [17:34:23] <LinkboltMF> Unknown name: sacredtarg File: LinkSockets.nip Line: 34
 [21:00:36] <LinkboltMF> Pickit error! Line # 40 Entry: [type] == amulet && [quality] == unique # [dexterity] == 25 %% [ias] == 20 // the cat's eye (LinkUnique.nip) Error message: syntax error Trigger item: Amulet
 [00:34:24] <LinkboltMF> Pickit error! Line # 40 Entry: [type] == amulet && [quality] == unique # [dexterity] == 25 %% [ias] == 20 // the cat's eye (LinkUnique.nip) Error message: syntax error Trigger item: Amulet
+[09:22:12] <LinkboltMF> Error in TownChicken.js (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2200, Town.doChores@town.js:96, Town.buyKeys@town.js:1074, Town.goToTown@town.js:2176
+[09:38:40] <LinkboltMF> Error in TownChicken.js (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2203, Town.goToTown@town.js:2176
