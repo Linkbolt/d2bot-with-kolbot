@@ -44,8 +44,8 @@ function LoadConfig() {
 	Scripts.Treehead = false;
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
-	Scripts.Countess = true;
-		Config.Countess.KillGhosts = true;
+	Scripts.Countess = { TeleStomp: true, SkipImmune: [] };
+		Config.Countess.KillGhosts = false;
 	Scripts.Andariel = true;
 	Scripts.Cows = false;
 
@@ -71,7 +71,7 @@ function LoadConfig() {
 		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
 	Scripts.Mephisto = true;
 		Config.Mephisto.MoatTrick = false;
-		Config.Mephisto.KillCouncil = false;
+		Config.Mephisto.KillCouncil = true;
 		Config.Mephisto.TakeRedPortal = true;
 
 	// *** act 4 ***
@@ -111,9 +111,9 @@ function LoadConfig() {
 		Config.Snapchip.ClearIcyCellar = true;
 	Scripts.Worldstone = false;
 	Scripts.Baal = false;
-		Config.Baal.HotTPMessage = "Hot TP!";
-		Config.Baal.SafeTPMessage = "Safe TP!";
-		Config.Baal.BaalMessage = "Baal!";
+		//Config.Baal.HotTPMessage = "Hot TP!";
+		//Config.Baal.SafeTPMessage = "Safe TP!";
+		//Config.Baal.BaalMessage = "Baal!";
 		Config.Baal.SoulQuit = true; // End script if Souls (Undead Soul Killers) are found.
 		Config.Baal.DollQuit = true; // End script if Dolls (Undead Stigyan Dolls) are found.
 		Config.Baal.KillBaal = true; // Kill Baal. Leaves game after wave 5 if false.
@@ -371,18 +371,29 @@ function LoadConfig() {
 	// The gems not used by other recipes will be used for magic item rerolling.
 
 	//Config.Recipes.push([Recipe.Reroll.Magic, "Diadem"]); // Reroll magic Diadem
-	//Config.Recipes.push([Recipe.Reroll.Magic, "Grand Charm"]); // Reroll magic Grand Charm (ilvl 91+)
+	Config.Recipes.push([Recipe.Reroll.Magic, "Grand Charm"]); // Reroll magic Grand Charm (ilvl 91+)
+	//Config.Recipes.push([Recipe.Reroll.Magic, "Small Charm"]); // Reroll magic Small Charm (ilvl 91+)
 
 	//Config.Recipes.push([Recipe.Reroll.Rare, "Diadem"]); // Reroll rare Diadem
 
 	/* Base item for the following recipes must be in pickit. The rest of the ingredients will be auto-picked.
 	 * Use Roll.Eth, Roll.NonEth or Roll.All to determine what kind of base item to roll - ethereal, non-ethereal or all.
 	 */
-	//Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]); // Socket ethereal Thresher
-	//Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]); // Socket ethereal Cryptic Axe
-	//Config.Recipes.push([Recipe.Socket.Armor, "Sacred Armor", Roll.Eth]); // Socket ethereal Sacred Armor
-	//Config.Recipes.push([Recipe.Socket.Armor, "Archon Plate", Roll.Eth]); // Socket ethereal Archon Plate
-
+	Config.Recipes.push([Recipe.Socket.Weapon, "Monarch", Roll.All]); // Socket Monarch
+	Config.Recipes.push([Recipe.Socket.Weapon, "Sacred Targe", Roll.All]); // Socket Sacred Targe
+	
+	Config.Recipes.push([Recipe.Socket.Armor, "Dusk Shroud", Roll.All]); // Socket Dusk Shroud
+	Config.Recipes.push([Recipe.Socket.Armor, "Archon Plate", Roll.All]); // Socket Archon Plate
+	Config.Recipes.push([Recipe.Socket.Armor, "Wyrmhide", Roll.All]); // Socket Archon Plate
+	//Config.Recipes.push([Recipe.Socket.Armor, "Sacred Armor", Roll.All]); // Socket Sacred Armor
+	
+	Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]); // Socket Thresher
+	Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]); // Socket Cryptic Axe
+	Config.Recipes.push([Recipe.Socket.Weapon, "Colossus Voulge", Roll.Eth]); // Socket Cryptic Axe
+	Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]); // Socket Cryptic Axe
+	
+	
+	
 	//Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Heavy Gloves", Roll.NonEth]); // Upgrade Bloodfist to Exceptional
 	//Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Light Gauntlets", Roll.NonEth]); // Upgrade Magefist to Exceptional
 	//Config.Recipes.push([Recipe.Unique.Armor.ToElite, "Sharkskin Gloves", Roll.NonEth]); // Upgrade Bloodfist or Grave Palm to Elite
@@ -467,7 +478,7 @@ function LoadConfig() {
 	Config.SkipEnchant = [];
 	// Skip monsters with auras. Possible options: "fanaticism", "might", "holy fire", "blessed aim", "holy freeze", "holy shock". Conviction is bugged, don't use it.
 	Config.SkipAura = [];
-	// Ignore skipped and kills monsters by NAMES or CLASSIDS. Enable Config.TeleStomp for merc to kill mob, otherwise will try to use immune attack skills.
+	// Ignore skips (immune, enchant and aura) and kills monsters by NAMES or CLASSIDS. Enable Config.TeleStomp for merc to kill monster, otherwise will try to use immune attack skills.
 	//Config.SkipIgnore = [] //Example: Config.SkipIgnore = ["Andariel", 243];
 	Config.SkipIgnore = [710] // the countess
 

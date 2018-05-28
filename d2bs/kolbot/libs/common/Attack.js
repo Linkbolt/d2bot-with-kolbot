@@ -1116,7 +1116,7 @@ var Attack = {
 		var i, j, rval,
 			tempArray = [];
 
-IgnoreSkilLoop: // Ignore Skiped monsters
+IgnoreSkipedLoop: // Ignore Skiped monsters
 		// Only skip check if TeleStomp is on or if immune attacks are set
 		if ((Config.TeleStomp || Config.AttackSkill[5] !== -1 || Config.AttackSkill[6] !== -1) 
 		&& Config.SkipIgnore.some(
@@ -1125,12 +1125,14 @@ IgnoreSkilLoop: // Ignore Skiped monsters
 					switch (typeof id) {
 						case "number":
 							if (unit.classid && unit.classid === id) {
+								print("Ignoring checking on monter " + unit.name + " with id " + unit.classid);
 								return true;
 							}
 							break;
 							
 						case "string":
 							if (unit.name && unit.name.toLowerCase() === id.toLowerCase()) {
+								print("Ignoring checking on monter " + unit.name + " with id " + unit.classid);
 								return true;
 							}
 							break;

@@ -106,6 +106,12 @@
 // ##### unique ###########################
 [name] == jewel && [quality] == unique # [passivecoldpierce]+[passivecoldmastery] >= 10 || [passivepoispierce]+[passivepoismastery] >= 10 || [passiveltngpierce]+[passiveltngmastery] >= 10 || [passivefirepierce]+[passivefiremastery] >= 10
 
+// ##### rare ###########################
+[name] == jewel && [quality] >= rare # [strength] >= 9 && [dexterity] >= 9
+[name] == jewel && [quality] >= rare # [fhr] == 7 && ([strength] >= 8 || [dexterity] >= 8 || [itemreqpercent] == -15) && ([maxmana] == 15 || [fireresist] >= 10 && [coldresist] >= 10 || [fireresist] >= 30 || [coldresist] >= 30 || [lightresist] >= 30)
+[name] == jewel && [quality] >= rare # [fhr] == 7 && [energy] == 9 && [maxmana] == 15
+[name] == jewel && [quality] >= rare # [enhanceddamage] >= 25 && ([strength] >= 8 || [dexterity] >= 8) && ([tohit] >= 40 || [itemreqpercent] == -15 || [defense] >= 30)
+
 // ##### magic ###########################
 [name] == jewel && [quality] == magic # ([enhanceddamage] >= 40 || [tohit] == 100 || [maxdamage] >= 15) && ([maxhp] == 20 || [ias] >= 15 || [itemreqpercent] <= -15 || [strength] >= 9 || [dexterity] >= 9)
 [name] == jewel && [quality] == magic # ([fireresist] == 30 || [coldresist] == 30 || [lightresist] == 30 || [fireresist] >= 15 && [lightresist] >= 15 || [maxmana] == 20) && ([maxhp] == 20 || [fhr] == 7 || [ias] == 15 || [itemreqpercent] <= -15 || [strength] >= 9 || [dexterity] >= 9)
@@ -113,12 +119,6 @@
 [name] == jewel # [enhanceddamage] >= 40
 [name] == jewel # [ias] >= 15
 [name] == jewel # [fhr] >= 15
-
-// ##### rare ###########################
-[name] == jewel && [quality] == rare # [strength] >= 9 && [dexterity] >= 9
-[name] == jewel && [quality] == rare # [fhr] == 7 && ([strength] >= 8 || [dexterity] >= 8 || [itemreqpercent] == -15) && ([maxmana] == 15 || [fireresist] >= 10 && [coldresist] >= 10 || [fireresist] >= 30 || [coldresist] >= 30 || [lightresist] >= 30)
-[name] == jewel && [quality] == rare # [fhr] == 7 && [energy] == 9 && [maxmana] == 15
-[name] == jewel && [quality] == rare # [enhanceddamage] >= 25 && ([strength] >= 8 || [dexterity] >= 8) && ([tohit] >= 40 || [itemreqpercent] == -15 || [defense] >= 30)
 
 
 
