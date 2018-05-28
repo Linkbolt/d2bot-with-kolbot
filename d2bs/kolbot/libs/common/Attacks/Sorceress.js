@@ -116,17 +116,31 @@ var ClassAttack = {
 			return true;
 		case 2: // Try to telestomp
 			if (Config.TeleStomp && Attack.checkResist(unit, "physical") && !!me.getMerc() && Attack.validSpot(unit.x, unit.y)) {
+
+				// Old code
+				//while (Attack.checkMonster(unit)) {
+				//	if (getDistance(me, unit) > 3) {
+				//		Pather.moveToUnit(unit);
+				//	}
+                //
+				//	this.doCast(unit, Config.AttackSkill[1], Config.AttackSkill[2]);
+				//}
+
+				// New Code
+				Pather.moveToUnit(unit);
 				while (Attack.checkMonster(unit)) {
-					if (getDistance(me, unit) > 3) {
+					
+					if (getDistance(me, unit) > Skill.getRange(Config.AttackSkill[1])) {
 						Pather.moveToUnit(unit);
 					}
-
+					
 					this.doCast(unit, Config.AttackSkill[1], Config.AttackSkill[2]);
+					Pather.walkAway(unit, Skill.getRange(Config.AttackSkill[1]));
+					//delay(2000);
 				}
 
 				return true;
 			}
-
 			break;
 		}
 

@@ -111,7 +111,7 @@
 
 // ##### Belts ###################A######
 [name] == heavybelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 && [itemgoldbonus] == 80 // goldwrap
-[name] == demonhidesash && [quality] == unique && [flag] != ethereal// # [damageresist] == 15 && [lifeleech] == 8 && [enhanceddefense] == 180 && [magicdamagereduction] == 15 //string of ears
+//[name] == demonhidesash && [quality] == unique && [flag] != ethereal// # [damageresist] == 15 && [lifeleech] == 8 && [enhanceddefense] == 180 && [magicdamagereduction] == 15 //string of ears
 [Name] == BattleBelt && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 170 // Snowclash
 //[Name] == WarBelt && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 200 // Thundergod's Vigor
 [Name] == SpiderwebSash && [Quality] == unique && [Flag] != ethereal// # [EnhancedDefense] == 120  // Arachnid Mesh

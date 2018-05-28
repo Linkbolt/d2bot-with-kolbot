@@ -159,7 +159,7 @@ var Town = {
 
 	// Start a task and return the NPC Unit
 	initNPC: function (task, reason) {
-		print("initNPC: " + reason);
+		//print("initNPC: " + reason);
 
 		var npc = getInteractedNPC();
 

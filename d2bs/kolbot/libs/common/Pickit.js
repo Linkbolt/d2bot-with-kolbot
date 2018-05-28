@@ -334,24 +334,24 @@ MainLoop:
 				}
 
 				break;
-			case 2:
+			case 2: // Cubing System
 				print("ÿc7Picked up " + stats.color + stats.name + " ÿc0(ilvl " + stats.ilvl + ")" + " (Cubing)");
 				Misc.itemLogger("Kept", item, "Cubing " + me.findItems(item.classid).length);
-				Misc.logItem("Kept", item, "Cubing " + me.findItems(item.classid).length);
+				if (item.itemType !== 20) Misc.logItem("Kept", item, "Cubing " + me.findItems(item.classid).length); // Log all but gems
 				Cubing.update();
 
 				break;
-			case 3:
+			case 3: // Runewords System
 				print("ÿc7Picked up " + stats.color + stats.name + " ÿc0(ilvl " + stats.ilvl + ")" + " (Runewords)");
 				Misc.itemLogger("Kept", item, "Runewords");
-				Misc.logItem("Kept", item, "Runewords");
+				if (item.itemType !== 20) Misc.logItem("Kept", item, "Runewords"); // Log all but gems
 				Runewords.update(stats.classid, gid);
 
 				break;
 			case 5: // Crafting System
 				print("ÿc7Picked up " + stats.color + stats.name + " ÿc0(ilvl " + stats.ilvl + ")" + " (Crafting System)");
 				Misc.itemLogger("Kept", item, "Crafting System");
-				Misc.logItem("Kept", item, "Crafting System");
+				if (item.itemType !== 20) Misc.logItem("Kept", item, "Crafting System"); // Log all but gems
 				CraftingSystem.update(item);
 
 				break;

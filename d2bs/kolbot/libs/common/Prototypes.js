@@ -1008,6 +1008,8 @@ Unit.prototype.getColor = function () {
 			colors["of the Giant"] = Color.darkgold;
 
 			break;
+		case 74:
+			return Color.orange;
 		}
 	} else if (this.quality === 5) { // Set
 		if (this.getFlag(0x10)) {

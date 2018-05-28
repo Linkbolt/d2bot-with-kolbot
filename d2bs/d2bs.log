@@ -490,3 +490,18 @@ Line: Pather.walkAway(unit, Skill.getRange(Config.AttackSkill[1])));
 [05/28/18 23:20:05] D2BS 11512: [Error] Code(109) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\attacks\sorceress.js:126) SyntaxError: missing ; before statement
 Line: Pather.walkAway(unit, Skill.getRange(Config.AttackSkill[1])));
 
+[05/28/18 23:56:31] D2BS 11512: D2BS Shutdown complete.
+[05/28/18 23:56:32] D2BS 12744: D2BS Engine startup complete. 1.5.1868
+[05/28/18 23:56:32] D2BS 12744: LinkboltMF
+[05/29/18 00:17:18] D2BS 11244: D2BS Engine startup complete. 1.5.1868
+[05/29/18 00:17:18] D2BS 11244: LinkboltMF
+[05/29/18 00:47:41] D2BS 11244: [Error] Code(75) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\pickit.js:340) SyntaxError: missing ) after condition
+Line: 				if (item.itemType !>== 20) Misc.logItem("Kept", item, "Cubing " + me.findItems
+[05/29/18 00:47:41] D2BS 11244: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\prototypes.js:1012) SyntaxError: syntax error
+Line: 		case 74:
+
+[05/29/18 00:47:41] D2BS 11244: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\default.dbj:96) ReferenceError: Pickit is not defined
+Line: (null)
+[05/29/18 00:58:24] D2BS 11244: D2BS Shutdown complete.
+[05/29/18 00:58:27] D2BS 9788: D2BS Engine startup complete. 1.5.1868
+[05/29/18 00:58:27] D2BS 9788: LinkboltMF

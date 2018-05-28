@@ -44,7 +44,7 @@ function LoadConfig() {
 	Scripts.Treehead = false;
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
-	Scripts.Countess = { ClearType:0x7, TeleStomp: true, Dodge:false, SkipImmune: [] };
+	Scripts.Countess = { ClearType:0xF, StaticList: [45], TeleStomp: true, Dodge: false, SkipImmune: [] };
 		Config.Countess.KillGhosts = false;
 	Scripts.Andariel = true;
 	Scripts.Cows = false;
@@ -530,9 +530,8 @@ function LoadConfig() {
 
 	// Class specific config
 	Config.CastStatic = 60; // Cast static until the target is at designated life percent. 100 = disabled.
-	//Config.StaticList = []; // List of monster NAMES or CLASSIDS to static. Example: Config.StaticList = ["Andariel", 243];
-	//Config.StaticList = [156, 710, 211, 242, 243, 544]; // andariel, the countess, duriel, mephisto, diablo, baalcrab
-	Config.StaticList = [710] // the countess
+	Config.StaticList = []; // List of monster NAMES or CLASSIDS to static. Example: Config.StaticList = ["Andariel", 243];
+	//Config.StaticList = [156, 45, 211, 242, 243, 544]; // andariel, the countess, duriel, mephisto, diablo, baalcrab
 	
 	// AutoBuild System ( See /d2bs/kolbot/libs/config/Builds/README.txt for instructions )
 	Config.AutoBuild.Enabled = false	//	This will enable or disable the AutoBuild system
