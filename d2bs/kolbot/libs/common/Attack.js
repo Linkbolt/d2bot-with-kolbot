@@ -1116,6 +1116,38 @@ var Attack = {
 		var i, j, rval,
 			tempArray = [];
 
+IgnoreSkilLoop: // Ignore Skiped monsters
+		// Only skip check if TeleStomp is on or if immune attacks are set
+		if ((Config.TeleStomp || Config.AttackSkill[5] !== -1 || Config.AttackSkill[6] !== -1) 
+		&& Config.SkipIgnore.some(
+			function (id) {
+				if (unit) {
+					switch (typeof id) {
+						case "number":
+							if (unit.classid && unit.classid === id) {
+								return true;
+							}
+							break;
+							
+						case "string":
+							if (unit.name && unit.name.toLowerCase() === id.toLowerCase()) {
+								return true;
+							}
+							break;
+							
+						default:
+							print("Bad Config.SkipIgnore settings.");
+							return false;
+							break;
+					}
+				}
+				
+				return false;
+			}
+		)) {
+			return true;
+		}
+		
 EnchantLoop: // Skip enchanted monsters
 		for (i = 0; i < Config.SkipEnchant.length; i += 1) {
 			tempArray = Config.SkipEnchant[i].toLowerCase().split(" and ");
@@ -1185,7 +1217,7 @@ EnchantLoop: // Skip enchanted monsters
 				return false;
 			}
 		}
-
+		
 ImmuneLoop: // Skip immune monsters
 		for (i = 0; i < Config.SkipImmune.length; i += 1) {
 			tempArray = Config.SkipImmune[i].toLowerCase().split(" and ");

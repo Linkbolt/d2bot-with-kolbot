@@ -31,12 +31,14 @@
 
 
 
+
 // ##############################################################################################################################################
 // ##### 2- rare amulets ########################################################################################################################
 // ##############################################################################################################################################
 [type] == amulet && [quality] >= rare # [itemmagicbonus] >= 40 // mf
+[type] == amulet && [quality] >= rare # [item_addclassskills] >= 2 // skillers
 [type] == amulet && [quality] >= rare # [itemallskills] >= 2 // skillers
-[type] == amulet && [quality] >= rare # [amazonskills]+[barbarianskills]+[necromancerskills]+[druidskills]+[paladinskills]+[sorceressskills]+[assassinskills] == 2 // skillers
+[type] == amulet && [quality] >= rare # [amazonskills]+[barbarianskills]+[necromancerskills]+[druidskills]+[paladinskills]+[sorceressskills]+[assassinskills] >= 2 // skillers
 [type] == amulet && [quality] >= rare # [amazonskills] == 2 && [dexterity]+[strength]+[maxhp] >= 95
 [type] == amulet && [quality] >= rare # [barbarianskills] == 2 && [dexterity]+[strength]+[maxhp] >= 95
 [type] == amulet && [quality] >= rare # [barbarianskills] == 2 && [itemgoldbonus] >= 75

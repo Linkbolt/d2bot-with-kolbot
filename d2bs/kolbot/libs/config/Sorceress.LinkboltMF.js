@@ -44,7 +44,7 @@ function LoadConfig() {
 	Scripts.Treehead = false;
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
-	Scripts.Countess = false;
+	Scripts.Countess = true;
 		Config.Countess.KillGhosts = true;
 	Scripts.Andariel = true;
 	Scripts.Cows = false;
@@ -226,7 +226,7 @@ function LoadConfig() {
 		Config.BaalAssistant.HotTPMessage = ["Hot"]; // Configure safe TP messages.
 		Config.BaalAssistant.SafeTPMessage = ["Safe", "Clear"]; // Configure safe TP messages.
 		Config.BaalAssistant.BaalMessage = ["Baal"]; // Configure baal messages, this is a precautionary measure.
-		Config.BaalAssistant.NextGameMessage = ["Next Game", "Next", "New Game"];	// Next Game message, this is a precautionary quit command, Reccomended setting up: Config.QuitList
+		Config.BaalAssistant.NextGameMessage = ["Next Game", "Next", "New Game", "ng"];	// Next Game message, this is a precautionary quit command, Reccomended setting up: Config.QuitList
 
 	// Town settings
 	Config.HealHP = 70; // Go to a healer if under designated percent of life.
@@ -431,7 +431,7 @@ function LoadConfig() {
 
 	// Shrine Scanner - scan for shrines while moving.
 	// Put the shrine types in order of priority (from highest to lowest). For a list of types, see sdk/shrines.txt
-	//Config.ScanShrines = [];
+	Config.ScanShrines = [15,12,6,10,9,8,11,13];
 
 	// MF Switch
 	Config.MFSwitchPercent = 0; // Boss life % to switch weapons at. Set to 0 to disable.
@@ -454,8 +454,8 @@ function LoadConfig() {
 
 	// DClone config
 	Config.StopOnDClone = true; // Go to town and idle as soon as Diablo walks the Earth
-	Config.SoJWaitTime = 5; // Time in minutes to wait for another SoJ sale before leaving game. 0 = disabled
-	Config.KillDclone = false; // Go to Palace Cellar 3 and try to kill Diablo Clone. Pointless if you already have Annihilus.
+	Config.SoJWaitTime = 30; // Time in minutes to wait for another SoJ sale before leaving game. 0 = disabled
+	Config.KillDclone = true; // Go to Palace Cellar 3 and try to kill Diablo Clone. Pointless if you already have Annihilus.
 	Config.DCloneQuit = false; // 1 = quit when Diablo walks, 2 = quit on soj sales, 0 = disabled
 
 	// Monster skip config
@@ -467,6 +467,9 @@ function LoadConfig() {
 	Config.SkipEnchant = [];
 	// Skip monsters with auras. Possible options: "fanaticism", "might", "holy fire", "blessed aim", "holy freeze", "holy shock". Conviction is bugged, don't use it.
 	Config.SkipAura = [];
+	// Ignore skipped and kills monsters by NAMES or CLASSIDS. Enable Config.TeleStomp for merc to kill mob, otherwise will try to use immune attack skills.
+	//Config.SkipIgnore = [] //Example: Config.SkipIgnore = ["Andariel", 243];
+	Config.SkipIgnore = [710] // the countess
 
 	/* Attack config
 	 * To disable an attack, set it to -1
@@ -479,8 +482,6 @@ function LoadConfig() {
 	Config.AttackSkill[2] = 55; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
 	Config.AttackSkill[3] = 59; // Primary skill to others.
 	Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
-	//Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
-	//Config.AttackSkill[6] = -1; // Secondary skill if monster is immune to primary.
 	Config.AttackSkill[5] = 43; // Secondary skill if monster is immune to primary.
 	Config.AttackSkill[6] = 42; // Secondary untimed skill if monster is immune to primary untimed.
 
@@ -518,8 +519,9 @@ function LoadConfig() {
 
 	// Class specific config
 	Config.CastStatic = 60; // Cast static until the target is at designated life percent. 100 = disabled.
-	//Config.StaticList = [156, 211, 242, 243, 544]; // List of monster NAMES or CLASSIDS to static. Example: Config.StaticList = ["Andariel", 243];
-	
+	//Config.StaticList = []; // List of monster NAMES or CLASSIDS to static. Example: Config.StaticList = ["Andariel", 243];
+	//Config.StaticList = [156, 710, 211, 242, 243, 544]; // andariel, the countess, duriel, mephisto, diablo, baalcrab
+	Config.StaticList = [710] // the countess
 	
 	// AutoBuild System ( See /d2bs/kolbot/libs/config/Builds/README.txt for instructions )
 	Config.AutoBuild.Enabled = false	//	This will enable or disable the AutoBuild system
