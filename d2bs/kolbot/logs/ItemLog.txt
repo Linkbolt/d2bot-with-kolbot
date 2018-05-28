@@ -9705,3 +9705,16 @@
 [01:49:59] <LinkboltMF> <Kept> (magic) Amulet of Life Everlasting (88) | Required Level: 37 | Damage Reduced by 25 {Cubing-Town}
 [01:49:59] <LinkboltMF> <Stashed> (magic) Amulet of Life Everlasting
 [01:56:00] <LinkboltMF> <Kept> (set) Tower Shield (88) | Defense: 25 | Chance to Block: 44% | Durability: 44 of 60 | Required Strength: 75 | Unidentified
+[01:56:52] <LinkboltMF> <Kept> (normal) Flawed Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +60 to Attack Rating | Armor: +4 to Strength | Helms: +4 to Strength | Shields: +12 Defense |  | Required Level: 5 {Cubing 1}
+[01:57:44] <LinkboltMF> <Stashed> (set) Tower Shield
+[01:57:50] <LinkboltMF> <Stashed> (normal) Flawed Amethyst
+[02:09:13] <LinkboltMF> <Kept> (magic) Vampirebone Gloves (88) | Defense: 66 | Durability: 7 of 14 | Required Strength: 50 | Unidentified {Cubing 1}
+[02:10:47] <LinkboltMF> <Stashed> (magic) Vampirebone Gloves
+[02:11:24] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Cubing 1}
+[02:11:51] <LinkboltMF> <Stashed> (normal) Flawless Amethyst
+[02:16:36] <LinkboltMF> <Kept> (normal) Ral Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 5-30 fire damage | Armor: Fire Resist +30% | Helms: Fire Resist +30% | Shields: Fire Resist +35% |  | Required Level: 19 {Cubing 1}
+[02:17:42] <LinkboltMF> <Gambled> (rare) Cost: 55440 (93) | Eagle Emblem | Amulet | Unidentified
+[02:18:26] <LinkboltMF> <Stashed> (rare) Eagle Emblem Amulet
+[02:18:37] <LinkboltMF> <Stashed> (normal) Ral Rune
+[02:19:37] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Cubing 1}
+[02:19:48] <LinkboltMF> <Stashed> (normal) Flawless Ruby
