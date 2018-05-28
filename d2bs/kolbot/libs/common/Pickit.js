@@ -275,7 +275,8 @@ MainLoop:
 
 			while (getTickCount() - tick < 1000) {
 				item = copyUnit(item);
-
+				
+				// Gold
 				if (stats.classid === 523) {
 					if (!item.getStat(14) || item.getStat(14) < stats.gold) {
 						print("ÿc7Picked up " + stats.color + (item.getStat(14) ? (item.getStat(14) - stats.gold) : stats.gold) + " " + stats.name);
@@ -313,7 +314,7 @@ MainLoop:
 
 		if (stats.picked) {
 			DataFile.updateStats("lastArea");
-
+			
 			switch (status) {
 			case 1:
 				print("ÿc7Picked up " + stats.color + stats.name + " ÿc0(ilvl " + stats.ilvl + (keptLine ? ") (" + keptLine + ")" : ")"));
@@ -336,17 +337,21 @@ MainLoop:
 			case 2:
 				print("ÿc7Picked up " + stats.color + stats.name + " ÿc0(ilvl " + stats.ilvl + ")" + " (Cubing)");
 				Misc.itemLogger("Kept", item, "Cubing " + me.findItems(item.classid).length);
+				Misc.logItem("Kept", item, "Cubing " + me.findItems(item.classid).length);
 				Cubing.update();
 
 				break;
 			case 3:
 				print("ÿc7Picked up " + stats.color + stats.name + " ÿc0(ilvl " + stats.ilvl + ")" + " (Runewords)");
 				Misc.itemLogger("Kept", item, "Runewords");
+				Misc.logItem("Kept", item, "Runewords");
 				Runewords.update(stats.classid, gid);
 
 				break;
 			case 5: // Crafting System
 				print("ÿc7Picked up " + stats.color + stats.name + " ÿc0(ilvl " + stats.ilvl + ")" + " (Crafting System)");
+				Misc.itemLogger("Kept", item, "Crafting System");
+				Misc.logItem("Kept", item, "Crafting System");
 				CraftingSystem.update(item);
 
 				break;

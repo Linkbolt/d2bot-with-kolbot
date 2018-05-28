@@ -334,7 +334,7 @@ function LoadConfig() {
 	 * The format is Config.Recipes.push([recipe_name, item_name_or_classid, etherealness]). Etherealness is optional and only applies to some recipes.
 	 */
 	Config.Cubing = true; // Set to true to enable cubing.
-
+	
 	// Ingredients for the following recipes will be auto-picked, for classids check libs/NTItemAlias.dbl
 
 	//Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
@@ -480,7 +480,7 @@ function LoadConfig() {
 	Config.SkipAura = [];
 	// Ignore skips (immune, enchant and aura) and kills monsters by NAMES or CLASSIDS. Enable Config.TeleStomp for merc to kill monster, otherwise will try to use immune attack skills.
 	//Config.SkipIgnore = [] //Example: Config.SkipIgnore = ["Andariel", 243];
-	Config.SkipIgnore = [710] // the countess
+	//Config.SkipIgnore = [710] // the countess
 
 	/* Attack config
 	 * To disable an attack, set it to -1
@@ -493,7 +493,7 @@ function LoadConfig() {
 	Config.AttackSkill[2] = 55; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
 	Config.AttackSkill[3] = 59; // Primary skill to others.
 	Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
-	Config.AttackSkill[5] = 43; // Secondary skill if monster is immune to primary.
+	Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
 	Config.AttackSkill[6] = 42; // Secondary untimed skill if monster is immune to primary untimed.
 
 	// Frozen Orb + Fire Wall
