@@ -364,6 +364,7 @@ function LoadConfig() {
 
 	Config.Recipes.push([Recipe.Caster.Amulet]); // Craft Caster Amulet
 	Config.Recipes.push([Recipe.Blood.Ring]); // Craft Blood Ring
+	Config.Recipes.push([Recipe.Blood.Gloves, "Vampirebone Gloves"]); // Craft Blood Vampirebone Gloves
 	//Config.Recipes.push([Recipe.Blood.Helm, "Armet"]); // Craft Blood Armet
 	//Config.Recipes.push([Recipe.HitPower.Gloves, "Vambraces"]); // Craft Hit Power Vambraces
 

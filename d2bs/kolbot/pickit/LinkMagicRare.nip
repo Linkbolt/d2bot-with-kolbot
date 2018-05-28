@@ -16,17 +16,17 @@
 // ##### 1- rare rings ########################################################################################################################
 // ##############################################################################################################################################
 [type] == ring && [quality] >= rare # [fcr] >= 10 && [itemmagicbonus] >= 25
-[Type] == Ring && [Quality] >= rare # [FCR] == 10 && [Strength] >= 10 && [MaxHp] >= 20 && [MaxMana] >= 50
-[Type] == Ring && [Quality] >= rare # [FCR] == 10 && [Dexterity] >= 10 && [MaxHp] >= 20 && [MaxMana] >= 50
-[Type] == Ring && [Quality] >= rare # [FCR] == 10 && [Strength] >= 10 && [MaxHp] >= 30
-[Type] == Ring && [Quality] >= rare # [FCR] == 10 && [Dexterity] >= 10 && [MaxHp] >= 30
-[Type] == Ring && [Quality] >= rare # [FCR] == 10 && [Strength] >= 10 && [Dexterity] >= 10 && [MaxMana] >= 50
-[Type] == Ring && [Quality] >= rare # [FCR] == 10 && [Strength] == 20 && [Dexterity] == 15
-[Type] == Ring && [Quality] >= rare # [FCR] == 10 && [Strength] >= 15 && [HpRegen] >= 5 && [MaxMana] >= 60
-[Type] == Ring && [Quality] >= rare # [FCR] == 10 && [ToHit] >= 75 && [MaxHp] >= 30 && [MaxMana] >= 60
-[Type] == Ring && [Quality] >= rare # [FCR] == 10 && [HpRegen] >= 5 && [MaxHp] >= 30 && [MaxMana] >= 60
-[Type] == Ring && [Quality] >= rare # [ToHit] >= 50 && [Strength] >= 15 && [Dexterity] >= 10 && [MaxHp] >= 30
-[Type] == Ring && [Quality] >= rare # [ToHit] >= 100 && [Dexterity] >= 10 && [MaxHp] >= 30 && [MaxMana] >= 60
+[type] == ring && [quality] >= rare # [fcr] == 10 && [strength] >= 10 && [maxhp] >= 20 && [maxmana] >= 50
+[type] == ring && [quality] >= rare # [fcr] == 10 && [dexterity] >= 10 && [maxhp] >= 20 && [maxmana] >= 50
+[type] == ring && [quality] >= rare # [fcr] == 10 && [strength] >= 10 && [maxhp] >= 30
+[type] == ring && [quality] >= rare # [fcr] == 10 && [dexterity] >= 10 && [maxhp] >= 30
+[type] == ring && [quality] >= rare # [fcr] == 10 && [strength] >= 10 && [dexterity] >= 10 && [maxmana] >= 50
+[type] == ring && [quality] >= rare # [fcr] == 10 && [strength] == 20 && [dexterity] == 15
+[type] == ring && [quality] >= rare # [fcr] == 10 && [strength] >= 15 && [hpregen] >= 5 && [maxmana] >= 60
+[type] == ring && [quality] >= rare # [fcr] == 10 && [tohit] >= 75 && [maxhp] >= 30 && [maxmana] >= 60
+[type] == ring && [quality] >= rare # [fcr] == 10 && [hpregen] >= 5 && [maxhp] >= 30 && [maxmana] >= 60
+[type] == ring && [quality] >= rare # [tohit] >= 50 && [strength] >= 15 && [dexterity] >= 10 && [maxhp] >= 30
+[type] == ring && [quality] >= rare # [tohit] >= 100 && [dexterity] >= 10 && [maxhp] >= 30 && [maxmana] >= 60
 
 
 
@@ -81,6 +81,15 @@
 // ##############################################################################################################################################
 // ##### 6- rare gloves ###################################################################################################################
 // ##############################################################################################################################################
+[type] == gloves && [quality] >= rare && [flag] != ethereal # [ias] >= 20 && [strength]+[dexterity] >= 30
+[type] == gloves && [quality] >= rare && [flag] == ethereal # [ias] >= 20 && [enhanceddefense] >= 190 && [itemreplenishdurability] >= 1
+[type] == gloves && [quality] >= rare # [itemcrushingblow] >= 10 && [ias] >= 20
+[type] == gloves && [quality] >= rare # [itemcrushingblow] >= 10 && [lifeleech] >= 6 && ([strength]+[dexterity] >= 20)
+[type] == gloves && [quality] >= rare # [itemknockback] >= 1 && [itemaddskilltab] >= 1 && [ias] >= 20 && ([strength] >= 10 || [dexterity] >= 10) && ([lifeleech] >= 3 || [manaleech] >= 3)
+[type] == gloves && [quality] >= rare # [itemknockback] >= 1 && [itemaddskilltab] >= 1 && [ias] >= 20 && [strength]+[dexterity] >= 20
+[type] == gloves && [quality] >= rare # [ias] == 20 && [dexterity] >= 10 && [strength] >= 10 && ([itemcrushingblow] >= 5 || [itemknockback] >= 1)
+[type] == gloves && [quality] >= rare # [ias] == 20 && ([dexterity]+[strength] >= 20)
+
 
 
 
