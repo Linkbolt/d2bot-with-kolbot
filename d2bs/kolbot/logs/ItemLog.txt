@@ -9697,3 +9697,6 @@
 [01:19:08] <LinkboltMF> <Stashed> (magic) Sharp Grand Charm of Frost
 [01:28:12] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Cubing 2}
 [01:28:33] <LinkboltMF> <Stashed> (normal) Flawless Amethyst
+[01:35:47] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Cubing 3}
+[01:40:04] <LinkboltMF> <Kept> (normal) Ral Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 5-30 fire damage | Armor: Fire Resist +30% | Helms: Fire Resist +30% | Shields: Fire Resist +35% |  | Required Level: 19 {Cubing 1}
+[01:40:36] <LinkboltMF> <Stashed> (normal) Ral Rune
