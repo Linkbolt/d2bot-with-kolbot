@@ -115,12 +115,16 @@ var ClassAttack = {
 		case 1: // Success
 			return true;
 		case 2: // Try to telestomp
-			if (Config.TeleStomp && Attack.checkResist(unit, "physical") && !!me.getMerc() && Attack.validSpot(unit.x, unit.y)) {
+			var merc = me.getMerc();
+			
+			if (Config.TeleStomp && Attack.checkResist(unit, "physical") && merc && Attack.validSpot(unit.x, unit.y)) {
 				while (Attack.checkMonster(unit)) {
-					if (getDistance(me, unit) > 3) {
+					
+					if (merc && getDistance(merc, unit) > 3) {
 						Pather.moveToUnit(unit);
 					}
-
+					
+					Pather.walkTo(unit.x, unit.y, 5);
 					this.doCast(unit, Config.AttackSkill[1], Config.AttackSkill[2]);
 				}
 

@@ -1291,6 +1291,11 @@ var Misc = {
 			break;
 		}
 
+		lastArea = DataFile.getStats().lastArea;
+		if (lastArea) {
+			desc += (" {Area: " + lastArea + "}");
+		}
+		
 		return this.fileAction("logs/ItemLog.txt", 2, dateString + " <" + me.profile + "> <" + action + "> (" + Pickit.itemQualityToName(unit.quality) + ") " + desc + (text ? " {" + text + "}" : "") + "\n");
 	},
 

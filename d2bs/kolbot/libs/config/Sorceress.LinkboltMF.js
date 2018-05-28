@@ -44,8 +44,8 @@ function LoadConfig() {
 	Scripts.Treehead = false;
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
-	Scripts.Countess = false;
-		Config.Countess.KillGhosts = true;
+	Scripts.Countess = { TeleStomp: true, SkipImmune: [] };
+		Config.Countess.KillGhosts = false;
 	Scripts.Andariel = true;
 	Scripts.Cows = false;
 
@@ -71,7 +71,7 @@ function LoadConfig() {
 		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
 	Scripts.Mephisto = true;
 		Config.Mephisto.MoatTrick = false;
-		Config.Mephisto.KillCouncil = false;
+		Config.Mephisto.KillCouncil = true;
 		Config.Mephisto.TakeRedPortal = true;
 
 	// *** act 4 ***
@@ -111,9 +111,9 @@ function LoadConfig() {
 		Config.Snapchip.ClearIcyCellar = true;
 	Scripts.Worldstone = false;
 	Scripts.Baal = false;
-		Config.Baal.HotTPMessage = "Hot TP!";
-		Config.Baal.SafeTPMessage = "Safe TP!";
-		Config.Baal.BaalMessage = "Baal!";
+		//Config.Baal.HotTPMessage = "Hot TP!";
+		//Config.Baal.SafeTPMessage = "Safe TP!";
+		//Config.Baal.BaalMessage = "Baal!";
 		Config.Baal.SoulQuit = true; // End script if Souls (Undead Soul Killers) are found.
 		Config.Baal.DollQuit = true; // End script if Dolls (Undead Stigyan Dolls) are found.
 		Config.Baal.KillBaal = true; // Kill Baal. Leaves game after wave 5 if false.
@@ -226,7 +226,7 @@ function LoadConfig() {
 		Config.BaalAssistant.HotTPMessage = ["Hot"]; // Configure safe TP messages.
 		Config.BaalAssistant.SafeTPMessage = ["Safe", "Clear"]; // Configure safe TP messages.
 		Config.BaalAssistant.BaalMessage = ["Baal"]; // Configure baal messages, this is a precautionary measure.
-		Config.BaalAssistant.NextGameMessage = ["Next Game", "Next", "New Game"];	// Next Game message, this is a precautionary quit command, Reccomended setting up: Config.QuitList
+		Config.BaalAssistant.NextGameMessage = ["Next Game", "Next", "New Game", "ng"];	// Next Game message, this is a precautionary quit command, Reccomended setting up: Config.QuitList
 
 	// Town settings
 	Config.HealHP = 70; // Go to a healer if under designated percent of life.
@@ -334,7 +334,7 @@ function LoadConfig() {
 	 * The format is Config.Recipes.push([recipe_name, item_name_or_classid, etherealness]). Etherealness is optional and only applies to some recipes.
 	 */
 	Config.Cubing = true; // Set to true to enable cubing.
-
+	
 	// Ingredients for the following recipes will be auto-picked, for classids check libs/NTItemAlias.dbl
 
 	//Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
@@ -371,18 +371,29 @@ function LoadConfig() {
 	// The gems not used by other recipes will be used for magic item rerolling.
 
 	//Config.Recipes.push([Recipe.Reroll.Magic, "Diadem"]); // Reroll magic Diadem
-	//Config.Recipes.push([Recipe.Reroll.Magic, "Grand Charm"]); // Reroll magic Grand Charm (ilvl 91+)
+	Config.Recipes.push([Recipe.Reroll.Magic, "Grand Charm"]); // Reroll magic Grand Charm (ilvl 91+)
+	//Config.Recipes.push([Recipe.Reroll.Magic, "Small Charm"]); // Reroll magic Small Charm (ilvl 91+)
 
 	//Config.Recipes.push([Recipe.Reroll.Rare, "Diadem"]); // Reroll rare Diadem
 
 	/* Base item for the following recipes must be in pickit. The rest of the ingredients will be auto-picked.
 	 * Use Roll.Eth, Roll.NonEth or Roll.All to determine what kind of base item to roll - ethereal, non-ethereal or all.
 	 */
-	//Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]); // Socket ethereal Thresher
-	//Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]); // Socket ethereal Cryptic Axe
-	//Config.Recipes.push([Recipe.Socket.Armor, "Sacred Armor", Roll.Eth]); // Socket ethereal Sacred Armor
-	//Config.Recipes.push([Recipe.Socket.Armor, "Archon Plate", Roll.Eth]); // Socket ethereal Archon Plate
-
+	Config.Recipes.push([Recipe.Socket.Weapon, "Monarch", Roll.All]); // Socket Monarch
+	Config.Recipes.push([Recipe.Socket.Weapon, "Sacred Targe", Roll.All]); // Socket Sacred Targe
+	
+	Config.Recipes.push([Recipe.Socket.Armor, "Dusk Shroud", Roll.All]); // Socket Dusk Shroud
+	Config.Recipes.push([Recipe.Socket.Armor, "Archon Plate", Roll.All]); // Socket Archon Plate
+	Config.Recipes.push([Recipe.Socket.Armor, "Wyrmhide", Roll.All]); // Socket Archon Plate
+	//Config.Recipes.push([Recipe.Socket.Armor, "Sacred Armor", Roll.All]); // Socket Sacred Armor
+	
+	Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]); // Socket Thresher
+	Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]); // Socket Cryptic Axe
+	Config.Recipes.push([Recipe.Socket.Weapon, "Colossus Voulge", Roll.Eth]); // Socket Cryptic Axe
+	Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]); // Socket Cryptic Axe
+	
+	
+	
 	//Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Heavy Gloves", Roll.NonEth]); // Upgrade Bloodfist to Exceptional
 	//Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Light Gauntlets", Roll.NonEth]); // Upgrade Magefist to Exceptional
 	//Config.Recipes.push([Recipe.Unique.Armor.ToElite, "Sharkskin Gloves", Roll.NonEth]); // Upgrade Bloodfist or Grave Palm to Elite
@@ -431,7 +442,7 @@ function LoadConfig() {
 
 	// Shrine Scanner - scan for shrines while moving.
 	// Put the shrine types in order of priority (from highest to lowest). For a list of types, see sdk/shrines.txt
-	//Config.ScanShrines = [];
+	Config.ScanShrines = [15,12,6,10,9,8,11,13];
 
 	// MF Switch
 	Config.MFSwitchPercent = 0; // Boss life % to switch weapons at. Set to 0 to disable.
@@ -454,8 +465,8 @@ function LoadConfig() {
 
 	// DClone config
 	Config.StopOnDClone = true; // Go to town and idle as soon as Diablo walks the Earth
-	Config.SoJWaitTime = 5; // Time in minutes to wait for another SoJ sale before leaving game. 0 = disabled
-	Config.KillDclone = false; // Go to Palace Cellar 3 and try to kill Diablo Clone. Pointless if you already have Annihilus.
+	Config.SoJWaitTime = 30; // Time in minutes to wait for another SoJ sale before leaving game. 0 = disabled
+	Config.KillDclone = true; // Go to Palace Cellar 3 and try to kill Diablo Clone. Pointless if you already have Annihilus.
 	Config.DCloneQuit = false; // 1 = quit when Diablo walks, 2 = quit on soj sales, 0 = disabled
 
 	// Monster skip config
@@ -467,6 +478,9 @@ function LoadConfig() {
 	Config.SkipEnchant = [];
 	// Skip monsters with auras. Possible options: "fanaticism", "might", "holy fire", "blessed aim", "holy freeze", "holy shock". Conviction is bugged, don't use it.
 	Config.SkipAura = [];
+	// Ignore skips (immune, enchant and aura) and kills monsters by NAMES or CLASSIDS. Enable Config.TeleStomp for merc to kill monster, otherwise will try to use immune attack skills.
+	//Config.SkipIgnore = [] //Example: Config.SkipIgnore = ["Andariel", 243];
+	//Config.SkipIgnore = [710] // the countess
 
 	/* Attack config
 	 * To disable an attack, set it to -1
@@ -479,9 +493,7 @@ function LoadConfig() {
 	Config.AttackSkill[2] = 55; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
 	Config.AttackSkill[3] = 59; // Primary skill to others.
 	Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
-	//Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
-	//Config.AttackSkill[6] = -1; // Secondary skill if monster is immune to primary.
-	Config.AttackSkill[5] = 43; // Secondary skill if monster is immune to primary.
+	Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
 	Config.AttackSkill[6] = 42; // Secondary untimed skill if monster is immune to primary untimed.
 
 	// Frozen Orb + Fire Wall
@@ -518,8 +530,9 @@ function LoadConfig() {
 
 	// Class specific config
 	Config.CastStatic = 60; // Cast static until the target is at designated life percent. 100 = disabled.
-	//Config.StaticList = [156, 211, 242, 243, 544]; // List of monster NAMES or CLASSIDS to static. Example: Config.StaticList = ["Andariel", 243];
-	
+	//Config.StaticList = []; // List of monster NAMES or CLASSIDS to static. Example: Config.StaticList = ["Andariel", 243];
+	//Config.StaticList = [156, 710, 211, 242, 243, 544]; // andariel, the countess, duriel, mephisto, diablo, baalcrab
+	Config.StaticList = [710] // the countess
 	
 	// AutoBuild System ( See /d2bs/kolbot/libs/config/Builds/README.txt for instructions )
 	Config.AutoBuild.Enabled = false	//	This will enable or disable the AutoBuild system
