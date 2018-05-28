@@ -9574,3 +9574,126 @@
 [15:08:22] <LinkboltMF> <Stashed> (rare) Order Necklace Amulet
 [15:08:40] <LinkboltMF> <Stashed> (rare) Raven Scarab Amulet
 [15:09:40] <LinkboltMF> <Stashed> (rare) Order Necklace Amulet
+[15:31:49] <LinkboltMF> <Kept> (normal) Flawed Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +60 to Attack Rating | Armor: +4 to Strength | Helms: +4 to Strength | Shields: +12 Defense |  | Required Level: 5 {Cubing 1}
+[15:32:06] <LinkboltMF> <Stashed> (normal) Flawed Amethyst
+[16:08:01] <LinkboltMF> <Kept> (normal) Sol Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +9 to Minimum Damage | Armor: Damage Reduced by 7 | Helms: Damage Reduced by 7 | Shields: Damage Reduced by 7 |  | Required Level: 27 {Cubing 1}
+[16:08:07] <LinkboltMF> <Kept> (normal) Ral Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 5-30 fire damage | Armor: Fire Resist +30% | Helms: Fire Resist +30% | Shields: Fire Resist +35% |  | Required Level: 19 {Cubing 1}
+[16:08:27] <LinkboltMF> <Dropped> (crafted) Entropy Scarab (90) | Amulet | Required Level: 40 | +1 to Defensive Auras (Paladin Only) | +8% Faster Cast Rate | +46 to Mana | Regenerate Mana 8% | Poison Resist +22% | Damage Reduced by 1 {doCubing}
+[16:08:33] <LinkboltMF> <Dropped> (crafted) Viper Grasp (88) | Ring | Required Level: 38 | 1% Life stolen per hit | +1 to Strength | +7 to Energy | +16 to Life | Lightning Resist +26% | Fire Resist +23% | +1 to Mana after each Kill {doCubing}
+[16:12:05] <LinkboltMF> <Kept> (magic) Ring of Warding (88) | Required Level: 5 | Magic Damage Reduced by 1 {Cubing-Town}
+[16:12:06] <LinkboltMF> <Stashed> (magic) Ring of Warding
+[16:13:16] <LinkboltMF> <Kept> (set) Griswold's Heart (87) | Ornate Plate | Defense: 950 | Durability: 38 of 60 | Required Strength: 102 | Required Level: 45 | +2 to Defensive Auras (Paladin Only) | +500 Defense | +20 to Strength | Requirements -40% | Socketed (3) |  | Griswold's Legacy | Griswold's Honor | Griswold's Redemption | Griswold's Heart | Griswold's Valor
+[16:13:18] <LinkboltMF> <Stashed> (set) Griswold's Heart Ornate Plate
+[16:15:16] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Cubing 1}
+[16:15:52] <LinkboltMF> <Stashed> (normal) Flawless Ruby
+[16:26:00] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Cubing 2}
+[16:28:08] <LinkboltMF> <Gambled> (rare) Chaos Talisman (93) | Amulet | Required Level: 67 | +2 to Assassin Skills | +3 to Mana | Cold Resist +8% | Level 1 Grim Ward (2222 Charges)
+[16:28:08] <LinkboltMF> <Stashed> (rare) Chaos Talisman Amulet
+[16:28:14] <LinkboltMF> <Stashed> (magic) Ruby Amulet
+[16:28:15] <LinkboltMF> <Stashed> (normal) Flawless Ruby
+[16:29:14] <LinkboltMF> <Kept> (magic) Jewel of the Glacier (85) | Can be Inserted into Socketed Items | Required Level: 50 | Adds 4-13 cold damage {Cubing-Town}
+[16:29:14] <LinkboltMF> <Stashed> (magic) Jewel of the Glacier
+[16:31:48] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Cubing 3}
+[16:37:07] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Cubing 1}
+[16:37:56] <LinkboltMF> <Stashed> (normal) Flawless Amethyst
+[16:51:13] <LinkboltMF> <Kept> (magic) Jewel of Carnage (77) | Can be Inserted into Socketed Items | Required Level: 18 | +14 to Maximum Damage {Cubing-Town}
+[16:51:14] <LinkboltMF> <Stashed> (magic) Jewel of Carnage
+[17:07:03] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Cubing 2}
+[17:07:12] <LinkboltMF> <Stashed> (normal) Flawless Amethyst
+[17:09:07] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Cubing 3}
+[17:09:49] <LinkboltMF> <Stashed> (normal) Perfect Amethyst
+[17:35:20] <LinkboltMF> <Kept> (normal) Ko Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Dexterity | Armor: +10 to Dexterity | Helms: +10 to Dexterity | Shields: +10 to Dexterity |  | Required Level: 39 {Cubing 2}
+[17:36:25] <LinkboltMF> <Stashed> (normal) Ko Rune
+[18:49:47] <LinkboltMF> <Kept> (magic) Gold Ring of Measure (83) | Required Level: 29 | +5 to Minimum Damage | +81 to Attack Rating {Cubing-Town}
+[18:49:47] <LinkboltMF> <Stashed> (magic) Gold Ring of Measure
+[18:54:46] <LinkboltMF> <Kept> (normal) Flawless Diamond (1) | Can be Inserted into Socketed Items |  | Weapons: +54% Damage to Undead | Armor: +80 to Attack Rating | Helms: +80 to Attack Rating | Shields: All Resistances +14 |  | Required Level: 15 {Cubing 1}
+[18:55:11] <LinkboltMF> <Stashed> (normal) Flawless Diamond
+[19:06:46] <LinkboltMF> <Stashed> (normal) Flawless Diamond
+[19:10:58] <LinkboltMF> <Kept> (magic) Jewel of Virility (88) | Can be Inserted into Socketed Items | Required Level: 25 | +5 to Strength {Cubing-Town}
+[19:10:58] <LinkboltMF> <Stashed> (magic) Jewel of Virility
+[19:11:52] <LinkboltMF> <Kept> (normal) Flawless Diamond (1) | Can be Inserted into Socketed Items |  | Weapons: +54% Damage to Undead | Armor: +80 to Attack Rating | Helms: +80 to Attack Rating | Shields: All Resistances +14 |  | Required Level: 15 {Cubing 3}
+[19:12:12] <LinkboltMF> <Cubing Kept> (normal) Perfect Diamond (1) | Can be Inserted into Socketed Items |  | Weapons: +68% Damage to Undead | Armor: +100 to Attack Rating | Helms: +100 to Attack Rating | Shields: All Resistances +19 |  | Required Level: 18
+[19:21:09] <LinkboltMF> <Kept> (unique) Ring (86) | Unidentified
+[19:22:05] <LinkboltMF> <Stashed> (unique) Ring
+[19:29:38] <LinkboltMF> <Kept> (normal) Flawless Diamond (1) | Can be Inserted into Socketed Items |  | Weapons: +54% Damage to Undead | Armor: +80 to Attack Rating | Helms: +80 to Attack Rating | Shields: All Resistances +14 |  | Required Level: 15 {Cubing 1}
+[19:30:26] <LinkboltMF> <Stashed> (normal) Flawless Diamond
+[19:44:31] <LinkboltMF> <Stashed> (magic) Scintillating Amulet of Luck
+[19:58:46] <LinkboltMF> <Kept> (rare) Cost: 3014 (88) | Dread Heart | Jewel | Can be Inserted into Socketed Items | Required Level: 49 | +26% Enhanced Damage | Adds 1-90 lightning damage | +8 to Strength | +8 to Mana {Cubing-Town}
+[19:58:48] <LinkboltMF> <Stashed> (rare) Dread Heart Jewel
+[20:14:11] <LinkboltMF> <Kept> (normal) Flawless Diamond (1) | Can be Inserted into Socketed Items |  | Weapons: +54% Damage to Undead | Armor: +80 to Attack Rating | Helms: +80 to Attack Rating | Shields: All Resistances +14 |  | Required Level: 15 {Cubing 2}
+[20:15:08] <LinkboltMF> <Stashed> (normal) Flawless Diamond
+[20:16:41] <LinkboltMF> <Kept> (normal) Flawless Diamond (1) | Can be Inserted into Socketed Items |  | Weapons: +54% Damage to Undead | Armor: +80 to Attack Rating | Helms: +80 to Attack Rating | Shields: All Resistances +14 |  | Required Level: 15 {Cubing 3}
+[20:16:58] <LinkboltMF> <Cubing Kept> (normal) Perfect Diamond (1) | Can be Inserted into Socketed Items |  | Weapons: +68% Damage to Undead | Armor: +100 to Attack Rating | Helms: +100 to Attack Rating | Shields: All Resistances +19 |  | Required Level: 18
+[20:23:17] <LinkboltMF> <Kept> (normal) Flail (85) | One-Hand Damage: 1 to 36 | Durability: 16 of 16 | Required Dexterity: 25 | Required Strength: 31 | Mace Class - Fast Attack Speed | +50% Damage to Undead | Ethereal (Cannot be Repaired), Socketed (5)
+[20:23:51] <LinkboltMF> <Stashed> (normal) Flail
+[20:27:12] <LinkboltMF> <Kept> (normal) Sol Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +9 to Minimum Damage | Armor: Damage Reduced by 7 | Helms: Damage Reduced by 7 | Shields: Damage Reduced by 7 |  | Required Level: 27 {Cubing 1}
+[20:28:05] <LinkboltMF> <Dropped> (crafted) Beast Coil (87) | Ring | Required Level: 96 | +23 to Attack Rating | 6% Mana stolen per hit | 2% Life stolen per hit | +2 to Strength | +14 to Life | Replenish Life +7 | Fire Resist +21% {doCubing}
+[20:31:15] <LinkboltMF> <Kept> (magic) Garnet Ring (85) | Required Level: 13 | Fire Resist +28% {Cubing-Town}
+[20:31:28] <LinkboltMF> <Stashed> (magic) Garnet Ring
+[20:34:56] <LinkboltMF> <Kept> (unique) Ring (86) | Unidentified
+[20:35:58] <LinkboltMF> <Stashed> (unique) Ring
+[20:36:12] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Cubing 1}
+[20:36:39] <LinkboltMF> <Stashed> (normal) Flawless Ruby
+[20:37:40] <LinkboltMF> <Kept> (normal) Flawless Diamond (1) | Can be Inserted into Socketed Items |  | Weapons: +54% Damage to Undead | Armor: +80 to Attack Rating | Helms: +80 to Attack Rating | Shields: All Resistances +14 |  | Required Level: 15 {Cubing 1}
+[20:38:49] <LinkboltMF> <Stashed> (normal) Flawless Diamond
+[20:42:32] <LinkboltMF> <Gambled> (rare) Eagle Horn (89) | Coronet | Defense: 39 | Durability: 30 of 30 | Required Level: 67 | +2 to Sorceress Skill Levels | +30% Faster RunWalk | +7 to Maximum Damage | 8% Life stolen per hit | Cold Resist +12% | Lightning Resist +12% | Fire Resist +12% | Poison Resist +50%
+[20:43:52] <LinkboltMF> <Stashed> (rare) Eagle Horn Coronet
+[20:45:32] <LinkboltMF> <Kept> (magic) Jewel of Truth (81) | Can be Inserted into Socketed Items | Required Level: 36 | +7% Faster Hit Recovery {Cubing-Town}
+[20:45:35] <LinkboltMF> <Stashed> (magic) Jewel of Truth
+[20:46:02] <LinkboltMF> <Stashed> (magic) Jewel of Truth
+[20:53:04] <LinkboltMF> <Kept> (normal) Flawless Diamond (1) | Can be Inserted into Socketed Items |  | Weapons: +54% Damage to Undead | Armor: +80 to Attack Rating | Helms: +80 to Attack Rating | Shields: All Resistances +14 |  | Required Level: 15 {Cubing 2}
+[20:53:54] <LinkboltMF> <Stashed> (normal) Flawless Diamond
+[21:00:36] <LinkboltMF> <Kept> (unique) Amulet (87) | Unidentified
+[21:00:58] <LinkboltMF> <Stashed> (unique) Amulet
+[21:03:11] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Cubing 2}
+[21:03:49] <LinkboltMF> <Stashed> (normal) Flawless Ruby
+[21:09:04] <LinkboltMF> <Kept> (normal) Flawless Diamond (1) | Can be Inserted into Socketed Items |  | Weapons: +54% Damage to Undead | Armor: +80 to Attack Rating | Helms: +80 to Attack Rating | Shields: All Resistances +14 |  | Required Level: 15 {Cubing 3}
+[21:09:49] <LinkboltMF> <Cubing Kept> (normal) Perfect Diamond (1) | Can be Inserted into Socketed Items |  | Weapons: +68% Damage to Undead | Armor: +100 to Attack Rating | Helms: +100 to Attack Rating | Shields: All Resistances +19 |  | Required Level: 18
+[21:13:57] <LinkboltMF> <Kept> (magic) Cost: 4438 (80) | Emerald Jewel of Fervor | Can be Inserted into Socketed Items | Required Level: 31 | +15% Increased Attack Speed | 7% Better Chance of Getting Magic Items
+[21:14:00] <LinkboltMF> <Stashed> (magic) Emerald Jewel of Fervor
+[21:20:33] <LinkboltMF> <Kept> (normal) Flawless Diamond (1) | Can be Inserted into Socketed Items |  | Weapons: +54% Damage to Undead | Armor: +80 to Attack Rating | Helms: +80 to Attack Rating | Shields: All Resistances +14 |  | Required Level: 15
+[21:20:41] <LinkboltMF> <Stashed> (normal) Flawless Diamond
+[21:25:06] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Cubing 3}
+[21:29:19] <LinkboltMF> <Kept> (magic) Sapphire Jewel (85) | Can be Inserted into Socketed Items | Required Level: 14 | Cold Resist +17% {Cubing-Town}
+[21:29:21] <LinkboltMF> <Stashed> (magic) Sapphire Jewel
+[21:33:32] <LinkboltMF> <Kept> (unique) Demonhead (87) | Defense: 155 | Durability: 14 of 20 | Required Strength: 102 | Unidentified
+[21:33:48] <LinkboltMF> <Stashed> (unique) Demonhead
+[21:34:18] <LinkboltMF> <Kept> (magic) Harpoonist's Grand Charm of Life (85) | Keep in Inventory to Gain Bonus | Required Level: 42 | +1 to Javelin and Spear Skills (Amazon Only) | +9 to Life
+[21:34:21] <LinkboltMF> <Stashed> (magic) Harpoonist's Grand Charm of Life
+[22:50:42] <LinkboltMF> <Kept> (superior) Superior Phase Blade (80) | One-Hand Damage: 34 to 38 | Required Dexterity: 136 | Required Strength: 25 | Required Level: 54 | Sword Class - Very Fast Attack Speed | +11% Enhanced Damage
+[22:51:56] <LinkboltMF> <Stashed> (superior) Superior Phase Blade
+[22:59:46] <LinkboltMF> <Kept> (magic) Acrobatic Grand Charm of Greed (77) | Keep in Inventory to Gain Bonus | Required Level: 42 | +1 to Passive and Magic Skills (Amazon Only) | 20% Extra Gold from Monsters
+[22:59:51] <LinkboltMF> <Stashed> (magic) Acrobatic Grand Charm of Greed
+[23:13:34] <LinkboltMF> <Kept> (normal) Sacred Armor (86) | Defense: 753 | Durability: 31 of 31 | Required Strength: 222 | Required Level: 66 | Ethereal (Cannot be Repaired)
+[23:23:06] <LinkboltMF> <Kept> (normal) Ral Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 5-30 fire damage | Armor: Fire Resist +30% | Helms: Fire Resist +30% | Shields: Fire Resist +35% |  | Required Level: 19 {Cubing 1}
+[23:23:28] <LinkboltMF> <Dropped> (crafted) Shadow Wing (92) | Amulet | Required Level: 88 | +1 to Barbarian Skill Levels | +10% Faster Cast Rate | +4 to Maximum Damage | 7% Mana stolen per hit | +10 to Mana | Regenerate Mana 5% | Fire Resist +30% {doCubing}
+[23:35:10] <LinkboltMF> <Kept> (magic) Cost: 6005 (88) |  Amulet of Negation | Required Level: 35 | Magic Damage Reduced by 6 {Cubing-Town}
+[23:35:11] <LinkboltMF> <Stashed> (magic) Amulet of Negation
+[23:41:43] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Cubing 1}
+[23:42:38] <LinkboltMF> <Stashed> (normal) Flawless Amethyst
+[23:45:35] <LinkboltMF> <Kept> (magic) Ivory Jewel (88) | Can be Inserted into Socketed Items | Required Level: 56 | +56 Defense {Cubing-Town}
+[23:45:42] <LinkboltMF> <Stashed> (magic) Ivory Jewel
+[23:47:36] <LinkboltMF> <Gambled> (unique) Raven Frost (96) | Ring | Required Level: 45 | +163 to Attack Rating | Adds 15-45 cold damage | +20 to Dexterity | +40 to Mana | Cold Absorb 20% | Cannot Be Frozen
+[23:54:32] <LinkboltMF> <Kept> (unique) Gilded Shield (82) | Defense: 169 | Chance to Block: 42% | Durability: 46 of 50 | (Paladin Only) | Required Strength: 89 | Unidentified
+[23:57:09] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Cubing 2}
+[00:05:08] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Cubing 3}
+[00:33:47] <LinkboltMF> <Kept> (magic) Cost: 6803 (86) | Viridian Ring of Regrowth | Required Level: 41 | Replenish Life +8 | Poison Resist +15% {Cubing-Town}
+[00:33:49] <LinkboltMF> <Kept> (unique) Cost: 4756 (88) | Rainbow Facet | Jewel | Can be Inserted into Socketed Items | Required Level: 49 | 100% Chance to cast level 51 Poison Nova when you Die | +37 poison damage over 2 seconds | +5% to Poison Skill Damage | -3% to Enemy Poison Resistance {Cubing-Town}
+[00:33:49] <LinkboltMF> <Stashed> (magic) Viridian Ring of Regrowth
+[00:33:54] <LinkboltMF> <Stashed> (unique) Rainbow Facet Jewel
+[00:44:16] <LinkboltMF> <Kept> (unique) Manald Heal (73) | Ring | Required Level: 15 | 6% Mana stolen per hit | +20 to Life | Replenish Life +5 | Regenerate Mana 20%
+[00:44:16] <LinkboltMF> <Stashed> (unique) Manald Heal Ring
+[00:45:16] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Cubing 1}
+[00:45:43] <LinkboltMF> <Kept> (magic) Sounding Amulet of the Bat (88) | Required Level: 15 | +1 to Warcries (Barbarian Only) | 3% Mana stolen per hit {Cubing-Town}
+[00:45:45] <LinkboltMF> <Stashed> (normal) Flawless Ruby
+[00:45:49] <LinkboltMF> <Stashed> (magic) Sounding Amulet of the Bat
+[00:47:57] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Cubing 2}
+[00:48:45] <LinkboltMF> <Stashed> (normal) Flawless Ruby
+[00:58:04] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Cubing 1}
+[00:58:40] <LinkboltMF> <Stashed> (normal) Flawless Amethyst
+[00:59:10] <LinkboltMF> <Stashed> (normal) Flawless Amethyst
+[01:14:09] <LinkboltMF> <Gambled> (rare) Death Necklace (95) | Amulet | Required Level: 67 | +2 to Sorceress Skill Levels | +30 to Attack Rating | +11 Maximum Stamina | +3 to Light Radius
+[01:18:55] <LinkboltMF> <Kept> (magic) Cost: 2787 (80) | Sharp Grand Charm of Frost | Keep in Inventory to Gain Bonus | Required Level: 21 | +10 to Maximum Damage | +54 to Attack Rating | Adds 1-2 cold damage
+[01:19:08] <LinkboltMF> <Stashed> (magic) Sharp Grand Charm of Frost
+[01:28:12] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Cubing 2}
+[01:28:33] <LinkboltMF> <Stashed> (normal) Flawless Amethyst

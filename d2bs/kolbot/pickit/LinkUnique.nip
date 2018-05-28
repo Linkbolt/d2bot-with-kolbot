@@ -15,12 +15,12 @@
 // ##############################################################################################################################################
 // ##### 1- unique rings ########################################################################################################################
 // ##############################################################################################################################################
-[type] == ring && [quality] == unique // all
+//[type] == ring && [quality] == unique // all
 [type] == ring && [quality] == unique # [itemmagicbonus] >= 30 // nagelring
-[type] == ring && [quality] == unique # [manaleech] >= 4 // manald heal
+[type] == ring && [quality] == unique # [manaleech] >= 7 // manald heal
 [type] == ring && [quality] == unique # [itemmaxmanapercent] == 25 // stone of jordan
 [type] == ring && [quality] == unique # [maxhp] == 40 // dwarf star
-[type] == ring && [quality] == unique # [tohit] >= 250 && [dexterity] >= 20 // raven frost
+[type] == ring && [quality] == unique # [dexterity] >= 20 //&& [tohit] >= 250 // raven frost
 [type] == ring && [quality] == unique # [lifeleech] >= 3// && [maxstamina] == 50 // bul-kathos' wedding band
 //[type] == ring && [quality] == unique # [lifeleech] >= 6 // carrion wind
 //[type] == ring && [quality] == unique # [poisonresist] >= 20 && [normaldamagereduction] >= 7 // nature's peace
@@ -33,14 +33,14 @@
 // ##############################################################################################################################################
 // ##### 2- unique amulets ########################################################################################################################
 // ##############################################################################################################################################
-[type] == amulet && [quality] == unique // all
+//[type] == amulet && [quality] == unique // all
 //[type] == amulet && [quality] == unique # [fireresist] >= 50 // nokozan relic
-[type] == amulet && [quality] == unique # [itemallskills] == 1 //&& [lifeleech] >= 7 // the eye of etlich
+[type] == amulet && [quality] == unique # [itemallskills] == 1 && [lifeleech] >= 7 // the eye of etlich
 //[type] == amulet && [quality] == unique # [strength] == 12 && [coldresist] >= 15 // saracen's chance
-//[type] == amulet && [quality] == unique # [dexterity] == 25 // the cat's eye
-//[type] == amulet && [quality] == unique # [lifeleech] >= 3 && [manaleech] >= 11 // crescent moon
+[type] == amulet && [quality] == unique # [dexterity] == 25 && [ias] == 20 // the cat's eye
+[type] == amulet && [quality] == unique # [lifeleech] >= 6 && [manaleech] >= 15 // crescent moon
 //[type] == amulet && [quality] == unique # [poisonresist] == 75 // atma's scarab
-//[type] == amulet && [quality] == unique # [hpregen] == 10 // the rising sun
+[type] == amulet && [quality] == unique # [FireSkillTab] == 2 && [hpregen] == 10 // the rising sun
 [type] == amulet && [quality] == unique # [lightresist] == 35 // highlord's wrath
 [type] == amulet && [quality] == unique # [strength] == 5 && [coldresist] >= 20 // mara's kaleidoscope
 [type] == amulet && [quality] == unique # [defensiveaurasskilltab] >= 2 // seraph's hymn
@@ -136,7 +136,7 @@
 [name] == gauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // frostburn
 [name] == battlegauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // lava gout
 [name] == wargauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // hellmouth
-[name] == vampirebonegloves && [quality] == unique && [flag] != ethereal # [lifeleech] == 10 //&& [enhanceddefense] == 120 && [strength] == 15 // dracul's grasp
+[name] == vampirebonegloves && [quality] == unique && [flag] != ethereal //# [lifeleech] == 10 //&& [enhanceddefense] == 120 && [strength] == 15 // dracul's grasp
 [name] == vambraces && [quality] == unique && [flag] != ethereal # [manaleech] >= 7 && [lifeleech] >= 7 && [enhanceddefense] >= 120 // soul drainer
 [name] == ogregauntlets && [quality] == unique && [flag] != ethereal # [enhanceddamage] >= 60 && [defense] >= 210 // steelrend
 
@@ -152,7 +152,7 @@
 ([name] == demonhideboots || [name] == wyrmhideboots) && [quality] == unique && [flag] != ethereal # [itemgoldbonus] == 70 && [enhanceddefense] == 150 // infernostride
 ([name] == sharkskinboots || [name] == scarabshellboots) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 210 && [maxhp] == 65 // waterwalk
 [name] == meshboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 190 // silkweave
-[name] == battleboots && [quality] == unique && [flag] != ethereal// # [itemmagicbonus] == 50 && [enhanceddefense] == 190 // war traveler
+[name] == battleboots && [quality] == unique && [flag] != ethereal # [itemmagicbonus] >= 45 //&& [enhanceddefense] == 190 // war traveler
 ([name] == warboots || [name] == myrmidongreaves) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // gore rider
 [name] == scarabshellboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 170 && [strength] == 15 && [vitality] == 15 // sandstorm trek
 [name] == boneweaveboots && [quality] == unique && [flag] != ethereal # [strength] == 20 && [skillskeletonmastery] == 2// && [enhanceddefense] == 200 // marrowwalk

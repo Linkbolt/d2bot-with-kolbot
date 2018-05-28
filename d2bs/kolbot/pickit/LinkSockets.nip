@@ -18,9 +18,9 @@
 // ##############################################################################################################################################
 // ##### 2- socket body armor ###################################################################################################################
 // ##############################################################################################################################################
-([name] == duskshroud || [name] == archonplate || [name] == wyrmhide) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3) // enigma runeword
-([name] == duskshroud || [name] == archonplate || [name] == wyrmhide) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) // chains of honor runeword
-([name] == duskshroud || [name] == archonplate || [name] == wyrmhide) && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // fortitude runeword
+([name] == duskshroud || [name] == archonplate || [name] == wyrmhide) && [quality] == superior && [flag] != ethereal # [sockets] == 0 || [sockets] == 3 // enigma runeword
+([name] == duskshroud || [name] == archonplate || [name] == wyrmhide) && [quality] == superior && [flag] != ethereal # [sockets] == 0 || [sockets] == 4 // chains of honor runeword
+([name] == duskshroud || [name] == archonplate || [name] == wyrmhide) && [quality] == superior && [flag] == ethereal # [sockets] == 0 || [sockets] == 4 // fortitude runeword
 
 
 
@@ -29,9 +29,9 @@
 // ##############################################################################################################################################
 // ##### 3- socket shields #####################################################################################################################
 // ##############################################################################################################################################
-([name] == trollnest || [name] == sacredtarge) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 2) // rhyme runeword
-([name] == monarch || [name] == sacredtarge) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) // spirit runeword
-([name] == monarch || [name] == sacredtarg) && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) // exile runeword
+([name] == trollnest || [name] == sacredtarge) && [quality] == superior && [flag] != ethereal # [sockets] == 0 || [sockets] == 2 // rhyme runeword
+([name] == monarch || [name] == sacredtarge) && [quality] == superior && [flag] != ethereal # [sockets] == 0 || [sockets] == 4 // spirit runeword
+([name] == monarch || [name] == sacredtarge) && [quality] == superior && [flag] == ethereal # [sockets] == 0 || [sockets] == 4 // exile runeword
 ([name] == monarch || [name] == sacredtarge) && [quality] <= superior && [flag] != ethereal # [sockets] == 4 // spirit runeword
 
 
@@ -57,8 +57,8 @@
 
 
 // ##### maces ##############################
-[name] == flail && [quality] <= superior && [flag] != ethereal # [sockets] == 4 // hoto runeword
-[name] == flail && [quality] <= superior && [flag] != ethereal # [sockets] == 5 // call to arms runeword
+//([name] == flail || [name] == CrystalSword) && [quality] <= superior && [flag] != ethereal # [sockets] == 4 // hoto runeword
+//([name] == flail || [name] == CrystalSword) && [quality] <= superior && [flag] != ethereal # [sockets] == 5 // call to arms runeword
 
 // ##### javelins ###########################
 
@@ -83,8 +83,8 @@
 
 
 // ##### swords #############################
-[name] == phaseblade && [quality] == superior && [flag] == ethereal # [sockets] == 0 || [sockets] == 5) // grief runeword
-[name] == phaseblade && [quality] == superior && [flag] == ethereal # [sockets] == 0 || [sockets] == 6) // last wish runeword
+[name] == phaseblade && [quality] <= superior # [sockets] == 0 || [sockets] == 5 // grief runeword
+[name] == phaseblade && [quality] <= superior # [sockets] == 0 || [sockets] == 6 // last wish runeword
 
 // ##### throwing ###########################
 

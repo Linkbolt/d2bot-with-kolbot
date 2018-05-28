@@ -50,10 +50,10 @@
 // #################################################################################################################################################
 // ##### 1- iratha's finery ########################################################################################################################
 // #################################################################################################################################################
-//[name] == heavybelt && [quality] == set # [mindamage] == 5 // iratha's cord
-//[name] == crown && [quality] == set # [fireresist] == 30 && [lightresist] == 30 // iratha's coil
-//[type] == amulet && [quality] == set # [poisonresist] == 30 && [poisonlength] == -75 // iratha's collar
-//[name] == lightgauntlets && [quality] == set # [coldresist] == 30 // iratha's cuff
+[name] == crown && [quality] == set # [defense] >= 243 && [fireresist] == 30 && [lightresist] == 30 # [maxquantity] == 1 // iratha's coil
+[name] == lightgauntlets && [quality] == set # [defense] >= 11 && [coldresist] == 30 # [maxquantity] == 1 // iratha's cuff
+[name] == heavybelt && [quality] == set # [defense] >= 31 && [mindamage] == 5 # [maxquantity] == 1 // iratha's cord
+[type] == amulet && [quality] == set # [poisonresist] == 30 && [poisonlength] == -75 # [maxquantity] == 1 // iratha's collar
 
 
 
@@ -62,12 +62,12 @@
 // #################################################################################################################################################
 // ##### 1- sigon's steel ##########################################################################################################################
 // #################################################################################################################################################
-//[name] == greathelm && [quality] == set // sigon's visor
-//[name] == gothicplate && [quality] == set // sigon's shelter
-//[name] == greaves && [quality] == set // sigon's sabot
-//[name] == towershield && [quality] == set // sigon's guard
-//[name] == platedbelt && [quality] == set // sigon's warp
-//[name] == gauntlets && [quality] == set // sigon's gage
+[name] == greathelm && [quality] == set # [defense] >= 60 # [maxquantity] == 1 // sigon's visor
+[name] == gothicplate && [quality] == set # [defense] >= 243 # [maxquantity] == 1 // sigon's shelter
+[name] == greaves && [quality] == set # [defense] >= 15 # [maxquantity] == 1 // sigon's sabot
+[name] == towershield && [quality] == set # [defense] >= 25 # [maxquantity] == 1 // sigon's guard
+[name] == platedbelt && [quality] == set # [defense] >= 206 # [maxquantity] == 1 // sigon's warp
+[name] == gauntlets && [quality] == set # [defense] >= 15 # [maxquantity] == 1 // sigon's gage
 
 
 

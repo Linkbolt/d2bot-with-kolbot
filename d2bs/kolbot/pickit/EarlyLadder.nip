@@ -196,7 +196,7 @@
 
 
 // ##### Rings #########################
-[Type] == ring && [Quality] == unique // All
+//[Type] == ring && [Quality] == unique // All
 [Type] == ring && [Quality] == unique # [ItemMagicBonus] >= 15 // Nagelring
 [Type] == ring && [Quality] == unique # [ManaLeech] >= 4 // Manald Heal
 [Type] == ring && [Quality] == unique # [ItemMaxManaPercent] == 25 // Stone of Jordan
@@ -216,7 +216,7 @@
 //[Type] == amulet && [Quality] == unique # [PoisonResist] == 75 // Atma's Scarab
 //[Type] == amulet && [Quality] == unique # [HPRegen] == 10 // The Rising Sun
 [Type] == amulet && [Quality] == unique # [LightResist] == 35 // Highlord's Wrath
-[Type] == amulet && [Quality] == unique //# [Strength] == 5 && [ColdResist] >= 20 // Mara's Kaleidoscope
+//[Type] == amulet && [Quality] == unique //# [Strength] == 5 && [ColdResist] >= 20 // Mara's Kaleidoscope
 //[Type] == amulet && [Quality] == unique # [DefensiveAurasSkillTab] >= 2 // Seraph's Hymn
 [Type] == amulet && [Quality] == unique # [ToHit] >= 450 && [ColdResist] >= 35 // Metalgrid
 
@@ -536,8 +536,8 @@
 [Name] == Flail && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 4 || [Sockets] == 5) && [EnhancedDamage] >= 15 // Heart of the Oak and CTA
 [Name] == CrystalSword && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 4 || [Sockets] == 5) && [EnhancedDamage] >= 15 // Spirit or CTA
 //[Name] == CrystalSword && [Quality] <= superior && [Flag] != ethereal # [Sockets] == 5 // CTA
-[Name] == Flail && [Quality] <= superior # [Sockets] == 5 // CTA
-[Name] == Flail && [Quality] <= superior # [Sockets] == 4 // Hoto
+//[Name] == Flail && [Quality] <= superior # [Sockets] == 5 // CTA
+//[Name] == Flail && [Quality] <= superior # [Sockets] == 4 // Hoto
 
 
 // ##### Polearms & Spears ######################
@@ -558,12 +558,12 @@
 
 
 // ##### Swords ########################
-[Name] == CrystalSword && [Quality] == superior # [Sockets] >= 4 && [EnhancedDamage] == 15 && [ToHit] == 3  // Call to Arms/Spirit
-[Name] == CrystalSword && [Quality] == superior # [Sockets] >= 4 // Call to Arms/Spirit
+//[Name] == CrystalSword && [Quality] == superior # [Sockets] >= 4 && [EnhancedDamage] == 15 && [ToHit] == 3  // Call to Arms/Spirit
+//[Name] == CrystalSword && [Quality] == superior # [Sockets] >= 4 // Call to Arms/Spirit
 ([Name] == Zweihander || [Name] == ColossusBlade) && [Quality] == superior && [Flag] != ethereal # [Sockets] == 5 && [EnhancedDamage] >= 5 // Grief
 //[Name] == ColossusBlade && [Quality] == superior && [Flag] == ethereal # ([Sockets] == 0 || [Sockets] == 6) && [EnhancedDamage] >= 15 // Breath of the Dying
-[Name] == PhaseBlade && [Quality] == superior # ([Sockets] == 0 || [Sockets] >= 5) && [EnhancedDamage] >= 15 && [ToHit] >= 3 // Last Wish/Grief
-[Name] == PhaseBlade && [Quality] == superior # ([Sockets] == 0 || [Sockets] >= 5)// && [EnhancedDamage] >= 15 && [ToHit] >= 3 // Last Wish/Grief
+//[Name] == PhaseBlade && [Quality] == superior # ([Sockets] == 0 || [Sockets] >= 5) && [EnhancedDamage] >= 15 && [ToHit] >= 3 // Last Wish/Grief
+//[Name] == PhaseBlade && [Quality] == superior # ([Sockets] == 0 || [Sockets] >= 5)// && [EnhancedDamage] >= 15 && [ToHit] >= 3 // Last Wish/Grief
 //[Name] == PhaseBlade && [Quality] == superior # [Sockets] == 4 && [EnhancedDamage] >= 15 && [ToHit] >= 3 // Random
 [Name] == HighlandBlade && [Quality] == superior && [Flag] == ethereal # ([Sockets] == 0 || [Sockets] == 4) && [EnhancedDamage] >= 15 && [ToHit] >= 3 // NewZealandD2 ISO Mld Oath Base
 [Name] == MilitaryPick && [Quality] == superior # ([Sockets] == 0 || [Sockets] == 6) && [EnhancedDamage] >= 15 && [ToHit] >= 3 // Colby's iso

@@ -401,7 +401,7 @@ function LoadConfig() {
 	Config.Runewords.push([Runeword.Spirit, "Monarch"]); // Make Spirit Monarch
 	//Config.Runewords.push([Runeword.Spirit, "Sacred Targe"]); // Make Spirit Sacred Targe
 
-	Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] >= 30");
+	Config.KeepRunewords.push("[type] == shield || [type] == auricshields"); // # [fcr] >= 30"); // Keep Spirit
 
 	// Public game options
 
