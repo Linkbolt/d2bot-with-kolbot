@@ -1291,7 +1291,7 @@ var Misc = {
 			break;
 		}
 
-		lastArea = DataFile.getStats().lastArea;
+		var lastArea = DataFile.getStats().lastArea;
 		if (lastArea) {
 			desc += (" {Area: " + lastArea + "}");
 		}

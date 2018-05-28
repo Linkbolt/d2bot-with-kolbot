@@ -44,7 +44,7 @@ function LoadConfig() {
 	Scripts.Treehead = false;
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
-	Scripts.Countess = { TeleStomp: true, SkipImmune: [] };
+	Scripts.Countess = { ClearType:0x7, TeleStomp: true, Dodge:false, SkipImmune: [] };
 		Config.Countess.KillGhosts = false;
 	Scripts.Andariel = true;
 	Scripts.Cows = false;
@@ -71,7 +71,7 @@ function LoadConfig() {
 		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
 	Scripts.Mephisto = true;
 		Config.Mephisto.MoatTrick = false;
-		Config.Mephisto.KillCouncil = true;
+		Config.Mephisto.KillCouncil = false;
 		Config.Mephisto.TakeRedPortal = true;
 
 	// *** act 4 ***
@@ -478,7 +478,7 @@ function LoadConfig() {
 	Config.SkipEnchant = [];
 	// Skip monsters with auras. Possible options: "fanaticism", "might", "holy fire", "blessed aim", "holy freeze", "holy shock". Conviction is bugged, don't use it.
 	Config.SkipAura = [];
-	// Ignore skips (immune, enchant and aura) and kills monsters by NAMES or CLASSIDS. Enable Config.TeleStomp for merc to kill monster, otherwise will try to use immune attack skills.
+	// Ignore skips (immune, enchant and aura) and kills monsters by NAMES or CLASSIDS. Only works if Config.TeleStomp is enabled.
 	//Config.SkipIgnore = [] //Example: Config.SkipIgnore = ["Andariel", 243];
 	//Config.SkipIgnore = [710] // the countess
 
@@ -494,7 +494,7 @@ function LoadConfig() {
 	Config.AttackSkill[3] = 59; // Primary skill to others.
 	Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
 	Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
-	Config.AttackSkill[6] = 42; // Secondary untimed skill if monster is immune to primary untimed.
+	Config.AttackSkill[6] = -1; // Secondary untimed skill if monster is immune to primary untimed.
 
 	// Frozen Orb + Fire Wall
 	//Config.AttackSkill[0] = 55; // Preattack skill.

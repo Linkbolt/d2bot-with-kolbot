@@ -1117,9 +1117,8 @@ var Attack = {
 			tempArray = [];
 
 IgnoreSkipedLoop: // Ignore Skiped monsters
-		// Only skip check if TeleStomp is on or if immune attacks are set
-		if ((Config.TeleStomp || Config.AttackSkill[5] !== -1 || Config.AttackSkill[6] !== -1) 
-		&& Config.SkipIgnore.some(
+		// Only skip check if TeleStomp is on
+		if (Config.TeleStomp && Config.SkipIgnore.some(
 			function (id) {
 				if (unit) {
 					switch (typeof id) {

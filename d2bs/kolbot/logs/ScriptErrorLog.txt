@@ -530,3 +530,64 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@townchicken.js:94, Town.visitTown@town.js:2200, Town.doChores@town.js:96, Town.buyKeys@town.js:1074, Town.goToTown@town.js:2176
 [09:38:40] <LinkboltMF> Error in TownChicken.js (town.js line 2176): Town.goToTown: Failed use WP
 Stack: main@townchicken.js:94, Town.visitTown@town.js:2203, Town.goToTown@town.js:2176
+[20:48:19] <LinkboltMF> Unknown stat: item_addclassskills File: LinkMagicRare.nip Line: 39
+[20:48:20] <LinkboltMF> Unknown stat: item_addclassskills File: LinkMagicRare.nip Line: 39
+[20:48:20] <LinkboltMF> Unknown stat: item_addclassskills File: LinkMagicRare.nip Line: 39
+[20:48:39] <LinkboltMF> Error in Mausoleum (attack.js line 1122): Config.SkipIgnore is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mausoleum@mausoleum.js:26, Attack.clearLevel@attack.js:784, Attack.clear@attack.js:354, Attack.skipCheck@attack.js:1122
+[20:49:04] <LinkboltMF> Error in Countess (attack.js line 1122): Config.SkipIgnore is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Countess@countess.js:33, Attack.clear@attack.js:354, Attack.skipCheck@attack.js:1122
+[20:49:29] <LinkboltMF> Error in Andariel (attack.js line 1122): Config.SkipIgnore is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Andariel@andariel.js:49, Attack.kill@attack.js:167, Attack.skipCheck@attack.js:1122
+[20:49:46] <LinkboltMF> Error in AncientTunnels (attack.js line 1122): Config.SkipIgnore is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, AncientTunnels@ancienttunnels.js:17, Attack.clear@attack.js:354, Attack.skipCheck@attack.js:1122
+[20:50:48] <LinkboltMF> Error in Mephisto (attack.js line 1122): Config.SkipIgnore is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:158, Attack.kill@attack.js:167, Attack.skipCheck@attack.js:1122
+[21:56:10] <LinkboltMF> Error in BattleOrders (town.js line 2104): Pather is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, BattleOrders@battleorders.js:33, Town.doChores@town.js:84, Town.heal@town.js:224, Town.initNPC@town.js:183, Town.move@town.js:2068, Town.moveToSpot@town.js:2104
+[21:56:10] <LinkboltMF> Error in Mausoleum (town.js line 2104): Pather is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mausoleum@mausoleum.js:8, Town.doChores@town.js:84, Town.heal@town.js:224, Town.initNPC@town.js:183, Town.move@town.js:2068, Town.moveToSpot@town.js:2104
+[21:56:10] <LinkboltMF> Error in Countess (town.js line 2104): Pather is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Countess@countess.js:10, Town.doChores@town.js:84, Town.heal@town.js:224, Town.initNPC@town.js:183, Town.move@town.js:2068, Town.moveToSpot@town.js:2104
+[21:56:10] <LinkboltMF> Error in Andariel (town.js line 2104): Pather is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Andariel@andariel.js:36, Town.doChores@town.js:84, Town.heal@town.js:224, Town.initNPC@town.js:183, Town.move@town.js:2068, Town.moveToSpot@town.js:2104
+[21:56:10] <LinkboltMF> Error in AncientTunnels (town.js line 2104): Pather is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, AncientTunnels@ancienttunnels.js:8, Town.doChores@town.js:84, Town.heal@town.js:224, Town.initNPC@town.js:183, Town.move@town.js:2068, Town.moveToSpot@town.js:2104
+[21:56:10] <LinkboltMF> Error in Mephisto (town.js line 2104): Pather is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:133, Town.doChores@town.js:84, Town.heal@town.js:224, Town.initNPC@town.js:183, Town.move@town.js:2068, Town.moveToSpot@town.js:2104
+[21:56:10] <LinkboltMF> Error in Pindleskin (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pindleskin@pindleskin.js:10, Town.goToTown@town.js:2176
+[21:56:10] <LinkboltMF> Error in Eldritch (town.js line 2104): Pather is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:10, Town.doChores@town.js:84, Town.heal@town.js:224, Town.initNPC@town.js:183, Town.move@town.js:2068, Town.moveToSpot@town.js:2104
+[21:56:10] <LinkboltMF> Error in ChestMania (town.js line 2104): Pather is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:10, Town.doChores@town.js:84, Town.heal@town.js:224, Town.initNPC@town.js:183, Town.move@town.js:2068, Town.moveToSpot@town.js:2104
+[22:56:36] <LinkboltMF> Error in ChestMania (town.js line 2209): Town.visitTown: Failed to go back from town
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:16, Misc.openChestsInArea@misc.js:927, Pather.moveToUnit@pather.js:548, Pather.moveTo@pather.js:232, NodeAction.go@pather.js:15, NodeAction.popChests@pather.js:55, Misc.openChests@misc.js:976, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2209
+[23:09:28] <LinkboltMF> Error in Mausoleum (attack.js line 443): ClassAttack is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mausoleum@mausoleum.js:26, Attack.clearLevel@attack.js:784, Attack.clear@attack.js:443
+[23:09:55] <LinkboltMF> Error in Countess (attack.js line 389): ClassAttack is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Countess@countess.js:33, Attack.clear@attack.js:389
+[23:10:09] <LinkboltMF> Error in Andariel (attack.js line 190): ClassAttack is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Andariel@andariel.js:49, Attack.kill@attack.js:190
+[23:10:25] <LinkboltMF> Error in AncientTunnels (attack.js line 389): ClassAttack is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, AncientTunnels@ancienttunnels.js:17, Attack.clear@attack.js:389
+[23:10:50] <LinkboltMF> Error in Mephisto (attack.js line 190): ClassAttack is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:158, Attack.kill@attack.js:190
+[23:11:21] <LinkboltMF> Error in Eldritch (attack.js line 389): ClassAttack is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:14, Attack.clear@attack.js:389
+[23:15:02] <LinkboltMF> Error in Mausoleum (attack.js line 443): ClassAttack is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mausoleum@mausoleum.js:26, Attack.clearLevel@attack.js:784, Attack.clear@attack.js:443
+[23:15:26] <LinkboltMF> Error in Countess (attack.js line 389): ClassAttack is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Countess@countess.js:33, Attack.clear@attack.js:389
+[23:15:45] <LinkboltMF> Error in Andariel (attack.js line 190): ClassAttack is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Andariel@andariel.js:49, Attack.kill@attack.js:190
+[23:16:02] <LinkboltMF> Error in AncientTunnels (attack.js line 389): ClassAttack is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, AncientTunnels@ancienttunnels.js:17, Attack.clear@attack.js:389
+[23:16:31] <LinkboltMF> Error in Mephisto (attack.js line 190): ClassAttack is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:158, Attack.kill@attack.js:190
+[23:16:50] <LinkboltMF> Error in Eldritch (attack.js line 389): ClassAttack is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:14, Attack.clear@attack.js:389
+[23:20:31] <LinkboltMF> Error in Mausoleum (attack.js line 443): ClassAttack is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mausoleum@mausoleum.js:26, Attack.clearLevel@attack.js:784, Attack.clear@attack.js:443
+[23:40:09] <LinkboltMF> Error in Andariel (pather.js line 1038): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Andariel@andariel.js:37, useWaypoint@pather.js:1038

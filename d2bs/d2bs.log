@@ -420,3 +420,73 @@ Line: (null)
 [05/28/18 06:55:23] D2BS 11076: D2BS Engine startup complete. 1.5.1868
 [05/28/18 06:55:23] D2BS 11076: LinkboltMF
 [05/28/18 09:43:46] D2BS 11076: D2BS Shutdown complete.
+[05/28/18 20:42:39] D2BS 1484: D2BS Engine startup complete. 1.5.1868
+[05/28/18 20:42:39] D2BS 1484: LinkboltMF
+[05/28/18 20:43:58] D2BS 1484: D2BS Shutdown complete.
+[05/28/18 20:43:59] D2BS 3472: D2BS Engine startup complete. 1.5.1868
+[05/28/18 20:43:59] D2BS 3472: LinkboltMF
+[05/28/18 20:45:01] D2BS 12888: D2BS Engine startup complete. 1.5.1868
+[05/28/18 20:45:01] D2BS 12888: LinkboltMF
+[05/28/18 20:46:36] D2BS 6360: D2BS Engine startup complete. 1.5.1868
+[05/28/18 20:46:36] D2BS 6360: LinkboltMF
+[05/28/18 20:46:49] D2BS 6360: D2BS Shutdown complete.
+[05/28/18 20:46:57] D2BS 10252: D2BS Engine startup complete. 1.5.1868
+[05/28/18 20:46:57] D2BS 10252: LinkboltMF
+[05/28/18 20:47:04] D2BS 10252: D2BS Shutdown complete.
+[05/28/18 20:47:05] D2BS 8936: D2BS Engine startup complete. 1.5.1868
+[05/28/18 20:47:05] D2BS 8936: LinkboltMF
+[05/28/18 20:48:39] D2BS 8936: [Strict Warning] Code(162) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\attack.js:1122) reference to undefined property Config.SkipIgnore
+Line: (null)
+[05/28/18 21:00:49] D2BS 8936: [Strict Warning] Code(156) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1294) assignment to undeclared variable lastArea
+Line: (null)
+[05/28/18 21:06:54] D2BS 8936: [Strict Warning] Code(156) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1294) assignment to undeclared variable lastArea
+Line: (null)
+[05/28/18 21:08:58] D2BS 8936: [Strict Warning] Code(156) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1294) assignment to undeclared variable lastArea
+Line: (null)
+[05/28/18 21:19:08] D2BS 8936: Crash File: BlizzardError/2018-05-28 21.19.08/Crash.txt
+
+[05/28/18 21:19:08] D2BS 8936: D2BS Shutdown complete.
+[05/28/18 21:19:09] D2BS 2352: D2BS Engine startup complete. 1.5.1868
+[05/28/18 21:19:09] D2BS 2352: LinkboltMF
+[05/28/18 21:52:08] D2BS 2352: Crash File: BlizzardError/2018-05-28 21.52.08/Crash.txt
+
+[05/28/18 21:52:08] D2BS 2352: D2BS Shutdown complete.
+[05/28/18 21:52:10] D2BS 11512: D2BS Engine startup complete. 1.5.1868
+[05/28/18 21:52:10] D2BS 11512: LinkboltMF
+[05/28/18 21:56:09] D2BS 11512: [Error] Code(107) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\pather.js:458) SyntaxError: missing } after property list
+Line: 	};
+
+[05/28/18 21:56:10] D2BS 11512: [Error] Code(107) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\pather.js:458) SyntaxError: missing } after property list
+Line: 	};
+
+[05/28/18 21:56:10] D2BS 11512: [Error] Code(107) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\pather.js:458) SyntaxError: missing } after property list
+Line: 	};
+
+[05/28/18 21:56:10] D2BS 11512: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\tools\toolsthread.js:651) ReferenceError: Pather is not defined
+Line: (null)
+[05/28/18 22:16:24] D2BS 11512: [Strict Warning] Code(162) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\pather.js:449) reference to undefined property unit.y
+Line: (null)
+[05/28/18 22:23:58] D2BS 11512: [Strict Warning] Code(162) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\pather.js:449) reference to undefined property unit.y
+Line: (null)
+[05/28/18 22:36:16] D2BS 11512: [Strict Warning] Code(162) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\pather.js:449) reference to undefined property unit.y
+Line: (null)
+[05/28/18 22:42:56] D2BS 11512: [Strict Warning] Code(162) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\pather.js:449) reference to undefined property unit.y
+Line: (null)
+[05/28/18 23:09:07] D2BS 11512: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\attacks\sorceress.js:125) SyntaxError: syntax error
+Line: nce(me, unit) > (Skill.getRange(Config.AttackSkill[1])) + 5)) {
+
+[05/28/18 23:09:08] D2BS 11512: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\attacks\sorceress.js:125) SyntaxError: syntax error
+Line: nce(me, unit) > (Skill.getRange(Config.AttackSkill[1])) + 5)) {
+
+[05/28/18 23:14:45] D2BS 11512: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\attacks\sorceress.js:125) SyntaxError: syntax error
+Line: nce(me, unit) > (Skill.getRange(Config.AttackSkill[1])) + 5)) {
+
+[05/28/18 23:14:46] D2BS 11512: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\attacks\sorceress.js:125) SyntaxError: syntax error
+Line: nce(me, unit) > (Skill.getRange(Config.AttackSkill[1])) + 5)) {
+
+[05/28/18 23:20:05] D2BS 11512: [Error] Code(109) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\attacks\sorceress.js:126) SyntaxError: missing ; before statement
+Line: Pather.walkAway(unit, Skill.getRange(Config.AttackSkill[1])));
+
+[05/28/18 23:20:05] D2BS 11512: [Error] Code(109) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\attacks\sorceress.js:126) SyntaxError: missing ; before statement
+Line: Pather.walkAway(unit, Skill.getRange(Config.AttackSkill[1])));
+

@@ -177,6 +177,7 @@ var Config = {
 	MinColumn: [],
 	SkipEnchant: [],
 	SkipImmune: [],
+	SkipIgnore: [],
 	SkipAura: [],
 	ScanShrines: [],
 	Debug: false,
