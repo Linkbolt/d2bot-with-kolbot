@@ -61,7 +61,7 @@
 [name] == corona && [quality] == unique  // crown of ages
 //[name] == basinet && [quality] == unique # [fireresist] >= 40 // darksight helm || darians iso
 //[name] == bonevisage && [quality] == unique // giant skull
-([name] == slayerguard || [name] == guardiancrown) && [quality] == unique// && [flag] != ethereal # [enhanceddefense] == 200 && [lifeleech] == 6 // arreat's face
+([name] == slayerguard || [name] == guardiancrown) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 && [lifeleech] == 6 // arreat's face
 [name] == furyvisor && [quality] == unique && [flag] != ethereal # [warcriesskilltab] == 3 && [skillwerewolf]+[skilllycanthropy]+[skillferalrage] == 18 && [strength]+[dexterity]+[vitality] >= 45 // wolfhowl
 ([name] == totemicmask || [name] == bloodspirit) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // jalal's mane
 [name] == bloodspirit && [quality] == unique # [enhanceddefense] == 140 && [itemtohitpercent] == 120 && [shapeshiftingskilltab] == 4 && [skillferalrage] == 2 && [lifeleech] == 10 // cerebus' bite
@@ -118,7 +118,7 @@
 [name] == demonhidesash && [quality] == unique && [flag] != ethereal # [damageresist] == 15 && [lifeleech] == 8 && [enhanceddefense] == 180 && [magicdamagereduction] == 15 //string of ears
 [name] == battlebelt && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 170 // snowclash
 [name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // thundergod's vigor
-[name] == spiderwebsash && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 120  // arachnid mesh
+[name] == spiderwebsash && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 120  // arachnid mesh
 [name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7// && [defense] == 63 // nosferatu's coil
 [name] == mithrilcoil && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 140 && [damageresist] == 15 && [vitality] == 40 &&  // verdungo's hearty cord
 

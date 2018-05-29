@@ -971,7 +971,8 @@ IngredientLoop:
 							break;
 						case 5: // Crafting System
 							CraftingSystem.update(items[j]);
-
+							Misc.itemLogger("Cubbed", item, "Cubing System");
+							if (!(item.classid >= 557 && item.classid <= 586)) Misc.logItem("Cubbed", item, "Cubing System"); // Log all but gems
 							break;
 						}
 					}

@@ -155,7 +155,7 @@
 // ##### 8- keys ################################################################################################################################
 // ##############################################################################################################################################
 //[name] == keyofhate # # [maxquantity] == 3
-[name] == keyofterror # # [maxquantity] == 3
+//[name] == keyofterror # # [maxquantity] == 3
 [name] == keyofdestruction # # [maxquantity] == 3
 //[name] == twistedessenceofsuffering # # [maxquantity] == 3
 //[name] == chargedessenceofhatred # # [maxquantity] == 3

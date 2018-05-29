@@ -511,3 +511,6 @@ Line: (null)
 Line: 				if !(item.classid >= 557 && item.classid <= 586) Misc.logItem("
 [05/29/18 01:43:09] D2BS 6040: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\default.dbj:96) ReferenceError: Pickit is not defined
 Line: (null)
+[05/29/18 08:37:19] D2BS 9764: D2BS Engine startup complete. 1.5.1868
+[05/29/18 08:37:19] D2BS 9764: LinkboltMF
+[05/29/18 09:03:46] D2BS 9764: D2BS Shutdown complete.

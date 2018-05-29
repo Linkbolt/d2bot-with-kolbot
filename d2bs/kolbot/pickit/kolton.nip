@@ -794,7 +794,7 @@
 
 // unid packs
 ([name] == assaulthelmet || [name] == avengerguard || [name] == savagehelmet || [name] == slayerguard || [name] == conquerorcrown || [name] == guardiancrown) && [quality] == rare && [color] == white
-([name] == antlers || [name] == hunter'sguise || [name] == earthspirit) && [quality] == rare && [color] == white
+//([name] == antlers || [name] == hunter'sguise || [name] == earthspirit) && [quality] == rare && [color] == white
 
 [name] == tokenofabsolution
 

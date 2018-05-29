@@ -591,3 +591,7 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mausoleum@mausoleum.js:26, Attack.clearLevel@attack.js:784, Attack.clear@attack.js:443
 [23:40:09] <LinkboltMF> Error in Andariel (pather.js line 1038): useWaypoint: Failed to use waypoint
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Andariel@andariel.js:37, useWaypoint@pather.js:1038
+[06:22:29] <LinkboltMF> Error in Eldritch (pather.js line 1038): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:11, useWaypoint@pather.js:1038
+[06:24:11] <LinkboltMF> Error in ChestMania (pather.js line 1038): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1384, Pather.plotCourse@pather.js:1519, useWaypoint@pather.js:1038
