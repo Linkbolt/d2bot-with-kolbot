@@ -87,3 +87,16 @@
 [00:54:07] <LinkboltMF> <Kept> (normal) Flawed Diamond (1) | Can be Inserted into Socketed Items |  | Weapons: +34% Damage to Undead | Armor: +40 to Attack Rating | Helms: +40 to Attack Rating | Shields: All Resistances +8 |  | Required Level: 5 {Area: Catacombs Level 4} {Cubing 1}
 [00:54:28] <LinkboltMF> <Cubing Kept> (normal) Um Rune (1) | Can be Inserted into Socketed Items |  | Weapons: 25% Chance of Open Wounds | Armor: All Resistances +15 | Helms: All Resistances +15 | Shields: All Resistances +22 |  | Required Level: 47 {Area: Catacombs Level 4}
 [00:54:44] <LinkboltMF> <Kept> (normal) Lum Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Energy | Armor: +10 to Energy | Helms: +10 to Energy | Shields: +10 to Energy |  | Required Level: 37 {Area: Lost City} {Cubing 1}
+[01:01:21] <LinkboltMF> <Kept> (magic) Cost: 5857 (85) | Pestilent Grand Charm of Dexterity | Keep in Inventory to Gain Bonus | Required Level: 34 | +100 poison damage over 6 seconds | +3 to Dexterity {Area: Crypt}
+[01:02:57] <LinkboltMF> <Kept> (normal) Key of Terror (82) {Area: Tower Cellar Level 5}
+[01:04:05] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Lost City} {Cubing 2}
+[01:04:31] <LinkboltMF> <Kept> (magic) Cost: 968 (77) | Bone Jewel  | Can be Inserted into Socketed Items | Required Level: 24 | +21 Defense {Area: Lost City} {Cubing-Town}
+[01:12:02] <LinkboltMF> <Kept> (normal) Fal Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Strength | Armor: +10 to Strength | Helms: +10 to Strength | Shields: +10 to Strength |  | Required Level: 41 {Area: Mausoleum} {Cubing 1}
+[01:15:20] <LinkboltMF> <Kept> (normal) Sol Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +9 to Minimum Damage | Armor: Damage Reduced by 7 | Helms: Damage Reduced by 7 | Shields: Damage Reduced by 7 |  | Required Level: 27 {Area: Tower Cellar Level 5} {Cubing 1}
+[01:17:14] <LinkboltMF> <Kept> (normal) Topaz (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 1-22 lightning damage | Armor: 16% Better Chance of Getting Magic Items | Helms: 16% Better Chance of Getting Magic Items | Shields: Lightning Resist +22% |  | Required Level: 12 {Area: Lost City} {Cubing 1}
+[01:23:54] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Infernal Pit} {Cubing 3}
+[01:24:16] <LinkboltMF> <Dropped> (crafted) Skull Talisman (92) | Amulet | Required Level: 45 | +1 to Cold Skills (Sorceress Only) | +9% Faster Cast Rate | +10 to Attack Rating | +19 to Energy | +11 to Mana | Regenerate Mana 6% | Poison Resist +39% {Area: Infernal Pit} {doCubing}
+[01:24:17] <LinkboltMF> <Stashed> (normal) Fal Rune {Area: Infernal Pit}
+[01:24:18] <LinkboltMF> <Stashed> (normal) Lum Rune {Area: Infernal Pit}
+[01:24:19] <LinkboltMF> <Stashed> (normal) Sol Rune {Area: Infernal Pit}
+[01:24:19] <LinkboltMF> <Stashed> (magic) Ring of Protection {Area: Infernal Pit}

@@ -44,7 +44,7 @@ function LoadConfig() {
 	Scripts.Treehead = false;
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
-	Scripts.Countess = { ClearType:0xF, StaticList: [45], TeleStomp: true, Dodge: false, SkipImmune: [] };
+	Scripts.Countess = { ClearType:0x7, StaticList: [45], TeleStomp: true, Dodge: false, SkipImmune: [] };
 		Config.Countess.KillGhosts = false;
 	Scripts.Andariel = true;
 	Scripts.Cows = false;
@@ -403,7 +403,7 @@ function LoadConfig() {
 	/* Runeword config. All recipes are available in Templates/Runewords.txt
 	 * Keep lines follow pickit format and any given runeword is tested vs ALL lines so you don't need to repeat them
 	 */
-	Config.MakeRunewords = true; // Set to true to enable runeword making/rerolling
+	Config.MakeRunewords = false; // Set to true to enable runeword making/rerolling
 
 	//Config.Runewords.push([Runeword.Insight, "Thresher"]); // Make Insight Thresher
 	//Config.Runewords.push([Runeword.Insight, "Cryptic Axe"]); // Make Insight Cryptic Axe
