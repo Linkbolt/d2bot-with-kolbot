@@ -1008,7 +1008,7 @@ Unit.prototype.getColor = function () {
 			colors["of the Giant"] = Color.darkgold;
 
 			break;
-		case 74:
+		case 74: // runes
 			return Color.orange;
 		}
 	} else if (this.quality === 5) { // Set

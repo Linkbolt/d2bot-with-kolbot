@@ -1483,7 +1483,7 @@ var Misc = {
 			title: action + " " + name,
 			description: desc,
 			image: code,
-			textColor: color,
+			textColor: unit.quality,
 			itemColor: color,
 			header: "",
 			sockets: this.getItemSockets(unit)

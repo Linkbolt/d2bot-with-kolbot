@@ -100,3 +100,9 @@
 [01:24:18] <LinkboltMF> <Stashed> (normal) Lum Rune {Area: Infernal Pit}
 [01:24:19] <LinkboltMF> <Stashed> (normal) Sol Rune {Area: Infernal Pit}
 [01:24:19] <LinkboltMF> <Stashed> (magic) Ring of Protection {Area: Infernal Pit}
+[02:02:26] <LinkboltMF> <Kept> (set) Greaves (75) | Defense: 15 | Durability: 14 of 24 | Required Strength: 70 | Unidentified {Area: Catacombs Level 4}
+[02:02:37] <LinkboltMF> <Stashed> (set) Greaves {Area: Catacombs Level 4}
+[02:10:27] <LinkboltMF> <Kept> (magic) Rainbow Amulet (88) | Required Level: 15 | All Resistances +8 {Area: Mausoleum} {Cubing-Town}
+[02:10:29] <LinkboltMF> <Stashed> (magic) Rainbow Amulet {Area: Mausoleum}
+[02:14:57] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Lost City} {Cubing 1}
+[02:16:04] <LinkboltMF> <Stashed> (normal) Flawless Amethyst {Area: Ancient Tunnels}
