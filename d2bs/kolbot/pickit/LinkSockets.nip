@@ -83,6 +83,7 @@
 
 
 // ##### swords #############################
+[name] == phaseblade && [quality] <= superior # [sockets] == 0 || [sockets] == 3 // black runeword
 [name] == phaseblade && [quality] <= superior # [sockets] == 0 || [sockets] == 5 // grief runeword
 [name] == phaseblade && [quality] <= superior # [sockets] == 0 || [sockets] == 6 // last wish runeword
 

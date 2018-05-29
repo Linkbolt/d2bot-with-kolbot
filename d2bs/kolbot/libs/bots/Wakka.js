@@ -77,7 +77,7 @@ function Wakka() {
 		monList.sort(Sort.units);
 
 		if (getDistance(me, monList[0]) < 25 && !checkCollision(me, monList[0], 0x4)) {
-			Attack.deploy(monList[0], 25, 5, 15);
+			Pather.dodge(monList[0], 25, 5, 15, true);
 		}
 
 		return true;

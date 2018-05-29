@@ -135,7 +135,7 @@ var ClassAttack = {
 					}
 					
 					this.doCast(unit, Config.AttackSkill[1], Config.AttackSkill[2]);
-					Pather.walkAway(unit, Skill.getRange(Config.AttackSkill[1]));
+					Pather.dodge(unit, Skill.getRange(Config.AttackSkill[1]), 5, 9, false);
 					//delay(2000);
 				}
 
