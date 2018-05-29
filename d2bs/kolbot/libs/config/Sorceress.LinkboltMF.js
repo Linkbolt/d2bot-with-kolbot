@@ -381,21 +381,24 @@ function LoadConfig() {
 	 */
 	Config.Recipes.push([Recipe.Socket.Weapon, "Monarch", Roll.All]); // Socket Monarch
 	Config.Recipes.push([Recipe.Socket.Weapon, "Sacred Targe", Roll.All]); // Socket Sacred Targe
+	Config.Recipes.push([Recipe.Socket.Weapon, "Zakarum Shield", Roll.All]); // Socket Zakarum Shield
+	Config.Recipes.push([Recipe.Socket.Weapon, "Vortex Shield", Roll.All]); // Socket Vortex Shield
 	
 	Config.Recipes.push([Recipe.Socket.Armor, "Dusk Shroud", Roll.All]); // Socket Dusk Shroud
 	Config.Recipes.push([Recipe.Socket.Armor, "Archon Plate", Roll.All]); // Socket Archon Plate
-	Config.Recipes.push([Recipe.Socket.Armor, "Wyrmhide", Roll.All]); // Socket Archon Plate
+	Config.Recipes.push([Recipe.Socket.Armor, "Wyrmhide", Roll.All]); // Socket Wyrmhide
 	//Config.Recipes.push([Recipe.Socket.Armor, "Sacred Armor", Roll.All]); // Socket Sacred Armor
 	
 	Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]); // Socket Thresher
 	Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]); // Socket Cryptic Axe
 	Config.Recipes.push([Recipe.Socket.Weapon, "Colossus Voulge", Roll.Eth]); // Socket Cryptic Axe
 	Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]); // Socket Cryptic Axe
-	
+	Config.Recipes.push([Recipe.Socket.Weapon, "Phase Blade", Roll.Eth]); // Socket Phase Blade
 	
 	
 	//Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Heavy Gloves", Roll.NonEth]); // Upgrade Bloodfist to Exceptional
 	//Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Light Gauntlets", Roll.NonEth]); // Upgrade Magefist to Exceptional
+	//Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Light Plated Boots", Roll.NonEth]); // Upgrade Goblin Toe to Exceptional
 	//Config.Recipes.push([Recipe.Unique.Armor.ToElite, "Sharkskin Gloves", Roll.NonEth]); // Upgrade Bloodfist or Grave Palm to Elite
 	//Config.Recipes.push([Recipe.Unique.Armor.ToElite, "Battle Gauntlets", Roll.NonEth]); // Upgrade Magefist or Lavagout to Elite
 	//Config.Recipes.push([Recipe.Unique.Armor.ToElite, "War Boots", Roll.NonEth]); // Upgrade Gore Rider to Elite
