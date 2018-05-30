@@ -127,15 +127,10 @@ var ClassAttack = {
 				//}
 
 				// New Code
-				Pather.moveToUnit(unit);
 				while (Attack.checkMonster(unit)) {
 					
-					if (getDistance(me, unit) > Skill.getRange(Config.AttackSkill[1])) {
-						Pather.moveToUnit(unit);
-					}
-					
 					this.doCast(unit, Config.AttackSkill[1], Config.AttackSkill[2]);
-					Pather.dodge(unit, Skill.getRange(Config.AttackSkill[1]), 5, 9, false);
+					Pather.dodge(unit, Skill.getRange(Config.AttackSkill[1]), 5, 9, true);
 					//delay(2000);
 				}
 

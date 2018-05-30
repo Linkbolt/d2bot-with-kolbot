@@ -18,9 +18,9 @@
 // ##############################################################################################################################################
 // ##### 2- socket body armor ###################################################################################################################
 // ##############################################################################################################################################
-([name] == duskshroud || [name] == archonplate || [name] == wyrmhide) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3) && [enhanceddefense] >= 10 // enigma runeword
-([name] == duskshroud || [name] == archonplate || [name] == wyrmhide) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] >= 10 // chains of honor runeword
-([name] == duskshroud || [name] == archonplate || [name] == wyrmhide) && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] >= 10 // fortitude runeword
+([name] == duskshroud || [name] == archonplate || [name] == wyrmhide || [name] == wirefleece) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3) && [enhanceddefense] >= 10 // enigma runeword
+([name] == duskshroud || [name] == archonplate || [name] == wyrmhide || [name] == wirefleece) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] >= 10 // chains of honor runeword
+([name] == duskshroud || [name] == archonplate || [name] == wyrmhide || [name] == wirefleece) && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] >= 10 // fortitude runeword
 
 
 
@@ -34,9 +34,9 @@
 [name] == monarch && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] >= 10 // exile runeword
 
 // ##### paladin shields #####################
-([name] == sacredtarge || [name] == ZakarumShield || [name] == VortexShield) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 2) && [lightresist] >= 30 // rhyme runeword
-([name] == sacredtarge || [name] == ZakarumShield || [name] == VortexShield) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [lightresist] >= 30 // spirit runeword
-([name] == sacredtarge || [name] == ZakarumShield || [name] == VortexShield) && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) && [lightresist] >= 30 // exile runeword
+([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 2) && [lightresist] >= 30 // rhyme runeword
+([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [lightresist] >= 30 // spirit runeword
+([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) && [lightresist] >= 30 // exile runeword
 
 
 
@@ -90,10 +90,10 @@
 
 
 // ##### swords #############################
-//[name] == CrystalSword && [quality] <= superior && [flag] != ethereal # [sockets] == 3 // black runeword
-//[name] == CrystalSword && [quality] <= superior && [flag] != ethereal # [sockets] == 4 // hoto runeword
-//[name] == CrystalSword && [quality] <= superior && [flag] != ethereal # [sockets] == 5 // call to arms runeword | grief runeword
-//[name] == CrystalSword && [quality] <= superior && [flag] != ethereal # [sockets] == 6 // last wish runeword
+//[name] == crystalsword && [quality] <= superior && [flag] != ethereal # [sockets] == 3 // black runeword
+//[name] == crystalsword && [quality] <= superior && [flag] != ethereal # [sockets] == 4 // hoto runeword
+//[name] == crystalsword && [quality] <= superior && [flag] != ethereal # [sockets] == 5 // call to arms runeword | grief runeword
+//[name] == crystalsword && [quality] <= superior && [flag] != ethereal # [sockets] == 6 // last wish runeword
 [name] == phaseblade && [quality] <= superior # ([sockets] == 0 || [sockets] == 3) // black runeword
 //[name] == phaseblade && [quality] <= superior # ([sockets] == 0 || [sockets] == 4) // hoto runeword
 [name] == phaseblade && [quality] <= superior # ([sockets] == 0 || [sockets] == 5) // grief runeword

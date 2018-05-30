@@ -428,3 +428,19 @@
 [08:34:36] <LinkboltMF> <No room for> (magic) Grim Scythe {Area: Upper Kurast}
 [08:34:36] <LinkboltMF> <No room for> (magic) Grim Scythe {Area: Upper Kurast}
 [08:34:36] <LinkboltMF> <No room for> (magic) Grim Scythe {Area: Upper Kurast}
+[23:17:09] <LinkboltMF> <Dropped> (magic) Ruby Small Charm of Inertia (99) | Keep in Inventory to Gain Bonus | Required Level: 18 | +5% Faster RunWalk | Fire Resist +10% {Area: Mausoleum} {clearInventory}
+[23:18:10] <LinkboltMF> <Gambled> (rare) Wraith Collar (93) | Amulet | Required Level: 67 | +2 to Assassin Skills | +16 to Dexterity | +45 to Life | Lightning Resist +9% {Area: Mausoleum}
+[23:25:11] <LinkboltMF> <Kept> (magic) Amulet of the Apprentice (88) | Required Level: 3 | +10% Faster Cast Rate {Area: Crypt} {Cubing-Town}
+[23:25:13] <LinkboltMF> <Stashed> (magic) Amulet of the Apprentice {Area: Crypt}
+[23:27:38] <LinkboltMF> <Kept> (normal) Key of Terror (82) {Area: Tower Cellar Level 5}
+[23:27:47] <LinkboltMF> <Stashed> (normal) Key of Terror {Area: Tower Cellar Level 5}
+[23:33:44] <LinkboltMF> <Stashed> (magic) Gold Ring {Area: Durance Of Hate Level 3}
+[23:34:09] <LinkboltMF> <Kept> (normal) Flawed Sapphire (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 3-5 cold damage | Armor: +17 to Mana | Helms: +17 to Mana | Shields: Cold Resist +16% |  | Required Level: 5 {Area: Nihlathak's Temple} {Cubing 1}
+[23:46:13] <LinkboltMF> <Kept> (normal) Sol Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +9 to Minimum Damage | Armor: Damage Reduced by 7 | Helms: Damage Reduced by 7 | Shields: Damage Reduced by 7 |  | Required Level: 27 {Area: Tower Cellar Level 5} {Cubing 1}
+[23:46:37] <LinkboltMF> <Stashed> (normal) Sol Rune {Area: Tower Cellar Level 5}
+[23:56:24] <LinkboltMF> <Kept> (normal) Lum Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Energy | Armor: +10 to Energy | Helms: +10 to Energy | Shields: +10 to Energy |  | Required Level: 37 {Area: Mausoleum} {Cubing 1}
+[23:56:24] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Mausoleum} {Cubing 2}
+[23:57:51] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Crypt}
+[23:58:00] <LinkboltMF> <Stashed> (normal) Lum Rune {Area: Crypt}
+[00:00:00] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Catacombs Level 4} {Cubing 3}
+[00:00:23] <LinkboltMF> <Dropped> (crafted) Storm Wing (90) | Amulet | Required Level: 88 | +1 to Druid Skills | +5% Faster Cast Rate | 8% Mana stolen per hit | +5 to Life | +10 to Mana | Regenerate Mana 10% | All Resistances +20 {Area: Catacombs Level 4} {doCubing}

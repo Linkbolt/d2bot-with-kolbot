@@ -662,9 +662,9 @@
 
 //[name] >= falrune && [name] <= zodrune
 
-[name] == keyofhate # # [maxquantity] == 3
-[name] == keyofterror # # [maxquantity] == 3
-[name] == keyofdestruction # # [maxquantity] == 3
+//[name] == keyofhate # # [maxquantity] == 3
+//[name] == keyofterror # # [maxquantity] == 3
+//[name] == keyofdestruction # # [maxquantity] == 3
 
 [name] == diablo'shorn
 [name] == mephisto'sbrain

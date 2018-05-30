@@ -962,15 +962,20 @@ IngredientLoop:
 						case 0:
 							Misc.itemLogger("Dropped", items[j], "doCubing");
 							items[j].drop();
-
 							break;
+							
 						case 1:
 							Misc.itemLogger("Cubing Kept", items[j]);
 							Misc.logItem("Cubing Kept", items[j], result.line);
-
 							break;
+							
 						case 5: // Crafting System
 							CraftingSystem.update(items[j]);
+							Misc.itemLogger("Cubbed", item, "Cubing System");
+							if (!(item.classid >= 557 && item.classid <= 586)) Misc.logItem("Cubbed", item, "Cubing System"); // Log all but gems
+							break;
+							
+						default:
 							Misc.itemLogger("Cubbed", item, "Cubing System");
 							if (!(item.classid >= 557 && item.classid <= 586)) Misc.logItem("Cubbed", item, "Cubing System"); // Log all but gems
 							break;
