@@ -444,3 +444,28 @@
 [23:58:00] <LinkboltMF> <Stashed> (normal) Lum Rune {Area: Crypt}
 [00:00:00] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Catacombs Level 4} {Cubing 3}
 [00:00:23] <LinkboltMF> <Dropped> (crafted) Storm Wing (90) | Amulet | Required Level: 88 | +1 to Druid Skills | +5% Faster Cast Rate | 8% Mana stolen per hit | +5 to Life | +10 to Mana | Regenerate Mana 10% | All Resistances +20 {Area: Catacombs Level 4} {doCubing}
+[00:20:42] <LinkboltMF> <Kept> (magic) Jewel of Freedom (87) | Can be Inserted into Socketed Items | Requirements -15% {Area: Durance Of Hate Level 3} {Cubing-Town}
+[00:20:42] <LinkboltMF> <Stashed> (magic) Jewel of Freedom {Area: Durance Of Hate Level 3}
+[00:42:45] <LinkboltMF> <Kept> (magic) Cost: 14771 (83) | Foul Small Charm of Dexterity | Keep in Inventory to Gain Bonus | Required Level: 31 | +50 poison damage over 4 seconds | +2 to Dexterity {Area: Crypt}
+[00:42:46] <LinkboltMF> <Stashed> (magic) Foul Small Charm of Dexterity {Area: Crypt}
+[00:44:33] <LinkboltMF> <Kept> (normal) Nef Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Knockback | Armor: +30 Defense vs. Missile | Helms: +30 Defense vs. Missile | Shields: +30 Defense vs. Missile |  | Required Level: 13 {Area: Tower Cellar Level 5} {Cubing 1}
+[00:44:48] <LinkboltMF> <Stashed> (normal) Nef Rune {Area: Tower Cellar Level 5}
+[00:50:38] <LinkboltMF> <Gambled> (magic) Cost: 55440 (90) | Fortuitous Amulet of Luck | Required Level: 19 | 47% Better Chance of Getting Magic Items {Area: Durance Of Hate Level 3}
+[00:50:38] <LinkboltMF> <Stashed> (magic) Fortuitous Amulet of Luck {Area: Durance Of Hate Level 3}
+[00:50:45] <LinkboltMF> <Stashed> (magic) Amulet of Greed {Area: Durance Of Hate Level 3}
+[00:54:01] <LinkboltMF> <Kept> (magic) Cost: 2354 (81) | Maroon Jewel  | Can be Inserted into Socketed Items | Required Level: 12 | +21 Maximum Stamina {Area: Infernal Pit} {Cubing-Town}
+[00:54:02] <LinkboltMF> <Stashed> (magic) Maroon Jewel {Area: Infernal Pit}
+[01:03:27] <LinkboltMF> <Kept> (magic) Cost: 1104 (83) |  Jewel of Virility | Can be Inserted into Socketed Items | Required Level: 25 | +5 to Strength {Area: Durance Of Hate Level 3} {Cubing-Town}
+[01:03:41] <LinkboltMF> <Stashed> (magic) Jewel of Virility {Area: Durance Of Hate Level 3}
+[01:17:35] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Durance Of Hate Level 2} {Cubing 1}
+[01:18:22] <LinkboltMF> <Stashed> (normal) Flawless Amethyst {Area: Durance Of Hate Level 3}
+[01:20:50] <LinkboltMF> <Kept> (normal) Io Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Vitality | Armor: +10 to Vitality | Helms: +10 to Vitality | Shields: +10 to Vitality |  | Required Level: 35 {Area: Sewers Level 2} {Cubing 3}
+[01:26:16] <LinkboltMF> <Kept> (normal) Ral Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 5-30 fire damage | Armor: Fire Resist +30% | Helms: Fire Resist +30% | Shields: Fire Resist +35% |  | Required Level: 19 {Area: Tower Cellar Level 5} {Cubing 1}
+[01:26:31] <LinkboltMF> <Stashed> (normal) Ral Rune {Area: Tower Cellar Level 5}
+[01:30:43] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Lower Kurast} {Cubing 3}
+[01:31:36] <LinkboltMF> <Dropped> (crafted) Entropy Spiral (93) | Ring | Required Level: 69 | +77 to Attack Rating | Adds 1-12 lightning damage | 1% Life stolen per hit | +14 to Strength | +14 to Life | Poison Length Reduced by 25% {Area: Lower Kurast} {doCubing}
+[01:33:43] <LinkboltMF> <Kept> (magic) Lizard's Ring (83) | Required Level: 2 | +4 to Mana {Area: Crypt} {Cubing-Town}
+[01:33:45] <LinkboltMF> <Stashed> (magic) Lizard's Ring {Area: Crypt}
+[01:34:23] <LinkboltMF> <Kept> (unique) Demonhead (86) | Defense: 155 | Durability: 17 of 20 | Required Strength: 102 | Unidentified {Area: Crypt}
+[01:34:48] <LinkboltMF> <Stashed> (unique) Demonhead {Area: Crypt}
+[01:35:10] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Tower Cellar Level 2} {Cubing 1}

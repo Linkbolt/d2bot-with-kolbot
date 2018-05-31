@@ -595,3 +595,7 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:11, useWaypoint@pather.js:1038
 [06:24:11] <LinkboltMF> Error in ChestMania (pather.js line 1038): useWaypoint: Failed to use waypoint
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1384, Pather.plotCourse@pather.js:1519, useWaypoint@pather.js:1038
+[01:21:08] <LinkboltMF> Error in ChestMania (cubing.js line 979): item is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:19, Town.doChores@town.js:100, Cubing.doCubing@cubing.js:979
+[01:31:05] <LinkboltMF> Error in ChestMania (cubing.js line 979): item is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:16, Misc.openChestsInArea@misc.js:927, Pather.moveToUnit@pather.js:629, Pather.moveTo@pather.js:232, NodeAction.go@pather.js:15, NodeAction.popChests@pather.js:55, Misc.openChests@misc.js:976, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2200, Town.doChores@town.js:100, Cubing.doCubing@cubing.js:979
