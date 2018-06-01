@@ -77,9 +77,9 @@
 
 
 // ##### polearms ###########################
-([name] == thresher || [name] == crypticaxe) && [quality] == superior && [flag] == ethereal # [sockets] == 4 # [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
-[name] == colossusvoulge && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) # [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
-([name] == giantthresher || [name] == greatpoleaxe) && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 6) # [enhanceddamage] >= 10 // breath of the dying runeword
+([name] == thresher || [name] == crypticaxe) && [quality] == superior && [flag] == ethereal # [sockets] == 4 && [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
+[name] == colossusvoulge && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
+([name] == giantthresher || [name] == greatpoleaxe) && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 6) && [enhanceddamage] >= 10 // breath of the dying runeword
 
 // ##### scepters ###########################
 
