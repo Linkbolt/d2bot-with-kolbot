@@ -51,7 +51,7 @@
 // ##### 1- iratha's finery ########################################################################################################################
 // #################################################################################################################################################
 [name] == crown && [quality] == set # [defense] >= 243 && [fireresist] == 30 && [lightresist] == 30 # [maxquantity] == 1 // iratha's coil
-[name] == lightgauntlets && [quality] == set # [defense] >= 11 && [coldresist] == 30 # [maxquantity] == 1 // iratha's cuff
+//[name] == lightgauntlets && [quality] == set # [defense] >= 11 && [coldresist] == 30 # [maxquantity] == 1 // iratha's cuff
 //[name] == heavybelt && [quality] == set # [defense] >= 31 && [mindamage] == 5 # [maxquantity] == 1 // iratha's cord
 [type] == amulet && [quality] == set # [poisonresist] == 30 && [poisonlength] == -75 # [maxquantity] == 1 // iratha's collar
 
