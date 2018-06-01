@@ -990,7 +990,7 @@ CursorLoop:
 						return false;
 					}
 
-					me.overhead("Buy: " + items[i].name);
+					//me.overhead("Buy: " + items[i].name);
 					items[i].buy(false, true);
 
 					newItem = this.getGambledItem(list);

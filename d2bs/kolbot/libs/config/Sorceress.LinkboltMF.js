@@ -401,12 +401,12 @@ function LoadConfig() {
 	/* Runeword config. All recipes are available in Templates/Runewords.txt
 	 * Keep lines follow pickit format and any given runeword is tested vs ALL lines so you don't need to repeat them
 	 */
-	Config.MakeRunewords = true; // Set to true to enable runeword making/rerolling
+	Config.MakeRunewords = false; // Set to true to enable runeword making/rerolling
 
-	Config.Runewords.push([Runeword.Insight, "Thresher"]); // Make Insight Thresher
+	//Config.Runewords.push([Runeword.Insight, "Thresher"]); // Make Insight Thresher
 	//Config.Runewords.push([Runeword.Insight, "Cryptic Axe"]); // Make Insight Cryptic Axe
 
-	Config.Runewords.push([Runeword.Spirit, "Monarch"]); // Make Spirit Monarch
+	//Config.Runewords.push([Runeword.Spirit, "Monarch"]); // Make Spirit Monarch
 	//Config.Runewords.push([Runeword.Spirit, "Sacred Targe"]); // Make Spirit Sacred Targe
 
 	Config.KeepRunewords.push("[type] == shield || [type] == auricshields"); // # [fcr] >= 30"); // Keep Spirit

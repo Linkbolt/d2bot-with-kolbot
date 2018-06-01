@@ -659,3 +659,12 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1465, Pather.plotCourse@pather.js:1600, useWaypoint@pather.js:1119
 [23:28:51] <LinkboltMF> Error in Countess (pather.js line 1119): useWaypoint: Failed to use waypoint
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Countess@countess.js:11, useWaypoint@pather.js:1119
+[07:32:04] <LinkboltMF> Unknown 3rd part keyword: enhanceddamage
+[07:32:04] <LinkboltMF> Unknown 3rd part keyword: enhanceddamage
+[07:32:04] <LinkboltMF> Unknown 3rd part keyword: enhanceddamage
+[07:32:04] <LinkboltMF> Unknown 3rd part keyword: enhanceddamage
+[07:32:04] <LinkboltMF> Unknown 3rd part keyword: enhanceddamage
+[07:32:04] <LinkboltMF> Unknown 3rd part keyword: enhanceddamage
+[07:32:04] <LinkboltMF> Unknown 3rd part keyword: enhanceddamage
+[07:32:04] <LinkboltMF> Unknown 3rd part keyword: enhanceddamage
+[07:32:04] <LinkboltMF> Unknown 3rd part keyword: enhanceddamage
