@@ -142,7 +142,7 @@
 //[name] == chaosarmor && [quality] == set // trang-oul's scales
 //[name] == cantortrophy && [quality] == set // trang-oul's wing
 //[name] == trollbelt && [quality] == set // trang-oul's girth
-[name] == heavybracers && [quality] == set # [defense] >= 74 // trang-oul's claws
+//[name] == heavybracers && [quality] == set # [defense] >= 74 // trang-oul's claws
 
 
 

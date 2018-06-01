@@ -2804,3 +2804,253 @@
 [07:24:01] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Crypt}
 [07:30:47] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Sewers Level 2} {Cubing 2}
 [07:30:53] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Sewers Level 2}
+[07:42:08] <LinkboltMF> <Stashed> (magic) Amulet of the Sun {Area: Durance Of Hate Level 3}
+[07:42:16] <LinkboltMF> <Stashed> (magic) Felicitous Ring {Area: Durance Of Hate Level 3}
+[08:00:38] <LinkboltMF> <Kept> (normal) Lum Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Energy | Armor: +10 to Energy | Helms: +10 to Energy | Shields: +10 to Energy |  | Required Level: 37 {Area: Tower Cellar Level 5} {Cubing 2}
+[08:00:57] <LinkboltMF> <Stashed> (normal) Lum Rune {Area: Tower Cellar Level 5}
+[08:04:12] <LinkboltMF> <Kept> (normal) Flawed Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +60 to Attack Rating | Armor: +4 to Strength | Helms: +4 to Strength | Shields: +12 Defense |  | Required Level: 5 {Area: Durance Of Hate Level 3} {Cubing 1}
+[08:04:33] <LinkboltMF> <Stashed> (normal) Flawed Amethyst {Area: Durance Of Hate Level 3}
+[08:14:37] <LinkboltMF> <Kept> (magic) Jewel of Virility (83) | Can be Inserted into Socketed Items | Required Level: 42 | +9 to Strength {Area: Durance Of Hate Level 3} {Cubing-Town}
+[08:14:37] <LinkboltMF> <Stashed> (magic) Jewel of Virility {Area: Durance Of Hate Level 3}
+[08:16:10] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Lower Kurast} {Cubing 3}
+[08:17:50] <LinkboltMF> <Cubing Kept> (normal) Perfect Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 15-20 fire damage | Armor: +38 to Life | Helms: +38 to Life | Shields: Fire Resist +40% |  | Required Level: 18 {Area: Sewers Level 2}
+[08:26:53] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Kurast Bazaar} {Cubing 3}
+[08:27:55] <LinkboltMF> <Cubing Kept> (normal) Perfect Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +150 to Attack Rating | Armor: +10 to Strength | Helms: +10 to Strength | Shields: +30 Defense |  | Required Level: 18 {Area: Kurast Bazaar}
+[08:28:06] <LinkboltMF> <Dropped> (crafted) Stone Heart (92) | Amulet | Required Level: 72 | +1 to Defensive Auras (Paladin Only) | +9% Faster Cast Rate | +1 to Maximum Damage | +20 to Strength | +26 to Mana | Regenerate Mana 6% {Area: Kurast Bazaar} {doCubing}
+[08:49:35] <LinkboltMF> <Kept> (magic) Toxic Small Charm (81) | Keep in Inventory to Gain Bonus | Required Level: 55 | +100 poison damage over 5 seconds {Area: Pit Of Acheron}
+[08:49:36] <LinkboltMF> <Stashed> (magic) Toxic Small Charm {Area: Pit Of Acheron}
+[08:58:20] <LinkboltMF> <Kept> (normal) Nef Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Knockback | Armor: +30 Defense vs. Missile | Helms: +30 Defense vs. Missile | Shields: +30 Defense vs. Missile |  | Required Level: 13 {Area: Upper Kurast} {Cubing 1}
+[08:58:58] <LinkboltMF> <Stashed> (normal) Nef Rune {Area: Sewers Level 2}
+[09:04:47] <LinkboltMF> <Kept> (normal) Pul Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +75% Damage to Demons, | +100 to Attack Rating against Demons | Armor: +30% Enhanced Defense | Helms: +30% Enhanced Defense | Shields: +30% Enhanced Defense |  | Required Level: 45 {Area: Catacombs Level 4}
+[09:05:01] <LinkboltMF> <Stashed> (normal) Pul Rune {Area: Catacombs Level 4}
+[09:09:46] <LinkboltMF> <Dropped> (magic) Glorious Breast Plate of Amicae (80) | Defense: 100 | Durability: 31 of 50 | Required Strength: 30 | Required Level: 43 | +45% Enhanced Defense | Damage Reduced by 9 {Area: Upper Kurast} {cainID}
+[09:09:47] <LinkboltMF> <Dropped> (magic) Condensing Cloudy Sphere (80) | One-Hand Damage: 11 to 29 | Durability: 20 of 35 | (Sorceress Only) | Required Level: 67 | Staff Class - Normal Attack Speed | Adds 144-195 fire damage | +1 to Blaze (Sorceress Only) | +20 to Mana {Area: Upper Kurast} {cainID}
+[09:09:47] <LinkboltMF> <Dropped> (magic) Shadow Bow of Carnage (81) | Two-Hand Damage: 15 to 72 | Required Dexterity: 188 | Required Strength: 52 | Required Level: 47 | Bow Class - Fast Attack Speed | +13 to Maximum Damage {Area: Upper Kurast} {cainID}
+[09:09:48] <LinkboltMF> <Dropped> (magic) Lizard's Grand Charm of Strength (81) | Keep in Inventory to Gain Bonus | Required Level: 10 | +5 to Strength | +4 to Mana {Area: Upper Kurast} {cainID}
+[09:12:07] <LinkboltMF> <Stashed> (magic) Ocher Amulet of Brilliance {Area: Sewers Level 2}
+[09:17:25] <LinkboltMF> <Kept> (normal) Ko Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Dexterity | Armor: +10 to Dexterity | Helms: +10 to Dexterity | Shields: +10 to Dexterity |  | Required Level: 39 {Area: Tower Cellar Level 5} {Cubing 2}
+[09:17:44] <LinkboltMF> <Stashed> (normal) Ko Rune {Area: Tower Cellar Level 5}
+[09:18:19] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Catacombs Level 4} {Cubing 1}
+[09:18:26] <LinkboltMF> <Stashed> (normal) Flawless Amethyst {Area: Catacombs Level 4}
+[09:21:50] <LinkboltMF> <Kept> (normal) Sol Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +9 to Minimum Damage | Armor: Damage Reduced by 7 | Helms: Damage Reduced by 7 | Shields: Damage Reduced by 7 |  | Required Level: 27 {Area: Lower Kurast} {Cubing 1}
+[09:22:10] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Kurast Bazaar} {Cubing 1}
+[09:22:26] <LinkboltMF> <Kept> (normal) Flawed Sapphire (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 3-5 cold damage | Armor: +17 to Mana | Helms: +17 to Mana | Shields: Cold Resist +16% |  | Required Level: 5 {Area: Upper Kurast} {Cubing 1}
+[09:23:07] <LinkboltMF> <Stashed> (normal) Flawed Sapphire {Area: Sewers Level 2}
+[09:23:12] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Sewers Level 2}
+[09:23:13] <LinkboltMF> <Stashed> (normal) Sol Rune {Area: Sewers Level 2}
+[09:24:08] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Pit Of Acheron} {Cubing 2}
+[09:24:25] <LinkboltMF> <Stashed> (normal) Flawless Amethyst {Area: Infernal Pit}
+[09:33:56] <LinkboltMF> <Kept> (normal) Fal Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Strength | Armor: +10 to Strength | Helms: +10 to Strength | Shields: +10 to Strength |  | Required Level: 41 {Area: Upper Kurast} {Cubing 2}
+[09:34:23] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Sewers Level 2} {Cubing 3}
+[09:34:38] <LinkboltMF> <Kept> (magic) Nickel Jewel of Spirit (80) | Can be Inserted into Socketed Items | +18 to Attack Rating | +3 to Life {Area: Sewers Level 2} {Cubing-Town}
+[09:34:46] <LinkboltMF> <Cubing Kept> (normal) Perfect Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +150 to Attack Rating | Armor: +10 to Strength | Helms: +10 to Strength | Shields: +30 Defense |  | Required Level: 18 {Area: Sewers Level 2}
+[09:35:04] <LinkboltMF> <Dropped> (crafted) Pain Hold (84) | Vampirebone Gloves | Defense: 57 | Durability: 12 of 14 | Required Strength: 50 | Required Level: 53 | 1% Life stolen per hit | 7% Chance of Crushing Blow | +9 to Dexterity | +13 to Life | Poison Resist +19% | Half Freeze Duration | 16% Better Chance of Getting Magic Items {Area: Sewers Level 2} {doCubing}
+[09:35:05] <LinkboltMF> <Stashed> (normal) Fal Rune {Area: Sewers Level 2}
+[09:35:09] <LinkboltMF> <Stashed> (normal) Perfect Amethyst {Area: Sewers Level 2}
+[09:50:54] <LinkboltMF> <Kept> (normal) Ral Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 5-30 fire damage | Armor: Fire Resist +30% | Helms: Fire Resist +30% | Shields: Fire Resist +35% |  | Required Level: 19 {Area: Tower Cellar Level 5} {Cubing 1}
+[09:51:10] <LinkboltMF> <Stashed> (normal) Ral Rune {Area: Tower Cellar Level 5}
+[09:53:31] <LinkboltMF> <Kept> (magic) Cost: 1177 (85) | Maroon Jewel  | Can be Inserted into Socketed Items | Required Level: 12 | +21 Maximum Stamina {Area: Ancient Tunnels} {Cubing-Town}
+[09:53:47] <LinkboltMF> <Dropped> (crafted) Dread Gorget (90) | Amulet | Required Level: 42 | +7% Faster Cast Rate | +1 to Maximum Damage | 3% Life stolen per hit | +2 to Strength | +20 to Mana | Regenerate Mana 8% {Area: Ancient Tunnels} {doCubing}
+[09:57:29] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Abaddon} {Cubing 2}
+[09:58:00] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Abaddon}
+[10:02:05] <LinkboltMF> <Kept> (normal) Fal Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Strength | Armor: +10 to Strength | Helms: +10 to Strength | Shields: +10 to Strength |  | Required Level: 41 {Area: Tower Cellar Level 5} {Cubing 3}
+[10:02:23] <LinkboltMF> <Stashed> (normal) Fal Rune {Area: Tower Cellar Level 5}
+[10:04:57] <LinkboltMF> <Stashed> (normal) Fal Rune {Area: Tower Cellar Level 5}
+[10:07:00] <LinkboltMF> <Stashed> (normal) Fal Rune {Area: Tower Cellar Level 5}
+[10:11:19] <LinkboltMF> <Stashed> (normal) Fal Rune {Area: Tower Cellar Level 5}
+[10:13:44] <LinkboltMF> <Stashed> (normal) Fal Rune {Area: Tower Cellar Level 5}
+[10:13:49] <LinkboltMF> <Stashed> (normal) Fal Rune {Area: Tower Cellar Level 5}
+[10:13:57] <LinkboltMF> <Stashed> (normal) Fal Rune {Area: Tower Cellar Level 5}
+[10:16:47] <LinkboltMF> <Stashed> (normal) Fal Rune {Area: Tower Cellar Level 5}
+[10:18:34] <LinkboltMF> <Kept> (magic) Jewel of Daring (85) | Can be Inserted into Socketed Items | Required Level: 5 | +1 to Dexterity {Area: Crypt} {Cubing-Town}
+[10:18:34] <LinkboltMF> <Stashed> (magic) Jewel of Daring {Area: Crypt}
+[10:29:24] <LinkboltMF> <Kept> (magic) Pestilent Large Charm (88) | Keep in Inventory to Gain Bonus | Required Level: 58 | +175 poison damage over 6 seconds {Area: Mausoleum}
+[10:29:26] <LinkboltMF> <Stashed> (magic) Pestilent Large Charm {Area: Mausoleum}
+[10:30:25] <LinkboltMF> <Kept> (normal) Io Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Vitality | Armor: +10 to Vitality | Helms: +10 to Vitality | Shields: +10 to Vitality |  | Required Level: 35 {Area: Crypt} {Cubing 2}
+[10:31:12] <LinkboltMF> <Stashed> (normal) Io Rune {Area: Crypt}
+[10:39:38] <LinkboltMF> <Kept> (normal) Flawed Diamond (1) | Can be Inserted into Socketed Items |  | Weapons: +34% Damage to Undead | Armor: +40 to Attack Rating | Helms: +40 to Attack Rating | Shields: All Resistances +8 |  | Required Level: 5 {Area: Pit Of Acheron} {Cubing 1}
+[10:39:52] <LinkboltMF> <Stashed> (normal) Flawed Diamond {Area: Pit Of Acheron}
+[10:40:56] <LinkboltMF> <Gambled> (rare) Bitter Necklace (92) | Amulet | Required Level: 67 | +2 to Paladin Skill Levels | +6 to Strength | +1 to Energy | All Resistances +7 | 7% Better Chance of Getting Magic Items {Area: Pit Of Acheron}
+[10:42:04] <LinkboltMF> <Cubing Kept> (normal) Um Rune (1) | Can be Inserted into Socketed Items |  | Weapons: 25% Chance of Open Wounds | Armor: All Resistances +15 | Helms: All Resistances +15 | Shields: All Resistances +22 |  | Required Level: 47 {Area: Pit Of Acheron}
+[10:42:09] <LinkboltMF> <Stashed> (rare) Bitter Necklace Amulet {Area: Pit Of Acheron}
+[10:42:11] <LinkboltMF> <Stashed> (magic) Felicitous Amulet of Luck {Area: Pit Of Acheron}
+[10:43:27] <LinkboltMF> <Kept> (normal) Flawed Topaz (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 1-14 lightning damage | Armor: 13% Better Chance of Getting Magic Items | Helms: 13% Better Chance of Getting Magic Items | Shields: Lightning Resist +16% |  | Required Level: 5 {Area: Mausoleum} {Cubing 1}
+[10:45:10] <LinkboltMF> <Stashed> (normal) Flawed Topaz {Area: Crypt}
+[10:46:44] <LinkboltMF> <Kept> (magic) Jewel of Malice (75) | Can be Inserted into Socketed Items | Required Level: 29 | Attacker Takes Damage of 4 {Area: Catacombs Level 4} {Cubing-Town}
+[10:46:45] <LinkboltMF> <Stashed> (magic) Jewel of Malice {Area: Catacombs Level 4}
+[10:50:03] <LinkboltMF> <Kept> (normal) Flawed Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 5-8 fire damage | Armor: +17 to Life | Helms: +17 to Life | Shields: Fire Resist +16% |  | Required Level: 5 {Area: Lower Kurast} {Cubing 1}
+[10:50:57] <LinkboltMF> <Cubing Kept> (normal) Lem Rune (1) | Can be Inserted into Socketed Items |  | Weapons: 75% Extra Gold from Monsters | Armor: 50% Extra Gold from Monsters | Helms: 50% Extra Gold from Monsters | Shields: 50% Extra Gold from Monsters |  | Required Level: 43 {Area: Upper Kurast}
+[11:04:47] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Crypt} {Cubing 1}
+[11:05:12] <LinkboltMF> <Stashed> (normal) Flawless Amethyst {Area: Crypt}
+[11:15:36] <LinkboltMF> <Kept> (rare) Doom Weaver (85) | Jo Staff | Two-Hand Damage: 6 to 21 | Durability: 11 of 20 | Required Strength: 25 | Required Level: 30 | Staff Class - Fast Attack Speed | +20% Faster Cast Rate | Adds 12-40 cold damage | +1 to Cold Mastery (Sorceress Only) | +1 to Glacial Spike (Sorceress Only) | +45 to Mana | Cold Resist +12% | +50% Damage to Undead {Area: Mausoleum}
+[11:15:36] <LinkboltMF> <Stashed> (rare) Doom Weaver Jo Staff {Area: Mausoleum}
+[11:18:12] <LinkboltMF> <Kept> (set) Trang-Oul's Claws (88) | Heavy Bracers | Defense: 74 | Durability: 15 of 16 | Required Strength: 58 | Required Level: 45 | +2 to Curses (Necromancer Only) | +20% Faster Cast Rate | +25% to Poison Skill Damage | +30 Defense | Cold Resist +30% |  | Trang-Oul's Avatar | Trang-Oul's Girth | Trang-Oul's Claws | Trang-Oul's Wing | Trang-Oul's Scales | Trang-Oul's Guise {Area: Crypt}
+[11:18:14] <LinkboltMF> <Stashed> (set) Trang-Oul's Claws Heavy Bracers {Area: Crypt}
+[11:31:13] <LinkboltMF> <Kept> (normal) Fal Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Strength | Armor: +10 to Strength | Helms: +10 to Strength | Shields: +10 to Strength |  | Required Level: 41 {Area: Tower Cellar Level 5} {Cubing 1}
+[11:31:29] <LinkboltMF> <Stashed> (normal) Fal Rune {Area: Tower Cellar Level 5}
+[11:34:19] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Durance Of Hate Level 3} {Cubing 3}
+[11:34:49] <LinkboltMF> <Cubing Kept> (normal) Perfect Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 15-20 fire damage | Armor: +38 to Life | Helms: +38 to Life | Shields: Fire Resist +40% |  | Required Level: 18 {Area: Durance Of Hate Level 3}
+[11:34:58] <LinkboltMF> <Dropped> (crafted) Eagle Master (90) | Ring | Required Level: 65 | 8% Chance to cast level 3 Chain Lightning on attack | 3% Life stolen per hit | +1 to Strength | +50 to Life | Lightning Resist +7% | Poison Resist +13% {Area: Durance Of Hate Level 3} {doCubing}
+[11:36:26] <LinkboltMF> <Kept> (magic) Ring (81) | Unidentified {Area: Kurast Bazaar} {Cubing 3}
+[11:36:33] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Upper Kurast} {Cubing 1}
+[11:36:34] <LinkboltMF> <Kept> (magic) Vampirebone Gloves (81) | Defense: 60 | Durability: 12 of 14 | Required Strength: 50 | Unidentified {Area: Upper Kurast} {Cubing 1}
+[11:36:52] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Sewers Level 1} {Cubing 2}
+[11:37:11] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Sewers Level 2}
+[11:37:15] <LinkboltMF> <Stashed> (magic) Ring {Area: Sewers Level 2}
+[11:37:16] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Sewers Level 2}
+[11:39:18] <LinkboltMF> <Kept> (normal) Sur Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Hit Blinds Target  | Armor: Increase Maximum Mana 5% | Helms: Increase Maximum Mana 5% | Shields: +50 to Mana |  | Required Level: 61 {Area: Mausoleum} {Cubing 1}
+[11:40:58] <LinkboltMF> <Stashed> (normal) Sur Rune {Area: Crypt}
+[11:41:36] <LinkboltMF> <Kept> (normal) Sol Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +9 to Minimum Damage | Armor: Damage Reduced by 7 | Helms: Damage Reduced by 7 | Shields: Damage Reduced by 7 |  | Required Level: 27 {Area: Black Marsh} {Cubing 1}
+[11:42:46] <LinkboltMF> <Stashed> (normal) Sol Rune {Area: Tower Cellar Level 5}
+[11:55:14] <LinkboltMF> <Kept> (magic) Jewel of Virility (85) | Can be Inserted into Socketed Items | Required Level: 25 | +5 to Strength {Area: Ancient Tunnels} {Cubing-Town}
+[11:55:15] <LinkboltMF> <Stashed> (magic) Jewel of Virility {Area: Ancient Tunnels}
+[12:00:10] <LinkboltMF> <Kept> (magic) Aureolic Jewel (82) | Can be Inserted into Socketed Items | Required Level: 16 | +2 to Mana after each Kill {Area: Pit Of Acheron} {Cubing-Town}
+[12:00:15] <LinkboltMF> <Stashed> (magic) Aureolic Jewel {Area: Pit Of Acheron}
+[12:12:00] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Upper Kurast} {Cubing 2}
+[12:12:50] <LinkboltMF> <Stashed> (normal) Flawless Amethyst {Area: Sewers Level 2}
+[12:13:45] <LinkboltMF> <Kept> (normal) Ral Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 5-30 fire damage | Armor: Fire Resist +30% | Helms: Fire Resist +30% | Shields: Fire Resist +35% |  | Required Level: 19 {Area: Infernal Pit} {Cubing 1}
+[12:13:46] <LinkboltMF> <Stashed> (normal) Ral Rune {Area: Infernal Pit}
+[12:22:24] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Kurast Bazaar} {Cubing 3}
+[12:23:40] <LinkboltMF> <Cubing Kept> (normal) Perfect Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 15-20 fire damage | Armor: +38 to Life | Helms: +38 to Life | Shields: Fire Resist +40% |  | Required Level: 18 {Area: Sewers Level 2}
+[12:23:58] <LinkboltMF> <Cubing Kept> (normal) Sol Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +9 to Minimum Damage | Armor: Damage Reduced by 7 | Helms: Damage Reduced by 7 | Shields: Damage Reduced by 7 |  | Required Level: 27 {Area: Sewers Level 2}
+[12:23:58] <LinkboltMF> <Cubing Kept> (magic) Jewel of Malice (75) | Can be Inserted into Socketed Items | Required Level: 29 | Attacker Takes Damage of 4 {Area: Sewers Level 2}
+[12:23:58] <LinkboltMF> <Cubing Kept> (normal) Perfect Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 15-20 fire damage | Armor: +38 to Life | Helms: +38 to Life | Shields: Fire Resist +40% |  | Required Level: 18 {Area: Sewers Level 2}
+[12:24:19] <LinkboltMF> <Dropped> (crafted) Blood Finger (86) | Ring | Required Level: 38 | +10% Faster Cast Rate | +109 to Attack Rating | 2% Life stolen per hit | +2 to Strength | +16 to Life | Poison Resist +26% | 6% Better Chance of Getting Magic Items {Area: Sewers Level 2} {doCubing}
+[12:24:51] <LinkboltMF> <Kept> (magic) Ring (81) | Unidentified {Area: Abaddon} {Cubing 3}
+[12:25:19] <LinkboltMF> <Stashed> (magic) Ring {Area: Pit Of Acheron}
+[12:33:16] <LinkboltMF> <Kept> (unique) Rainbow Facet (87) | Jewel | Can be Inserted into Socketed Items | Required Level: 49 | 100% Chance to cast level 37 Blizzard when you Die | Adds 24-38 cold damage | +5% to Cold Skill Damage | -5% to Enemy Cold Resistance {Area: Durance Of Hate Level 3}
+[12:33:16] <LinkboltMF> <Stashed> (unique) Rainbow Facet Jewel {Area: Durance Of Hate Level 3}
+[12:35:36] <LinkboltMF> <Kept> (magic) Argent Jewel (81) | Can be Inserted into Socketed Items | Required Level: 36 | +75 to Attack Rating {Area: Upper Kurast} {Cubing-Town}
+[12:35:36] <LinkboltMF> <Stashed> (magic) Argent Jewel {Area: Upper Kurast}
+[12:40:27] <LinkboltMF> <Kept> (normal) Sol Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +9 to Minimum Damage | Armor: Damage Reduced by 7 | Helms: Damage Reduced by 7 | Shields: Damage Reduced by 7 |  | Required Level: 27 {Area: Tower Cellar Level 5} {Cubing 1}
+[12:40:49] <LinkboltMF> <Stashed> (normal) Sol Rune {Area: Tower Cellar Level 5}
+[13:01:53] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Tower Cellar Level 5} {Cubing 1}
+[13:02:10] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Tower Cellar Level 5}
+[13:07:01] <LinkboltMF> <Kept> (normal) Ohm Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +50% Enhanced Damage | Armor: +5% to Maximum Cold Resist | Helms: +5% to Maximum Cold Resist | Shields: +5% to Maximum Cold Resist |  | Required Level: 57 {Area: Upper Kurast} {Cubing 1}
+[13:07:20] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Sewers Level 2} {Cubing 2}
+[13:07:42] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Sewers Level 2}
+[13:14:22] <LinkboltMF> <Kept> (unique) Manald Heal (75) | Ring | Required Level: 15 | 7% Mana stolen per hit | +20 to Life | Replenish Life +7 | Regenerate Mana 20% {Area: Catacombs Level 4}
+[13:31:42] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Pit Of Acheron} {Cubing 4}
+[13:31:58] <LinkboltMF> <Dropped> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Pit Of Acheron} {clearInventory}
+[13:32:07] <LinkboltMF> <Cubing Kept> (normal) Perfect Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 15-20 fire damage | Armor: +38 to Life | Helms: +38 to Life | Shields: Fire Resist +40% |  | Required Level: 18 {Area: Pit Of Acheron}
+[13:32:14] <LinkboltMF> <Dropped> (crafted) Bitter Band (86) | Ring | Required Level: 69 | +70 to Attack Rating | 1% Life stolen per hit | +17 to Strength | +15 to Energy | +16 to Life | Poison Resist +25% {Area: Pit Of Acheron} {doCubing}
+[13:32:15] <LinkboltMF> <Stashed> (normal) Ohm Rune {Area: Pit Of Acheron}
+[13:32:15] <LinkboltMF> <Stashed> (unique) Manald Heal Ring {Area: Pit Of Acheron}
+[13:34:16] <LinkboltMF> <Kept> (magic) Ring (83) | Unidentified {Area: Crypt} {Cubing 4}
+[13:35:34] <LinkboltMF> <Stashed> (magic) Ring {Area: Crypt}
+[13:37:31] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Mausoleum} {Cubing 1}
+[13:38:46] <LinkboltMF> <Kept> (magic) Jewel of Wrath (86) | Can be Inserted into Socketed Items | Required Level: 8 | +8 to Maximum Damage {Area: Crypt} {Cubing-Town}
+[13:38:47] <LinkboltMF> <Stashed> (magic) Jewel of Wrath {Area: Crypt}
+[13:38:53] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Crypt}
+[14:02:19] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Infernal Pit} {Cubing 2}
+[14:16:06] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Crypt} {Cubing 3}
+[14:16:28] <LinkboltMF> <Cubing Kept> (normal) Perfect Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +150 to Attack Rating | Armor: +10 to Strength | Helms: +10 to Strength | Shields: +30 Defense |  | Required Level: 18 {Area: Crypt}
+[14:16:35] <LinkboltMF> <Dropped> (crafted) Dread Heart (92) | Amulet | Required Level: 56 | +5% Faster Cast Rate | +3 to Maximum Damage | +17 to Mana | Regenerate Mana 8% | Cold Resist +5% | Lightning Resist +21% | Fire Resist +5% | Poison Resist +5% | 37% Extra Gold from Monsters {Area: Crypt} {doCubing}
+[14:16:36] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Crypt}
+[14:17:54] <LinkboltMF> <Kept> (normal) Sol Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +9 to Minimum Damage | Armor: Damage Reduced by 7 | Helms: Damage Reduced by 7 | Shields: Damage Reduced by 7 |  | Required Level: 27 {Area: Tower Cellar Level 5} {Cubing 1}
+[14:18:10] <LinkboltMF> <Stashed> (normal) Sol Rune {Area: Tower Cellar Level 5}
+[14:21:39] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Durance Of Hate Level 3} {Cubing 3}
+[14:22:14] <LinkboltMF> <Cubing Kept> (normal) Perfect Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 15-20 fire damage | Armor: +38 to Life | Helms: +38 to Life | Shields: Fire Resist +40% |  | Required Level: 18 {Area: Durance Of Hate Level 3}
+[14:22:22] <LinkboltMF> <Dropped> (crafted) Shadow Spiral (87) | Ring | Required Level: 35 | +11 to Attack Rating | 3% Life stolen per hit | +4 to Strength | +12 to Life | +4 to Mana | Lightning Resist +26% {Area: Durance Of Hate Level 3} {doCubing}
+[14:27:14] <LinkboltMF> <Kept> (magic) Amulet of the Mammoth (88) | Required Level: 18 | +38 to Life {Area: Mausoleum} {Cubing-Town}
+[14:27:15] <LinkboltMF> <Stashed> (magic) Amulet of the Mammoth {Area: Mausoleum}
+[14:28:03] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Crypt} {Cubing 1}
+[14:28:47] <LinkboltMF> <Stashed> (normal) Flawless Amethyst {Area: Crypt}
+[14:35:40] <LinkboltMF> <Kept> (normal) Lum Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Energy | Armor: +10 to Energy | Helms: +10 to Energy | Shields: +10 to Energy |  | Required Level: 37 {Area: Upper Kurast} {Cubing 3}
+[14:36:19] <LinkboltMF> <Cubing Kept> (normal) Ko Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Dexterity | Armor: +10 to Dexterity | Helms: +10 to Dexterity | Shields: +10 to Dexterity |  | Required Level: 39 {Area: Sewers Level 2}
+[14:36:32] <LinkboltMF> <Cubing Kept> (normal) Fal Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Strength | Armor: +10 to Strength | Helms: +10 to Strength | Shields: +10 to Strength |  | Required Level: 41 {Area: Sewers Level 2}
+[14:36:43] <LinkboltMF> <Stashed> (normal) Fal Rune {Area: Sewers Level 2}
+[14:39:25] <LinkboltMF> <Kept> (magic) Jewel of Virility (88) | Can be Inserted into Socketed Items | Required Level: 13 | +2 to Strength {Area: Crypt} {Cubing-Town}
+[14:39:25] <LinkboltMF> <Stashed> (magic) Jewel of Virility {Area: Crypt}
+[15:09:02] <LinkboltMF> <Kept> (magic) Ring (86) | Unidentified {Area: Crypt} {Cubing 4}
+[15:09:16] <LinkboltMF> <Stashed> (magic) Ring {Area: Crypt}
+[15:10:07] <LinkboltMF> <Kept> (unique) Grim Helm (86) | Defense: 126 | Durability: 22 of 40 | Required Strength: 58 | Unidentified {Area: Crypt}
+[15:11:27] <LinkboltMF> <Kept> (normal) Nef Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Knockback | Armor: +30 Defense vs. Missile | Helms: +30 Defense vs. Missile | Shields: +30 Defense vs. Missile |  | Required Level: 13 {Area: Tower Cellar Level 5} {Cubing 1}
+[15:11:40] <LinkboltMF> <Stashed> (normal) Nef Rune {Area: Tower Cellar Level 5}
+[15:15:44] <LinkboltMF> <Kept> (magic) Cost: 2116 (87) | Lapis Lazuli Jewel  | Can be Inserted into Socketed Items | Cold Resist +15% {Area: Durance Of Hate Level 3} {Cubing-Town}
+[15:15:44] <LinkboltMF> <Stashed> (magic) Lapis Lazuli Jewel {Area: Durance Of Hate Level 3}
+[15:17:38] <LinkboltMF> <Kept> (normal) Ral Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 5-30 fire damage | Armor: Fire Resist +30% | Helms: Fire Resist +30% | Shields: Fire Resist +35% |  | Required Level: 19 {Area: Upper Kurast} {Cubing 1}
+[15:18:09] <LinkboltMF> <Stashed> (normal) Ral Rune {Area: Upper Kurast}
+[15:18:32] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Sewers Level 2} {Cubing 2}
+[15:18:39] <LinkboltMF> <Stashed> (normal) Flawless Amethyst {Area: Sewers Level 2}
+[15:23:17] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Tower Cellar Level 3} {Cubing 3}
+[15:24:12] <LinkboltMF> <Cubing Kept> (normal) Perfect Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +150 to Attack Rating | Armor: +10 to Strength | Helms: +10 to Strength | Shields: +30 Defense |  | Required Level: 18 {Area: Tower Cellar Level 5}
+[15:24:24] <LinkboltMF> <Dropped> (crafted) Corruption Eye (90) | Amulet | Required Level: 35 | +6% Faster Cast Rate | +15 to Attack Rating | +5 to Strength | +12 to Mana | Regenerate Mana 4% | Lightning Resist +27% | Poison Resist +25% {Area: Tower Cellar Level 5} {doCubing}
+[15:40:12] <LinkboltMF> <Kept> (normal) Sol Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +9 to Minimum Damage | Armor: Damage Reduced by 7 | Helms: Damage Reduced by 7 | Shields: Damage Reduced by 7 |  | Required Level: 27 {Area: Durance Of Hate Level 2} {Cubing 1}
+[15:40:57] <LinkboltMF> <Stashed> (normal) Sol Rune {Area: Durance Of Hate Level 3}
+[15:43:14] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Sewers Level 2} {Cubing 1}
+[15:43:26] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Sewers Level 2}
+[15:58:34] <LinkboltMF> <Gambled> (rare) Havoc Torc (92) | Amulet | Required Level: 67 | +2 to Paladin Skill Levels | +5 to Energy | Cold Resist +51% | Lightning Resist +16% | Fire Resist +16% | Poison Resist +16% {Area: Crypt}
+[16:00:00] <LinkboltMF> <Stashed> (magic) Maiden's Amulet of Absorption {Area: Crypt}
+[16:00:05] <LinkboltMF> <Stashed> (rare) Havoc Torc Amulet {Area: Crypt}
+[16:03:44] <LinkboltMF> <Kept> (magic) Jewel of Bliss (77) | Can be Inserted into Socketed Items | Required Level: 37 | +9 to Minimum Damage {Area: Ancient Tunnels} {Cubing-Town}
+[16:03:44] <LinkboltMF> <Stashed> (magic) Jewel of Bliss {Area: Ancient Tunnels}
+[16:09:29] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Mausoleum} {Cubing 2}
+[16:09:54] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Mausoleum}
+[16:35:19] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Kurast Bazaar} {Cubing 3}
+[16:36:30] <LinkboltMF> <Cubing Kept> (normal) Perfect Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 15-20 fire damage | Armor: +38 to Life | Helms: +38 to Life | Shields: Fire Resist +40% |  | Required Level: 18 {Area: Sewers Level 2}
+[16:36:45] <LinkboltMF> <Dropped> (crafted) Loath Claw (86) | Vampirebone Gloves | Defense: 95 | Durability: 7 of 14 | Required Strength: 50 | Required Level: 52 | Adds 1-5 fire damage | 2% Life stolen per hit | 5% Chance of Crushing Blow | +44% Enhanced Defense | +16 to Life | +15 to Mana | Fire Resist +16% {Area: Sewers Level 2} {doCubing}
+[16:37:28] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Infernal Pit} {Cubing 1}
+[16:37:33] <LinkboltMF> <Stashed> (normal) Flawless Amethyst {Area: Infernal Pit}
+[16:46:11] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Lower Kurast} {Cubing 1}
+[16:47:17] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Sewers Level 2}
+[16:50:39] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Crypt} {Cubing 2}
+[16:51:06] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Crypt}
+[17:04:01] <LinkboltMF> <Kept> (normal) Ko Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Dexterity | Armor: +10 to Dexterity | Helms: +10 to Dexterity | Shields: +10 to Dexterity |  | Required Level: 39 {Area: Tower Cellar Level 5} {Cubing 1}
+[17:04:17] <LinkboltMF> <Stashed> (normal) Ko Rune {Area: Tower Cellar Level 5}
+[17:04:41] <LinkboltMF> <Kept> (normal) Lum Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Energy | Armor: +10 to Energy | Helms: +10 to Energy | Shields: +10 to Energy |  | Required Level: 37 {Area: Catacombs Level 3} {Cubing 1}
+[17:05:06] <LinkboltMF> <Stashed> (normal) Lum Rune {Area: Catacombs Level 4}
+[17:13:28] <LinkboltMF> <Kept> (normal) Flawed Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 5-8 fire damage | Armor: +17 to Life | Helms: +17 to Life | Shields: Fire Resist +16% |  | Required Level: 5 {Area: Crypt} {Cubing 1}
+[17:13:52] <LinkboltMF> <Stashed> (normal) Flawed Ruby {Area: Crypt}
+[17:20:21] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Kurast Bazaar} {Cubing 3}
+[17:20:46] <LinkboltMF> <Cubing Kept> (normal) Perfect Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 15-20 fire damage | Armor: +38 to Life | Helms: +38 to Life | Shields: Fire Resist +40% |  | Required Level: 18 {Area: Sewers Level 2}
+[17:21:00] <LinkboltMF> <Dropped> (crafted) Blood Band (89) | Ring | Required Level: 45 | +102 to Attack Rating | 2% Life stolen per hit | +3 to Strength | +15 to Energy | +19 to Life | +4 to Mana | Damage Reduced by 2 {Area: Sewers Level 2} {doCubing}
+[17:21:24] <LinkboltMF> <Kept> (magic) Ring (82) | Unidentified {Area: Pit Of Acheron} {Cubing 4}
+[17:21:49] <LinkboltMF> <Stashed> (magic) Ring {Area: Pit Of Acheron}
+[17:28:32] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Ancient Tunnels} {Cubing 1}
+[17:28:54] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Ancient Tunnels}
+[17:39:26] <LinkboltMF> <Kept> (normal) Ral Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 5-30 fire damage | Armor: Fire Resist +30% | Helms: Fire Resist +30% | Shields: Fire Resist +35% |  | Required Level: 19 {Area: Tower Cellar Level 5} {Cubing 1}
+[17:39:46] <LinkboltMF> <Stashed> (normal) Ral Rune {Area: Tower Cellar Level 5}
+[17:53:41] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Kurast Bazaar} {Cubing 2}
+[17:54:32] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Kurast Bazaar}
+[18:00:21] <LinkboltMF> <Kept> (normal) Sol Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +9 to Minimum Damage | Armor: Damage Reduced by 7 | Helms: Damage Reduced by 7 | Shields: Damage Reduced by 7 |  | Required Level: 27 {Area: Tower Cellar Level 5} {Cubing 1}
+[18:00:38] <LinkboltMF> <Stashed> (normal) Sol Rune {Area: Tower Cellar Level 5}
+[18:01:14] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Catacombs Level 4} {Cubing 3}
+[18:01:35] <LinkboltMF> <Cubing Kept> (normal) Perfect Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 15-20 fire damage | Armor: +38 to Life | Helms: +38 to Life | Shields: Fire Resist +40% |  | Required Level: 18 {Area: Catacombs Level 4}
+[18:01:42] <LinkboltMF> <Dropped> (crafted) Dread Circle (87) | Ring | Required Level: 63 | +46 to Attack Rating | 2% Life stolen per hit | +3 to Strength | +18 to Life | Replenish Life +7 | Fire Resist +17% | +3 to Light Radius {Area: Catacombs Level 4} {doCubing}
+[18:06:13] <LinkboltMF> <Kept> (magic) Ring (81) | Unidentified {Area: Upper Kurast} {Cubing 4}
+[18:06:48] <LinkboltMF> <Kept> (magic) Scarlet Jewel of Ire (81) | Can be Inserted into Socketed Items | Required Level: 6 | Adds 1-5 damage {Area: Upper Kurast} {Cubing-Town}
+[18:06:49] <LinkboltMF> <Stashed> (magic) Scarlet Jewel of Ire {Area: Upper Kurast}
+[18:06:55] <LinkboltMF> <Stashed> (magic) Ring {Area: Upper Kurast}
+[18:10:48] <LinkboltMF> <Kept> (rare) Storm Goad (86) | Short Staff | Two-Hand Damage: 1 to 5 | Durability: 13 of 20 | Required Level: 26 | Staff Class - Fast Attack Speed | 8% Chance to cast level 3 Chain Lightning on attack | +20% Faster Cast Rate | Adds 9-26 cold damage | +3 to Energy | Poison Resist +5% | +4 to Mana after each Kill | +50% Damage to Undead {Area: Crypt}
+[18:16:14] <LinkboltMF> <Kept> (normal) Sol Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +9 to Minimum Damage | Armor: Damage Reduced by 7 | Helms: Damage Reduced by 7 | Shields: Damage Reduced by 7 |  | Required Level: 27 {Area: Crypt} {Cubing 1}
+[18:16:24] <LinkboltMF> <Kept> (magic) Chestnut Jewel of Bliss (83) | Can be Inserted into Socketed Items | Required Level: 37 | +7 to Minimum Damage | +10 Maximum Stamina {Area: Crypt} {Cubing-Town}
+[18:16:24] <LinkboltMF> <Stashed> (normal) Sol Rune {Area: Crypt}
+[18:16:29] <LinkboltMF> <Stashed> (magic) Chestnut Jewel of Bliss {Area: Crypt}
+[18:19:58] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Ancient Tunnels} {Cubing 2}
+[18:20:18] <LinkboltMF> <Stashed> (normal) Flawless Amethyst {Area: Ancient Tunnels}
+[18:35:41] <LinkboltMF> <Kept> (normal) Lum Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Energy | Armor: +10 to Energy | Helms: +10 to Energy | Shields: +10 to Energy |  | Required Level: 37 {Area: Abaddon} {Cubing 2}
+[18:36:10] <LinkboltMF> <Stashed> (normal) Lum Rune {Area: Abaddon}
+[18:37:06] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Cold Plains} {Cubing 1}
+[18:38:27] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Crypt}
+[19:26:06] <LinkboltMF> <Kept> (normal) Flawed Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +60 to Attack Rating | Armor: +4 to Strength | Helms: +4 to Strength | Shields: +12 Defense |  | Required Level: 5 {Area: Catacombs Level 4} {Cubing 1}
+[19:33:57] <LinkboltMF> <Kept> (magic) Cost: 2142 (81) | Sapphire Small Charm of Dexterity | Keep in Inventory to Gain Bonus | Required Level: 32 | +1 to Dexterity | Cold Resist +11% {Area: Upper Kurast}
+[19:46:24] <LinkboltMF> <Gambled> (rare) Cost: 55440 (94) | Bitter Noose | Amulet | Required Level: 67 | 10% Chance to cast level 3 Charged Bolt when struck | +2 to Barbarian Skill Levels | Poison Resist +22% {Area: Infernal Pit}
+[19:50:42] <LinkboltMF> <Kept> (normal) Fal Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Strength | Armor: +10 to Strength | Helms: +10 to Strength | Shields: +10 to Strength |  | Required Level: 41 {Area: Tower Cellar Level 5} {Cubing 3}
+[19:51:07] <LinkboltMF> <Cubing Kept> (normal) Lem Rune (1) | Can be Inserted into Socketed Items |  | Weapons: 75% Extra Gold from Monsters | Armor: 50% Extra Gold from Monsters | Helms: 50% Extra Gold from Monsters | Shields: 50% Extra Gold from Monsters |  | Required Level: 43 {Area: Tower Cellar Level 5}
+[19:51:11] <LinkboltMF> <Stashed> (rare) Bitter Noose Amulet {Area: Tower Cellar Level 5}
+[19:51:13] <LinkboltMF> <Stashed> (normal) Flawed Amethyst {Area: Tower Cellar Level 5}
+[19:54:16] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Durance Of Hate Level 3} {Cubing 3}
+[19:55:00] <LinkboltMF> <Cubing Kept> (normal) Perfect Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +150 to Attack Rating | Armor: +10 to Strength | Helms: +10 to Strength | Shields: +30 Defense |  | Required Level: 18 {Area: Durance Of Hate Level 3}
+[19:55:08] <LinkboltMF> <Dropped> (crafted) Skull Necklace (92) | Amulet | Required Level: 32 | 10% Chance to cast level 3 Charged Bolt when struck | +7% Faster Cast Rate | +29 to Mana | Regenerate Mana 8% | +10 Maximum Stamina | 11% Damage Taken Goes To Mana {Area: Durance Of Hate Level 3} {doCubing}
+[19:55:09] <LinkboltMF> <Stashed> (magic) Sapphire Small Charm of Dexterity {Area: Durance Of Hate Level 3}
+[20:45:42] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Mausoleum} {Cubing 2}
+[20:47:49] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Crypt}
+[21:10:36] <LinkboltMF> <Kept> (normal) Io Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Vitality | Armor: +10 to Vitality | Helms: +10 to Vitality | Shields: +10 to Vitality |  | Required Level: 35 {Area: Tower Cellar Level 5} {Cubing 3}
+[21:10:52] <LinkboltMF> <Cubing Kept> (normal) Lum Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Energy | Armor: +10 to Energy | Helms: +10 to Energy | Shields: +10 to Energy |  | Required Level: 37 {Area: Tower Cellar Level 5}
+[21:11:07] <LinkboltMF> <Cubing Kept> (normal) Ko Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Dexterity | Armor: +10 to Dexterity | Helms: +10 to Dexterity | Shields: +10 to Dexterity |  | Required Level: 39 {Area: Tower Cellar Level 5}
+[21:11:15] <LinkboltMF> <Stashed> (normal) Ko Rune {Area: Tower Cellar Level 5}
+[21:11:16] <LinkboltMF> <Stashed> (rare) Storm Goad Short Staff {Area: Tower Cellar Level 5}
+[21:18:15] <LinkboltMF> <Stashed> (magic) Amulet of Craftmanship {Area: Upper Kurast}
+[22:03:13] <LinkboltMF> <Kept> (unique) Cost: 5394 (86) | Bul-Kathos' Wedding Band | Ring | Required Level: 58 | +1 to All Skills | 5% Life stolen per hit | +46 to Life (Based on Character Level) | +50 Maximum Stamina {Area: Crypt}
+[22:03:15] <LinkboltMF> <Stashed> (unique) Bul-Kathos' Wedding Band Ring {Area: Crypt}

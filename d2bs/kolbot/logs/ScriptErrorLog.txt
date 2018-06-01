@@ -668,3 +668,29 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 [07:32:04] <LinkboltMF> Unknown 3rd part keyword: enhanceddamage
 [07:32:04] <LinkboltMF> Unknown 3rd part keyword: enhanceddamage
 [07:32:04] <LinkboltMF> Unknown 3rd part keyword: enhanceddamage
+[10:04:57] <LinkboltMF> Error in Andariel (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Andariel@andariel.js:37, useWaypoint@pather.js:1119
+[10:07:00] <LinkboltMF> Error in AncientTunnels (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, AncientTunnels@ancienttunnels.js:9, useWaypoint@pather.js:1119
+[10:09:13] <LinkboltMF> Error in Mephisto (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:134, useWaypoint@pather.js:1119
+[10:11:19] <LinkboltMF> Error in Pindleskin (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pindleskin@pindleskin.js:10, Town.goToTown@town.js:2176
+[10:13:44] <LinkboltMF> Error in Eldritch (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:11, useWaypoint@pather.js:1119
+[10:16:32] <LinkboltMF> Error in ChestMania (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1465, Pather.plotCourse@pather.js:1600, useWaypoint@pather.js:1119
+[18:42:26] <LinkboltMF> Error in Countess (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Countess@countess.js:11, useWaypoint@pather.js:1119
+[18:44:57] <LinkboltMF> Error in Andariel (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Andariel@andariel.js:37, useWaypoint@pather.js:1119
+[18:47:43] <LinkboltMF> Error in AncientTunnels (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, AncientTunnels@ancienttunnels.js:9, useWaypoint@pather.js:1119
+[18:51:00] <LinkboltMF> Error in Mephisto (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:134, useWaypoint@pather.js:1119
+[18:54:11] <LinkboltMF> Error in Pindleskin (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pindleskin@pindleskin.js:10, Town.goToTown@town.js:2176
+[18:56:54] <LinkboltMF> Error in Eldritch (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:11, useWaypoint@pather.js:1119
+[19:00:24] <LinkboltMF> Error in ChestMania (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1465, Pather.plotCourse@pather.js:1600, useWaypoint@pather.js:1119
