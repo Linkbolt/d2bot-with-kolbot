@@ -37,7 +37,7 @@
 //[type] == amulet && [quality] == unique # [fireresist] >= 50 // nokozan relic
 [type] == amulet && [quality] == unique # [itemallskills] == 1 && [lifeleech] >= 7 // the eye of etlich
 //[type] == amulet && [quality] == unique # [strength] == 12 && [coldresist] >= 15 // saracen's chance
-[type] == amulet && [quality] == unique # [dexterity] == 25 && [ias] == 20 // the cat's eye
+//[type] == amulet && [quality] == unique # [dexterity] == 25 && [ias] == 20 // the cat's eye
 [type] == amulet && [quality] == unique # [lifeleech] >= 6 && [manaleech] >= 15 // crescent moon
 //[type] == amulet && [quality] == unique # [poisonresist] == 75 // atma's scarab
 [type] == amulet && [quality] == unique # [FireSkillTab] == 2 && [hpregen] == 10 // the rising sun
@@ -57,7 +57,7 @@
 [name] == grimhelm && [quality] == unique && [flag] != ethereal// # [lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // vampire gaze
 [name] == shako && [quality] == unique && [flag] != ethereal # [defense] >= 135  // harlequin crest
 [name] == spiredhelm && [quality] == unique # [passivecoldmastery] == 15 && [dexterity] >= 20   // nightwing's veil
-[name] == demonhead && [quality] == unique && [flag] != ethereal// # ([enhanceddefense] >= 140 || [strength] >= 30 || [lifeleech] >= 10) // andariel's visage
+[name] == demonhead && [quality] == unique && [flag] != ethereal # [lifeleech] >= 10 && [enhanceddefense] >= 140 && [strength] >= 30 // andariel's visage
 [name] == corona && [quality] == unique  // crown of ages
 //[name] == basinet && [quality] == unique # [fireresist] >= 40 // darksight helm || darians iso
 //[name] == bonevisage && [quality] == unique // giant skull
@@ -72,7 +72,7 @@
 [name] == casque && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 240 && [itemmagicbonus] >= 50// crown of thieves eth
 [name] == grimhelm && [quality] == unique && [flag] == ethereal// # [lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // vampire gaze eth
 [name] == grandcrown && [quality] == unique && [flag] == ethereal// # [lifeleech] == 12 && [itemgoldbonus] >= 100 // crown of thieves eth
-[name] == demonhead && [quality] == unique && [flag] == ethereal// # ([enhanceddefense] >= 140 || [strength] >= 30 || [lifeleech] >= 10) // andariel's visage eth
+[name] == demonhead && [quality] == unique && [flag] == ethereal// # [lifeleech] >= 10 && [enhanceddefense] >= 140 && [strength] >= 30 // andariel's visage eth
 //[name] == slayerguard && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 200 && [lifeleech] == 6 // arreat's face eth
 
 
@@ -119,7 +119,7 @@
 [name] == battlebelt && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 170 // snowclash
 [name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // thundergod's vigor
 [name] == spiderwebsash && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 120  // arachnid mesh
-[name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7// && [defense] == 63 // nosferatu's coil
+[name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7 && [defense] == 63 // nosferatu's coil
 [name] == mithrilcoil && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 140 && [damageresist] == 15 && [vitality] == 40 &&  // verdungo's hearty cord
 
 

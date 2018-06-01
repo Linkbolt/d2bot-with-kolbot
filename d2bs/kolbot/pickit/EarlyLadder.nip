@@ -40,7 +40,7 @@
 // ##### Armor ########################
 //[name] == fullplatemail && [quality] == unique// && [flag] != ethereal # [enhanceddefense] == 150 //Goldskin
 [name] == SerpentskinArmor && [quality] == unique && [flag] != ethereal # [FireResist] >= 35 //&& [magicdamagereduction] == 13// Skin of the Vipermagi
-[name] == MeshArmor && [quality] == unique //&& [flag] != ethereal //# [enhanceddefense] == 220 // Shaftstop
+//[name] == MeshArmor && [quality] == unique //&& [flag] != ethereal //# [enhanceddefense] == 220 // Shaftstop
 [name] == RussetArmor && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200  // Skullder's Ire
 [name] == DuskShroud && [quality] == unique && [flag] != ethereal # ([PassiveFireMastery] == 15 && ([SkillEnchant] == 3 || [SkillFireBall] == 3 || [SkillMeteor] == 3)) || ([PassiveLtngMastery] == 15 && [SkillLightning] == 3) || ([PassiveColdMastery] == 15 && ([SkillBlizzard] == 3 || [SkillIceBlast] == 3 || [SkillFrozenOrb] == 3)) // Ormus' Robes
 //[name] == BalrogSkin && [quality] == unique [flag] != ethereal # [ItemAllSkills] >= 2 // Arkaine's Valor

@@ -62,12 +62,12 @@
 // #################################################################################################################################################
 // ##### 1- sigon's steel ##########################################################################################################################
 // #################################################################################################################################################
-[name] == greathelm && [quality] == set # [defense] >= 60 # [maxquantity] == 1 // sigon's visor
-[name] == gothicplate && [quality] == set # [defense] >= 243 # [maxquantity] == 1 // sigon's shelter
+//[name] == greathelm && [quality] == set # [defense] >= 60 # [maxquantity] == 1 // sigon's visor
+//[name] == gothicplate && [quality] == set # [defense] >= 243 # [maxquantity] == 1 // sigon's shelter
 //[name] == greaves && [quality] == set # [defense] >= 15 # [maxquantity] == 1 // sigon's sabot
 //[name] == towershield && [quality] == set # [defense] >= 25 # [maxquantity] == 1 // sigon's guard
-[name] == platedbelt && [quality] == set # [defense] >= 206 # [maxquantity] == 1 // sigon's warp
-[name] == gauntlets && [quality] == set # [defense] >= 15 # [maxquantity] == 1 // sigon's gage
+//[name] == platedbelt && [quality] == set # [defense] >= 206 # [maxquantity] == 1 // sigon's warp
+//[name] == gauntlets && [quality] == set # [defense] >= 15 # [maxquantity] == 1 // sigon's gage
 
 
 

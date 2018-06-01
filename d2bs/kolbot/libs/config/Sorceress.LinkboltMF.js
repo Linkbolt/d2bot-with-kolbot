@@ -295,11 +295,6 @@ function LoadConfig() {
 	Config.PickitFiles.push("DubRare.nip");
 	Config.PickitFiles.push("DubUnique.nip");
 	Config.PickitFiles.push("DubWhite.nip");
-	
-	Config.PickitFiles.push("kolton.nip");
-	Config.PickitFiles.push("LLD.nip");
-	Config.PickitFiles.push("EarlyLadder.nip");
-	Config.PickitFiles.push("Phexix.nip");
 	Config.PickRange = 40; // Pick radius
 	Config.FastPick = false; // Check and pick items between attacks
 
@@ -406,17 +401,16 @@ function LoadConfig() {
 	/* Runeword config. All recipes are available in Templates/Runewords.txt
 	 * Keep lines follow pickit format and any given runeword is tested vs ALL lines so you don't need to repeat them
 	 */
-	Config.MakeRunewords = false; // Set to true to enable runeword making/rerolling
+	Config.MakeRunewords = true; // Set to true to enable runeword making/rerolling
 
-	//Config.Runewords.push([Runeword.Insight, "Thresher"]); // Make Insight Thresher
+	Config.Runewords.push([Runeword.Insight, "Thresher"]); // Make Insight Thresher
 	//Config.Runewords.push([Runeword.Insight, "Cryptic Axe"]); // Make Insight Cryptic Axe
-
-	//Config.KeepRunewords.push("[type] == polearm # [meditationaura] == 17");
 
 	Config.Runewords.push([Runeword.Spirit, "Monarch"]); // Make Spirit Monarch
 	//Config.Runewords.push([Runeword.Spirit, "Sacred Targe"]); // Make Spirit Sacred Targe
 
 	Config.KeepRunewords.push("[type] == shield || [type] == auricshields"); // # [fcr] >= 30"); // Keep Spirit
+	Config.KeepRunewords.push("[type] == polearm"); // # [meditationaura] == 17"); Keep insight
 
 	// Public game options
 

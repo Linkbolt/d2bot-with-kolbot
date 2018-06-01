@@ -1020,7 +1020,7 @@ CursorLoop:
 							break;
 						default:
 							Misc.itemLogger("Sold", newItem, "Gambling");
-							me.overhead("Sell: " + newItem.name);
+							//me.overhead("Sell: " + newItem.name);
 							newItem.sell();
 
 							if (!Config.PacketShopping) {
