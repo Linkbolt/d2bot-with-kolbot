@@ -671,3 +671,121 @@ Line: (null)
 [06/01/18 20:19:31] D2BS 13008: D2BS Shutdown complete.
 [06/01/18 20:19:32] D2BS 7272: D2BS Engine startup complete. 1.5.1868
 [06/01/18 20:19:32] D2BS 7272: LinkboltMF
+[06/01/18 22:15:17] D2BS 10436: D2BS Engine startup complete. 1.5.1868
+[06/01/18 22:15:17] D2BS 10436: LinkboltMF
+[06/01/18 22:26:18] D2BS 10436: Crash File: BlizzardError/2018-06-01 22.26.18/Crash.txt
+
+[06/01/18 22:26:18] D2BS 10436: D2BS Shutdown complete.
+[06/01/18 22:26:19] D2BS 668: D2BS Engine startup complete. 1.5.1868
+[06/01/18 22:26:19] D2BS 668: LinkboltMF
+[06/01/18 22:46:53] D2BS 12488: D2BS Engine startup complete. 1.5.1868
+[06/01/18 22:46:53] D2BS 12488: LinkboltMF
+[06/01/18 23:01:40] D2BS 12488: Crash File: BlizzardError/2018-06-01 23.01.40/Crash.txt
+
+[06/01/18 23:01:40] D2BS 12488: D2BS Shutdown complete.
+[06/01/18 23:01:41] D2BS 4168: D2BS Engine startup complete. 1.5.1868
+[06/01/18 23:01:41] D2BS 4168: LinkboltMF
+[06/01/18 23:51:18] D2BS 4168: D2BS Shutdown complete.
+[06/01/18 23:52:10] D2BS 12880: D2BS Engine startup complete. 1.5.1868
+[06/01/18 23:52:10] D2BS 12880: LinkboltMF
+[06/02/18 00:28:51] D2BS 12880: Crash File: BlizzardError/2018-06-02 00.28.51/Crash.txt
+
+[06/02/18 00:28:51] D2BS 12880: D2BS Shutdown complete.
+[06/02/18 00:28:54] D2BS 5280: D2BS Engine startup complete. 1.5.1868
+[06/02/18 00:28:54] D2BS 5280: LinkboltMF
+[06/02/18 02:16:51] D2BS 5280: Crash File: BlizzardError/2018-06-02 02.16.51/Crash.txt
+
+[06/02/18 02:16:51] D2BS 5280: D2BS Shutdown complete.
+[06/02/18 02:16:52] D2BS 12812: D2BS Engine startup complete. 1.5.1868
+[06/02/18 02:16:52] D2BS 12812: LinkboltMF
+[06/02/18 04:22:06] D2BS 13216: D2BS Engine startup complete. 1.5.1868
+[06/02/18 04:22:06] D2BS 13216: LinkboltMF
+[06/02/18 05:49:22] D2BS 13216: Pather lvl change while pathing
+[06/02/18 06:08:39] D2BS 13216: Crash File: BlizzardError/2018-06-02 06.08.39/Crash.txt
+
+[06/02/18 06:08:39] D2BS 13216: D2BS Shutdown complete.
+[06/02/18 06:08:40] D2BS 1176: D2BS Engine startup complete. 1.5.1868
+[06/02/18 06:08:40] D2BS 1176: LinkboltMF
+[06/02/18 06:51:28] D2BS 1176: Crash File: BlizzardError/2018-06-02 06.51.27/Crash.txt
+
+[06/02/18 06:51:28] D2BS 1176: D2BS Shutdown complete.
+[06/02/18 06:51:29] D2BS 3972: D2BS Engine startup complete. 1.5.1868
+[06/02/18 06:51:29] D2BS 3972: LinkboltMF
+[06/02/18 08:17:52] D2BS 3972: Pather lvl change while pathing
+[06/02/18 08:37:11] D2BS 3972: Crash File: BlizzardError/2018-06-02 08.37.11/Crash.txt
+
+[06/02/18 08:37:11] D2BS 3972: D2BS Shutdown complete.
+[06/02/18 08:37:12] D2BS 268: D2BS Engine startup complete. 1.5.1868
+[06/02/18 08:37:12] D2BS 268: LinkboltMF
+[06/02/18 10:07:36] D2BS 10684: D2BS Engine startup complete. 1.5.1868
+[06/02/18 10:07:36] D2BS 10684: LinkboltMF
+[06/02/18 10:07:40] D2BS 10684: D2BS Shutdown complete.
+[06/02/18 10:44:57] D2BS 6800: D2BS Engine startup complete. 1.5.1868
+[06/02/18 10:44:58] D2BS 6800: LinkboltMF
+[06/02/18 10:46:10] D2BS 6800: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\config\sorceress.linkboltmf.js:30) SyntaxError: syntax error
+Line: 	 *** act 1 ***
+
+[06/02/18 10:46:10] D2BS 6800: [Error] Code(0) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\config.js:66) Error: Failed to load character config.
+Line: (null)
+[06/02/18 13:19:24] D2BS 6800: D2BS Shutdown complete.
+[06/02/18 16:51:29] D2BS 8948: D2BS Engine startup complete. 1.5.1868
+[06/02/18 16:51:29] D2BS 8948: LinkboltMF
+[06/02/18 17:03:19] D2BS 8948: Crash File: BlizzardError/2018-06-02 17.03.18/Crash.txt
+
+[06/02/18 17:03:19] D2BS 8948: D2BS Shutdown complete.
+[06/02/18 17:03:19] D2BS 1112: D2BS Engine startup complete. 1.5.1868
+[06/02/18 17:03:19] D2BS 1112: LinkboltMF
+[06/02/18 23:58:48] D2BS 2436: D2BS Engine startup complete. 1.5.1868
+[06/02/18 23:58:49] D2BS 2436: LinkboltMF
+[06/03/18 02:24:44] D2BS 2436: Crash File: BlizzardError/2018-06-03 02.24.44/Crash.txt
+
+[06/03/18 02:24:44] D2BS 2436: D2BS Shutdown complete.
+[06/03/18 02:24:45] D2BS 5692: D2BS Engine startup complete. 1.5.1868
+[06/03/18 02:24:45] D2BS 5692: LinkboltMF
+[06/03/18 02:48:25] D2BS 5692: Crash File: BlizzardError/2018-06-03 02.48.25/Crash.txt
+
+[06/03/18 02:48:25] D2BS 5692: D2BS Shutdown complete.
+[06/03/18 02:48:25] D2BS 11176: D2BS Engine startup complete. 1.5.1868
+[06/03/18 02:48:25] D2BS 11176: LinkboltMF
+[06/03/18 04:25:51] D2BS 11176: Crash File: BlizzardError/2018-06-03 04.25.51/Crash.txt
+
+[06/03/18 04:25:51] D2BS 11176: D2BS Shutdown complete.
+[06/03/18 04:25:53] D2BS 7088: D2BS Engine startup complete. 1.5.1868
+[06/03/18 04:25:53] D2BS 7088: LinkboltMF
+[06/03/18 05:12:07] D2BS 7088: Crash File: BlizzardError/2018-06-03 05.12.07/Crash.txt
+
+[06/03/18 05:12:07] D2BS 7088: D2BS Shutdown complete.
+[06/03/18 05:12:08] D2BS 10916: D2BS Engine startup complete. 1.5.1868
+[06/03/18 05:12:08] D2BS 10916: LinkboltMF
+[06/03/18 05:46:07] D2BS 10916: Crash File: BlizzardError/2018-06-03 05.46.07/Crash.txt
+
+[06/03/18 05:46:07] D2BS 10916: D2BS Shutdown complete.
+[06/03/18 05:46:08] D2BS 2792: D2BS Engine startup complete. 1.5.1868
+[06/03/18 05:46:08] D2BS 2792: LinkboltMF
+[06/03/18 05:57:23] D2BS 2456: D2BS Engine startup complete. 1.5.1868
+[06/03/18 05:57:23] D2BS 2456: LinkboltMF
+[06/03/18 07:26:12] D2BS 2456: Crash File: BlizzardError/2018-06-03 07.26.12/Crash.txt
+
+[06/03/18 07:26:12] D2BS 2456: D2BS Shutdown complete.
+[06/03/18 07:26:13] D2BS 2732: D2BS Engine startup complete. 1.5.1868
+[06/03/18 07:26:13] D2BS 2732: LinkboltMF
+[06/03/18 09:21:09] D2BS 2732: Crash File: BlizzardError/2018-06-03 09.21.09/Crash.txt
+
+[06/03/18 09:21:09] D2BS 2732: D2BS Shutdown complete.
+[06/03/18 09:21:10] D2BS 4564: D2BS Engine startup complete. 1.5.1868
+[06/03/18 09:21:10] D2BS 4564: LinkboltMF
+[06/03/18 11:04:34] D2BS 4564: Crash File: BlizzardError/2018-06-03 11.04.34/Crash.txt
+
+[06/03/18 11:04:34] D2BS 4564: D2BS Shutdown complete.
+[06/03/18 11:04:36] D2BS 2932: D2BS Engine startup complete. 1.5.1868
+[06/03/18 11:04:36] D2BS 2932: LinkboltMF
+[06/03/18 12:06:00] D2BS 5492: D2BS Engine startup complete. 1.5.1868
+[06/03/18 12:06:00] D2BS 5492: LinkboltMF
+[06/03/18 15:33:00] D2BS 5492: Crash File: BlizzardError/2018-06-03 15.33.00/Crash.txt
+
+[06/03/18 15:33:00] D2BS 5492: D2BS Shutdown complete.
+[06/03/18 15:33:03] D2BS 1352: D2BS Engine startup complete. 1.5.1868
+[06/03/18 15:33:03] D2BS 1352: LinkboltMF
+[06/03/18 15:33:04] D2BS 1352: D2BS Shutdown complete.
+[06/03/18 15:34:19] D2BS 1724: D2BS Engine startup complete. 1.5.1868
+[06/03/18 15:34:19] D2BS 1724: LinkboltMF

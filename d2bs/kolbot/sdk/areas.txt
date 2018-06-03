@@ -39,6 +39,7 @@
 38 = Tristram
 39 = Moo Moo Farm
 40 = Lut Gholein
+
 41 = Rocky Waste
 42 = Dry Hills
 43 = Far Oasis
@@ -73,6 +74,7 @@
 72 = Tal Rashas Tomb #7
 73 = Duriels Lair
 74 = Arcane Sanctuary
+
 75 = Kurast Docktown
 76 = Spider Forest
 77 = Great Marsh
@@ -101,12 +103,14 @@
 100 = Durance Of Hate Level 1
 101 = Durance Of Hate Level 2
 102 = Durance Of Hate Level 3
+
 103 = The Pandemonium Fortress
 104 = Outer Steppes
 105 = Plains Of Despair
 106 = City Of The Damned
 107 = River Of Flame
 108 = Chaos Sanctuary
+
 109 = Harrogath
 110 = Bloody Foothills
 111 = Frigid Highlands

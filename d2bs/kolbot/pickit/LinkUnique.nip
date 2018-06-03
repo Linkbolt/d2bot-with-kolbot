@@ -17,7 +17,7 @@
 // ##############################################################################################################################################
 //[type] == ring && [quality] == unique // all
 [type] == ring && [quality] == unique # [itemmagicbonus] >= 30 // nagelring
-[type] == ring && [quality] == unique # [manaleech] >= 7 // manald heal
+//[type] == ring && [quality] == unique # [manaleech] >= 7 // manald heal
 [type] == ring && [quality] == unique # [itemmaxmanapercent] == 25 // stone of jordan
 [type] == ring && [quality] == unique # [maxhp] == 40 // dwarf star
 [type] == ring && [quality] == unique # [dexterity] >= 20 //&& [tohit] >= 250 // raven frost
@@ -54,7 +54,7 @@
 // ##### 3- unique helms ########################################################################################################################
 // ##############################################################################################################################################
 //[name] == sallet && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 210 // rockstopper
-[name] == grimhelm && [quality] == unique && [flag] != ethereal// # [lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // vampire gaze
+[name] == grimhelm && [quality] == unique && [flag] != ethereal # [lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // vampire gaze
 [name] == shako && [quality] == unique && [flag] != ethereal # [defense] >= 135  // harlequin crest
 [name] == spiredhelm && [quality] == unique # [passivecoldmastery] == 15 && [dexterity] >= 20   // nightwing's veil
 [name] == demonhead && [quality] == unique && [flag] != ethereal # [lifeleech] >= 10 && [enhanceddefense] >= 140 && [strength] >= 30 // andariel's visage
@@ -83,7 +83,7 @@
 // ##### 4- unique body armor ###################################################################################################################
 // ##############################################################################################################################################
 [name] == fullplatemail && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 150 //goldskin
-([name] == serpentskinarmor || [name] == wyrmhide) && [quality] == unique && [flag] != ethereal # [fireresist] >= 35 //&& [magicdamagereduction] == 13// skin of the vipermagi
+([name] == serpentskinarmor || [name] == wyrmhide) && [quality] == unique && [flag] != ethereal //# [fireresist] >= 35 //&& [magicdamagereduction] == 13// skin of the vipermagi
 [name] == mesharmor && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 220 // shaftstop
 [name] == russetarmor && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200  // skullder's ire
 [name] == duskshroud && [quality] == unique && [flag] != ethereal # ([passivefiremastery] == 15 && ([skillenchant] == 3 || [skillfireball] == 3 || [skillmeteor] == 3)) || ([passiveltngmastery] == 15 && [skilllightning] == 3) || ([passivecoldmastery] == 15 && ([skillblizzard] == 3 || [skilliceblast] == 3 || [skillfrozenorb] == 3)) // ormus' robes
@@ -136,7 +136,7 @@
 [name] == gauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // frostburn
 [name] == battlegauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // lava gout
 [name] == wargauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // hellmouth
-[name] == vampirebonegloves && [quality] == unique && [flag] != ethereal //# [lifeleech] == 10 //&& [enhanceddefense] == 120 && [strength] == 15 // dracul's grasp
+[name] == vampirebonegloves && [quality] == unique && [flag] != ethereal # [lifeleech] == 10 && [enhanceddefense] == 120 && [strength] == 15 // dracul's grasp
 [name] == vambraces && [quality] == unique && [flag] != ethereal # [manaleech] >= 7 && [lifeleech] >= 7 && [enhanceddefense] >= 120 // soul drainer
 [name] == ogregauntlets && [quality] == unique && [flag] != ethereal # [enhanceddamage] >= 60 && [defense] >= 210 // steelrend
 

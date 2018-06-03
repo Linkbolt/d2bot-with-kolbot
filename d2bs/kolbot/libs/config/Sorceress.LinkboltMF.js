@@ -32,7 +32,7 @@ function LoadConfig() {
 		Config.Corpsefire.ClearDen = false;
 	Scripts.Mausoleum = true;
 		Config.Mausoleum.KillBloodRaven = false;
-		Config.Mausoleum.ClearCrypt = true;
+		//Config.Mausoleum.ClearCrypt = true;
 	Scripts.Rakanishu = false;
 		Config.Rakanishu.KillGriswold = false;
 	Scripts.UndergroundPassage = false;
@@ -46,22 +46,22 @@ function LoadConfig() {
 	Scripts.BoneAsh = false;
 	Scripts.Countess = { ClearType:0x7, StaticList: [45], TeleStomp: true, Dodge: false, SkipImmune: [] };
 		Config.Countess.KillGhosts = false;
-	Scripts.Andariel = true;
+	//Scripts.Andariel = true;
 	Scripts.Cows = false;
-
+    
 	// *** act 2 ***
 	Scripts.Radament = false;
 	Scripts.Coldworm = false;
 		Config.Coldworm.KillBeetleburst = false;
 		Config.Coldworm.ClearMaggotLair = false; // Clear all 3 levels
-	Scripts.AncientTunnels = true;
+	//Scripts.AncientTunnels = true;
 		Config.AncientTunnels.OpenChest = true; // Open special chest in Lost City
 		Config.AncientTunnels.KillDarkElder = true;
 	Scripts.Summoner = false;
 		Config.Summoner.FireEye = false;
 	Scripts.Tombs = false;
 	Scripts.Duriel = false;
-
+    
 	// *** act 3 ***
 	Scripts.Stormtree = false;
 	Scripts.KurastTemples = false;
@@ -69,11 +69,11 @@ function LoadConfig() {
 	Scripts.Endugu = false;
 	Scripts.Travincal = false;
 		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
-	Scripts.Mephisto = true;
+	//Scripts.Mephisto = true;
 		Config.Mephisto.MoatTrick = false;
 		Config.Mephisto.KillCouncil = false;
 		Config.Mephisto.TakeRedPortal = true;
-
+    
 	// *** act 4 ***
 	Scripts.OuterSteppes = false;
 	Scripts.Izual = false;
@@ -87,15 +87,15 @@ function LoadConfig() {
 		//Config.Diablo.StarTP = "Star TP up";
 		//Config.Diablo.DiabloMsg = "Diablo";
 	Scripts.SealLeader = false; // Clear a safe spot around seals and invite leechers in. Leechers should run SealLeecher script. Don't run with Diablo or FastDiablo.
-
+    
 	// *** act 5 ***
-	Scripts.Pindleskin = true;
+	//Scripts.Pindleskin = true;
 		Config.Pindleskin.UseWaypoint = false;
 		Config.Pindleskin.KillNihlathak = false;
 		Config.Pindleskin.ViperQuit = true; // End script if Tomb Vipers are found.
 	Scripts.Nihlathak = false;
 		Config.Nihlathak.ViperQuit = false; // End script if Tomb Vipers are found.
-	Scripts.Eldritch = true;
+	//Scripts.Eldritch = true;
 		Config.Eldritch.OpenChest = true;
 		Config.Eldritch.KillShenk = false;
 		Config.Eldritch.KillDacFarren = false;
@@ -194,11 +194,19 @@ function LoadConfig() {
 		Config.ShopBot.CycleDelay = 0; // Delay between shopping cycles in milliseconds, might help with crashes.
 		Config.ShopBot.QuitOnMatch = false; // Leave game as soon as an item is shopped.
 	Scripts.ChestMania = true; // Open chests in configured areas. See sdk/areas.txt
-		//Config.ChestMania.Act2 = [74]; // List of act 2 areas to open chests in
-		Config.ChestMania.Act3 = [79, 80, 81, 82, 83, 93]; // List of act 3 areas to open chests in
-		//Config.ChestMania.Act4 = [107];
-		Config.ChestMania.Act5 = [125, 126, 127]; // List of act 5 areas to open chests in
+		// mfing
+		Config.ChestMania.Act3 = [79, 80, 81, 82, 83, 93];
+		Config.ChestMania.Act5 = [125, 126, 127];
 		
+		// chesting
+		//Config.ChestMania.Act1 = [2, 8, 3, 18, 19, 4, 5, 6, 21, 22, 23, 24, 25, 7, 12, 16, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36];
+		//Config.ChestMania.Act2 = [47, 48, 49, 41, 55, 59, 42, 56, 57, 60, 43, 44, 65, 50, 51, 52, 53, 54, 74]; // Ignored Maggot Lair due to close space, also ignored tal tasha tomb (66 to 72) and Claw Viper Temple (58, 61) because of fking snakes.
+		//Config.ChestMania.Act3 = [76, 85, 77, 78, 88, 89, 91, 79, 80, 92, 93, 81, 82, 83, 100, 101, 102];
+		//Config.ChestMania.Act4 = [104, 105, 106, 107, 108];
+		//Config.ChestMania.Act5 = [110, 111, 125, 112, 126, 113, 115, 116, 117, 127, 118, 128, 129, 130, 122] // ignored Crystalized Passage (113) due to gloams
+		
+		
+		// defaults
 		//Config.ChestMania.Act1 = [13, 14, 15, 16, 18, 19]; // List of act 1 areas to open chests in
 		//Config.ChestMania.Act2 = [55, 59, 65, 66, 67, 68, 69, 70, 71, 72]; // List of act 2 areas to open chests in
 		//Config.ChestMania.Act3 = [79, 80, 81, 92, 93, 84, 85, 90]; // List of act 3 areas to open chests in
@@ -237,9 +245,9 @@ function LoadConfig() {
 
 	// Potion settings
 	Config.UseHP = 90; // Drink a healing potion if life is under designated percent.
-	Config.UseRejuvHP = 30;  // Drink a rejuvenation potion if life is under designated percent.
+	Config.UseRejuvHP = 40;  // Drink a rejuvenation potion if life is under designated percent.
 	Config.UseMP = 50; // Drink a mana potion if mana is under designated percent.
-	Config.UseRejuvMP = 25; // Drink a rejuvenation potion if mana is under designated percent.
+	Config.UseRejuvMP = 10; // Drink a rejuvenation potion if mana is under designated percent.
 	Config.UseMercHP = 75; // Give a healing potion to your merc if his/her life is under designated percent.
 	Config.UseMercRejuv = 0; // Give a rejuvenation potion to your merc if his/her life is under designated percent.
 	Config.HPBuffer = 0; // Number of healing potions to keep in inventory.
@@ -427,8 +435,9 @@ function LoadConfig() {
 	// General config
 	Config.AutoMap = false; // Set to true to open automap at the beginning of the game.
 	Config.LastMessage = ""; // Message or array of messages to say at the end of the run. Use $nextgame to say next game - "Next game: $nextgame" (works with lead entry point)
-	Config.MinGameTime = 300; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
-	Config.MaxGameTime = 1800; // Maximum game time in seconds. Quit game when limit is reached.
+	Config.MinGameTime = 120; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
+	Config.MaxGameTime = 600; // Maximum game time in seconds. Quit game when limit is reached.
+	//Config.MaxGameTime = 500; // Chesting
 	Config.TeleSwitch = false; // Switch to slot II when teleporting more than 1 node.
 	Config.OpenChests = true; // Open chests. Controls key buying.
 	Config.MiniShopBot = false; // Scan items in NPC shops.
@@ -439,7 +448,8 @@ function LoadConfig() {
 
 	// Shrine Scanner - scan for shrines while moving.
 	// Put the shrine types in order of priority (from highest to lowest). For a list of types, see sdk/shrines.txt
-	Config.ScanShrines = [15,12,6,10,9,8,11,13];
+	Config.ScanShrines = [15,12,6,10,9,8,11,13]; // mfing
+	//Config.ScanShrines = [13,6,10,9,8,11,12]; // chesting
 
 	// MF Switch
 	Config.MFSwitchPercent = 0; // Boss life % to switch weapons at. Set to 0 to disable.
