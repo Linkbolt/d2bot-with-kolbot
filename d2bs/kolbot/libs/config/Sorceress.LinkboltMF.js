@@ -356,14 +356,14 @@ function LoadConfig() {
 	Config.Recipes.push([Recipe.Rune, "Fal Rune"]); // Upgrade Fal to Lem
 	Config.Recipes.push([Recipe.Rune, "Lem Rune"]); // Upgrade Lem to Pul
 	Config.Recipes.push([Recipe.Rune, "Pul Rune"]); // Upgrade Pul to Um
-	Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
-	Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
-	Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
-	Config.Recipes.push([Recipe.Rune, "Gul Rune"]); // Upgrade Gul to Vex
-	Config.Recipes.push([Recipe.Rune, "Vex Rune"]); // Upgrade Vex to Ohm
-	Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
-	Config.Recipes.push([Recipe.Rune, "Lo Rune"]); // Upgrade Lo to Sur
-	Config.Recipes.push([Recipe.Rune, "Sur Rune"]); // Upgrade Sur to Ber
+	//Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
+	//Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
+	//Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
+	//Config.Recipes.push([Recipe.Rune, "Gul Rune"]); // Upgrade Gul to Vex
+	//Config.Recipes.push([Recipe.Rune, "Vex Rune"]); // Upgrade Vex to Ohm
+	//Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
+	//Config.Recipes.push([Recipe.Rune, "Lo Rune"]); // Upgrade Lo to Sur
+	//Config.Recipes.push([Recipe.Rune, "Sur Rune"]); // Upgrade Sur to Ber
 
 	Config.Recipes.push([Recipe.Caster.Amulet]); // Craft Caster Amulet
 	Config.Recipes.push([Recipe.Blood.Ring]); // Craft Blood Ring
@@ -396,7 +396,7 @@ function LoadConfig() {
 	Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]); // Socket Cryptic Axe
 	Config.Recipes.push([Recipe.Socket.Weapon, "Colossus Voulge", Roll.Eth]); // Socket Cryptic Axe
 	Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]); // Socket Cryptic Axe
-	Config.Recipes.push([Recipe.Socket.Weapon, "Phase Blade", Roll.Eth]); // Socket Phase Blade
+	Config.Recipes.push([Recipe.Socket.Weapon, "Phase Blade", Roll.All]); // Socket Phase Blade
 	
 	
 	//Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Heavy Gloves", Roll.NonEth]); // Upgrade Bloodfist to Exceptional
