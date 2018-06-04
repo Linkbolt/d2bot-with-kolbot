@@ -356,7 +356,7 @@ function LoadConfig() {
 	Config.Recipes.push([Recipe.Rune, "Fal Rune"]); // Upgrade Fal to Lem
 	Config.Recipes.push([Recipe.Rune, "Lem Rune"]); // Upgrade Lem to Pul
 	Config.Recipes.push([Recipe.Rune, "Pul Rune"]); // Upgrade Pul to Um
-	//Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
+	Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
 	//Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
 	//Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
 	//Config.Recipes.push([Recipe.Rune, "Gul Rune"]); // Upgrade Gul to Vex

@@ -1,10 +1,23 @@
 Light Sorc:
+Chains of Honor (armor ready)
+(done)Dol • (done)Um • (done)Ber • Ist
+
+Spirit
+(done)Tal • (done)Thul • (done)Ort • (done)Amn
+
+Fortitude (Merc)
+(done)El • (done)Sol • (done)Dol • (done)Lo
+
+Infinity (Merc)
+(done)Ber • Mal • (done)Ber • Ist
+
+
 
 
 
 Smite Runes:
 Enigma (Dusk Shroud Armor):
-Jah •  Ith •  Ber
+Jah • Ith •  Ber
 
 Chains of Honor (Dusk Shroud Armor):
 Dol •  Um •  Ber •  Ist
@@ -17,6 +30,9 @@ Tal •  Thul •  Ort •  Amn
 
 Pride (Merc)
 Cham • Sur • Io • Lo
+
+
+
 
 
 Hammer Runes:
