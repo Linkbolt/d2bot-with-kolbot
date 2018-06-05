@@ -83,7 +83,7 @@
 // ##### 4- unique body armor ###################################################################################################################
 // ##############################################################################################################################################
 [name] == fullplatemail && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 150 //goldskin
-([name] == serpentskinarmor || [name] == wyrmhide) && [quality] == unique && [flag] != ethereal //# [fireresist] >= 35 //&& [magicdamagereduction] == 13// skin of the vipermagi
+([name] == serpentskinarmor || [name] == wyrmhide) && [quality] == unique && [flag] != ethereal # [fireresist] >= 35 && [magicdamagereduction] == 13// skin of the vipermagi
 [name] == mesharmor && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 220 // shaftstop
 [name] == russetarmor && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200  // skullder's ire
 [name] == duskshroud && [quality] == unique && [flag] != ethereal # ([passivefiremastery] == 15 && ([skillenchant] == 3 || [skillfireball] == 3 || [skillmeteor] == 3)) || ([passiveltngmastery] == 15 && [skilllightning] == 3) || ([passivecoldmastery] == 15 && ([skillblizzard] == 3 || [skilliceblast] == 3 || [skillfrozenorb] == 3)) // ormus' robes
@@ -264,7 +264,7 @@
 [name] == phaseblade && [quality] == unique # [ias] == 20 && [enhanceddamage] == 200 // lightsaber
 [name] == championsword && [quality] == unique && [flag] == ethereal // doombringer
 [name] == phaseblade && [quality] == unique # [sanctuaryaura] == 13 && [enhanceddamage] == 270 && [strength] == 10 // azurewrath
-[name] == colossusblade && [quality] == unique  // the grandfather
+[name] == colossusblade && [quality] == unique [flag] == ethereal # [enhanceddamage] == 250 // the grandfather
 
 
 // ##### throwing ###########################
