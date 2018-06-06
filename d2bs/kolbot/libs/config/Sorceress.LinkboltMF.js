@@ -267,10 +267,10 @@ function LoadConfig() {
 	 * 1 = item is unlocked and will be dropped, stashed or sold.
 	 * If you don't change the default values, the bot won't stash items.
 	 */
-	Config.Inventory[0] = [1,1,1,1,1,1,0,0,0,0];
-	Config.Inventory[1] = [1,1,1,1,1,1,0,0,0,0];
-	Config.Inventory[2] = [1,1,1,1,1,1,0,0,0,0];
-	Config.Inventory[3] = [1,1,1,1,1,1,0,0,0,0];
+	Config.Inventory[0] = [1,1,1,1,1,0,0,0,0,0];
+	Config.Inventory[1] = [1,1,1,1,1,0,0,0,0,0];
+	Config.Inventory[2] = [1,1,1,1,1,0,0,0,0,0];
+	Config.Inventory[3] = [1,1,1,1,1,0,0,0,0,0];
 
 	Config.StashGold = 100000; // Minimum amount of gold to stash.
 
@@ -328,19 +328,32 @@ function LoadConfig() {
 	Config.GambleGoldStop = 500000;
 
 	// List of item names or classids for gambling. Check libs/NTItemAlias.dbl file for other item classids.
-	Config.GambleItems.push("Amulet");
-	Config.GambleItems.push("Ring");
-	Config.GambleItems.push("Circlet");
-	Config.GambleItems.push("Coronet");
+	Config.GambleItems.push("amulet");
+	Config.GambleItems.push("ring");
+	
+	Config.GambleItems.push("circlet");
+	Config.GambleItems.push("coronet");
+	
 	Config.GambleItems.push("leathergloves");
 	Config.GambleItems.push("heavygloves");
 	Config.GambleItems.push("chaingloves");
-	quiltedarmor
-	leatherarmor
-	hardleatherarmor
-	studdedleather
-	lightplate
 	
+	Config.GambleItems.push("quiltedarmor");
+	Config.GambleItems.push("leatherarmor");
+	Config.GambleItems.push("hardleatherarmor");
+	Config.GambleItems.push("studdedleather");
+	Config.GambleItems.push("lightplate");
+	
+	Config.GambleItems.push("bardiche");
+	Config.GambleItems.push("voulge");
+	Config.GambleItems.push("scythe");
+	Config.GambleItems.push("poleaxe");
+	Config.GambleItems.push("halberd");
+	Config.GambleItems.push("warscythe");
+	
+	Config.GambleItems.push("longwarbow");
+	
+	Config.GambleItems.push("kiteshield");
 	
 	/* Cubing config. All recipe names are available in Templates/Cubing.txt. For item names/classids check NTItemAlias.dbl
 	 * The format is Config.Recipes.push([recipe_name, item_name_or_classid, etherealness]). Etherealness is optional and only applies to some recipes.
@@ -411,10 +424,10 @@ function LoadConfig() {
 	Config.Recipes.push([Recipe.Socket.Armor, "Shadow Plate", Roll.Eth]); // Socket Shadow Plate
 	Config.Recipes.push([Recipe.Socket.Armor, "Sacred Armor", Roll.Eth]); // Socket Sacred Armor
 	
-	Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]); // Socket Thresher
-	Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]); // Socket Cryptic Axe
-	Config.Recipes.push([Recipe.Socket.Weapon, "Colossus Voulge", Roll.Eth]); // Socket Cryptic Axe
-	Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]); // Socket Cryptic Axe
+	//Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]); // Socket Thresher
+	//Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]); // Socket Cryptic Axe
+	//Config.Recipes.push([Recipe.Socket.Weapon, "Colossus Voulge", Roll.Eth]); // Socket Cryptic Axe
+	//Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]); // Socket Cryptic Axe
 	
 	//Config.Recipes.push([Recipe.Socket.Weapon, "Phase Blade", Roll.All]); // Socket Phase Blade
 	

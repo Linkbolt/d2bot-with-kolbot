@@ -1,6 +1,6 @@
 Light Sorc:
 Chains of Honor (armor ready)
-(done)Dol • (done)Um • (done)Ber • Ist
+(done)Dol • (done)Um • (done)Ber • (done)Ist
 
 Spirit
 (done)Tal • (done)Thul • (done)Ort • (done)Amn
@@ -9,7 +9,7 @@ Fortitude (Merc)
 (done)El • (done)Sol • (done)Dol • (done)Lo
 
 Infinity (Merc)
-(done)Ber • (done)Mal • (done)Ber • Ist
+(done)Ber • (done)Mal • (done)Ber • (done)Ist
 
 
 
