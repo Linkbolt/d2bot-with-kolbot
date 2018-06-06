@@ -332,7 +332,16 @@ function LoadConfig() {
 	Config.GambleItems.push("Ring");
 	Config.GambleItems.push("Circlet");
 	Config.GambleItems.push("Coronet");
-
+	Config.GambleItems.push("leathergloves");
+	Config.GambleItems.push("heavygloves");
+	Config.GambleItems.push("chaingloves");
+	quiltedarmor
+	leatherarmor
+	hardleatherarmor
+	studdedleather
+	lightplate
+	
+	
 	/* Cubing config. All recipe names are available in Templates/Cubing.txt. For item names/classids check NTItemAlias.dbl
 	 * The format is Config.Recipes.push([recipe_name, item_name_or_classid, etherealness]). Etherealness is optional and only applies to some recipes.
 	 */
@@ -373,30 +382,41 @@ function LoadConfig() {
 
 	// The gems not used by other recipes will be used for magic item rerolling.
 
-	//Config.Recipes.push([Recipe.Reroll.Magic, "Diadem"]); // Reroll magic Diadem
 	Config.Recipes.push([Recipe.Reroll.Magic, "Grand Charm"]); // Reroll magic Grand Charm (ilvl 91+)
-	//Config.Recipes.push([Recipe.Reroll.Magic, "Small Charm"]); // Reroll magic Small Charm (ilvl 91+)
-
+	Config.Recipes.push([Recipe.Reroll.Magic, "Small Charm"]); // Reroll magic Small Charm (ilvl 91+)
+	//Config.Recipes.push([Recipe.Reroll.Magic, "Diadem"]); // Reroll magic Diadem
 	//Config.Recipes.push([Recipe.Reroll.Rare, "Diadem"]); // Reroll rare Diadem
 
 	/* Base item for the following recipes must be in pickit. The rest of the ingredients will be auto-picked.
 	 * Use Roll.Eth, Roll.NonEth or Roll.All to determine what kind of base item to roll - ethereal, non-ethereal or all.
 	 */
-	Config.Recipes.push([Recipe.Socket.Weapon, "Monarch", Roll.All]); // Socket Monarch
-	Config.Recipes.push([Recipe.Socket.Weapon, "Sacred Targe", Roll.All]); // Socket Sacred Targe
-	Config.Recipes.push([Recipe.Socket.Weapon, "Zakarum Shield", Roll.All]); // Socket Zakarum Shield
-	Config.Recipes.push([Recipe.Socket.Weapon, "Vortex Shield", Roll.All]); // Socket Vortex Shield
+	Config.Recipes.push([Recipe.Socket.Weapon, "Monarch", Roll.Eth]); // Socket Monarch
+	Config.Recipes.push([Recipe.Socket.Weapon, "Sacred Targe", Roll.Eth]); // Socket Sacred Targe
+	Config.Recipes.push([Recipe.Socket.Weapon, "Zakarum Shield", Roll.Eth]); // Socket Zakarum Shield
+	Config.Recipes.push([Recipe.Socket.Weapon, "Vortex Shield", Roll.Eth]); // Socket Vortex Shield
 	
-	Config.Recipes.push([Recipe.Socket.Armor, "Dusk Shroud", Roll.All]); // Socket Dusk Shroud
-	Config.Recipes.push([Recipe.Socket.Armor, "Archon Plate", Roll.All]); // Socket Archon Plate
-	Config.Recipes.push([Recipe.Socket.Armor, "Wyrmhide", Roll.All]); // Socket Wyrmhide
-	//Config.Recipes.push([Recipe.Socket.Armor, "Sacred Armor", Roll.All]); // Socket Sacred Armor
+	Config.Recipes.push([Recipe.Socket.Armor, "Dusk Shroud", Roll.Eth]); // Socket Dusk Shroud
+	Config.Recipes.push([Recipe.Socket.Armor, "Wyrmhide", Roll.Eth]); // Socket Wyrmhide
+	Config.Recipes.push([Recipe.Socket.Armor, "Scarab Husk", Roll.Eth]); // Socket Scarab Husk
+	Config.Recipes.push([Recipe.Socket.Armor, "Wire Fleece", Roll.Eth]); // Socket Wire Fleece
+	Config.Recipes.push([Recipe.Socket.Armor, "Diamond Mail", Roll.Eth]); // Socket Diamond Mail
+	Config.Recipes.push([Recipe.Socket.Armor, "Loricated Mail", Roll.Eth]); // Socket Loricated Mail
+	Config.Recipes.push([Recipe.Socket.Armor, "Great Hauberk", Roll.Eth]); // Socket Great Hauberk
+	Config.Recipes.push([Recipe.Socket.Armor, "Boneweave", Roll.Eth]); // Socket Boneweave
+	Config.Recipes.push([Recipe.Socket.Armor, "Balrog Skin", Roll.Eth]); // Socket Balrog Skin
+	Config.Recipes.push([Recipe.Socket.Armor, "Archon Plate", Roll.Eth]); // Socket Archon Plate
+	Config.Recipes.push([Recipe.Socket.Armor, "Kraken Shell", Roll.Eth]); // Socket Kraken Shell
+	Config.Recipes.push([Recipe.Socket.Armor, "Hellforge Plate", Roll.Eth]); // Socket Hellforge Plate
+	Config.Recipes.push([Recipe.Socket.Armor, "Lacquered Plate", Roll.Eth]); // Socket Lacquered Plate
+	Config.Recipes.push([Recipe.Socket.Armor, "Shadow Plate", Roll.Eth]); // Socket Shadow Plate
+	Config.Recipes.push([Recipe.Socket.Armor, "Sacred Armor", Roll.Eth]); // Socket Sacred Armor
 	
 	Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]); // Socket Thresher
 	Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]); // Socket Cryptic Axe
 	Config.Recipes.push([Recipe.Socket.Weapon, "Colossus Voulge", Roll.Eth]); // Socket Cryptic Axe
 	Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]); // Socket Cryptic Axe
-	Config.Recipes.push([Recipe.Socket.Weapon, "Phase Blade", Roll.All]); // Socket Phase Blade
+	
+	//Config.Recipes.push([Recipe.Socket.Weapon, "Phase Blade", Roll.All]); // Socket Phase Blade
 	
 	
 	//Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Heavy Gloves", Roll.NonEth]); // Upgrade Bloodfist to Exceptional

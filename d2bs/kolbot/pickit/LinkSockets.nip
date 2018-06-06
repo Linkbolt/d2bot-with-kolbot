@@ -18,9 +18,12 @@
 // ##############################################################################################################################################
 // ##### 2- socket body armor ###################################################################################################################
 // ##############################################################################################################################################
-([name] == duskshroud || [name] == archonplate || [name] == wyrmhide || [name] == wirefleece) && [quality] == superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] >= 10 // enigma runeword
-([name] == duskshroud || [name] == archonplate || [name] == wyrmhide || [name] == wirefleece) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] >= 10 // chains of honor runeword
-([name] == duskshroud || [name] == archonplate || [name] == wyrmhide || [name] == wirefleece) && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] >= 10 // fortitude runeword
+//[type] == armor && [class] == elite && [quality] == normal && [flag] != ethereal # [sockets] == 0 // socket cube/quest
+//([name] == duskshroud || [name] == archonplate || [name] == wyrmhide || [name] == wirefleece) && [quality] == normal && [flag] != ethereal # [sockets] == 0 // socket cube/quest
+([name] == duskshroud || [name] == archonplate || [name] == wyrmhide || [name] == wirefleece) && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] >= 10 // enigma runeword
+([name] == duskshroud || [name] == archonplate || [name] == wyrmhide || [name] == wirefleece) && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] >= 10 // chains of honor runeword (can be 4 socket with quest)
+[type] == armor && [class] == elite && [quality] == normal && [flag] == ethereal # [sockets] == 0 // cube socket eth bug 
+[type] == armor && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 4 && [defense] >= 1000 // fortitude runeword
 
 
 
@@ -29,14 +32,21 @@
 // ##############################################################################################################################################
 // ##### 3- socket shields #####################################################################################################################
 // ##############################################################################################################################################
-//[name] == trollnest && [quality] == superior && [flag] != ethereal # [sockets] == 2 && [enhanceddefense] >= 10 // rhyme runeword
-[name] == monarch && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] >= 10 // spirit runeword
-[name] == monarch && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] >= 10 // exile runeword
+
+// ##### shields #####################
+//[name] == monarch && [quality] == normal && [flag] != ethereal # [sockets] == 0 // cube cube/quest
+//[name] == trollnest && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [enhanceddefense] >= 10 // rhyme runeword
+[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 4 && [enhanceddefense] >= 10 // spirit runeword
+[name] == monarch && [quality] == normal && [flag] == ethereal # [sockets] == 0 // cube socket eth bug
+[name] == monarch && [quality] <= superior && [flag] == ethereal # [sockets] == 4 && [defense] >= 200 // exile runeword
+
 
 // ##### paladin shields #####################
-//([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] == superior && [flag] != ethereal # [sockets] == 2 && [lightresist] >= 30 // rhyme runeword
-([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [lightresist] >= 30 // spirit runeword
-([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) && [lightresist] >= 30 // exile runeword
+//([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] == normal && [flag] != ethereal # [sockets] == 0 // socket cube/quest
+//([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [lightresist] >= 30 // rhyme runeword
+([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] != ethereal # [sockets] == 4 && [lightresist] >= 30 // spirit runeword
+([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] == normal && [flag] == ethereal # [sockets] == 0 // cube socket eth bug
+([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] == ethereal # [sockets] == 4 && ([lightresist] >= 30 || [defense] >= 200) // exile runeword
 
 
 
@@ -62,6 +72,7 @@
 
 
 // ##### maces ##############################
+//[name] == flail && [quality] == normal && [flag] != ethereal # [sockets] == 0 // socket cube/quest
 //[name] == flail && [quality] <= superior && [flag] != ethereal # [sockets] == 3 // black runeword
 //[name] == flail && [quality] <= superior && [flag] != ethereal # [sockets] == 4 // hoto runeword
 //[name] == flail && [quality] <= superior && [flag] != ethereal # [sockets] == 5 // call to arms runeword | grief runeword
@@ -77,9 +88,11 @@
 
 
 // ##### polearms ###########################
-([name] == thresher || [name] == crypticaxe) && [quality] == superior && [flag] == ethereal # [sockets] == 4 && [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
-[name] == colossusvoulge && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
-([name] == giantthresher || [name] == greatpoleaxe) && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 6) && [enhanceddamage] >= 10 // breath of the dying runeword
+//[type] == polearm && [class] == elite && [quality] == normal && [flag] == ethereal # [sockets] == 0 // socket cube/quest
+[type] == polearm && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 4 && [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
+[type] == polearm && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 5 && [enhanceddamage] >= 10 // doom runeword
+[type] == polearm && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 6 && [enhanceddamage] >= 10 // breath of the dying runeword
+
 
 // ##### scepters ###########################
 
