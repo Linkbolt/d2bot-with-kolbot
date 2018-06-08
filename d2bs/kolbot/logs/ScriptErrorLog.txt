@@ -766,3 +766,33 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 [23:38:02] <LinkboltMF> Unknown type: warpike File: LinkSockets.nip Line: 113
 [01:07:10] <LinkboltMF> Error in Diablo (diablo.js line 326): Diablo not found
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Diablo@diablo.js:486, @diablo.js:326
+[03:20:29] <LinkboltMF> Error in Diablo (diablo.js line 326): Diablo not found
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Diablo@diablo.js:486, @diablo.js:326
+[04:24:48] <LinkboltMF> Error in Andariel (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Andariel@andariel.js:37, useWaypoint@pather.js:1119
+[04:27:06] <LinkboltMF> Error in Cows (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Cows@cows.js:225, @cows.js:88, useWaypoint@pather.js:1119
+[04:29:19] <LinkboltMF> Error in AncientTunnels (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, AncientTunnels@ancienttunnels.js:9, useWaypoint@pather.js:1119
+[04:31:46] <LinkboltMF> Error in Mephisto (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mephisto@mephisto.js:134, useWaypoint@pather.js:1119
+[04:34:20] <LinkboltMF> Error in Diablo (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Diablo@diablo.js:426, useWaypoint@pather.js:1119
+[04:36:31] <LinkboltMF> Error in Pindleskin (town.js line 2176): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Pindleskin@pindleskin.js:10, Town.goToTown@town.js:2176
+[04:38:47] <LinkboltMF> Error in Eldritch (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Eldritch@eldritch.js:11, useWaypoint@pather.js:1119
+[04:41:01] <LinkboltMF> Error in Baal (pather.js line 1119): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Baal@baal.js:200, useWaypoint@pather.js:1119
+[05:36:33] <LinkboltMF> Error in Cows (cows.js line 164): Failed to buy tome
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Cows@cows.js:226, @cows.js:164
+[05:57:38] <LinkboltMF> Error in Cows (cows.js line 164): Failed to buy tome
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Cows@cows.js:226, @cows.js:164
+[06:13:34] <LinkboltMF> Error in Cows (cows.js line 164): Failed to buy tome
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Cows@cows.js:226, @cows.js:164
+[06:44:32] <LinkboltMF> Error in Cows (cows.js line 164): Failed to buy tome
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Cows@cows.js:226, @cows.js:164
+[07:01:28] <LinkboltMF> Error in Cows (cows.js line 164): Failed to buy tome
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Cows@cows.js:226, @cows.js:164
+[09:36:54] <LinkboltMF> Error in Cows (cows.js line 200): Already killed the Cow King.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Cows@cows.js:200

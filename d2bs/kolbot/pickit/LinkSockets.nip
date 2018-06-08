@@ -36,7 +36,8 @@
 // ##############################################################################################################################################
 
 // ##### shields #####################
-[name] == monarch && [quality] == normal && [flag] != ethereal # [sockets] == 0 && [enhanceddefense] >= 10// cube cube/quest
+[name] == monarch && [quality] == normal && [flag] != ethereal # [sockets] == 0 //&& [enhanceddefense] >= 10// cube socket
+[name] == monarch && [quality] <= normal && [flag] != ethereal # [sockets] == 0 && [enhanceddefense] >= 10// quest socket
 //[name] == trollnest && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [enhanceddefense] >= 10 // rhyme runeword
 [name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 4 && [enhanceddefense] >= 10 // spirit runeword || phoenix runeword
 [name] == monarch && [quality] == normal && [flag] == ethereal # [sockets] == 0 // cube socket eth bug
@@ -110,7 +111,7 @@
 
 
 // ##### spears #############################
-[name] == warpike && [quality] == normal && [flag] == ethereal # [sockets] == 0 && [enhanceddamage] >= 10 // socket cube/quest
+[name] == warpike && [quality] <= normal && [flag] == ethereal # [sockets] == 0 && [enhanceddamage] >= 10 // quest socket
 [name] == warpike && [quality] <= superior && [flag] == ethereal # [sockets] == 6 && [enhanceddamage] >= 10 // breath of the dying runeword
 
 // ##### staves #############################

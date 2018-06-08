@@ -32,7 +32,7 @@ function LoadConfig() {
 		Config.Corpsefire.ClearDen = false;
 	Scripts.Mausoleum = true;
 		Config.Mausoleum.KillBloodRaven = false;
-		//Config.Mausoleum.ClearCrypt = true;
+		Config.Mausoleum.ClearCrypt = false;
 	Scripts.Rakanishu = false;
 		Config.Rakanishu.KillGriswold = false;
 	Scripts.UndergroundPassage = false;
@@ -46,8 +46,8 @@ function LoadConfig() {
 	Scripts.BoneAsh = false;
 	Scripts.Countess = true; //{ ClearType:0x7, StaticList: [45], TeleStomp: true, Dodge: false, SkipImmune: [] };
 		Config.Countess.KillGhosts = true;
-	//Scripts.Andariel = true;
-	Scripts.Cows = false;
+	Scripts.Andariel = true;
+	Scripts.Cows = true;
     
 	// *** act 2 ***
 	Scripts.Radament = false;
@@ -57,7 +57,7 @@ function LoadConfig() {
 	Scripts.AncientTunnels = true;
 		Config.AncientTunnels.OpenChest = true; // Open special chest in Lost City
 		Config.AncientTunnels.KillDarkElder = true;
-	Scripts.Summoner = false;
+	Scripts.Summoner = true;
 		Config.Summoner.FireEye = false;
 	Scripts.Tombs = false;
 	Scripts.Duriel = false;
@@ -69,7 +69,7 @@ function LoadConfig() {
 	Scripts.Endugu = false;
 	Scripts.Travincal = false;
 		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
-	//Scripts.Mephisto = true;
+	Scripts.Mephisto = true;
 		Config.Mephisto.MoatTrick = false;
 		Config.Mephisto.KillCouncil = false;
 		Config.Mephisto.TakeRedPortal = true;
@@ -77,11 +77,11 @@ function LoadConfig() {
 	// *** act 4 ***
 	Scripts.OuterSteppes = false;
 	Scripts.Izual = false;
-	Scripts.Hephasto = false;
+	Scripts.Hephasto = true;
 	Scripts.Vizier = false; // Intended for classic sorc, kills Vizier only.
 	Scripts.FastDiablo = false;
 	Scripts.Diablo = true;
-		Config.Diablo.Entrance = false; // Start from entrance
+		Config.Diablo.Entrance = true; // Start from entrance
 		//Config.Diablo.SealWarning = "Leave the seals alone!";
 		//Config.Diablo.EntranceTP = "Entrance TP up";
 		//Config.Diablo.StarTP = "Star TP up";
@@ -512,7 +512,7 @@ function LoadConfig() {
 	// Monster skip config
 	// Skip immune monsters. Possible options: "fire", "cold", "lightning", "poison", "physical", "magic".
 	// You can combine multiple resists with "and", for example - "fire and cold", "physical and cold and poison"
-	Config.SkipImmune = ["lightning"];
+	Config.SkipImmune = ["Lightning"];
 	// Skip enchanted monsters. Possible options: "extra strong", "extra fast", "cursed", "magic resistant", "fire enchanted", "lightning enchanted", "cold enchanted", "mana burn", "teleportation", "spectral hit", "stone skin", "multiple shots".
 	// You can combine multiple enchantments with "and", for example - "cursed and extra fast", "mana burn and extra strong and lightning enchanted"
 	Config.SkipEnchant = [];

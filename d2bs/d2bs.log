@@ -861,3 +861,24 @@ Line: Runewords.push("[type] == shield || [type] == auricshields" # [fcr] >= 30"
 
 [06/08/18 00:43:33] D2BS 9276: [Error] Code(0) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\config.js:66) Error: Failed to load character config.
 Line: (null)
+[06/08/18 02:01:17] D2BS 9276: Crash File: BlizzardError/2018-06-08 02.01.17/Crash.txt
+
+[06/08/18 02:01:17] D2BS 9276: D2BS Shutdown complete.
+[06/08/18 02:01:18] D2BS 5660: D2BS Engine startup complete. 1.5.1868
+[06/08/18 02:01:18] D2BS 5660: LinkboltMF
+[06/08/18 02:02:35] D2BS 6620: D2BS Engine startup complete. 1.5.1868
+[06/08/18 02:02:35] D2BS 6620: LinkboltMF
+[06/08/18 06:06:17] D2BS 6620: Crash File: BlizzardError/2018-06-08 06.06.17/Crash.txt
+
+[06/08/18 06:06:17] D2BS 6620: D2BS Shutdown complete.
+[06/08/18 06:06:19] D2BS 8044: D2BS Engine startup complete. 1.5.1868
+[06/08/18 06:06:19] D2BS 8044: LinkboltMF
+[06/08/18 06:27:02] D2BS 13844: D2BS Engine startup complete. 1.5.1868
+[06/08/18 06:27:02] D2BS 13844: LinkboltMF
+[06/08/18 06:53:31] D2BS 13844: Crash File: BlizzardError/2018-06-08 06.53.31/Crash.txt
+
+[06/08/18 06:53:31] D2BS 13844: D2BS Shutdown complete.
+[06/08/18 06:53:31] D2BS 11152: D2BS Engine startup complete. 1.5.1868
+[06/08/18 06:53:31] D2BS 11152: LinkboltMF
+[06/08/18 10:25:32] D2BS 13308: D2BS Engine startup complete. 1.5.1868
+[06/08/18 10:25:32] D2BS 13308: LinkboltMF
