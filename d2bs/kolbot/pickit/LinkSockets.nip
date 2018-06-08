@@ -36,7 +36,7 @@
 // ##############################################################################################################################################
 
 // ##### shields #####################
-//[name] == monarch && [quality] == normal && [flag] != ethereal # [sockets] == 0 // cube cube/quest
+[name] == monarch && [quality] == normal && [flag] != ethereal # [sockets] == 0 && [enhanceddefense] >= 10// cube cube/quest
 //[name] == trollnest && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [enhanceddefense] >= 10 // rhyme runeword
 [name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 4 && [enhanceddefense] >= 10 // spirit runeword || phoenix runeword
 [name] == monarch && [quality] == normal && [flag] == ethereal # [sockets] == 0 // cube socket eth bug
@@ -97,8 +97,11 @@
 
 
 // ##### polearms ###########################
-//[type] == polearm && [class] == elite && [quality] == normal && [flag] == ethereal # [sockets] == 0 // socket cube/quest
-[type] == polearm && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 4 && [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
+[type] == polearm && [class] == elite && [quality] == normal && [flag] == ethereal # [sockets] == 0 // socket cube/quest
+[name] == ColossusVoulge && [quality] <= superior && [flag] == ethereal # [sockets] == 0 && [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
+[name] == CrypticAxe && [quality] <= superior && [flag] == ethereal # [sockets] == 0 && [enhanceddamage] >= 10 // doom runeword
+
+[type] == polearm && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 4 //&& [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
 [type] == polearm && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 5 && [enhanceddamage] >= 10 // doom runeword
 [type] == polearm && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 6 && [enhanceddamage] >= 10 // breath of the dying runeword
 
@@ -107,7 +110,7 @@
 
 
 // ##### spears #############################
-//[type] == warpike && [quality] == normal && [flag] == ethereal # [sockets] == 0 // socket cube/quest
+[name] == warpike && [quality] == normal && [flag] == ethereal # [sockets] == 0 && [enhanceddamage] >= 10 // socket cube/quest
 [name] == warpike && [quality] <= superior && [flag] == ethereal # [sockets] == 6 && [enhanceddamage] >= 10 // breath of the dying runeword
 
 // ##### staves #############################

@@ -756,3 +756,13 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 [08:06:05] <LinkboltMF> Pickit error! Line # 267 Entry: [name] == colossusblade && [quality] == unique [flag] == ethereal # [enhanceddamage] == 250 // the grandfather (LinkUnique.nip) Error message: identifier starts immediately after numeric literal Trigger item: Ring
 [08:06:05] <LinkboltMF> Pickit error! Line # 267 Entry: [name] == colossusblade && [quality] == unique [flag] == ethereal # [enhanceddamage] == 250 // the grandfather (LinkUnique.nip) Error message: identifier starts immediately after numeric literal Trigger item: Ring
 [08:06:05] <LinkboltMF> Pickit error! Line # 267 Entry: [name] == colossusblade && [quality] == unique [flag] == ethereal # [enhanceddamage] == 250 // the grandfather (LinkUnique.nip) Error message: identifier starts immediately after numeric literal Trigger item: Ring
+[03:25:13] <LinkboltMF> Error in Mausoleum (mausoleum.js line 13): Failed to move to Burial Grounds
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Mausoleum@mausoleum.js:13
+[23:32:43] <LinkboltMF> Unknown type: warpike File: LinkSockets.nip Line: 113
+[23:32:43] <LinkboltMF> Unknown type: warpike File: LinkSockets.nip Line: 113
+[23:32:43] <LinkboltMF> Unknown type: warpike File: LinkSockets.nip Line: 113
+[23:38:02] <LinkboltMF> Unknown type: warpike File: LinkSockets.nip Line: 113
+[23:38:02] <LinkboltMF> Unknown type: warpike File: LinkSockets.nip Line: 113
+[23:38:02] <LinkboltMF> Unknown type: warpike File: LinkSockets.nip Line: 113
+[01:07:10] <LinkboltMF> Error in Diablo (diablo.js line 326): Diablo not found
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Diablo@diablo.js:486, @diablo.js:326

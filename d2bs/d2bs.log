@@ -841,3 +841,23 @@ Line: 	Config.GambleItems.push("kiteshield"");
 
 [06/06/18 21:47:56] D2BS 8880: [Error] Code(0) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\config.js:66) Error: Failed to load character config.
 Line: (null)
+[06/07/18 05:17:46] D2BS 8072: D2BS Engine startup complete. 1.5.1868
+[06/07/18 05:17:46] D2BS 8072: LinkboltMF
+[06/07/18 07:45:07] D2BS 8072: Crash File: BlizzardError/2018-06-07 07.45.07/Crash.txt
+
+[06/07/18 07:45:07] D2BS 8072: D2BS Shutdown complete.
+[06/07/18 07:45:07] D2BS 14084: D2BS Engine startup complete. 1.5.1868
+[06/07/18 07:45:07] D2BS 14084: LinkboltMF
+[06/07/18 08:41:07] D2BS 14084: D2BS Shutdown complete.
+[06/07/18 20:40:45] D2BS 1836: D2BS Engine startup complete. 1.5.1868
+[06/07/18 20:40:45] D2BS 1836: LinkboltMF
+[06/07/18 22:20:55] D2BS 1836: D2BS Shutdown complete.
+[06/07/18 22:38:33] D2BS 3656: D2BS Engine startup complete. 1.5.1868
+[06/07/18 22:38:33] D2BS 3656: LinkboltMF
+[06/08/18 00:42:50] D2BS 9276: D2BS Engine startup complete. 1.5.1868
+[06/08/18 00:42:50] D2BS 9276: LinkboltMF
+[06/08/18 00:43:33] D2BS 9276: [Error] Code(144) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\config\sorceress.linkboltmf.js:453) SyntaxError: illegal character
+Line: Runewords.push("[type] == shield || [type] == auricshields" # [fcr] >= 30"); // Keep Spirit
+
+[06/08/18 00:43:33] D2BS 9276: [Error] Code(0) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\config.js:66) Error: Failed to load character config.
+Line: (null)
