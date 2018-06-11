@@ -119,7 +119,7 @@
 [name] == battlebelt && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 170 // snowclash
 [name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // thundergod's vigor
 [name] == spiderwebsash && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 120  // arachnid mesh
-[name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7 && [defense] == 63 // nosferatu's coil
+//[name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7 && [defense] == 63 // nosferatu's coil
 [name] == mithrilcoil && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 140 && [damageresist] == 15 && [vitality] == 40 &&  // verdungo's hearty cord
 
 
@@ -133,7 +133,7 @@
 ([name] == heavygloves || [name] == sharkskingloves || [name] == vampirebonegloves)&& [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // bloodfist
 [name] == chaingloves && [quality] == unique && [flag] != ethereal # [itemmagicbonus] == 40 // chance guards
 ([name] == lightgauntlets || [name] == battlegauntlets || [name] == crusadergauntlets)&& [quality] == unique && [flag] != ethereal # [enhanceddefense] == 30 // magefist
-[name] == gauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // frostburn
+//[name] == gauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // frostburn
 [name] == battlegauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // lava gout
 [name] == wargauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // hellmouth
 [name] == vampirebonegloves && [quality] == unique && [flag] != ethereal # [lifeleech] == 10 && [enhanceddefense] == 120 && [strength] == 15 // dracul's grasp
@@ -211,7 +211,7 @@
 
 
 // ##### daggers ############################
-[name] == dagger && [quality] == unique // gull
+//[name] == dagger && [quality] == unique // gull
 [name] == fangedknife && [quality] == unique && [flag] == ethereal # [enhanceddamage] == 300 // fleshripper
 //[name] == boneknife && [quality] == unique // wizardspike
 

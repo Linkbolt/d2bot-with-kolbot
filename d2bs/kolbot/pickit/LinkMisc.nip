@@ -34,7 +34,7 @@
 //[name] == nefrune # # [maxquantity] == 3
 //[name] == ethrune # # [maxquantity] == 3
 //[name] == ithrune # # [maxquantity] == 1
-//[name] == talrune # # [maxquantity] == 1
+[name] == talrune # # [maxquantity] == 3
 //[name] == ralrune # # [maxquantity] == 2
 //[name] == ortrune # # [maxquantity] == 2
 //[name] == thulrune # # [maxquantity] == 5
@@ -154,13 +154,13 @@
 // ##############################################################################################################################################
 // ##### 8- keys ################################################################################################################################
 // ##############################################################################################################################################
-//[name] == keyofhate # # [maxquantity] == 3
-//[name] == keyofterror # # [maxquantity] == 3
-[name] == keyofdestruction # # [maxquantity] == 3
-//[name] == twistedessenceofsuffering # # [maxquantity] == 3
-//[name] == chargedessenceofhatred # # [maxquantity] == 3
-[name] == burningessenceofterror # # [maxquantity] == 3
-[name] == festeringessenceofdestruction # # [maxquantity] == 3
+[name] == keyofhate # # [maxquantity] == 4
+//[name] == keyofterror # # [maxquantity] == 2
+[name] == keyofdestruction # # [maxquantity] == 6
+[name] == twistedessenceofsuffering # # [maxquantity] == 2
+[name] == chargedessenceofhatred # # [maxquantity] == 3
+[name] == burningessenceofterror # # [maxquantity] == 1
+//[name] == festeringessenceofdestruction # # [maxquantity] == 3
 [name] == tokenofabsolution
 [name] == diablo'shorn
 [name] == mephisto'sbrain

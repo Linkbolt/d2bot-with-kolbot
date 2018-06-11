@@ -24,7 +24,7 @@ function LoadConfig() {
 	// *** act 1 ***
 	Scripts.Corpsefire = false;
 		Config.Corpsefire.ClearDen = false;
-	Scripts.Mausoleum = true;
+	Scripts.Mausoleum = false;
 		Config.Mausoleum.KillBloodRaven = false;
 		Config.Mausoleum.ClearCrypt = false;
 	Scripts.Rakanishu = false;
@@ -33,22 +33,22 @@ function LoadConfig() {
 	Scripts.Coldcrow = false;
 	Scripts.Tristram = false;
 		Config.Tristram.PortalLeech = false; // Set to true to open a portal for leechers.
-	Scripts.Pit = true;
+	Scripts.Pit = false;
 		Config.Pit.ClearPit1 = true;
 	Scripts.Treehead = false;
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
 	Scripts.Countess = true; //{ ClearType:0x7, StaticList: [45], TeleStomp: true, Dodge: false, SkipImmune: [] };
-		Config.Countess.KillGhosts = true;
-	Scripts.Andariel = true;
-	Scripts.Cows = true;
+		Config.Countess.KillGhosts = false;
+	Scripts.Andariel = false;
+	Scripts.Cows = false;
     
 	// *** act 2 ***
 	Scripts.Radament = false;
 	Scripts.Coldworm = false;
 		Config.Coldworm.KillBeetleburst = false;
 		Config.Coldworm.ClearMaggotLair = false; // Clear all 3 levels
-	Scripts.AncientTunnels = true;
+	Scripts.AncientTunnels = false;
 		Config.AncientTunnels.OpenChest = true; // Open special chest in Lost City
 		Config.AncientTunnels.KillDarkElder = true;
 	Scripts.Summoner = true;
@@ -63,7 +63,7 @@ function LoadConfig() {
 	Scripts.Endugu = false;
 	Scripts.Travincal = false;
 		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
-	Scripts.Mephisto = true;
+	Scripts.Mephisto = false;
 		Config.Mephisto.MoatTrick = false;
 		Config.Mephisto.KillCouncil = false;
 		Config.Mephisto.TakeRedPortal = true;
@@ -74,7 +74,7 @@ function LoadConfig() {
 	Scripts.Hephasto = false;
 	Scripts.Vizier = false; // Intended for classic sorc, kills Vizier only.
 	Scripts.FastDiablo = false;
-	Scripts.Diablo = true;
+	Scripts.Diablo = false;
 		Config.Diablo.Entrance = true; // Start from entrance
 		//Config.Diablo.SealWarning = "Leave the seals alone!";
 		//Config.Diablo.EntranceTP = "Entrance TP up";
@@ -86,10 +86,10 @@ function LoadConfig() {
 	Scripts.Pindleskin = true;
 		Config.Pindleskin.UseWaypoint = false;
 		Config.Pindleskin.KillNihlathak = true;
-		Config.Pindleskin.ViperQuit = true; // End script if Tomb Vipers are found.
+		Config.Pindleskin.ViperQuit = false; // End script if Tomb Vipers are found.
 	Scripts.Nihlathak = false;
 		Config.Nihlathak.ViperQuit = false; // End script if Tomb Vipers are found.
-	Scripts.Eldritch = true;
+	Scripts.Eldritch = false;
 		Config.Eldritch.OpenChest = true;
 		Config.Eldritch.KillShenk = true;
 		Config.Eldritch.KillDacFarren = false;
@@ -104,7 +104,7 @@ function LoadConfig() {
 	Scripts.Snapchip = false;
 		Config.Snapchip.ClearIcyCellar = true;
 	Scripts.Worldstone = false;
-	Scripts.Baal = true;
+	Scripts.Baal = false;
 		//Config.Baal.HotTPMessage = "Hot TP!";
 		//Config.Baal.SafeTPMessage = "Safe TP!";
 		//Config.Baal.BaalMessage = "Baal!";
