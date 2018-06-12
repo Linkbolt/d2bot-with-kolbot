@@ -709,11 +709,11 @@ var Attack = {
 	storeStatistics: function (area) {
 		var obj;
 
-		if (!FileTools.exists("logs/statistics.json")) {
-			Misc.fileAction("logs/statistics.json", 1, "{}");
+		if (!FileTools.exists("logs/statistics (" + me.charname + ").json")) {
+			Misc.fileAction("logs/statistics (" + me.charname + ").json", 1, "{}");
 		}
 
-		obj = JSON.parse(Misc.fileAction("logs/statistics.json", 0));
+		obj = JSON.parse(Misc.fileAction("logs/statistics (" + me.charname + ").json", 0));
 
 		if (obj) {
 			if (obj[area] === undefined) {
@@ -726,7 +726,7 @@ var Attack = {
 			obj[area].averageUniques = ((obj[area].averageUniques * obj[area].runs + this.uniques) / (obj[area].runs + 1)).toFixed(4);
 			obj[area].runs += 1;
 
-			Misc.fileAction("logs/statistics.json", 1, JSON.stringify(obj));
+			Misc.fileAction("logs/statistics (" + me.charname + ").json", 1, JSON.stringify(obj));
 		}
 
 		this.uniques = 0;
