@@ -1,0 +1,22 @@
+[01:58:13] <LinkboltMF> Error in Countess (attack.js line 343): Attack.clear: The Countess not found
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Countess@countess.js:33, Attack.clear@attack.js:343
+[03:12:42] <LinkboltMF> Error in Diablo (diablo.js line 326): Diablo not found
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Diablo@diablo.js:486, @diablo.js:326
+[03:56:44] <LinkboltMF> Error in Diablo (diablo.js line 326): Diablo not found
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Diablo@diablo.js:486, @diablo.js:326
+[04:16:21] <LinkboltMF> Error in Diablo (diablo.js line 326): Diablo not found
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Diablo@diablo.js:486, @diablo.js:326
+[05:46:48] <LinkboltMF> Error in Diablo (diablo.js line 326): Diablo not found
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Diablo@diablo.js:486, @diablo.js:326
+[07:10:49] <LinkboltMF> Error in Cows (cows.js line 179): Failed to cube leg and tome
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Cows@cows.js:228, @cows.js:179
+[07:17:00] <LinkboltMF> Error in Diablo (diablo.js line 326): Diablo not found
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Diablo@diablo.js:486, @diablo.js:326
+[07:25:37] <LinkboltMF> Error in Cows (cows.js line 164): Failed to buy tome
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Cows@cows.js:226, @cows.js:164
+[07:39:03] <LinkboltMF> Error in Cows (cows.js line 164): Failed to buy tome
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Cows@cows.js:226, @cows.js:164
+[07:54:35] <LinkboltMF> Error in Cows (cows.js line 164): Failed to buy tome
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Cows@cows.js:226, @cows.js:164
+[08:02:13] <LinkboltMF> Error in Diablo (diablo.js line 326): Diablo not found
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Diablo@diablo.js:486, @diablo.js:326

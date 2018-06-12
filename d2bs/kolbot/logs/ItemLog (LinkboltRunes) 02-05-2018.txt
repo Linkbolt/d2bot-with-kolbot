@@ -1,0 +1,8 @@
+[08:25:19] <LinkboltRunes> <Kept> (magic) Ring (86) | Unidentified {Area: Nihlathak's Temple} {Cubing 3}
+[08:25:30] <LinkboltRunes> <Stashed> (magic) Ring {Area: Nihlathak's Temple}
+[08:25:41] <LinkboltRunes> <Kept> (normal) Mal Rune (1) | Can be Inserted into Socketed Items |  | Weapons: Prevent Monster Heal | Armor: Magic Damage Reduced by 7 | Helms: Magic Damage Reduced by 7 | Shields: Magic Damage Reduced by 7 |  | Required Level: 49 {Area: Lower Kurast} {Cubing 1}
+[08:26:57] <LinkboltRunes> <Stashed> (normal) Mal Rune {Area: Upper Kurast}
+[08:27:57] <LinkboltRunes> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Pit Of Acheron} {Cubing 1}
+[08:28:15] <LinkboltRunes> <Stashed> (normal) Flawless Ruby {Area: Pit Of Acheron}
+[08:29:19] <LinkboltRunes> <Kept> (normal) Lem Rune (1) | Can be Inserted into Socketed Items |  | Weapons: 75% Extra Gold from Monsters | Armor: 50% Extra Gold from Monsters | Helms: 50% Extra Gold from Monsters | Shields: 50% Extra Gold from Monsters |  | Required Level: 43 {Area: Tower Cellar Level 5} {Cubing 2}
+[08:29:39] <LinkboltRunes> <Stashed> (normal) Lem Rune {Area: Tower Cellar Level 5}

@@ -19,7 +19,7 @@
 [type] == ring && [quality] == unique # [itemmagicbonus] >= 30 // nagelring
 //[type] == ring && [quality] == unique # [manaleech] >= 7 // manald heal
 [type] == ring && [quality] == unique # [itemmaxmanapercent] == 25 // stone of jordan
-[type] == ring && [quality] == unique # [maxhp] == 40 // dwarf star
+//[type] == ring && [quality] == unique # [maxhp] == 40 // dwarf star
 [type] == ring && [quality] == unique # [dexterity] >= 20 //&& [tohit] >= 250 // raven frost
 [type] == ring && [quality] == unique # [lifeleech] >= 3 && [maxstamina] == 50 // bul-kathos' wedding band
 //[type] == ring && [quality] == unique # [lifeleech] >= 9 // carrion wind

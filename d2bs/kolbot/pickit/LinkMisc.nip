@@ -157,9 +157,9 @@
 [name] == keyofhate # # [maxquantity] == 4
 //[name] == keyofterror # # [maxquantity] == 2
 [name] == keyofdestruction # # [maxquantity] == 6
-[name] == twistedessenceofsuffering # # [maxquantity] == 2
-[name] == chargedessenceofhatred # # [maxquantity] == 3
-[name] == burningessenceofterror # # [maxquantity] == 1
+//[name] == twistedessenceofsuffering # # [maxquantity] == 2
+//[name] == chargedessenceofhatred # # [maxquantity] == 3
+//[name] == burningessenceofterror # # [maxquantity] == 1
 //[name] == festeringessenceofdestruction # # [maxquantity] == 3
 [name] == tokenofabsolution
 [name] == diablo'shorn
