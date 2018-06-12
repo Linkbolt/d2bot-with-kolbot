@@ -1296,7 +1296,13 @@ var Misc = {
 			desc += (" {Area: " + lastArea + "}");
 		}
 		
-		return this.fileAction("logs/ItemLog.txt", 2, dateString + " <" + me.profile + "> <" + action + "> (" + Pickit.itemQualityToName(unit.quality) + ") " + desc + (text ? " {" + text + "}" : "") + "\n");
+		date = new Date(),
+			y = date.getFullYear(),
+			m = date.getMonth(),
+			d = date.getDay(),
+			dateString = (d < 10 ? "0" + d : d) + "-" + (m < 10 ? "0" + m : m) + "-" + y;
+		
+		return this.fileAction("logs/" + me.profile + " ItemLog - " + dateString + ".txt", 2, dateString + " <" + me.profile + "> <" + action + "> (" + Pickit.itemQualityToName(unit.quality) + ") " + desc + (text ? " {" + text + "}" : "") + "<br>\n");
 	},
 
 	// Log kept item stats in the manager.
@@ -1803,7 +1809,14 @@ MainLoop:
 
 		showConsole();
 		print(msg);
-		this.fileAction("logs/ScriptErrorLog.txt", 2, filemsg);
+		
+		date = new Date(),
+			y = date.getFullYear(),
+			m = date.getMonth(),
+			d = date.getDay(),
+			dateString = (d < 10 ? "0" + d : d) + "-" + (m < 10 ? "0" + m : m) + "-" + y;
+		
+		this.fileAction("logs/" + me.profile + " ScriptErrorLog - " + dateString + ".txt", 2, filemsg);
 
 		if (this.screenshotErrors) {
 			takeScreenshot();

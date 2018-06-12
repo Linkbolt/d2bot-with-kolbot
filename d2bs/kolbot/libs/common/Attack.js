@@ -25,6 +25,10 @@ var Attack = {
 			this.checkInfinity();
 			this.getCharges();
 		}
+		
+		if (!this.uniques) {
+			this.uniques = 0;
+		}
 	},
 
 	getCustomAttack: function (unit) {
@@ -705,11 +709,11 @@ var Attack = {
 	storeStatistics: function (area) {
 		var obj;
 
-		if (!FileTools.exists("statistics.json")) {
-			Misc.fileAction("statistics.json", 1, "{}");
+		if (!FileTools.exists("logs\statistics.json")) {
+			Misc.fileAction("logs\statistics.json", 1, "{}");
 		}
 
-		obj = JSON.parse(Misc.fileAction("statistics.json", 0));
+		obj = JSON.parse(Misc.fileAction("logs\statistics.json", 0));
 
 		if (obj) {
 			if (obj[area] === undefined) {
@@ -722,7 +726,7 @@ var Attack = {
 			obj[area].averageUniques = ((obj[area].averageUniques * obj[area].runs + this.uniques) / (obj[area].runs + 1)).toFixed(4);
 			obj[area].runs += 1;
 
-			Misc.fileAction("statistics.json", 1, JSON.stringify(obj));
+			Misc.fileAction("logs\statistics.json", 1, JSON.stringify(obj));
 		}
 
 		this.uniques = 0;
@@ -779,7 +783,7 @@ var Attack = {
 
 			if (result) {
 				Pather.moveTo(result[0], result[1], 3, spectype);
-				//this.countUniques();
+				this.countUniques();
 
 				if (!this.clear(40, spectype)) {
 					break;
@@ -787,7 +791,7 @@ var Attack = {
 			}
 		}
 
-		//this.storeStatistics(Pather.getAreaName(me.area));
+		this.storeStatistics(Pather.getAreaName(me.area));
 
 		return true;
 	},

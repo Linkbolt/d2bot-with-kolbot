@@ -326,7 +326,7 @@ function DiabloHelper() {
 				if (Attack.checkMonster(monster)) {
 					for (i = 0; i < this.cleared.length; i += 1) {
 						if (getDistance(monster, this.cleared[i][0], this.cleared[i][1]) < 30 && Attack.validSpot(monster.x, monster.y)) {
-							me.overhead("we got a stray");
+							//me.overhead("we got a stray");
 							Pather.moveToUnit(monster);
 							Attack.clear(15, 0, false, this.sort);
 

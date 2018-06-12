@@ -12774,3 +12774,13 @@
 [00:17:06] <LinkboltRunes> <Stashed> (normal) Flawless Ruby {Area: Sewers Level 2}
 [00:28:14] <LinkboltRunes> <Kept> (magic) Brown Jewel of Fervor (80) | Can be Inserted into Socketed Items | Required Level: 31 | +15% Increased Attack Speed | Heal Stamina Plus 13% {Area: Lower Kurast}
 [00:28:14] <LinkboltRunes> <Stashed> (magic) Brown Jewel of Fervor {Area: Lower Kurast}
+[00:48:45] <LinkboltMF> <Kept> (normal) Ko Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Dexterity | Armor: +10 to Dexterity | Helms: +10 to Dexterity | Shields: +10 to Dexterity |  | Required Level: 39 {Area: Tower Cellar Level 5} {Cubing 3}
+[00:49:04] <LinkboltMF> <Stashed> (normal) Ko Rune {Area: Tower Cellar Level 5}
+[00:50:08] <LinkboltMF> <Kept> (normal) Twisted Essence of Suffering (75) {Area: Catacombs Level 4}
+[00:50:15] <LinkboltMF> <Cubing Kept> (normal) Fal Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Strength | Armor: +10 to Strength | Helms: +10 to Strength | Shields: +10 to Strength |  | Required Level: 41 {Area: Catacombs Level 4}
+[00:50:28] <LinkboltMF> <Cubing Kept> (normal) Lem Rune (1) | Can be Inserted into Socketed Items |  | Weapons: 75% Extra Gold from Monsters | Armor: 50% Extra Gold from Monsters | Helms: 50% Extra Gold from Monsters | Shields: 50% Extra Gold from Monsters |  | Required Level: 43 {Area: Catacombs Level 4}
+[00:50:32] <LinkboltMF> <Stashed> (normal) Twisted Essence of Suffering {Area: Catacombs Level 4}
+[00:53:04] <LinkboltMF> <Kept> (magic) Jewel of the Icicle (81) | Can be Inserted into Socketed Items | Required Level: 29 | Adds 2-8 cold damage {Area: Moo Moo Farm} {Cubing-Town}
+[00:53:08] <LinkboltMF> <Stashed> (magic) Jewel of the Icicle {Area: Moo Moo Farm}
+[00:54:30] <LinkboltMF> <Kept> (normal) Fal Rune (1) | Can be Inserted into Socketed Items |  | Weapons: +10 to Strength | Armor: +10 to Strength | Helms: +10 to Strength | Shields: +10 to Strength |  | Required Level: 41 {Area: Moo Moo Farm} {Cubing 1}
+[00:54:45] <LinkboltMF> <Stashed> (normal) Fal Rune {Area: Moo Moo Farm}
