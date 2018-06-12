@@ -1260,7 +1260,11 @@ var Misc = {
 			h = date.getHours(),
 			m = date.getMinutes(),
 			s = date.getSeconds(),
-			dateString = "[" + (h < 10 ? "0" + h : h) + ":" + (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s) + "]";
+			y = date.getFullYear(),
+			mm = date.getMonth(),
+			d = date.getDay(),
+			dateString = "[" + (h < 10 ? "0" + h : h) + ":" + (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s) + "]",
+			date2String = (d < 10 ? "0" + d : d) + "-" + (mm < 10 ? "0" + mm : mm) + "-" + y;
 
 		switch (action) {
 		case "Sold":
@@ -1295,14 +1299,8 @@ var Misc = {
 		if (lastArea) {
 			desc += (" {Area: " + lastArea + "}");
 		}
-		
-		date = new Date(),
-			y = date.getFullYear(),
-			m = date.getMonth(),
-			d = date.getDay(),
-			dateString = (d < 10 ? "0" + d : d) + "-" + (m < 10 ? "0" + m : m) + "-" + y;
-		
-		return this.fileAction("logs/" + me.profile + " ItemLog - " + dateString + ".txt", 2, dateString + " <" + me.profile + "> <" + action + "> (" + Pickit.itemQualityToName(unit.quality) + ") " + desc + (text ? " {" + text + "}" : "") + "<br>\n");
+				
+		return this.fileAction("logs/ItemLog (" + me.profile + ") " + date2String + ".txt", 2, dateString + " <" + me.profile + "> <" + action + "> (" + Pickit.itemQualityToName(unit.quality) + ") " + desc + (text ? " {" + text + "}" : "") + "\n");
 	},
 
 	// Log kept item stats in the manager.
@@ -1758,13 +1756,16 @@ MainLoop:
 
 	// Report script errors to logs/ScriptErrorLog.txt
 	errorReport: function (error, script) {
-		var i, h, m, s, date, msg, oogmsg, filemsg, source, stack,
-			stackLog = "";
-
-		date = new Date();
-		h = date.getHours();
-		m = date.getMinutes();
-		s = date.getSeconds();
+		var i, msg, oogmsg, filemsg, source, stack,
+			stackLog = "",
+			date = new Date(),
+			h = date.getHours(),
+			m = date.getMinutes(),
+			s = date.getSeconds(),
+			y = date.getFullYear(),
+			mm = date.getMonth(),
+			d = date.getDay(),
+			date2String = (d < 10 ? "0" + d : d) + "-" + (mm < 10 ? "0" + mm : mm) + "-" + y;
 
 		if (typeof error === "string") {
 			msg = error;
@@ -1809,14 +1810,8 @@ MainLoop:
 
 		showConsole();
 		print(msg);
-		
-		date = new Date(),
-			y = date.getFullYear(),
-			m = date.getMonth(),
-			d = date.getDay(),
-			dateString = (d < 10 ? "0" + d : d) + "-" + (m < 10 ? "0" + m : m) + "-" + y;
-		
-		this.fileAction("logs/" + me.profile + " ScriptErrorLog - " + dateString + ".txt", 2, filemsg);
+				
+		this.fileAction("logs/ScriptErrorLog (" + me.profile + ") " + date2String + ".txt", 2, filemsg);
 
 		if (this.screenshotErrors) {
 			takeScreenshot();

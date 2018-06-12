@@ -1008,3 +1008,87 @@ Line: (null)
 [06/12/18 01:14:04] D2BS 10428: D2BS Shutdown complete.
 [06/12/18 01:14:34] D2BS 10252: D2BS Engine startup complete. 1.5.1868
 [06/12/18 01:14:34] D2BS 10252: LinkboltMF
+[06/12/18 01:16:26] D2BS 10252: [Strict Warning] Code(156) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1300) assignment to undeclared variable y
+Line: (null)
+[06/12/18 01:16:26] D2BS 10252: [Strict Warning] Code(156) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1302) assignment to undeclared variable d
+Line: (null)
+[06/12/18 01:21:38] D2BS 10252: D2BS Shutdown complete.
+[06/12/18 01:21:39] D2BS 14876: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:21:39] D2BS 14876: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1306) SyntaxError: syntax error
+Line: 		return this.fileAction("logs/" + me.profile + " ItemLog - " 
+[06/12/18 01:21:39] D2BS 14876: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\oog.js:405) ReferenceError: Misc is not defined
+Line: (null)
+[06/12/18 01:21:50] D2BS 14876: D2BS Shutdown complete.
+[06/12/18 01:21:50] D2BS 13548: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:21:50] D2BS 13548: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1306) SyntaxError: syntax error
+Line: 		return this.fileAction("logs/" + me.profile + " ItemLog - " 
+[06/12/18 01:21:50] D2BS 13548: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\oog.js:405) ReferenceError: Misc is not defined
+Line: (null)
+[06/12/18 01:22:01] D2BS 13548: D2BS Shutdown complete.
+[06/12/18 01:22:02] D2BS 14892: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:22:02] D2BS 14892: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1306) SyntaxError: syntax error
+Line: 		return this.fileAction("logs/" + me.profile + " ItemLog - " 
+[06/12/18 01:22:02] D2BS 14892: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\oog.js:405) ReferenceError: Misc is not defined
+Line: (null)
+[06/12/18 01:22:12] D2BS 14892: D2BS Shutdown complete.
+[06/12/18 01:22:13] D2BS 11640: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:22:13] D2BS 11640: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1306) SyntaxError: syntax error
+Line: 		return this.fileAction("logs/" + me.profile + " ItemLog - " 
+[06/12/18 01:22:13] D2BS 11640: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\oog.js:405) ReferenceError: Misc is not defined
+Line: (null)
+[06/12/18 01:22:24] D2BS 11640: D2BS Shutdown complete.
+[06/12/18 01:22:24] D2BS 16304: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:22:24] D2BS 16304: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1306) SyntaxError: syntax error
+Line: 		return this.fileAction("logs/" + me.profile + " ItemLog - " 
+[06/12/18 01:22:24] D2BS 16304: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\oog.js:405) ReferenceError: Misc is not defined
+Line: (null)
+[06/12/18 01:22:35] D2BS 16304: D2BS Shutdown complete.
+[06/12/18 01:22:36] D2BS 11896: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:22:36] D2BS 11896: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1306) SyntaxError: syntax error
+Line: 		return this.fileAction("logs/" + me.profile + " ItemLog - " 
+[06/12/18 01:22:36] D2BS 11896: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\oog.js:405) ReferenceError: Misc is not defined
+Line: (null)
+[06/12/18 01:22:46] D2BS 11896: D2BS Shutdown complete.
+[06/12/18 01:22:47] D2BS 7040: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:22:47] D2BS 7040: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1306) SyntaxError: syntax error
+Line: 		return this.fileAction("logs/" + me.profile + " ItemLog - " 
+[06/12/18 01:22:47] D2BS 7040: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\oog.js:405) ReferenceError: Misc is not defined
+Line: (null)
+[06/12/18 01:22:58] D2BS 7040: D2BS Shutdown complete.
+[06/12/18 01:22:58] D2BS 14848: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:22:58] D2BS 14848: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1306) SyntaxError: syntax error
+Line: 		return this.fileAction("logs/" + me.profile + " ItemLog - " 
+[06/12/18 01:22:58] D2BS 14848: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\oog.js:405) ReferenceError: Misc is not defined
+Line: (null)
+[06/12/18 01:23:03] D2BS 14848: D2BS Shutdown complete.
+[06/12/18 01:25:37] D2BS 15412: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:25:37] D2BS 15412: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1306) SyntaxError: syntax error
+Line: 		return this.fileAction("logs/" + me.profile + " ItemLog - " 
+[06/12/18 01:25:37] D2BS 15412: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\oog.js:405) ReferenceError: Misc is not defined
+Line: (null)
+[06/12/18 01:25:48] D2BS 15412: D2BS Shutdown complete.
+[06/12/18 01:27:10] D2BS 3792: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:27:10] D2BS 3792: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1306) SyntaxError: syntax error
+Line: 		return this.fileAction("logs/" + me.profile + " ItemLog - " 
+[06/12/18 01:27:10] D2BS 3792: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\oog.js:405) ReferenceError: Misc is not defined
+Line: (null)
+[06/12/18 01:27:13] D2BS 3792: D2BS Shutdown complete.
+[06/12/18 01:27:14] D2BS 3332: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:27:14] D2BS 3332: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1306) SyntaxError: syntax error
+Line: 		return this.fileAction("logs/" + me.profile + " ItemLog - " 
+[06/12/18 01:27:14] D2BS 3332: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\oog.js:405) ReferenceError: Misc is not defined
+Line: (null)
+[06/12/18 01:27:17] D2BS 3332: D2BS Shutdown complete.
+[06/12/18 01:27:40] D2BS 260: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:27:40] D2BS 260: [Error] Code(133) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\common\misc.js:1306) SyntaxError: syntax error
+Line: 		return this.fileAction("logs/" + me.profile + " ItemLog - " 
+[06/12/18 01:27:40] D2BS 260: [Error] Code(1) File(d:\work\diablo 2\d2bot-with-kolbot\d2bs\kolbot\libs\oog.js:405) ReferenceError: Misc is not defined
+Line: (null)
+[06/12/18 01:27:48] D2BS 260: D2BS Shutdown complete.
+[06/12/18 01:28:03] D2BS 16220: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:28:03] D2BS 16220: LinkboltMF
+[06/12/18 01:30:23] D2BS 10432: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:30:23] D2BS 10432: LinkboltMF
+[06/12/18 01:31:05] D2BS 10432: D2BS Shutdown complete.
+[06/12/18 01:31:07] D2BS 2588: D2BS Engine startup complete. 1.5.1868
+[06/12/18 01:31:07] D2BS 2588: LinkboltMF
