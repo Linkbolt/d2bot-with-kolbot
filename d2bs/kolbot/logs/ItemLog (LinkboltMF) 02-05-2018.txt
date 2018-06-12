@@ -1,0 +1,10 @@
+[01:34:37] <LinkboltMF> <Kept> (magic) Cost: 2106 (85) | Carmine Jewel  | Can be Inserted into Socketed Items | Required Level: 27 | +9 to Maximum Damage {Area: Mausoleum} {Cubing-Town}
+[01:34:37] <LinkboltMF> <Stashed> (magic) Carmine Jewel {Area: Mausoleum}
+[01:37:56] <LinkboltMF> <Kept> (normal) Flawless Ruby (1) | Can be Inserted into Socketed Items |  | Weapons: Adds 10-16 fire damage | Armor: +31 to Life | Helms: +31 to Life | Shields: Fire Resist +28% |  | Required Level: 15 {Area: Catacombs Level 3} {Cubing 1}
+[01:38:15] <LinkboltMF> <Stashed> (normal) Flawless Ruby {Area: Catacombs Level 4}
+[01:40:31] <LinkboltMF> <Kept> (magic) Cost: 12258 (81) | Shimmering Small Charm  | Keep in Inventory to Gain Bonus | Required Level: 25 | All Resistances +4 {Area: Moo Moo Farm}
+[01:40:33] <LinkboltMF> <Kept> (magic) Cost: 1033 (81) | Chestnut Jewel  | Can be Inserted into Socketed Items | +11 Maximum Stamina {Area: Moo Moo Farm} {Cubing-Town}
+[01:40:35] <LinkboltMF> <Stashed> (magic) Shimmering Small Charm {Area: Moo Moo Farm}
+[01:40:40] <LinkboltMF> <Stashed> (magic) Chestnut Jewel {Area: Moo Moo Farm}
+[01:40:47] <LinkboltMF> <Kept> (normal) Flawless Amethyst (1) | Can be Inserted into Socketed Items |  | Weapons: +100 to Attack Rating | Armor: +8 to Strength | Helms: +8 to Strength | Shields: +24 Defense |  | Required Level: 15 {Area: Moo Moo Farm} {Cubing 1}
+[01:41:53] <LinkboltMF> <Stashed> (normal) Flawless Amethyst {Area: Moo Moo Farm}
