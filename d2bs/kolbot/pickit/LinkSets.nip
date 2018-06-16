@@ -90,7 +90,7 @@
 [name] == ornateplate && [quality] == set # [defense] >= 950 // griswold's heart
 [name] == corona && [quality] == set # [enhanceddefense] >= 55 // griswold's valor
 //[name] == caduceus && [quality] == set # [sockets] >= 3 && [enhanceddamage] >= 200 // griswold's redemption
-[name] == vortexshield && [quality] == set # [defense] >= 290 // griswold's honor
+//[name] == vortexshield && [quality] == set # [defense] >= 290 // griswold's honor
 
 
 
