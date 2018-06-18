@@ -1,6 +1,0 @@
-[09:59:42] <LinkboltRunes> Error in ChestMania (town.js line 2160): Town.goToTown: Failed to take TP
-Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:15, Pather.journeyTo@pather.js:1470, Town.goToTown@town.js:2160
-[15:23:33] <LinkboltRunes> Error in ChestMania (town.js line 2209): Town.visitTown: Failed to go back from town
-Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:16, Misc.openChestsInArea@misc.js:927, Pather.moveToUnit@pather.js:629, Pather.moveTo@pather.js:232, NodeAction.go@pather.js:15, NodeAction.popChests@pather.js:55, Misc.openChests@misc.js:976, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2209
-[16:31:44] <LinkboltRunes> Error in ChestMania (misc.js line 900): getPresetUnits failed, couldn't access the level!
-Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, ChestMania@chestmania.js:16, Misc.openChestsInArea@misc.js:900
