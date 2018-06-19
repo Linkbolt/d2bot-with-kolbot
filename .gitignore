@@ -1,5 +1,6 @@
 /d2bs/d2bs.ini
-/d2bs/kolbot/data
 /data/profile.json
 /d2bs/d2bs.log
-/d2bs/kolbot/logs
+/d2bs/kolbot/data/*.json
+/d2bs/kolbot/logs/*.txt
+/d2bs/kolbot/logs/*.json

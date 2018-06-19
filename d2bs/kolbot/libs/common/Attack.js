@@ -783,7 +783,7 @@ var Attack = {
 
 			if (result) {
 				Pather.moveTo(result[0], result[1], 3, spectype);
-				this.countUniques();
+				//this.countUniques();
 
 				if (!this.clear(40, spectype)) {
 					break;
@@ -791,7 +791,7 @@ var Attack = {
 			}
 		}
 
-		this.storeStatistics(Pather.getAreaName(me.area));
+		//this.storeStatistics(Pather.getAreaName(me.area));
 
 		return true;
 	},
