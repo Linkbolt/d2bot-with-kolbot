@@ -242,7 +242,7 @@ function LoadConfig() {
 	Config.HealMP = 0; // Go to a healer if under designated percent of mana.
 	Config.HealStatus = false; // Go to a healer if poisoned or cursed
 	Config.UseMerc = true; // Use merc. This is ignored and always false in d2classic.
-	Config.MercWatch = true; // Instant merc revive during battle.
+	Config.MercWatch = false; // Instant merc revive during battle.
 
 	// Potion settings
 	Config.UseHP = 90; // Drink a healing potion if life is under designated percent.
@@ -256,10 +256,10 @@ function LoadConfig() {
 	Config.RejuvBuffer = 3; // Number of rejuvenation potions to keep in inventory.
 
 	// Chicken settings
-	Config.LifeChicken = 10; // Exit game if life is less or equal to designated percent.
+	Config.LifeChicken = 20; // Exit game if life is less or equal to designated percent.
 	Config.ManaChicken = 0; // Exit game if mana is less or equal to designated percent.
 	Config.MercChicken = 0; // Exit game if merc's life is less or equal to designated percent.
-	Config.TownHP = 25; // Go to town if life is under designated percent.
+	Config.TownHP = 0; // Go to town if life is under designated percent.
 	Config.TownMP = 0; // Go to town if mana is under designated percent.
 
 	/* Inventory lock configuration. !!!READ CAREFULLY!!!
