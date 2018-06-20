@@ -194,7 +194,7 @@ function LoadConfig() {
 		Config.ShopBot.ScanIDs = [];
 		Config.ShopBot.CycleDelay = 0; // Delay between shopping cycles in milliseconds, might help with crashes.
 		Config.ShopBot.QuitOnMatch = false; // Leave game as soon as an item is shopped.
-	Scripts.ChestMania = { Config.ScanShrines: [13,6,10,9,8,11,12] }; // Open chests in configured areas. See sdk/areas.txt
+	Scripts.ChestMania = true // Open chests in configured areas. See sdk/areas.txt
 		// mfing
 		Config.ChestMania.Act3 = [79, 80, 81, 82, 83, 93];
 		Config.ChestMania.Act5 = [125, 126, 127];
