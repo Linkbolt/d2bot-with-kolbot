@@ -50,10 +50,10 @@
 // #################################################################################################################################################
 // ##### 1- iratha's finery ########################################################################################################################
 // #################################################################################################################################################
-[name] == crown && [quality] == set # [defense] >= 243 && [fireresist] == 30 && [lightresist] == 30 # [maxquantity] == 1 // iratha's coil
+//[name] == crown && [quality] == set # [defense] >= 243 && [fireresist] == 30 && [lightresist] == 30 # [maxquantity] == 1 // iratha's coil
 //[name] == lightgauntlets && [quality] == set # [defense] >= 11 && [coldresist] == 30 # [maxquantity] == 1 // iratha's cuff
 //[name] == heavybelt && [quality] == set # [defense] >= 31 && [mindamage] == 5 # [maxquantity] == 1 // iratha's cord
-[type] == amulet && [quality] == set # [poisonresist] == 30 && [poisonlength] == -75 # [maxquantity] == 1 // iratha's collar
+//[type] == amulet && [quality] == set # [poisonresist] == 30 && [poisonlength] == -75 # [maxquantity] == 1 // iratha's collar
 
 
 
@@ -76,7 +76,7 @@
 // #################################################################################################################################################
 // ##### 1- cow king's leathers ####################################################################################################################
 // #################################################################################################################################################
-[name] == warhat && [quality] == set // cow king's horns
+//[name] == warhat && [quality] == set // cow king's horns
 //[name] == studdedleather && [quality] == set // cow king's hide
 //[name] == heavyboots && [quality] == set # [dexterity] == 20 && [itemmagicbonus] == 25 // cow king's hooves
 
@@ -87,8 +87,8 @@
 // #################################################################################################################################################
 // ##### 1- griswold's legacy ######################################################################################################################
 // #################################################################################################################################################
-[name] == ornateplate && [quality] == set # [defense] >= 950 // griswold's heart
-[name] == corona && [quality] == set # [enhanceddefense] >= 55 // griswold's valor
+//[name] == ornateplate && [quality] == set # [defense] >= 950 // griswold's heart
+//[name] == corona && [quality] == set # [enhanceddefense] >= 55 // griswold's valor
 //[name] == caduceus && [quality] == set # [sockets] >= 3 && [enhanceddamage] >= 200 // griswold's redemption
 //[name] == vortexshield && [quality] == set # [defense] >= 290 // griswold's honor
 
@@ -100,9 +100,9 @@
 // ##### 1- immortal king ##########################################################################################################################
 // #################################################################################################################################################
 //[name] == warbelt && [quality] == set // immortal king's detail
-[name] == avengerguard && [quality] == set # [itemmagicbonus] >= 40// immortal king's will
+//[name] == avengerguard && [quality] == set # [itemmagicbonus] >= 40// immortal king's will
 //[name] == ogremaul && [quality] == set // immortal king's stone crusher
-[name] == sacredarmor && [quality] == set // immortal king's soul cage
+//[name] == sacredarmor && [quality] == set // immortal king's soul cage
 //[name] == wargauntlets && [quality] == set // immortal king's forge
 //[name] == warboots && [quality] == set // immortal king's pillar
 
@@ -126,7 +126,7 @@
 // ##### 1- tal rasha's wrappings ##################################################################################################################
 // #################################################################################################################################################
 [name] == swirlingcrystal && [quality] == set # [skillcoldmastery] == 2 && [skillfiremastery] == 2 && [skilllightningmastery] == 2 // tal rasha's lidless eye
-//[name] == deathmask && [quality] == set # [defense] >= 131 // tal rasha's horadric crest
+[name] == deathmask && [quality] == set # [defense] >= 131 // tal rasha's horadric crest
 [name] == lacqueredplate && [quality] == set # [defense] >= 941 // tal rasha's guardianship
 [type] == amulet && [quality] == set # [sorceressskills] == 2 // tal rasha's adjucation
 [name] == meshbelt && [quality] == set # [itemmagicbonus] >= 15 //&& [defense] >= 40 // tal rasha's fine-spun cloth
@@ -142,7 +142,7 @@
 //[name] == chaosarmor && [quality] == set // trang-oul's scales
 //[name] == cantortrophy && [quality] == set // trang-oul's wing
 //[name] == trollbelt && [quality] == set // trang-oul's girth
-//[name] == heavybracers && [quality] == set # [defense] >= 74 // trang-oul's claws
+[name] == heavybracers && [quality] == set # [defense] >= 74 # [maxquantity] == 1 // trang-oul's claws
 
 
 
@@ -150,4 +150,4 @@
 // #################################################################################################################################################
 // ##### 1- the disciple #####################################################################################################################
 // #################################################################################################################################################
-//[name] == bramblemitts && [quality] == set # [defense] == 87 # [maxquantity] == 1 // laying of hands
+[name] == bramblemitts && [quality] == set # [defense] == 87 # [maxquantity] == 1 // laying of hands

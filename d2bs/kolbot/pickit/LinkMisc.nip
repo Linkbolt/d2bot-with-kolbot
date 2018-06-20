@@ -14,12 +14,20 @@
 // ##############################################################################################################################################
 // ##### 6- potions ###################################################################################################################
 // ##############################################################################################################################################
-//[name] == rejuvenationpotion
+//[name] == minorhealingpotion
+//[name] == lighthealingpotion
+//[name] == healingpotion
 //[name] == greaterhealingpotion
-//[name] == greatermanapotion
-[name] == fullrejuvenationpotion
 [name] == superhealingpotion
+
+//[name] == minormanapotion
+//[name] == lightmanapotion
+//[name] == manapotion
+//[name] == greatermanapotion
 [name] == supermanapotion
+
+//[name] == rejuvenationpotion
+[name] == fullrejuvenationpotion
 
 
 
@@ -34,7 +42,7 @@
 //[name] == nefrune # # [maxquantity] == 3
 //[name] == ethrune # # [maxquantity] == 3
 //[name] == ithrune # # [maxquantity] == 1
-[name] == talrune # # [maxquantity] == 3
+//[name] == talrune # # [maxquantity] == 3
 //[name] == ralrune # # [maxquantity] == 2
 //[name] == ortrune # # [maxquantity] == 2
 //[name] == thulrune # # [maxquantity] == 5
@@ -154,9 +162,9 @@
 // ##############################################################################################################################################
 // ##### 8- keys ################################################################################################################################
 // ##############################################################################################################################################
-[name] == keyofhate # # [maxquantity] == 4
+//[name] == keyofhate # # [maxquantity] == 4
 //[name] == keyofterror # # [maxquantity] == 2
-[name] == keyofdestruction # # [maxquantity] == 1
+//[name] == keyofdestruction # # [maxquantity] == 1
 //[name] == twistedessenceofsuffering # # [maxquantity] == 2
 //[name] == chargedessenceofhatred # # [maxquantity] == 3
 //[name] == burningessenceofterror # # [maxquantity] == 1
@@ -191,7 +199,7 @@
 //[quality] == unique # [frw] > 9000
 
 // ##### gold ##########################
-[type] == gold # [gold] >= 4000
+//[type] == gold # [gold] >= 4000
 
 // ##### money maker ######################
-[type] == armor && [class] >= elite && [quality] >= normal # [defense] >= 10000 // money maker
+[type] == armor && [class] >= elite && [quality] >= rare # [defense] >= 10000 // money maker
