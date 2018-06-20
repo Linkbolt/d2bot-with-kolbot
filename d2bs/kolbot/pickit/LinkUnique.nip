@@ -213,7 +213,7 @@
 // ##### daggers ############################
 [name] == dagger && [quality] == unique // gull
 [name] == fangedknife && [quality] == unique && [flag] == ethereal # [enhanceddamage] == 300 // fleshripper
-[name] == boneknife && [quality] == unique // wizardspike
+//[name] == boneknife && [quality] == unique // wizardspike
 
 
 // ##### maces ##############################
