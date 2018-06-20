@@ -53,13 +53,12 @@
 // ##############################################################################################################################################
 // ##### 3- unique helms ########################################################################################################################
 // ##############################################################################################################################################
-[name] == skullcap && [quality] == unique && [flag] == ethereal # [itemmagicbonus] >= 45 // tarnhelm
+[name] == skullcap && [quality] == unique && [flag] != ethereal # [itemallskills] == 1 && [itemmagicbonus] >= 40 // tarnhelm
 //[name] == sallet && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 210 // rockstopper
-[name] == casque && [quality] == unique && [flag] == ethereal //# [enhanceddefense] == 240 // stealskull
-[name] == grimhelm && [quality] == unique && [flag] != ethereal //# [lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // vampire gaze
-[name] == shako && [quality] == unique && [flag] != ethereal //# [defense] >= 135  // harlequin crest
-[name] == spiredhelm && [quality] == unique # [passivecoldmastery] == 15 && [dexterity] >= 20 // nightwing's veil
-[name] == demonhead && [quality] == unique && [flag] != ethereal //# [lifeleech] >= 10 && [enhanceddefense] >= 140 && [strength] >= 30 // andariel's visage
+[name] == grimhelm && [quality] == unique && [flag] != ethereal # //[lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // vampire gaze
+[name] == shako && [quality] == unique && [flag] != ethereal # //[defense] >= 135  // harlequin crest
+[name] == spiredhelm && [quality] == unique # [passivecoldmastery] == 15 && [dexterity] >= 20   // nightwing's veil
+[name] == demonhead && [quality] == unique && [flag] != ethereal # //[lifeleech] >= 10 && [enhanceddefense] >= 140 && [strength] >= 30 // andariel's visage
 [name] == corona && [quality] == unique  // crown of ages
 //[name] == basinet && [quality] == unique # [fireresist] >= 40 // darksight helm || darians iso
 //[name] == bonevisage && [quality] == unique // giant skull
@@ -86,8 +85,8 @@
 // ##############################################################################################################################################
 [name] == fullplatemail && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 150 //goldskin
 ([name] == serpentskinarmor || [name] == wyrmhide) && [quality] == unique && [flag] != ethereal # [fireresist] >= 35 && [magicdamagereduction] == 13// skin of the vipermagi
-[name] == mesharmor && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 220 // shaftstop
-[name] == russetarmor && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200  // skullder's ire
+[name] == mesharmor && [quality] == unique && [flag] != ethereal //# [enhanceddefense] == 220 // shaftstop
+[name] == russetarmor && [quality] == unique && [flag] != ethereal //# [enhanceddefense] == 200  // skullder's ire
 [name] == duskshroud && [quality] == unique && [flag] != ethereal # ([passivefiremastery] == 15 && ([skillenchant] == 3 || [skillfireball] == 3 || [skillmeteor] == 3)) || ([passiveltngmastery] == 15 && [skilllightning] == 3) || ([passivecoldmastery] == 15 && ([skillblizzard] == 3 || [skilliceblast] == 3 || [skillfrozenorb] == 3)) // ormus' robes
 //[name] == balrogskin && [quality] == unique [flag] != ethereal # [itemallskills] >= 2 // arkaine's valor
 //[name] == krakenshell && [quality] == unique [flag] != ethereal # [enhanceddefense] >= 200 && [damageresist] == 25 && [plusdefense] == 150 && [strength] == 50// leviathan
@@ -105,7 +104,7 @@
 [name] == chaosarmor && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 200 // black hades eth
 //[name] == balrogskin && [quality] == unique [flag] == ethereal # [itemallskills] >= 2 // arkaine's valor eth
 [name] == wirefleece && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 200 // gladiator's bane eth
-[name] == shadowplate && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 220 && [coldresist] == 60 && [normaldamagereduction] == 14 // steel carapace ath
+[name] == shadowplate && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 220 && [coldresist] == 60 && [normaldamagereduction] == 14 // steel carapace
 [name] == sacredarmor && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 220 // templar's might
 
 
@@ -115,7 +114,6 @@
 // ##############################################################################################################################################
 // ##### 5- unique belts ###################################################################################################################
 // ##############################################################################################################################################
-
 ([name] == heavybelt || [name] == battlebelt || [name] == trollbelt) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 && [itemgoldbonus] == 80 // goldwrap
 [name] == demonhidesash && [quality] == unique && [flag] != ethereal # [damageresist] == 15 && [lifeleech] == 8 && [enhanceddefense] == 180 && [magicdamagereduction] == 15 //string of ears
 [name] == battlebelt && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 170 // snowclash
@@ -201,7 +199,7 @@
 [name] == ettinaxe && [quality] == unique && [flag] == ethereal # [enhanceddamage] == 270 && [sockets] == 5 //rune master
 [name] == tomahawk && [quality] == unique && [flag] == ethereal # [enhanceddamage] == 225 // razor's edge
 [name] == berserkeraxe && [quality] == unique && [flag] == ethereal // death cleaver
-//[name] == cleaver && [quality] ==unique //butchers pupil
+//[name] == cleaver && [quality] == unique // butchers pupil
 
 
 // ##### bows ###############################
@@ -215,7 +213,7 @@
 // ##### daggers ############################
 [name] == dagger && [quality] == unique // gull
 [name] == fangedknife && [quality] == unique && [flag] == ethereal # [enhanceddamage] == 300 // fleshripper
-//[name] == boneknife && [quality] == unique // wizardspike
+[name] == boneknife && [quality] == unique // wizardspike
 
 
 // ##### maces ##############################
@@ -260,7 +258,7 @@
 
 
 // ##### swords #############################
-[name] == tulwar && [quality] == unique && [flag] == ethereal// # [enhanceddamage] == 120 && [dexterity] == 15 // blade of ali baba
+[name] == tulwar && [quality] == unique && [flag] == ethereal //# [enhanceddamage] == 120 && [dexterity] == 15 // blade of ali baba
 //[name] == battlesword && [quality] == unique && [flag] == ethereal // headstriker
 [name] == espandon && [quality] == unique && [flag] == ethereal # [enhanceddamage] == 200 // crainte vomir
 [name] == phaseblade && [quality] == unique # [ias] == 20 && [enhanceddamage] == 200 // lightsaber

@@ -39,7 +39,7 @@ function LoadConfig() {
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
 	Scripts.Countess = false; //{ ClearType:0x7, StaticList: [45], TeleStomp: true, Dodge: false, SkipImmune: [] };
-		Config.Countess.KillGhosts = false;
+		Config.Countess.KillGhosts = true;
 	Scripts.Andariel = false;
 	Scripts.Cows = false;
     
@@ -85,7 +85,7 @@ function LoadConfig() {
 	// *** act 5 ***
 	Scripts.Pindleskin = false;
 		Config.Pindleskin.UseWaypoint = false;
-		Config.Pindleskin.KillNihlathak = true;
+		Config.Pindleskin.KillNihlathak = false;
 		Config.Pindleskin.ViperQuit = true; // End script if Tomb Vipers are found.
 	Scripts.Nihlathak = false;
 		Config.Nihlathak.ViperQuit = false; // End script if Tomb Vipers are found.
@@ -114,7 +114,7 @@ function LoadConfig() {
 
 		
 	// Battle orders script - Use this for 2+ characters (for example BO barb + sorc)
-	Scripts.BattleOrders = true;
+	Scripts.BattleOrders = false;
 		Config.BattleOrders.Mode = 0; // 0 = give BO, 1 = get BO
 		Config.BattleOrders.Wait = false; // Idle until the player that received BO leaves.
 		Config.BattleOrders.Getters = []; // List of players to wait for before casting Battle Orders (mode 0). All players must be in the same area as the BOer.
@@ -194,7 +194,7 @@ function LoadConfig() {
 		Config.ShopBot.ScanIDs = [];
 		Config.ShopBot.CycleDelay = 0; // Delay between shopping cycles in milliseconds, might help with crashes.
 		Config.ShopBot.QuitOnMatch = false; // Leave game as soon as an item is shopped.
-	Scripts.ChestMania = true; // Open chests in configured areas. See sdk/areas.txt
+	Scripts.ChestMania = { Config.ScanShrines: [13,6,10,9,8,11,12] }; // Open chests in configured areas. See sdk/areas.txt
 		// mfing
 		Config.ChestMania.Act3 = [79, 80, 81, 82, 83, 93];
 		Config.ChestMania.Act5 = [125, 126, 127];
@@ -253,7 +253,7 @@ function LoadConfig() {
 	Config.UseMercRejuv = 0; // Give a rejuvenation potion to your merc if his/her life is under designated percent.
 	Config.HPBuffer = 0; // Number of healing potions to keep in inventory.
 	Config.MPBuffer = 0; // Number of mana potions to keep in inventory.
-	Config.RejuvBuffer = 0; // Number of rejuvenation potions to keep in inventory.
+	Config.RejuvBuffer = 3; // Number of rejuvenation potions to keep in inventory.
 
 	// Chicken settings
 	Config.LifeChicken = 10; // Exit game if life is less or equal to designated percent.
@@ -269,9 +269,9 @@ function LoadConfig() {
 	 * If you don't change the default values, the bot won't stash items.
 	 */
 	Config.Inventory[0] = [1,1,1,1,1,1,1,0,0,0];
-    Config.Inventory[1] = [1,1,1,1,1,1,1,0,0,0];
-    Config.Inventory[2] = [1,1,1,1,1,1,1,0,0,0];
-    Config.Inventory[3] = [1,1,1,1,1,1,1,1,0,0];
+	Config.Inventory[1] = [1,1,1,1,1,1,1,0,0,0];
+	Config.Inventory[2] = [1,1,1,1,1,1,1,0,0,0];
+	Config.Inventory[3] = [1,1,1,1,1,1,1,1,0,0];
 
 	Config.StashGold = 100000; // Minimum amount of gold to stash.
 
@@ -313,7 +313,7 @@ function LoadConfig() {
 
 	// Item identification settings
 	Config.CainID.Enable = false; // Identify items at Cain
-	Config.CainID.MinGold = 0; // Minimum gold (stash + character) to have in order to use Cain.
+	Config.CainID.MinGold = 2500000; // Minimum gold (stash + character) to have in order to use Cain.
 	Config.CainID.MinUnids = 1; // Minimum number of unid items in order to use Cain.
 	Config.FieldID = false; // Identify items in the field instead of going to town.
 	Config.DroppedItemsAnnounce.Enable = false;	// Announce Dropped Items to in-game newbs
@@ -364,7 +364,7 @@ function LoadConfig() {
 	// Ingredients for the following recipes will be auto-picked, for classids check libs/NTItemAlias.dbl
 
 	//Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
-	Config.Recipes.push([Recipe.Gem, "Flawless Topaz"]); // Make Perfect Topaz
+	//Config.Recipes.push([Recipe.Gem, "Flawless Topaz"]); // Make Perfect Topaz
 	//Config.Recipes.push([Recipe.Gem, "Flawless Sapphire"]); // Make Perfect Sapphire
 	//Config.Recipes.push([Recipe.Gem, "Flawless Emerald"]); // Make Perfect Emerald
 	//Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
@@ -445,13 +445,15 @@ function LoadConfig() {
 	 */
 	Config.MakeRunewords = true; // Set to true to enable runeword making/rerolling
 
-	//Config.Runewords.push([Runeword.Insight, "Thresher"]); // Make Insight Thresher
-	//Config.Runewords.push([Runeword.Insight, "Cryptic Axe"]); // Make Insight Cryptic Axe
+	Config.Runewords.push([Runeword.Insight, "Thresher"]); // Make Insight Thresher
+	Config.Runewords.push([Runeword.Insight, "Cryptic Axe"]); // Make Insight Cryptic Axe
+	Config.Runewords.push([Runeword.Insight, "Colossus Voulge"]); // Make Insight Cryptic Axe
+	Config.Runewords.push([Runeword.Insight, "Great Poleaxe"]); // Make Insight Cryptic Axe
 
 	Config.Runewords.push([Runeword.Spirit, "Monarch"]); // Make Spirit Monarch
 	//Config.Runewords.push([Runeword.Spirit, "Sacred Targe"]); // Make Spirit Sacred Targe
 
-	Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] >= 35"); // Keep Spirit
+	Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] == 35"); // Keep Spirit
 	Config.KeepRunewords.push("[type] == polearm"); // # [meditationaura] == 17"); Keep insight
 
 	// Public game options
@@ -471,6 +473,7 @@ function LoadConfig() {
 	Config.LastMessage = ""; // Message or array of messages to say at the end of the run. Use $nextgame to say next game - "Next game: $nextgame" (works with lead entry point)
 	Config.MinGameTime = 120; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
 	Config.MaxGameTime = 1000; // Maximum game time in seconds. Quit game when limit is reached.
+	//Config.MaxGameTime = 500; // Chesting
 	Config.TeleSwitch = false; // Switch to slot II when teleporting more than 1 node.
 	Config.OpenChests = true; // Open chests. Controls key buying.
 	Config.MiniShopBot = false; // Scan items in NPC shops.
@@ -545,6 +548,15 @@ function LoadConfig() {
 	//Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
 	//Config.AttackSkill[6] = -1; // Secondary untimed skill if monster is immune to primary untimed.
 	
+	// Blizzard and Fireball
+	Config.AttackSkill[0] = 55; // Preattack skill.
+	Config.AttackSkill[1] = 59; // Primary skill to bosses.
+	Config.AttackSkill[2] = 47; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
+	Config.AttackSkill[3] = 59; // Primary skill to others.
+	Config.AttackSkill[4] = 47; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
+	Config.AttackSkill[5] = 59; // Secondary skill if monster is immune to primary.
+	Config.AttackSkill[6] = 47; // Secondary untimed skill if monster is immune to primary untimed.
+	
 	// Low mana skills - these will be used if main skills can't be cast.
 	Config.LowManaSkill[0] = -1; // Timed low mana skill.
 	Config.LowManaSkill[1] = -1; // Untimed low mana skill.	
@@ -558,7 +570,7 @@ function LoadConfig() {
 		//"Monster Name": [-1, -1]
 	};
 
-	Config.Dodge = false; // Move away from monsters that get too close. Don't use with short-ranged attacks like Poison Dagger.
+	Config.Dodge = true; // Move away from monsters that get too close. Don't use with short-ranged attacks like Poison Dagger.
 	Config.DodgeRange = 15; // Distance to keep from monsters.
 	Config.DodgeHP = 100; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = false; // Set to true to attack Unique/SuperUnique monsters first when clearing
