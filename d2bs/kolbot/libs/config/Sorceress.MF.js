@@ -24,7 +24,7 @@ function LoadConfig() {
 	// *** act 1 ***
 	Scripts.Corpsefire = false;
 		Config.Corpsefire.ClearDen = false;
-	Scripts.Mausoleum = true;
+	Scripts.Mausoleum = false;
 		Config.Mausoleum.KillBloodRaven = false;
 		Config.Mausoleum.ClearCrypt = false;
 	Scripts.Rakanishu = false;
@@ -33,14 +33,14 @@ function LoadConfig() {
 	Scripts.Coldcrow = false;
 	Scripts.Tristram = false;
 		Config.Tristram.PortalLeech = false; // Set to true to open a portal for leechers.
-	Scripts.Pit = true;
+	Scripts.Pit = false;
 		Config.Pit.ClearPit1 = true;
 	Scripts.Treehead = false;
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
 	Scripts.Countess = false; //{ ClearType:0x7, StaticList: [45], TeleStomp: true, Dodge: false, SkipImmune: [] };
 		Config.Countess.KillGhosts = true;
-	Scripts.Andariel = false;
+	Scripts.Andariel = true;
 	Scripts.Cows = false;
     
 	// *** act 2 ***
@@ -48,7 +48,7 @@ function LoadConfig() {
 	Scripts.Coldworm = false;
 		Config.Coldworm.KillBeetleburst = false;
 		Config.Coldworm.ClearMaggotLair = false; // Clear all 3 levels
-	Scripts.AncientTunnels = true;
+	Scripts.AncientTunnels = false;
 		Config.AncientTunnels.OpenChest = true; // Open special chest in Lost City
 		Config.AncientTunnels.KillDarkElder = true;
 	Scripts.Summoner = false;
@@ -98,18 +98,18 @@ function LoadConfig() {
 	Scripts.ThreshSocket = false;
 	Scripts.Abaddon = false;
 	Scripts.Frozenstein = false;
-		Config.Frozenstein.ClearFrozenRiver = true;
+		Config.Frozenstein.ClearFrozenRiver = false;
 	Scripts.Bonesaw = false;
 		Config.Bonesaw.ClearDrifterCavern = false;
 	Scripts.Snapchip = false;
-		Config.Snapchip.ClearIcyCellar = true;
+		Config.Snapchip.ClearIcyCellar = false;
 	Scripts.Worldstone = false;
-	Scripts.Baal = false;
+	Scripts.Baal = true;
 		//Config.Baal.HotTPMessage = "Hot TP!";
 		//Config.Baal.SafeTPMessage = "Safe TP!";
 		//Config.Baal.BaalMessage = "Baal!";
-		Config.Baal.SoulQuit = true; // End script if Souls (Undead Soul Killers) are found.
-		Config.Baal.DollQuit = true; // End script if Dolls (Undead Stigyan Dolls) are found.
+		Config.Baal.SoulQuit = false; // End script if Souls (Undead Soul Killers) are found.
+		Config.Baal.DollQuit = false; // End script if Dolls (Undead Stigyan Dolls) are found.
 		Config.Baal.KillBaal = true; // Kill Baal. Leaves game after wave 5 if false.
 
 		
@@ -194,7 +194,7 @@ function LoadConfig() {
 		Config.ShopBot.ScanIDs = [];
 		Config.ShopBot.CycleDelay = 0; // Delay between shopping cycles in milliseconds, might help with crashes.
 		Config.ShopBot.QuitOnMatch = false; // Leave game as soon as an item is shopped.
-	Scripts.ChestMania = true // Open chests in configured areas. See sdk/areas.txt
+	Scripts.ChestMania = false; // Open chests in configured areas. See sdk/areas.txt
 		// mfing
 		Config.ChestMania.Act3 = [79, 80, 81, 82, 83, 93];
 		Config.ChestMania.Act5 = [125, 126, 127];
@@ -283,7 +283,7 @@ function LoadConfig() {
 	 * Supported potions - Healing ("hp"), Mana ("mp") and Rejuvenation ("rv")
 	 */
 	Config.BeltColumn[0] = "hp";
-	Config.BeltColumn[1] = "hp";
+	Config.BeltColumn[1] = "mp";
 	Config.BeltColumn[2] = "mp";
 	Config.BeltColumn[3] = "rv";
 
@@ -478,7 +478,7 @@ function LoadConfig() {
 	Config.MaxGameTime = 1000; // Maximum game time in seconds. Quit game when limit is reached.
 	//Config.MaxGameTime = 500; // Chesting
 	Config.TeleSwitch = false; // Switch to slot II when teleporting more than 1 node.
-	Config.OpenChests = true; // Open chests. Controls key buying.
+	Config.OpenChests = false; // Open chests. Controls key buying.
 	Config.MiniShopBot = false; // Scan items in NPC shops.
 	Config.PacketShopping = false; // Use packets to shop. Improves shopping speed.
 	Config.TownCheck = true; // Go to town if out of potions
@@ -573,7 +573,7 @@ function LoadConfig() {
 		//"Monster Name": [-1, -1]
 	};
 
-	Config.Dodge = true; // Move away from monsters that get too close. Don't use with short-ranged attacks like Poison Dagger.
+	Config.Dodge = false; // Move away from monsters that get too close. Don't use with short-ranged attacks like Poison Dagger.
 	Config.DodgeRange = 15; // Distance to keep from monsters.
 	Config.DodgeHP = 100; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = false; // Set to true to attack Unique/SuperUnique monsters first when clearing

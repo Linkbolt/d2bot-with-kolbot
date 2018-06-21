@@ -194,7 +194,7 @@ function LoadConfig() {
 		Config.ShopBot.ScanIDs = [];
 		Config.ShopBot.CycleDelay = 0; // Delay between shopping cycles in milliseconds, might help with crashes.
 		Config.ShopBot.QuitOnMatch = false; // Leave game as soon as an item is shopped.
-	Scripts.ChestMania = true; // Open chests in configured areas. See sdk/areas.txt
+	Scripts.ChestMania = false; // Open chests in configured areas. See sdk/areas.txt
 		// mfing
 		Config.ChestMania.Act3 = [79, 80, 81, 82, 83, 93];
 		Config.ChestMania.Act5 = [125, 126, 127];
@@ -251,15 +251,15 @@ function LoadConfig() {
 	Config.UseRejuvMP = 0; // Drink a rejuvenation potion if mana is under designated percent.
 	Config.UseMercHP = 75; // Give a healing potion to your merc if his/her life is under designated percent.
 	Config.UseMercRejuv = 0; // Give a rejuvenation potion to your merc if his/her life is under designated percent.
-	Config.HPBuffer = 0; // Number of healing potions to keep in inventory.
-	Config.MPBuffer = 0; // Number of mana potions to keep in inventory.
-	Config.RejuvBuffer = 0; // Number of rejuvenation potions to keep in inventory.
+	Config.HPBuffer = 30; // Number of healing potions to keep in inventory.
+	Config.MPBuffer = 30; // Number of mana potions to keep in inventory.
+	Config.RejuvBuffer = 30; // Number of rejuvenation potions to keep in inventory.
 
 	// Chicken settings
 	Config.LifeChicken = 0; // Exit game if life is less or equal to designated percent.
 	Config.ManaChicken = 0; // Exit game if mana is less or equal to designated percent.
 	Config.MercChicken = 0; // Exit game if merc's life is less or equal to designated percent.
-	Config.TownHP = 25; // Go to town if life is under designated percent.
+	Config.TownHP = 0; // Go to town if life is under designated percent.
 	Config.TownMP = 0; // Go to town if mana is under designated percent.
 
 	/* Inventory lock configuration. !!!READ CAREFULLY!!!
@@ -268,10 +268,10 @@ function LoadConfig() {
 	 * 1 = item is unlocked and will be dropped, stashed or sold.
 	 * If you don't change the default values, the bot won't stash items.
 	 */
-	Config.Inventory[0] = [0,0,0,0,0,0,0,0,0,0];
-	Config.Inventory[1] = [0,0,0,0,0,0,0,0,0,0];
-	Config.Inventory[2] = [0,0,0,0,0,0,0,0,0,0];
-	Config.Inventory[3] = [0,0,0,0,0,0,0,0,0,0];
+	Config.Inventory[0] = [1,1,1,1,1,1,1,1,1,1];
+	Config.Inventory[1] = [1,1,1,1,1,1,1,1,1,1];
+	Config.Inventory[2] = [1,1,1,1,1,1,1,1,1,1];
+	Config.Inventory[3] = [1,1,1,1,1,1,1,1,1,1];
 
 	Config.StashGold = 100000; // Minimum amount of gold to stash.
 
@@ -279,18 +279,18 @@ function LoadConfig() {
 	 * Rejuvenation potions must always be rightmost.
 	 * Supported potions - Healing ("hp"), Mana ("mp") and Rejuvenation ("rv")
 	 */
-	Config.BeltColumn[0] = "hp";
-	Config.BeltColumn[1] = "hp";
-	Config.BeltColumn[2] = "mp";
-	Config.BeltColumn[3] = "mp";
+	Config.BeltColumn[0] = "";
+	Config.BeltColumn[1] = "";
+	Config.BeltColumn[2] = "";
+	Config.BeltColumn[3] = "";
 
 	/* Minimum amount of potions. If we have less, go to vendor to purchase more.
 	 * Set rejuvenation columns to 0, because they can't be bought.
 	 */
-	Config.MinColumn[0] = 4;
-	Config.MinColumn[1] = 4;
-	Config.MinColumn[2] = 4;
-	Config.MinColumn[3] = 4;
+	Config.MinColumn[0] = 0;
+	Config.MinColumn[1] = 0;
+	Config.MinColumn[2] = 0;
+	Config.MinColumn[3] = 0;
 
 	// Pickit config. Default folder is kolbot/pickit.
 	Config.PickitFiles.push("LinkUnique.nip");
@@ -324,7 +324,7 @@ function LoadConfig() {
 	Config.RepairPercent = 40; // Durability percent of any equipped item that will trigger repairs.
 
 	// Gambling config
-	Config.Gamble = true;
+	Config.Gamble = false;
 	Config.GambleGoldStart = 2500000;
 	Config.GambleGoldStop = 500000;
 
@@ -359,7 +359,7 @@ function LoadConfig() {
 	/* Cubing config. All recipe names are available in Templates/Cubing.txt. For item names/classids check NTItemAlias.dbl
 	 * The format is Config.Recipes.push([recipe_name, item_name_or_classid, etherealness]). Etherealness is optional and only applies to some recipes.
 	 */
-	Config.Cubing = true; // Set to true to enable cubing.
+	Config.Cubing = false; // Set to true to enable cubing.
 	
 	// Ingredients for the following recipes will be auto-picked, for classids check libs/NTItemAlias.dbl
 
@@ -443,7 +443,7 @@ function LoadConfig() {
 	/* Runeword config. All recipes are available in Templates/Runewords.txt
 	 * Keep lines follow pickit format and any given runeword is tested vs ALL lines so you don't need to repeat them
 	 */
-	Config.MakeRunewords = true; // Set to true to enable runeword making/rerolling
+	Config.MakeRunewords = false; // Set to true to enable runeword making/rerolling
 
 	//Config.Runewords.push([Runeword.Insight, "Thresher"]); // Make Insight Thresher
 	//Config.Runewords.push([Runeword.Insight, "Cryptic Axe"]); // Make Insight Cryptic Axe
@@ -473,7 +473,7 @@ function LoadConfig() {
 	Config.MaxGameTime = 1500; // Maximum game time in seconds. Quit game when limit is reached.
 	//Config.MaxGameTime = 500; // Chesting
 	Config.TeleSwitch = false; // Switch to slot II when teleporting more than 1 node.
-	Config.OpenChests = true; // Open chests. Controls key buying.
+	Config.OpenChests = false; // Open chests. Controls key buying.
 	Config.MiniShopBot = false; // Scan items in NPC shops.
 	Config.PacketShopping = false; // Use packets to shop. Improves shopping speed.
 	Config.TownCheck = true; // Go to town if out of potions
@@ -513,7 +513,7 @@ function LoadConfig() {
 	// Monster skip config
 	// Skip immune monsters. Possible options: "fire", "cold", "lightning", "poison", "physical", "magic".
 	// You can combine multiple resists with "and", for example - "fire and cold", "physical and cold and poison"
-	Config.SkipImmune = ["lightning"];
+	Config.SkipImmune = [];
 	// Skip enchanted monsters. Possible options: "extra strong", "extra fast", "cursed", "magic resistant", "fire enchanted", "lightning enchanted", "cold enchanted", "mana burn", "teleportation", "spectral hit", "stone skin", "multiple shots".
 	// You can combine multiple enchantments with "and", for example - "cursed and extra fast", "mana burn and extra strong and lightning enchanted"
 	Config.SkipEnchant = [];
@@ -529,13 +529,13 @@ function LoadConfig() {
 	 */
 	
 	// Chain Light
-	Config.AttackSkill[0] = 53; // Preattack skill.
-	Config.AttackSkill[1] = 53; // Primary skill to bosses.
-	Config.AttackSkill[2] = -1; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
-	Config.AttackSkill[3] = 53; // Primary skill to others.
-	Config.AttackSkill[4] = -1; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
-	Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
-	Config.AttackSkill[6] = -1; // Secondary untimed skill if monster is immune to primary untimed.
+	//Config.AttackSkill[0] = 53; // Preattack skill.
+	//Config.AttackSkill[1] = 53; // Primary skill to bosses.
+	//Config.AttackSkill[2] = -1; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
+	//Config.AttackSkill[3] = 53; // Primary skill to others.
+	//Config.AttackSkill[4] = -1; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
+	//Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
+	//Config.AttackSkill[6] = -1; // Secondary untimed skill if monster is immune to primary untimed.
 
 	// Blizzard
 	//Config.AttackSkill[0] = 55; // Preattack skill.
@@ -545,6 +545,15 @@ function LoadConfig() {
 	//Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
 	//Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
 	//Config.AttackSkill[6] = -1; // Secondary untimed skill if monster is immune to primary untimed.
+	
+	// Blizzard and Fireball
+	Config.AttackSkill[0] = 55; // Preattack skill.
+	Config.AttackSkill[1] = 59; // Primary skill to bosses.
+	Config.AttackSkill[2] = 47; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
+	Config.AttackSkill[3] = 59; // Primary skill to others.
+	Config.AttackSkill[4] = 47; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
+	Config.AttackSkill[5] = 59; // Secondary skill if monster is immune to primary.
+	Config.AttackSkill[6] = 47; // Secondary untimed skill if monster is immune to primary untimed.
 	
 	// Low mana skills - these will be used if main skills can't be cast.
 	Config.LowManaSkill[0] = -1; // Timed low mana skill.
@@ -559,7 +568,7 @@ function LoadConfig() {
 		//"Monster Name": [-1, -1]
 	};
 
-	Config.Dodge = false; // Move away from monsters that get too close. Don't use with short-ranged attacks like Poison Dagger.
+	Config.Dodge = true; // Move away from monsters that get too close. Don't use with short-ranged attacks like Poison Dagger.
 	Config.DodgeRange = 15; // Distance to keep from monsters.
 	Config.DodgeHP = 100; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = false; // Set to true to attack Unique/SuperUnique monsters first when clearing
