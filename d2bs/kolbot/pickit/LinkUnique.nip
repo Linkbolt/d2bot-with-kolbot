@@ -175,7 +175,7 @@
 ([name] == hierophanttrophy || [name] == bloodlordskull) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // homunculus
 [name] == succubusskull && [quality] == unique && [flag] != ethereal # [necromancerskills] == 2 && [fireresist] == 30 && [enhanceddefense] == 150 // boneflame
 [name] == bloodlordskull && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 180 && [poisonandboneskilltab]+[cursesskilltab]+[necromancersummoningskilltab] == 9 //darkforce spawn
-[name] == gildedshield && [quality] == unique// # [enhanceddefense] >= 200 // herald of zakarum
+[name] == gildedshield && [quality] == unique # [enhanceddefense] >= 200 // herald of zakarum
 [name] == sacredrondache && [quality] == unique # [paladinskills] == 2 && [enhanceddefense] >= 200 && [enhanceddamage] >= 70 && [itemtohitpercent] >= 70 // alma negra
 
 ([name] == spikedshield || [name] == barbedshield || [name] == bladebarrier)  && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 60 // swordback hold eth
@@ -211,7 +211,7 @@
 
 
 // ##### daggers ############################
-[name] == dagger && [quality] == unique // gull
+//[name] == dagger && [quality] == unique // gull
 [name] == fangedknife && [quality] == unique && [flag] == ethereal # [enhanceddamage] == 300 // fleshripper
 //[name] == boneknife && [quality] == unique // wizardspike
 
