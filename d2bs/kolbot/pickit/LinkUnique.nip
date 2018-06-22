@@ -148,7 +148,7 @@
 // ##### 7- unique boots ###################################################################################################################
 // ##############################################################################################################################################
 ([name] == boots || [name] == demonhideboots || [name] == wyrmhideboots) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // hotspur
-([name] == lightplatedboots || [name] == battleboots || [name] == mirroredboots) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // goblin toe
+//([name] == lightplatedboots || [name] == battleboots || [name] == mirroredboots) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // goblin toe
 ([name] == demonhideboots || [name] == wyrmhideboots) && [quality] == unique && [flag] != ethereal # [itemgoldbonus] == 70 && [enhanceddefense] == 150 // infernostride
 ([name] == sharkskinboots || [name] == scarabshellboots) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 210 && [maxhp] == 65 // waterwalk
 [name] == meshboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 190 // silkweave

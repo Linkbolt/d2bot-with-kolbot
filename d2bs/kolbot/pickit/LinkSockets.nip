@@ -44,7 +44,7 @@
 //[name] == grimshield && [quality] <= superior && [flag] != ethereal # [sockets] == 2 # [maxquantity] == 1 // rhyme runeword
 //[name] == trollnest && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [enhanceddefense] >= 10 // rhyme runeword
 //[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [enhanceddefense] >= 10 // spirit runeword | rhyme runeword
-[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 4 # [maxquantity] == 2 //&& [enhanceddefense] >= 10 // spirit runeword | phoenix runeword
+[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 4 # [maxquantity] == 1 //&& [enhanceddefense] >= 10 // spirit runeword | phoenix runeword
 
 [name] == monarch && [quality] == normal && [flag] == ethereal # [sockets] == 0 // cube socket eth bug
 [name] == monarch && [quality] <= superior && [flag] == ethereal # [sockets] == 4 && [defense] >= 200 // exile runeword | phoenix runeword
