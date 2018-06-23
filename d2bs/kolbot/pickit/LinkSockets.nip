@@ -108,7 +108,6 @@
 [name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # [sockets] == 0 && [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
 [name] == crypticaxe && [quality] <= superior && [flag] == ethereal # [sockets] == 0 && [enhanceddamage] >= 10 // doom runeword
 [type] == polearm && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 4 //&& [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
-[type] == polearm && [class] == elite && [quality] <= superior # [sockets] == 4 // REMOVE ME
 [type] == polearm && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 5 && [enhanceddamage] >= 10 // doom runeword
 [type] == polearm && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 6 && [enhanceddamage] >= 10 // breath of the dying runeword
 

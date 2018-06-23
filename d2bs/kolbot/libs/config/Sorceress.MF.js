@@ -246,17 +246,17 @@ function LoadConfig() {
 
 	// Potion settings
 	Config.UseHP = 90; // Drink a healing potion if life is under designated percent.
-	Config.UseRejuvHP = 40;  // Drink a rejuvenation potion if life is under designated percent.
+	Config.UseRejuvHP = 50;  // Drink a rejuvenation potion if life is under designated percent.
 	Config.UseMP = 25; // Drink a mana potion if mana is under designated percent.
 	Config.UseRejuvMP = 0; // Drink a rejuvenation potion if mana is under designated percent.
 	Config.UseMercHP = 75; // Give a healing potion to your merc if his/her life is under designated percent.
 	Config.UseMercRejuv = 0; // Give a rejuvenation potion to your merc if his/her life is under designated percent.
 	Config.HPBuffer = 0; // Number of healing potions to keep in inventory.
 	Config.MPBuffer = 0; // Number of mana potions to keep in inventory.
-	Config.RejuvBuffer = 3; // Number of rejuvenation potions to keep in inventory.
+	Config.RejuvBuffer = 0; // Number of rejuvenation potions to keep in inventory.
 
 	// Chicken settings
-	Config.LifeChicken = 20; // Exit game if life is less or equal to designated percent.
+	Config.LifeChicken = 30; // Exit game if life is less or equal to designated percent.
 	Config.ManaChicken = 0; // Exit game if mana is less or equal to designated percent.
 	Config.MercChicken = 0; // Exit game if merc's life is less or equal to designated percent.
 	Config.TownHP = 0; // Go to town if life is under designated percent.
@@ -268,10 +268,10 @@ function LoadConfig() {
 	 * 1 = item is unlocked and will be dropped, stashed or sold.
 	 * If you don't change the default values, the bot won't stash items.
 	 */
-	Config.Inventory[0] = [1,1,1,1,1,1,0,0,0,0];
-	Config.Inventory[1] = [1,1,1,1,1,1,0,0,0,0];
-	Config.Inventory[2] = [1,1,1,1,1,1,0,0,0,0];
-	Config.Inventory[3] = [1,1,1,1,1,1,0,0,0,0];
+	Config.Inventory[0] = [1,1,1,1,1,1,1,0,0,0];
+	Config.Inventory[1] = [1,1,1,1,1,1,1,0,0,0];
+	Config.Inventory[2] = [1,1,1,1,1,1,1,0,0,0];
+	Config.Inventory[3] = [1,1,1,1,1,1,1,0,0,0];
 
 	Config.StashGold = 100000; // Minimum amount of gold to stash.
 
@@ -312,8 +312,8 @@ function LoadConfig() {
 	Config.ItemInfoQuality = []; // The quality of sold items to log. See NTItemAlias.dbl for values. Example: Config.ItemInfoQuality = [6, 7, 8];
 
 	// Item identification settings
-	Config.CainID.Enable = false; // Identify items at Cain
-	Config.CainID.MinGold = 2500000; // Minimum gold (stash + character) to have in order to use Cain.
+	Config.CainID.Enable = true; // Identify items at Cain
+	Config.CainID.MinGold = 3000000; // Minimum gold (stash + character) to have in order to use Cain.
 	Config.CainID.MinUnids = 1; // Minimum number of unid items in order to use Cain.
 	Config.FieldID = false; // Identify items in the field instead of going to town.
 	Config.DroppedItemsAnnounce.Enable = false;	// Announce Dropped Items to in-game newbs
@@ -453,8 +453,11 @@ function LoadConfig() {
 	Config.Runewords.push([Runeword.Spirit, "Monarch"]); // Make Spirit Monarch
 	//Config.Runewords.push([Runeword.Spirit, "Sacred Targe"]); // Make Spirit Sacred Targe
 
+	//Config.Runewords.push([Runeword.Smoke, "Boneweave"]); // Make Smoke Boneweave
+	
 	Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] >= 30"); // Keep Spirit
-	Config.KeepRunewords.push("[type] == polearm"); // # [meditationaura] == 17"); Keep insight
+	Config.KeepRunewords.push("[type] == polearm # [meditationaura] == 17"); // Keep insight
+	Config.KeepRunewords.push("[type] == armor"); // Keep Smoke
 
 	// Public game options
 
@@ -480,7 +483,7 @@ function LoadConfig() {
 	Config.PacketShopping = false; // Use packets to shop. Improves shopping speed.
 	Config.TownCheck = true; // Go to town if out of potions
 	Config.LogExperience = true; // Print experience statistics in the manager.
-	Config.PingQuit = [{Ping: 0, Duration: 0}]; // Quit if ping is over the given value for over the given time period in seconds.
+	Config.PingQuit = [{Ping: 200, Duration: 30}]; // Quit if ping is over the given value for over the given time period in seconds.
 
 	// Shrine Scanner - scan for shrines while moving.
 	// Put the shrine types in order of priority (from highest to lowest). For a list of types, see sdk/shrines.txt

@@ -17,7 +17,7 @@
 // ##############################################################################################################################################
 //[type] == ring && [quality] == unique // all
 [type] == ring && [quality] == unique # [itemmagicbonus] >= 30 // nagelring
-[type] == ring && [quality] == unique # [manaleech] >= 7 // manald heal
+//[type] == ring && [quality] == unique # [manaleech] >= 7 // manald heal
 [type] == ring && [quality] == unique # [itemmaxmanapercent] == 25 // stone of jordan
 //[type] == ring && [quality] == unique # [maxhp] == 40 // dwarf star
 [type] == ring && [quality] == unique # [dexterity] >= 20 //&& [tohit] >= 250 // raven frost
@@ -85,7 +85,7 @@
 // ##############################################################################################################################################
 [name] == fullplatemail && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 150 //goldskin
 ([name] == serpentskinarmor || [name] == wyrmhide) && [quality] == unique && [flag] != ethereal # [fireresist] >= 35 && [magicdamagereduction] == 13// skin of the vipermagi
-[name] == mesharmor && [quality] == unique && [flag] != ethereal //# [enhanceddefense] == 220 // shaftstop
+[name] == mesharmor && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 200 // shaftstop
 [name] == russetarmor && [quality] == unique && [flag] != ethereal //# [enhanceddefense] == 200  // skullder's ire
 [name] == duskshroud && [quality] == unique && [flag] != ethereal # ([passivefiremastery] == 15 && ([skillenchant] == 3 || [skillfireball] == 3 || [skillmeteor] == 3)) || ([passiveltngmastery] == 15 && [skilllightning] == 3) || ([passivecoldmastery] == 15 && ([skillblizzard] == 3 || [skilliceblast] == 3 || [skillfrozenorb] == 3)) // ormus' robes
 //[name] == balrogskin && [quality] == unique [flag] != ethereal # [itemallskills] >= 2 // arkaine's valor
