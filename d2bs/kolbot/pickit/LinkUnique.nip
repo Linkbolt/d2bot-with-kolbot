@@ -85,7 +85,7 @@
 // ##############################################################################################################################################
 [name] == fullplatemail && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 150 //goldskin
 ([name] == serpentskinarmor || [name] == wyrmhide) && [quality] == unique && [flag] != ethereal # [fireresist] >= 35 && [magicdamagereduction] == 13// skin of the vipermagi
-[name] == mesharmor && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 200 // shaftstop
+[name] == mesharmor && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 220 // shaftstop
 [name] == russetarmor && [quality] == unique && [flag] != ethereal //# [enhanceddefense] == 200  // skullder's ire
 [name] == duskshroud && [quality] == unique && [flag] != ethereal # ([passivefiremastery] == 15 && ([skillenchant] == 3 || [skillfireball] == 3 || [skillmeteor] == 3)) || ([passiveltngmastery] == 15 && [skilllightning] == 3) || ([passivecoldmastery] == 15 && ([skillblizzard] == 3 || [skilliceblast] == 3 || [skillfrozenorb] == 3)) // ormus' robes
 //[name] == balrogskin && [quality] == unique [flag] != ethereal # [itemallskills] >= 2 // arkaine's valor
@@ -97,7 +97,7 @@
 [name] == tigulatedmail && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 180 // crow caw eth
 [name] == linkedmail && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 160 // spirit forge eth
 [name] == cuirass && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 200 // duriel's shell eth
-[name] == mesharmor && [quality] == unique && [flag] == ethereal //# [enhanceddefense] == 220 // shaftstop eth
+[name] == mesharmor && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 220 // shaftstop eth
 [name] == russetarmor && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 200  // skullder's ire eth
 [name] == templarcoat && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 200 // guardian angel eth
 ([name] == sharktootharmor || [name] == krakenshell) && [quality] == unique && [flag] == ethereal //# [defense] >= 1330 //toothrow eth

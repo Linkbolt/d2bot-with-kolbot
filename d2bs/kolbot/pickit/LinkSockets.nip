@@ -28,7 +28,7 @@
 
 //[type] == armor && [quality] <= superior && [flag] == ethereal # [sockets] == 2 # [maxquantity] == 1 // smoke runeword 
 [type] == armor && [class] == elite && [quality] == normal && [flag] == ethereal # [sockets] == 0 && [defense] >= 650 // cube socket eth bug
-[type] == armor && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 2 && [defense] >= 1000 // smoke runeword
+//[type] == armor && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 2 && [defense] >= 1000 // smoke runeword
 [type] == armor && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 4 && [defense] >= 1000 // fortitude runeword
 
 
@@ -40,11 +40,11 @@
 // ##############################################################################################################################################
 
 // ##### shields #####################
-[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 0 && [enhanceddefense] >= 10// quest socket
+[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 0 && [enhanceddefense] >= 10 // quest socket
 //[name] == grimshield && [quality] <= superior && [flag] != ethereal # [sockets] == 2 # [maxquantity] == 1 // rhyme runeword
 //[name] == trollnest && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [enhanceddefense] >= 10 // rhyme runeword
 //[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [enhanceddefense] >= 10 // spirit runeword | rhyme runeword
-[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 4 # [maxquantity] == 1 //&& [enhanceddefense] >= 10 // spirit runeword | phoenix runeword
+[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 4 && [enhanceddefense] >= 10 // spirit runeword | phoenix runeword
 
 [name] == monarch && [quality] == normal && [flag] == ethereal # [sockets] == 0 // cube socket eth bug
 [name] == monarch && [quality] <= superior && [flag] == ethereal # [sockets] == 4 && [defense] >= 200 // exile runeword | phoenix runeword
@@ -52,7 +52,7 @@
 
 // ##### paladin shields #####################
 ([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] != ethereal # [sockets] == 0 && [lightresist] >= 30 // socket quest
-([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [lightresist] >= 30 // rhyme runeword
+//([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [lightresist] >= 30 // rhyme runeword
 ([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] != ethereal # [sockets] == 4 && [lightresist] >= 30 // spirit runeword | phoenix runeword
 
 ([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] == ethereal # [sockets] == 0 && [lightresist] >= 30 // socket quest
@@ -90,7 +90,7 @@
 //[name] == flail && [quality] == normal && [flag] != ethereal # [sockets] == 0 // socket cube/quest
 [name] == flail && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [tohit] >= 3 // last wish | black runeword
 [name] == flail && [quality] <= superior && [flag] != ethereal # [sockets] == 4 && [tohit] >= 3 // hoto runeword
-[name] == flail && [quality] <= superior && [flag] != ethereal # [sockets] == 5 # [maxquantity] == 1 // call to arms runeword
+//[name] == flail && [quality] <= superior && [flag] != ethereal # [sockets] == 5 # [maxquantity] == 1 // call to arms runeword
 
 // ##### javelins ###########################
 

@@ -44,7 +44,7 @@ var StarterConfig = {
 */
 
 var IncludeFilter = [
-	[""]
+	["baal"]
 ];
 
 var ExcludeFilter = [
