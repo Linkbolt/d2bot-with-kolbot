@@ -22,7 +22,7 @@
 // ##############################################################################################################################################
 //[type] == armor && [class] == elite && [quality] == normal && [flag] != ethereal # [sockets] == 0 // socket cube/quest
 //[type] == armor && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [defense] >= 45 # [maxquantity] == 1 // smoke runeword
-//([name] == duskshroud || [name] == archonplate || [name] == wyrmhide || [name] == wirefleece) && [quality] == normal && [flag] != ethereal # [sockets] == 0 // socket cube/quest
+([name] == duskshroud || [name] == archonplate || [name] == wyrmhide || [name] == wirefleece) && [quality] <= superior && [flag] != ethereal # [sockets] == 0 && [enhanceddefense] >= 10 // socket quest
 ([name] == duskshroud || [name] == archonplate || [name] == wyrmhide || [name] == wirefleece) && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] >= 10 // enigma runeword
 ([name] == duskshroud || [name] == archonplate || [name] == wyrmhide || [name] == wirefleece) && [quality] <= superior && [flag] != ethereal # [sockets] == 4 && [enhanceddefense] >= 10 // chains of honor runeword (can be 4 socket with quest)
 
