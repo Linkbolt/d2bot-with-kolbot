@@ -27,7 +27,7 @@
 ([name] == duskshroud || [name] == archonplate || [name] == wyrmhide || [name] == wirefleece) && [quality] <= superior && [flag] != ethereal # [sockets] == 4 && [enhanceddefense] >= 10 // chains of honor runeword (can be 4 socket with quest)
 
 //[type] == armor && [quality] <= superior && [flag] == ethereal # [sockets] == 2 # [maxquantity] == 1 // smoke runeword 
-[type] == armor && [class] == elite && [quality] == normal && [flag] == ethereal # [sockets] == 0 && [defense] >= 650 // cube socket eth bug
+//[type] == armor && [class] == elite && [quality] == normal && [flag] == ethereal # [sockets] == 0 && [defense] >= 650 // cube socket eth bug
 //[type] == armor && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 2 && [defense] >= 1000 // smoke runeword
 [type] == armor && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 4 && [defense] >= 1000 // fortitude runeword
 
@@ -44,19 +44,19 @@
 //[name] == grimshield && [quality] <= superior && [flag] != ethereal # [sockets] == 2 # [maxquantity] == 1 // rhyme runeword
 //[name] == trollnest && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [enhanceddefense] >= 10 // rhyme runeword
 //[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [enhanceddefense] >= 10 // spirit runeword | rhyme runeword
-[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 4 && [enhanceddefense] >= 10 // spirit runeword | phoenix runeword
+[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 4 //&& [enhanceddefense] >= 10 // spirit runeword | phoenix runeword
 
 [name] == monarch && [quality] == normal && [flag] == ethereal # [sockets] == 0 // cube socket eth bug
 [name] == monarch && [quality] <= superior && [flag] == ethereal # [sockets] == 4 && [defense] >= 200 // exile runeword | phoenix runeword
 
 
 // ##### paladin shields #####################
-([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] != ethereal # [sockets] == 0 && [lightresist] >= 30 // socket quest
-//([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [lightresist] >= 30 // rhyme runeword
-([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] != ethereal # [sockets] == 4 && [lightresist] >= 30 // spirit runeword | phoenix runeword
-
-([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] == ethereal # [sockets] == 0 && [lightresist] >= 30 // socket quest
-([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] == ethereal # [sockets] == 4 && [lightresist] >= 30 // exile runeword | phoenix runeword
+//([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] != ethereal # [sockets] == 0 && [lightresist] >= 40 // socket quest
+//([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [lightresist] >= 40 // rhyme runeword
+//([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] != ethereal # [sockets] == 4 && [lightresist] >= 40 // spirit runeword | phoenix runeword
+                                                                                                                                                                 
+([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] == ethereal # [sockets] == 0 && [lightresist] >= 40 // socket quest
+([name] == sacredtarge || [name] == zakarumshield || [name] == vortexshield) && [quality] <= superior && [flag] == ethereal # [sockets] == 4 && [lightresist] >= 40 // exile runeword | phoenix runeword
 
 
 
@@ -104,9 +104,9 @@
 
 
 // ##### polearms ###########################
-[type] == polearm && [class] == elite && [quality] == normal && [flag] == ethereal # [sockets] == 0 // socket cube/quest
-[name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # [sockets] == 0 && [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
-[name] == crypticaxe && [quality] <= superior && [flag] == ethereal # [sockets] == 0 && [enhanceddamage] >= 10 // doom runeword
+//[type] == polearm && [class] == elite && [quality] == normal && [flag] == ethereal # [sockets] == 0 // socket cube/quest
+//[name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # [sockets] == 0 && [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
+//[name] == crypticaxe && [quality] <= superior && [flag] == ethereal # [sockets] == 0 && [enhanceddamage] >= 10 // doom runeword
 [type] == polearm && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 4 //&& [enhanceddamage] >= 10 // insight runeword || pride runeword || infinity runeword
 [type] == polearm && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 5 && [enhanceddamage] >= 10 // doom runeword
 [type] == polearm && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] == 6 && [enhanceddamage] >= 10 // breath of the dying runeword
@@ -125,10 +125,10 @@
 // ##### swords #############################
 //[name] == broadsword && [quality] <= superior && [flag] != ethereal # [sockets] == 4 # [maxquantity] == 1 // spirit runeword
 //[name] == crystalsword && [quality] <= superior && [flag] != ethereal # [sockets] == 4 //&& [tohit] >= 3 // spirit runeword
-[name] == crystalsword && [quality] <= superior && [flag] != ethereal # [sockets] == 5 && [tohit] >= 3 // grief runeword
-[name] == crystalsword && [quality] <= superior && [flag] != ethereal # [sockets] == 6 && [tohit] >= 3 // last wish runeword
-[name] == phaseblade && [quality] <= superior # [sockets] == 5 && [tohit] >= 3 // grief runeword
-[name] == phaseblade && [quality] <= superior # [sockets] == 6 && [tohit] >= 3 // last wish runeword
+//[name] == crystalsword && [quality] <= superior && [flag] != ethereal # [sockets] == 5// && [tohit] >= 3 // call to arms | grief runeword
+//[name] == crystalsword && [quality] <= superior && [flag] != ethereal # [sockets] == 6 && [tohit] >= 3 // last wish runeword
+//[name] == phaseblade && [quality] <= superior # [sockets] == 5 && [tohit] >= 3 // grief runeword
+//[name] == phaseblade && [quality] <= superior # [sockets] == 6 && [tohit] >= 3 // last wish runeword
 //[name] == colossusblade && [quality] <= superior && [flag] != ethereal # [sockets] == 5 && [enhanceddamage] >= 10 // doom runeword
 //[name] == colossusblade && [quality] <= superior && [flag] == ethereal # [sockets] == 5 && [enhanceddamage] >= 10 // death runeword
 //[name] == colossusblade && [quality] <= superior && [flag] == ethereal # [sockets] == 6 && [enhanceddamage] >= 10 // breath of the dying runeword

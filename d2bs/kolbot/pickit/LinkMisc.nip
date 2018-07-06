@@ -71,9 +71,9 @@
 //[name] == perfectemerald # # [maxquantity] == 5
 //[name] == perfectamethyst # # [maxquantity] == 5
 //[name] == perfecttopaz # # [maxquantity] == 5
-[name] == perfectdiamond # # [maxquantity] == 5
-[name] == perfectsapphire # # [maxquantity] == 5
-[name] == perfectruby # # [maxquantity] == 5
+//[name] == perfectdiamond # # [maxquantity] == 5
+//[name] == perfectsapphire # # [maxquantity] == 5
+//[name] == perfectruby # # [maxquantity] == 5
 //[name] == perfectskull # # [maxquantity] == 5
 
 // ##### flassless ###########################

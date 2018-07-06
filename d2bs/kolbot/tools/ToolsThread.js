@@ -66,7 +66,7 @@ function main() {
 		for (i = 0; i < Config.PingQuit.length; i += 1) {
 			if (Config.PingQuit[i].Ping > 0) {
 				if (me.ping >= Config.PingQuit[i].Ping) {
-					me.overhead("High Ping");
+					//me.overhead("High Ping");
 
 					if (pingTimer[i] === undefined || pingTimer[i] === 0) {
 						pingTimer[i] = getTickCount();

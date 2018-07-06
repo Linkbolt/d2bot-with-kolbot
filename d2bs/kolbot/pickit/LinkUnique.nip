@@ -53,7 +53,7 @@
 // ##############################################################################################################################################
 // ##### 3- unique helms ########################################################################################################################
 // ##############################################################################################################################################
-[name] == skullcap && [quality] == unique && [flag] != ethereal # [itemallskills] == 1 && [itemmagicbonus] >= 40 // tarnhelm
+//[name] == skullcap && [quality] == unique && [flag] != ethereal # [itemallskills] == 1 && [itemmagicbonus] >= 40 // tarnhelm
 //[name] == sallet && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 210 // rockstopper
 [name] == grimhelm && [quality] == unique && [flag] != ethereal # //[lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // vampire gaze
 [name] == shako && [quality] == unique && [flag] != ethereal # //[defense] >= 135  // harlequin crest
@@ -136,7 +136,7 @@
 //[name] == gauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // frostburn
 [name] == battlegauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // lava gout
 [name] == wargauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // hellmouth
-[name] == vampirebonegloves && [quality] == unique && [flag] != ethereal # [lifeleech] == 10 && [enhanceddefense] == 120 && [strength] == 15 // dracul's grasp
+[name] == vampirebonegloves && [quality] == unique && [flag] != ethereal //# [lifeleech] == 10 && [enhanceddefense] == 120 && [strength] == 15 // dracul's grasp
 [name] == vambraces && [quality] == unique && [flag] != ethereal # [manaleech] >= 7 && [lifeleech] >= 7 && [enhanceddefense] >= 120 // soul drainer
 [name] == ogregauntlets && [quality] == unique && [flag] != ethereal # [enhanceddamage] >= 60 && [defense] >= 210 // steelrend
 
@@ -219,13 +219,13 @@
 // ##### maces ##############################
 [name] == legendarymallet && [quality] == unique && [flag] == ethereal // schaefer's hammer
 [name] == tyrantclub && [quality] == unique && [flag] != ethereal # [enhanceddamage] == 230 //demon limb (for prebuff)
-[name] == scourge && [quality] == unique && [flag] == ethereal # [enhanceddamage] >= 300 //stormlash
+[name] == scourge && [quality] == unique && [flag] == ethereal //# [enhanceddamage] >= 300 //stormlash
 
 // ##### javelins ###########################
 [name] == ghostglaive && [quality] == unique # [enhanceddamage] == 190 && [lifeleech] == 13 //Wraith Flight
 
 // ##### katars #############################
-[name] == greatertalons && [quality] == unique # [enhanceddamage] == 200 && [lifeleech] == 9 // bartuc's cut-throat
+[name] == greatertalons && [quality] == unique //# [enhanceddamage] == 200 && [lifeleech] == 9 // bartuc's cut-throat
 [name] == wristsword && [quality] == unique && [flag] == ethereal # [fireresist] == 50 && [shadowdisciplinesskilltab] == 2 // jade talon
 
 

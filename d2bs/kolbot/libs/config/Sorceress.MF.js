@@ -26,7 +26,7 @@ function LoadConfig() {
 		Config.Corpsefire.ClearDen = false;
 	Scripts.Mausoleum = false;
 		Config.Mausoleum.KillBloodRaven = false;
-		Config.Mausoleum.ClearCrypt = true;
+		Config.Mausoleum.ClearCrypt = false;
 	Scripts.Rakanishu = false;
 		Config.Rakanishu.KillGriswold = false;
 	Scripts.UndergroundPassage = false;
@@ -38,9 +38,9 @@ function LoadConfig() {
 	Scripts.Treehead = false;
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
-	Scripts.Countess = true; //{ ClearType:0x7, StaticList: [45], TeleStomp: true, Dodge: false, SkipImmune: [] };
-		Config.Countess.KillGhosts = false;
-	Scripts.Andariel = false;
+	Scripts.Countess = false; //{ ClearType:0x7, StaticList: [45], TeleStomp: true, Dodge: false, SkipImmune: [] };
+		Config.Countess.KillGhosts = true;
+	Scripts.Andariel = true;
 	Scripts.Cows = false;
     
 	// *** act 2 ***
@@ -74,7 +74,7 @@ function LoadConfig() {
 	Scripts.Hephasto = false;
 	Scripts.Vizier = false; // Intended for classic sorc, kills Vizier only.
 	Scripts.FastDiablo = false;
-	Scripts.Diablo = false;
+	Scripts.Diablo = true;
 		Config.Diablo.Entrance = true; // Start from entrance
 		//Config.Diablo.SealWarning = "Leave the seals alone!";
 		//Config.Diablo.EntranceTP = "Entrance TP up";
@@ -85,7 +85,7 @@ function LoadConfig() {
 	// *** act 5 ***
 	Scripts.Pindleskin = false;
 		Config.Pindleskin.UseWaypoint = false;
-		Config.Pindleskin.KillNihlathak = false;
+		Config.Pindleskin.KillNihlathak = true;
 		Config.Pindleskin.ViperQuit = true; // End script if Tomb Vipers are found.
 	Scripts.Nihlathak = false;
 		Config.Nihlathak.ViperQuit = false; // End script if Tomb Vipers are found.
@@ -104,7 +104,7 @@ function LoadConfig() {
 	Scripts.Snapchip = false;
 		Config.Snapchip.ClearIcyCellar = false;
 	Scripts.Worldstone = false;
-	Scripts.Baal = false;
+	Scripts.Baal = true;
 		//Config.Baal.HotTPMessage = "Hot TP!";
 		//Config.Baal.SafeTPMessage = "Safe TP!";
 		//Config.Baal.BaalMessage = "Baal!";
@@ -114,7 +114,7 @@ function LoadConfig() {
 
 		
 	// Battle orders script - Use this for 2+ characters (for example BO barb + sorc)
-	Scripts.BattleOrders = false;
+	Scripts.BattleOrders = true;
 		Config.BattleOrders.Mode = 0; // 0 = give BO, 1 = get BO
 		Config.BattleOrders.Wait = false; // Idle until the player that received BO leaves.
 		Config.BattleOrders.Getters = []; // List of players to wait for before casting Battle Orders (mode 0). All players must be in the same area as the BOer.
@@ -194,7 +194,7 @@ function LoadConfig() {
 		Config.ShopBot.ScanIDs = [];
 		Config.ShopBot.CycleDelay = 0; // Delay between shopping cycles in milliseconds, might help with crashes.
 		Config.ShopBot.QuitOnMatch = false; // Leave game as soon as an item is shopped.
-	Scripts.ChestMania = true; // Open chests in configured areas. See sdk/areas.txt
+	Scripts.ChestMania = false; // Open chests in configured areas. See sdk/areas.txt
 		// mfing
 		Config.ChestMania.Act3 = [79, 80, 81, 82, 83, 93];
 		Config.ChestMania.Act5 = [125, 126, 127];
@@ -215,7 +215,7 @@ function LoadConfig() {
 		//Config.ChestMania.Act5 = [115, 116, 119, 125, 126, 127]; // List of act 5 areas to open chests in
 		
 	Scripts.ClearAnyArea = false; // Clear any area. Uses Config.ClearType to determine which type of monsters to kill.
-		Config.ClearAnyArea.AreaList = []; // List of area ids to clear. See sdk/areas.txt
+		Config.ClearAnyArea.AreaList = [125, 126, 127]; // List of area ids to clear. See sdk/areas.txt
 
 	// *** Guest scripts ***
 
@@ -268,10 +268,10 @@ function LoadConfig() {
 	 * 1 = item is unlocked and will be dropped, stashed or sold.
 	 * If you don't change the default values, the bot won't stash items.
 	 */
-	Config.Inventory[0] = [1,1,1,1,1,0,0,0,0,0];
-	Config.Inventory[1] = [1,1,1,1,1,0,0,0,0,0];
-	Config.Inventory[2] = [1,1,1,1,1,0,0,0,0,0];
-	Config.Inventory[3] = [1,1,1,1,1,0,0,0,0,0];
+	Config.Inventory[0] = [1,1,1,1,0,0,0,0,0,0];
+	Config.Inventory[1] = [1,1,1,1,0,0,0,0,0,0];
+	Config.Inventory[2] = [1,1,1,1,0,0,0,0,0,0];
+	Config.Inventory[3] = [1,1,1,1,0,0,0,0,0,0];
 
 	Config.StashGold = 100000; // Minimum amount of gold to stash.
 
@@ -280,7 +280,7 @@ function LoadConfig() {
 	 * Supported potions - Healing ("hp"), Mana ("mp") and Rejuvenation ("rv")
 	 */
 	Config.BeltColumn[0] = "hp";
-	Config.BeltColumn[1] = "hp";
+	Config.BeltColumn[1] = "mp";
 	Config.BeltColumn[2] = "mp";
 	Config.BeltColumn[3] = "rv";
 
@@ -363,13 +363,13 @@ function LoadConfig() {
 	
 	// Ingredients for the following recipes will be auto-picked, for classids check libs/NTItemAlias.dbl
 
-	Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
+	//Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
 	//Config.Recipes.push([Recipe.Gem, "Flawless Topaz"]); // Make Perfect Topaz
-	Config.Recipes.push([Recipe.Gem, "Flawless Sapphire"]); // Make Perfect Sapphire
-	Config.Recipes.push([Recipe.Gem, "Flawless Emerald"]); // Make Perfect Emerald
-	Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
-	Config.Recipes.push([Recipe.Gem, "Flawless Diamond"]); // Make Perfect Diamond
-	Config.Recipes.push([Recipe.Gem, "Flawless Skull"]); // Make Perfect Skull
+	//Config.Recipes.push([Recipe.Gem, "Flawless Sapphire"]); // Make Perfect Sapphire
+	//Config.Recipes.push([Recipe.Gem, "Flawless Emerald"]); // Make Perfect Emerald
+	//Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
+	//Config.Recipes.push([Recipe.Gem, "Flawless Diamond"]); // Make Perfect Diamond
+	//Config.Recipes.push([Recipe.Gem, "Flawless Skull"]); // Make Perfect Skull
 
 	//Config.Recipes.push([Recipe.Token]); // Make Token of Absolution
 
@@ -380,21 +380,21 @@ function LoadConfig() {
 	Config.Recipes.push([Recipe.Rune, "Lem Rune"]); // Upgrade Lem to Pul
 	Config.Recipes.push([Recipe.Rune, "Pul Rune"]); // Upgrade Pul to Um
 	Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
-	Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
-	Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
+	//Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
+	//Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
 	Config.Recipes.push([Recipe.Rune, "Gul Rune"]); // Upgrade Gul to Vex
 	Config.Recipes.push([Recipe.Rune, "Vex Rune"]); // Upgrade Vex to Ohm
-	Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
+	//Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
 	Config.Recipes.push([Recipe.Rune, "Lo Rune"]); // Upgrade Lo to Sur
 	Config.Recipes.push([Recipe.Rune, "Sur Rune"]); // Upgrade Sur to Ber
 
 	/* Base item for the following recipes must be in pickit. The rest of the ingredients will be auto-picked.
 	 * Use Roll.Eth, Roll.NonEth or Roll.All to determine what kind of base item to roll - ethereal, non-ethereal or all.
 	 */
-	//Config.Recipes.push([Recipe.Socket.Shield, "Monarch", Roll.All]); // Socket Monarch
-	//Config.Recipes.push([Recipe.Socket.Shield, "Sacred Targe", Roll.Eth]); // Socket Sacred Targe
-	//Config.Recipes.push([Recipe.Socket.Shield, "Zakarum Shield", Roll.Eth]); // Socket Zakarum Shield
-	//Config.Recipes.push([Recipe.Socket.Shield, "Vortex Shield", Roll.Eth]); // Socket Vortex Shield
+	Config.Recipes.push([Recipe.Socket.Shield, "Monarch", Roll.All]); // Socket Monarch
+	Config.Recipes.push([Recipe.Socket.Shield, "Sacred Targe", Roll.Eth]); // Socket Sacred Targe
+	Config.Recipes.push([Recipe.Socket.Shield, "Zakarum Shield", Roll.Eth]); // Socket Zakarum Shield
+	Config.Recipes.push([Recipe.Socket.Shield, "Vortex Shield", Roll.Eth]); // Socket Vortex Shield
 	
 	//Config.Recipes.push([Recipe.Socket.Armor, "Dusk Shroud", Roll.Eth]); // Socket Dusk Shroud
 	//Config.Recipes.push([Recipe.Socket.Armor, "Wyrmhide", Roll.Eth]); // Socket Wyrmhide
@@ -412,7 +412,8 @@ function LoadConfig() {
 	//Config.Recipes.push([Recipe.Socket.Armor, "Shadow Plate", Roll.Eth]); // Socket Shadow Plate
 	//Config.Recipes.push([Recipe.Socket.Armor, "Sacred Armor", Roll.Eth]); // Socket Sacred Armor
 	
-	//Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]); // Socket Thresher
+	Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]); // Socket Thresher
+	Config.Recipes.push([Recipe.Socket.Weapon, "Giant Thresher", Roll.Eth]); // Socket Giant Thresher
 	//Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]); // Socket Cryptic Axe
 	//Config.Recipes.push([Recipe.Socket.Weapon, "Colossus Voulge", Roll.Eth]); // Socket Cryptic Axe
 	//Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]); // Socket Cryptic Axe
@@ -421,10 +422,10 @@ function LoadConfig() {
 	
 	
 	//Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Heavy Gloves", Roll.NonEth]); // Upgrade Bloodfist to Exceptional
-	Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Light Gauntlets", Roll.NonEth]); // Upgrade Magefist to Exceptional
+	//Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Light Gauntlets", Roll.NonEth]); // Upgrade Magefist to Exceptional
 	Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Light Plated Boots", Roll.NonEth]); // Upgrade Goblin Toe to Exceptional
 	//Config.Recipes.push([Recipe.Unique.Armor.ToElite, "Sharkskin Gloves", Roll.NonEth]); // Upgrade Bloodfist or Grave Palm to Elite
-	Config.Recipes.push([Recipe.Unique.Armor.ToElite, "Battle Gauntlets", Roll.NonEth]); // Upgrade Magefist or Lavagout to Elite
+	//Config.Recipes.push([Recipe.Unique.Armor.ToElite, "Battle Gauntlets", Roll.NonEth]); // Upgrade Magefist or Lavagout to Elite
 	//Config.Recipes.push([Recipe.Unique.Armor.ToElite, "War Boots", Roll.NonEth]); // Upgrade Gore Rider to Elite
 
 	Config.Recipes.push([Recipe.Caster.Amulet]); // Craft Caster Amulet
@@ -455,7 +456,7 @@ function LoadConfig() {
 
 	//Config.Runewords.push([Runeword.Smoke, "Boneweave"]); // Make Smoke Boneweave
 	
-	Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] >= 30"); // Keep Spirit
+	Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] >= 35"); // Keep Spirit
 	Config.KeepRunewords.push("[type] == polearm # [meditationaura] == 17"); // Keep insight
 	Config.KeepRunewords.push("[type] == armor"); // Keep Smoke
 
@@ -475,7 +476,7 @@ function LoadConfig() {
 	Config.AutoMap = false; // Set to true to open automap at the beginning of the game.
 	Config.LastMessage = ""; // Message or array of messages to say at the end of the run. Use $nextgame to say next game - "Next game: $nextgame" (works with lead entry point)
 	Config.MinGameTime = 120; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
-	Config.MaxGameTime = 1000; // Maximum game time in seconds. Quit game when limit is reached.
+	Config.MaxGameTime = 1250; // Maximum game time in seconds. Quit game when limit is reached.
 	//Config.MaxGameTime = 500; // Chesting
 	Config.TeleSwitch = false; // Switch to slot II when teleporting more than 1 node.
 	Config.OpenChests = true; // Open chests. Controls key buying.
@@ -535,7 +536,7 @@ function LoadConfig() {
 	
 	// Chain Light
 	Config.AttackSkill[0] = -1; // Preattack skill.
-	Config.AttackSkill[1] = 53; // Primary skill to bosses.
+	Config.AttackSkill[1] = 49; // Primary skill to bosses.
 	Config.AttackSkill[2] = -1; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
 	Config.AttackSkill[3] = 53; // Primary skill to others.
 	Config.AttackSkill[4] = -1; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
@@ -578,15 +579,15 @@ function LoadConfig() {
 	Config.DodgeHP = 100; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = false; // Set to true to attack Unique/SuperUnique monsters first when clearing
 	Config.ClearType = 0xF; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
-	Config.TeleStomp = false; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
+	Config.TeleStomp = true; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
 
 	// Wereform setup. Make sure you read Templates/Attacks.txt for attack skill format.
 	Config.Wereform = false; // 0 / false - don't shapeshift, 1 / "Werewolf" - change to werewolf, 2 / "Werebear" - change to werebear
 
 	// Class specific config
 	Config.CastStatic = 60; // Cast static until the target is at designated life percent. 100 = disabled.
-	Config.StaticList = []; // List of monster NAMES or CLASSIDS to static. Example: Config.StaticList = ["Andariel", 243];
-	//Config.StaticList = [156, 211, 242, 243, 544]; // andariel, duriel, mephisto, diablo, baalcrab
+	//Config.StaticList = []; // List of monster NAMES or CLASSIDS to static. Example: Config.StaticList = ["Andariel", 243];
+	Config.StaticList = [156, 211, 242, 243, 544]; // andariel, duriel, mephisto, diablo, baalcrab
 	
 	// AutoBuild System ( See /d2bs/kolbot/libs/config/Builds/README.txt for instructions )
 	Config.AutoBuild.Enabled = false	//	This will enable or disable the AutoBuild system
