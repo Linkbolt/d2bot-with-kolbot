@@ -27,6 +27,7 @@
 [type] == ring && [quality] >= rare # [fcr] == 10 && [hpregen] >= 5 && [maxhp] >= 30 && [maxmana] >= 60
 [type] == ring && [quality] >= rare # [tohit] >= 50 && [strength] >= 15 && [dexterity] >= 10 && [maxhp] >= 30
 [type] == ring && [quality] >= rare # [tohit] >= 100 && [dexterity] >= 10 && [maxhp] >= 30 && [maxmana] >= 60
+[type] == ring && [quality] >= rare # [lifeleech] >= 5 && [manaleech] >= 5 && [maxhp] >= 20 && [strength] >= 10 && ([fireresist] >= 10 || [coldresist] >= 10 || [lightresist] >= 10)
 
 
 
@@ -43,6 +44,9 @@
 [type] == amulet && [quality] >= rare # [paladinskills] == 2 && [dexterity]+[strength]+[maxhp] >= 95
 [type] == amulet && [quality] >= rare # [paladinskills] == 2 && [fcr] == 10 && [maxhp]+[maxmana] >= 100
 [type] == amulet && [quality] >= rare # [sorceressskills] == 2 && [fcr] == 10 && [maxhp]+[maxmana] >= 100
+[type] == amulet && [quality] >= rare # ([itemallskills] >= 2 || [assassinskills] == 2) && [maxhp] >= 50 && [strength] >= 10 && ([fireresist] >= 10 || [coldresist] >= 10 || [lightresist] >= 10)
+
+
 
 
 
@@ -61,7 +65,7 @@
 // ##############################################################################################################################################
 // ##### 4- rare body armor ###################################################################################################################
 // ##############################################################################################################################################
-[type] == anyarmor && [quality] == magic && [flag] != ethereal # ([maxhp] >= 90 || [fhr] == 24) && [sockets] >= 4
+//[type] == anyarmor && [quality] == magic && [flag] != ethereal # ([maxhp] >= 90 || [fhr] == 24) && [sockets] >= 4
 //[name] == archonplate && [quality] == magic && [flag] != ethereal # ([maxhp] >= 90 || [fhr] == 24) && [sockets] >= 4
 //[name] == duskshroud && [quality] == magic && [flag] != ethereal # ([maxhp] >= 90 || [fhr] == 24) && [sockets] >= 4
 //[name] == mageplate && [quality] == magic && [flag] != ethereal # ([maxhp] >= 90 || [fhr] == 24) && [sockets] >= 4

@@ -40,7 +40,7 @@ function LoadConfig() {
 	Scripts.BoneAsh = false;
 	Scripts.Countess = false; //{ ClearType:0x7, StaticList: [45], TeleStomp: true, Dodge: false, SkipImmune: [] };
 		Config.Countess.KillGhosts = true;
-	Scripts.Andariel = true;
+	Scripts.Andariel = false;
 	Scripts.Cows = false;
     
 	// *** act 2 ***
@@ -108,8 +108,8 @@ function LoadConfig() {
 		//Config.Baal.HotTPMessage = "Hot TP!";
 		//Config.Baal.SafeTPMessage = "Safe TP!";
 		//Config.Baal.BaalMessage = "Baal!";
-		Config.Baal.SoulQuit = false; // End script if Souls (Undead Soul Killers) are found.
-		Config.Baal.DollQuit = false; // End script if Dolls (Undead Stigyan Dolls) are found.
+		Config.Baal.SoulQuit = true; // End script if Souls (Undead Soul Killers) are found.
+		Config.Baal.DollQuit = true; // End script if Dolls (Undead Stigyan Dolls) are found.
 		Config.Baal.KillBaal = true; // Kill Baal. Leaves game after wave 5 if false.
 
 		
@@ -242,7 +242,7 @@ function LoadConfig() {
 	Config.HealMP = 0; // Go to a healer if under designated percent of mana.
 	Config.HealStatus = false; // Go to a healer if poisoned or cursed
 	Config.UseMerc = true; // Use merc. This is ignored and always false in d2classic.
-	Config.MercWatch = false; // Instant merc revive during battle.
+	Config.MercWatch = true; // Instant merc revive during battle.
 
 	// Potion settings
 	Config.UseHP = 90; // Drink a healing potion if life is under designated percent.
@@ -379,9 +379,9 @@ function LoadConfig() {
 	Config.Recipes.push([Recipe.Rune, "Fal Rune"]); // Upgrade Fal to Lem
 	Config.Recipes.push([Recipe.Rune, "Lem Rune"]); // Upgrade Lem to Pul
 	Config.Recipes.push([Recipe.Rune, "Pul Rune"]); // Upgrade Pul to Um
-	Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
-	//Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
-	//Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
+	//Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
+	Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
+	Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
 	Config.Recipes.push([Recipe.Rune, "Gul Rune"]); // Upgrade Gul to Vex
 	Config.Recipes.push([Recipe.Rune, "Vex Rune"]); // Upgrade Vex to Ohm
 	//Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
@@ -391,9 +391,9 @@ function LoadConfig() {
 	/* Base item for the following recipes must be in pickit. The rest of the ingredients will be auto-picked.
 	 * Use Roll.Eth, Roll.NonEth or Roll.All to determine what kind of base item to roll - ethereal, non-ethereal or all.
 	 */
-	Config.Recipes.push([Recipe.Socket.Shield, "Monarch", Roll.All]); // Socket Monarch
-	Config.Recipes.push([Recipe.Socket.Shield, "Sacred Targe", Roll.Eth]); // Socket Sacred Targe
-	Config.Recipes.push([Recipe.Socket.Shield, "Zakarum Shield", Roll.Eth]); // Socket Zakarum Shield
+	//Config.Recipes.push([Recipe.Socket.Shield, "Monarch", Roll.All]); // Socket Monarch
+	//Config.Recipes.push([Recipe.Socket.Shield, "Sacred Targe", Roll.Eth]); // Socket Sacred Targe
+	//Config.Recipes.push([Recipe.Socket.Shield, "Zakarum Shield", Roll.Eth]); // Socket Zakarum Shield
 	Config.Recipes.push([Recipe.Socket.Shield, "Vortex Shield", Roll.Eth]); // Socket Vortex Shield
 	
 	//Config.Recipes.push([Recipe.Socket.Armor, "Dusk Shroud", Roll.Eth]); // Socket Dusk Shroud
@@ -416,7 +416,7 @@ function LoadConfig() {
 	Config.Recipes.push([Recipe.Socket.Weapon, "Giant Thresher", Roll.Eth]); // Socket Giant Thresher
 	//Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]); // Socket Cryptic Axe
 	//Config.Recipes.push([Recipe.Socket.Weapon, "Colossus Voulge", Roll.Eth]); // Socket Cryptic Axe
-	//Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]); // Socket Cryptic Axe
+	Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]); // Socket Cryptic Axe
 	
 	//Config.Recipes.push([Recipe.Socket.Weapon, "Phase Blade", Roll.All]); // Socket Phase Blade
 	
@@ -446,10 +446,10 @@ function LoadConfig() {
 	 */
 	Config.MakeRunewords = true; // Set to true to enable runeword making/rerolling
 
-	//Config.Runewords.push([Runeword.Insight, "Thresher"]); // Make Insight Thresher
-	//Config.Runewords.push([Runeword.Insight, "Cryptic Axe"]); // Make Insight Cryptic Axe
+	Config.Runewords.push([Runeword.Insight, "Thresher"]); // Make Insight Thresher
+	Config.Runewords.push([Runeword.Insight, "Cryptic Axe"]); // Make Insight Cryptic Axe
 	//Config.Runewords.push([Runeword.Insight, "Colossus Voulge"]); // Make Insight Cryptic Axe
-	//Config.Runewords.push([Runeword.Insight, "Great Poleaxe"]); // Make Insight Cryptic Axe
+	Config.Runewords.push([Runeword.Insight, "Great Poleaxe"]); // Make Insight Cryptic Axe
 
 	Config.Runewords.push([Runeword.Spirit, "Monarch"]); // Make Spirit Monarch
 	//Config.Runewords.push([Runeword.Spirit, "Sacred Targe"]); // Make Spirit Sacred Targe
@@ -477,7 +477,6 @@ function LoadConfig() {
 	Config.LastMessage = ""; // Message or array of messages to say at the end of the run. Use $nextgame to say next game - "Next game: $nextgame" (works with lead entry point)
 	Config.MinGameTime = 120; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
 	Config.MaxGameTime = 1250; // Maximum game time in seconds. Quit game when limit is reached.
-	//Config.MaxGameTime = 500; // Chesting
 	Config.TeleSwitch = false; // Switch to slot II when teleporting more than 1 node.
 	Config.OpenChests = true; // Open chests. Controls key buying.
 	Config.MiniShopBot = false; // Scan items in NPC shops.
@@ -519,7 +518,7 @@ function LoadConfig() {
 	// Monster skip config
 	// Skip immune monsters. Possible options: "fire", "cold", "lightning", "poison", "physical", "magic".
 	// You can combine multiple resists with "and", for example - "fire and cold", "physical and cold and poison"
-	Config.SkipImmune = ["lightning"];
+	Config.SkipImmune = [];
 	// Skip enchanted monsters. Possible options: "extra strong", "extra fast", "cursed", "magic resistant", "fire enchanted", "lightning enchanted", "cold enchanted", "mana burn", "teleportation", "spectral hit", "stone skin", "multiple shots".
 	// You can combine multiple enchantments with "and", for example - "cursed and extra fast", "mana burn and extra strong and lightning enchanted"
 	Config.SkipEnchant = [];
@@ -574,9 +573,9 @@ function LoadConfig() {
 		//"Monster Name": [-1, -1]
 	};
 
-	Config.Dodge = false; // Move away from monsters that get too close. Don't use with short-ranged attacks like Poison Dagger.
-	Config.DodgeRange = 15; // Distance to keep from monsters.
-	Config.DodgeHP = 100; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
+	Config.Dodge = true; // Move away from monsters that get too close. Don't use with short-ranged attacks like Poison Dagger.
+	Config.DodgeRange = 10; // Distance to keep from monsters.
+	Config.DodgeHP = 90; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = false; // Set to true to attack Unique/SuperUnique monsters first when clearing
 	Config.ClearType = 0xF; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
 	Config.TeleStomp = true; // Use merc to attack bosses if they're immune to attacks, but not to physical damage

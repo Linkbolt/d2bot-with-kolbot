@@ -44,7 +44,7 @@
 [type] == amulet && [quality] == unique # [lightresist] == 35 // highlord's wrath
 [type] == amulet && [quality] == unique # [strength] == 5 && [coldresist] >= 20 // mara's kaleidoscope
 [type] == amulet && [quality] == unique # [defensiveaurasskilltab] >= 2 // seraph's hymn
-[type] == amulet && [quality] == unique # [tohit] >= 450 && [coldresist] >= 35 // metalgrid
+[type] == amulet && [quality] == unique # [tohit] >= 400 && [coldresist] >= 25 // metalgrid
 
 
 
@@ -117,7 +117,7 @@
 ([name] == heavybelt || [name] == battlebelt || [name] == trollbelt) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 && [itemgoldbonus] == 80 // goldwrap
 [name] == demonhidesash && [quality] == unique && [flag] != ethereal # [damageresist] == 15 && [lifeleech] == 8 && [enhanceddefense] == 180 && [magicdamagereduction] == 15 //string of ears
 [name] == battlebelt && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 170 // snowclash
-[name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // thundergod's vigor
+[name] == warbelt && [quality] == unique && [flag] != ethereal //# [enhanceddefense] == 200 // thundergod's vigor
 [name] == spiderwebsash && [quality] == unique && [flag] != ethereal //# [enhanceddefense] == 120  // arachnid mesh
 //[name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7 && [defense] == 63 // nosferatu's coil
 [name] == mithrilcoil && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 140 && [damageresist] == 15 && [vitality] == 40 &&  // verdungo's hearty cord
@@ -148,13 +148,13 @@
 // ##### 7- unique boots ###################################################################################################################
 // ##############################################################################################################################################
 ([name] == boots || [name] == demonhideboots || [name] == wyrmhideboots) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // hotspur
-//([name] == lightplatedboots || [name] == battleboots || [name] == mirroredboots) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // goblin toe
+([name] == lightplatedboots || [name] == battleboots || [name] == mirroredboots) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // goblin toe
 ([name] == demonhideboots || [name] == wyrmhideboots) && [quality] == unique && [flag] != ethereal # [itemgoldbonus] == 70 && [enhanceddefense] == 150 // infernostride
 ([name] == sharkskinboots || [name] == scarabshellboots) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 210 && [maxhp] == 65 // waterwalk
 [name] == meshboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 190 // silkweave
 [name] == battleboots && [quality] == unique && [flag] != ethereal //# [itemmagicbonus] >= 45 && [enhanceddefense] == 190 // war traveler
-([name] == warboots || [name] == myrmidongreaves) && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // gore rider
-[name] == scarabshellboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 170 && [strength] == 15 && [vitality] == 15 // sandstorm trek
+([name] == warboots || [name] == myrmidongreaves) && [quality] == unique && [flag] != ethereal //# [enhanceddefense] == 200 // gore rider
+//[name] == scarabshellboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 170 && [strength] == 15 && [vitality] == 15 // sandstorm trek
 [name] == boneweaveboots && [quality] == unique && [flag] != ethereal # [strength] == 20 && [skillskeletonmastery] == 2// && [enhanceddefense] == 200 // marrowwalk
 [name] == myrmidongreaves && [quality] == unique && [flag] != ethereal # [shadowdisciplinesskilltab] == 2 && [dexterity] == 25// && [enhanceddefense] == 100 // shadow dancer
 
@@ -168,7 +168,7 @@
 // ##### 8- unique shields #####################################################################################################################
 // ##############################################################################################################################################
 //[name] == grimshield && [quality] == unique  # [enhanceddefense] == 130 && [itemmanaafterkill] == 5 // lidless wall
-[name] == monarch && [quality] == unique// # [defense] == 148 // stormshield
+//[name] == monarch && [quality] == unique// # [defense] == 148 // stormshield
 //([name] == spikedshield || [name] == barbedshield || [name] == bladebarrier) && [quality] == unique # [enhanceddefense] == 60 // swordback hold
 //[name] == defender && [quality] == unique # [enhanceddefense] == 150 // visceratuant
 //[name] == roundshield && [quality] == unique # [enhanceddefense] == 220 // moser
@@ -181,6 +181,7 @@
 ([name] == spikedshield || [name] == barbedshield || [name] == bladebarrier)  && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 60 // swordback hold eth
 [name] == trollnest && [quality] == unique && [flag] == ethereal # [sockets] == 3 // head hunter's glory eth
 [name] == barbedshield && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 120 // lanceguard eth
+[name] == monarch && [quality] == unique && [flag] == ethereal //# [defense] == 148 // stormshield eth
 
 
 
@@ -219,7 +220,7 @@
 // ##### maces ##############################
 [name] == legendarymallet && [quality] == unique && [flag] == ethereal // schaefer's hammer
 [name] == tyrantclub && [quality] == unique && [flag] != ethereal # [enhanceddamage] == 230 //demon limb (for prebuff)
-[name] == scourge && [quality] == unique && [flag] == ethereal //# [enhanceddamage] >= 300 //stormlash
+[name] == scourge && [quality] == unique && [flag] != ethereal //# [enhanceddamage] >= 300 //stormlash
 
 // ##### javelins ###########################
 [name] == ghostglaive && [quality] == unique # [enhanceddamage] == 190 && [lifeleech] == 13 //Wraith Flight

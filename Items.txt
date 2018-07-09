@@ -1,52 +1,54 @@
-Light Sorc:
-Chains of Honor (armor ready)
-(done)Dol • (done)Um • (done)Ber • (done)Ist
+##### Sorceress #####
+Shako: 75 MF
+Chains of Honor: 25 MF, 65 Res
+Oculus: 75 MF, 30 FCR, 20 Res
+Spirit: 35 FCR, 35 Cold/Light/Poi Res
+Magefist: 20 FCR
+War Traveler's: 45 MF
+Arachnid's Mesh: 20 FCR
+Mara's: 28 Res
+Nagel: 28 MF
+Soj/BK:
 
-Spirit
-(done)Tal • (done)Thul • (done)Ort • (done)Amn
+Total: 
+248 MF, 105 FCR, 148 Cold/Light/Poi Res, 113 Fire Res
 
-Fortitude (Merc)
-(done)El • (done)Sol • (done)Dol • (done)Lo
-
-Infinity (Merc)
-(done)Ber • (done)Mal • (done)Ber • (done)Ist
-
-
-
-
-
-Smite Runes:
-Enigma (Dusk Shroud Armor):
-Jah • Ith •  Ber
-
-Chains of Honor (Dusk Shroud Armor):
-Dol •  Um •  Ber •  Ist
-
-Grief (Phase Blade Eth Weapon)
-Eth •  Tir •  Lo •  Mal •  Ral
-
-Spirit (or +2 pally +2 combat shield):
-Tal •  Thul •  Ort •  Amn
-
-Pride (Merc)
-Cham • Sur • Io • Lo
+##### Assasin Baals #####
+Helm: Guillaume's Face “um”
+Armor: “Fortitude" Runeword
+Belt: Thundergod's Vigor
+Gloves: Dracul's Grasp
+Boots: Upgraded Gore Rider
+Weapon: Stormlash “ber”
+Shield: Stormshield “um”
+Ring1: Ravenfrost
+Ring2: Dual leech ring with strength, life, resists
+Amulet: +2 Assassin skills caster/blood/safety amulet with strength, life, resists
 
 
+##### Assasin Ubers #####
+Helm: Crown of Ages (2x 15 resist all, 15 IAS jewels) | Guillaume's Face “um”
+Armor: “Fortitude” runeword w/ “Enigma” for switch
+Belt: Thundergod's Vigor
+Gloves: Crafted blood gloves with 20% IAS, +2 Martial Arts, 10% crushing, and light/cold resist | Dracul's Grasp
+Boots: Upgraded Gore Rider
+Weapon: “Last Wish” runeword Phase Blade | Stormlash “shael”
+Shield: Stormshield “um”
+Ring1: Ravenfrost (cannot be frozen is essential)
+Ring2: Dual leech ring with resists and strength | Blood or rare ring with light/all resists, or Wisp Projector
+Amulet: Metalgrid
 
 
-
-Hammer Runes:
-Enigma (Dusk Shroud Armor):
-Jah •  Ith •  Ber
-
-Heart of the Oak (Flail weapon):
-Ko •  Vex •  Pul •  Thul
-
-Call to Arms (flail or any weapon):
-Amn •  Ral •  Mal •  Ist •  Ohm
-
-Spirit (Sacred Targe and +2 pally +2 combat shield):
-Tal •  Thul •  Ort •  Amn
-
-Insight (Merc)
-Ral • Tir • Tal • Sol
+##### Paladin Ubers #####
+Helm: UM'd Kiras Guardian Tiara (for resistance purposes)
+Amulet: Maras (2 to all skills granted, 20-30 all resists, period.)
+Weapon: Last Wish Phase blade (lifetap, 60-70% chances of Crushing blow -- having 65%+ from it will give you an even 100%)
+Weapon switch: Call to arms (useless)
+Armor: Chains of honor (dusk, wyrm, scarab or even ap can work -- I used a wyrm one)
+Shield: Exile (vortex, zakarum shield or sacred targe would be the best options -- Look for a shield that has base resistances; 40-45)
+Shield switch: Paly spirit (pretty self-explanatory)
+Gloves: 20 IAS, Crushing blow, mods crafted gloves (The 20 ias is a MUST, otherwise, your smite speed will be lowered to 7 fpa. The CB will lead you around 100% -- Life, dex or resistance can be nice adds when looking for a pair)
+Ring 1: Ravenfrost (20 dex, cold absorb -- nuff said)
+Belt: Thundergod's Vigor (otherwise uber Mephisto can be a pain sometimes -- absorb is your friend)
+Ring 2: Dwarf star (life and fire absorb are a plus)
+Boots: Goblin toes (25% crushing blow -- way superior than goreriders. Upgrade them once if you wish)
