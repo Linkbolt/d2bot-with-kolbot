@@ -120,7 +120,7 @@
 [name] == warbelt && [quality] == unique && [flag] != ethereal //# [enhanceddefense] == 200 // thundergod's vigor
 [name] == spiderwebsash && [quality] == unique && [flag] != ethereal //# [enhanceddefense] == 120  // arachnid mesh
 //[name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7 && [defense] == 63 // nosferatu's coil
-[name] == mithrilcoil && [quality] == unique && [flag] != ethereal// # [enhanceddefense] == 140 && [damageresist] == 15 && [vitality] == 40 &&  // verdungo's hearty cord
+[name] == mithrilcoil && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 140 && [damageresist] == 15 && [vitality] == 40 // verdungo's hearty cord
 
 
 
@@ -168,7 +168,7 @@
 // ##### 8- unique shields #####################################################################################################################
 // ##############################################################################################################################################
 //[name] == grimshield && [quality] == unique  # [enhanceddefense] == 130 && [itemmanaafterkill] == 5 // lidless wall
-//[name] == monarch && [quality] == unique// # [defense] == 148 // stormshield
+//[name] == monarch && [quality] == unique && [flag] != ethereal //# [defense] == 148 // stormshield
 //([name] == spikedshield || [name] == barbedshield || [name] == bladebarrier) && [quality] == unique # [enhanceddefense] == 60 // swordback hold
 //[name] == defender && [quality] == unique # [enhanceddefense] == 150 // visceratuant
 //[name] == roundshield && [quality] == unique # [enhanceddefense] == 220 // moser
@@ -220,13 +220,13 @@
 // ##### maces ##############################
 [name] == legendarymallet && [quality] == unique && [flag] == ethereal // schaefer's hammer
 [name] == tyrantclub && [quality] == unique && [flag] != ethereal # [enhanceddamage] == 230 //demon limb (for prebuff)
-[name] == scourge && [quality] == unique && [flag] != ethereal //# [enhanceddamage] >= 300 //stormlash
+[name] == scourge && [quality] == unique && [flag] != ethereal # [enhanceddamage] >= 300 //stormlash
 
 // ##### javelins ###########################
 [name] == ghostglaive && [quality] == unique # [enhanceddamage] == 190 && [lifeleech] == 13 //Wraith Flight
 
 // ##### katars #############################
-[name] == greatertalons && [quality] == unique //# [enhanceddamage] == 200 && [lifeleech] == 9 // bartuc's cut-throat
+[name] == greatertalons && [quality] == unique # [enhanceddamage] == 200 //&& [lifeleech] == 9 // bartuc's cut-throat
 [name] == wristsword && [quality] == unique && [flag] == ethereal # [fireresist] == 50 && [shadowdisciplinesskilltab] == 2 // jade talon
 
 

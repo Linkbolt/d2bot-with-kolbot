@@ -246,7 +246,7 @@ function LoadConfig() {
 
 	// Potion settings
 	Config.UseHP = 90; // Drink a healing potion if life is under designated percent.
-	Config.UseRejuvHP = 40;  // Drink a rejuvenation potion if life is under designated percent.
+	Config.UseRejuvHP = 50;  // Drink a rejuvenation potion if life is under designated percent.
 	Config.UseMP = 25; // Drink a mana potion if mana is under designated percent.
 	Config.UseRejuvMP = 0; // Drink a rejuvenation potion if mana is under designated percent.
 	Config.UseMercHP = 75; // Give a healing potion to your merc if his/her life is under designated percent.
@@ -256,10 +256,10 @@ function LoadConfig() {
 	Config.RejuvBuffer = 0; // Number of rejuvenation potions to keep in inventory.
 
 	// Chicken settings
-	Config.LifeChicken = 10; // Exit game if life is less or equal to designated percent.
+	Config.LifeChicken = 30; // Exit game if life is less or equal to designated percent.
 	Config.ManaChicken = 0; // Exit game if mana is less or equal to designated percent.
 	Config.MercChicken = 0; // Exit game if merc's life is less or equal to designated percent.
-	Config.TownHP = 25; // Go to town if life is under designated percent.
+	Config.TownHP = 0; // Go to town if life is under designated percent.
 	Config.TownMP = 0; // Go to town if mana is under designated percent.
 
 	/* Inventory lock configuration. !!!READ CAREFULLY!!!
@@ -312,12 +312,12 @@ function LoadConfig() {
 	Config.ItemInfoQuality = []; // The quality of sold items to log. See NTItemAlias.dbl for values. Example: Config.ItemInfoQuality = [6, 7, 8];
 
 	// Item identification settings
-	Config.CainID.Enable = false; // Identify items at Cain
-	Config.CainID.MinGold = 0; // Minimum gold (stash + character) to have in order to use Cain.
+	Config.CainID.Enable = true; // Identify items at Cain
+	Config.CainID.MinGold = 3000000; // Minimum gold (stash + character) to have in order to use Cain.
 	Config.CainID.MinUnids = 1; // Minimum number of unid items in order to use Cain.
 	Config.FieldID = false; // Identify items in the field instead of going to town.
 	Config.DroppedItemsAnnounce.Enable = false;	// Announce Dropped Items to in-game newbs
-	Config.DroppedItemsAnnounce.Quality = []; // Quality of item to announce. See NTItemAlias.dbl for values. Example: Config.DroppedItemsAnnounce.Quality = [6, 7, 8];
+	Config.DroppedItemsAnnounce.Quality = [5, 7, 8]; // Quality of item to announce. See NTItemAlias.dbl for values. Example: Config.DroppedItemsAnnounce.Quality = [6, 7, 8];
 
 	// Repair settings
 	Config.CubeRepair = false; // Repair weapons with Ort and armor with Ral rune. Don't use it if you don't understand the risk of losing items.
@@ -383,23 +383,10 @@ function LoadConfig() {
 	Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
 	Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
 	Config.Recipes.push([Recipe.Rune, "Gul Rune"]); // Upgrade Gul to Vex
-	//Config.Recipes.push([Recipe.Rune, "Vex Rune"]); // Upgrade Vex to Ohm
-	//Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
-	//Config.Recipes.push([Recipe.Rune, "Lo Rune"]); // Upgrade Lo to Sur
-	//Config.Recipes.push([Recipe.Rune, "Sur Rune"]); // Upgrade Sur to Ber
-
-	Config.Recipes.push([Recipe.Caster.Amulet]); // Craft Caster Amulet
-	Config.Recipes.push([Recipe.Blood.Ring]); // Craft Blood Ring
-	Config.Recipes.push([Recipe.Blood.Gloves, "Vampirebone Gloves"]); // Craft Blood Vampirebone Gloves
-	//Config.Recipes.push([Recipe.Blood.Helm, "Armet"]); // Craft Blood Armet
-	//Config.Recipes.push([Recipe.HitPower.Gloves, "Vambraces"]); // Craft Hit Power Vambraces
-
-	// The gems not used by other recipes will be used for magic item rerolling.
-
-	Config.Recipes.push([Recipe.Reroll.Magic, "Grand Charm"]); // Reroll magic Grand Charm (ilvl 91+)
-	Config.Recipes.push([Recipe.Reroll.Magic, "Small Charm"]); // Reroll magic Small Charm (ilvl 91+)
-	//Config.Recipes.push([Recipe.Reroll.Magic, "Diadem"]); // Reroll magic Diadem
-	//Config.Recipes.push([Recipe.Reroll.Rare, "Diadem"]); // Reroll rare Diadem
+	Config.Recipes.push([Recipe.Rune, "Vex Rune"]); // Upgrade Vex to Ohm
+	Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
+	Config.Recipes.push([Recipe.Rune, "Lo Rune"]); // Upgrade Lo to Sur
+	Config.Recipes.push([Recipe.Rune, "Sur Rune"]); // Upgrade Sur to Ber
 
 	/* Base item for the following recipes must be in pickit. The rest of the ingredients will be auto-picked.
 	 * Use Roll.Eth, Roll.NonEth or Roll.All to determine what kind of base item to roll - ethereal, non-ethereal or all.
@@ -407,7 +394,7 @@ function LoadConfig() {
 	//Config.Recipes.push([Recipe.Socket.Shield, "Monarch", Roll.All]); // Socket Monarch
 	//Config.Recipes.push([Recipe.Socket.Shield, "Sacred Targe", Roll.Eth]); // Socket Sacred Targe
 	//Config.Recipes.push([Recipe.Socket.Shield, "Zakarum Shield", Roll.Eth]); // Socket Zakarum Shield
-	//Config.Recipes.push([Recipe.Socket.Shield, "Vortex Shield", Roll.Eth]); // Socket Vortex Shield
+	Config.Recipes.push([Recipe.Socket.Shield, "Vortex Shield", Roll.Eth]); // Socket Vortex Shield
 	
 	//Config.Recipes.push([Recipe.Socket.Armor, "Dusk Shroud", Roll.Eth]); // Socket Dusk Shroud
 	//Config.Recipes.push([Recipe.Socket.Armor, "Wyrmhide", Roll.Eth]); // Socket Wyrmhide
@@ -425,34 +412,53 @@ function LoadConfig() {
 	//Config.Recipes.push([Recipe.Socket.Armor, "Shadow Plate", Roll.Eth]); // Socket Shadow Plate
 	//Config.Recipes.push([Recipe.Socket.Armor, "Sacred Armor", Roll.Eth]); // Socket Sacred Armor
 	
-	//Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]); // Socket Thresher
+	Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]); // Socket Thresher
+	Config.Recipes.push([Recipe.Socket.Weapon, "Giant Thresher", Roll.Eth]); // Socket Giant Thresher
 	//Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]); // Socket Cryptic Axe
 	//Config.Recipes.push([Recipe.Socket.Weapon, "Colossus Voulge", Roll.Eth]); // Socket Cryptic Axe
-	//Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]); // Socket Cryptic Axe
+	Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]); // Socket Cryptic Axe
 	
 	//Config.Recipes.push([Recipe.Socket.Weapon, "Phase Blade", Roll.All]); // Socket Phase Blade
 	
 	
 	//Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Heavy Gloves", Roll.NonEth]); // Upgrade Bloodfist to Exceptional
 	//Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Light Gauntlets", Roll.NonEth]); // Upgrade Magefist to Exceptional
-	//Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Light Plated Boots", Roll.NonEth]); // Upgrade Goblin Toe to Exceptional
+	Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Light Plated Boots", Roll.NonEth]); // Upgrade Goblin Toe to Exceptional
 	//Config.Recipes.push([Recipe.Unique.Armor.ToElite, "Sharkskin Gloves", Roll.NonEth]); // Upgrade Bloodfist or Grave Palm to Elite
 	//Config.Recipes.push([Recipe.Unique.Armor.ToElite, "Battle Gauntlets", Roll.NonEth]); // Upgrade Magefist or Lavagout to Elite
 	//Config.Recipes.push([Recipe.Unique.Armor.ToElite, "War Boots", Roll.NonEth]); // Upgrade Gore Rider to Elite
 
+	Config.Recipes.push([Recipe.Caster.Amulet]); // Craft Caster Amulet
+	Config.Recipes.push([Recipe.Blood.Ring]); // Craft Blood Ring
+	Config.Recipes.push([Recipe.Blood.Gloves, "Vampirebone Gloves"]); // Craft Blood Vampirebone Gloves
+	//Config.Recipes.push([Recipe.Blood.Helm, "Armet"]); // Craft Blood Armet
+	//Config.Recipes.push([Recipe.HitPower.Gloves, "Vambraces"]); // Craft Hit Power Vambraces
+
+	// The gems not used by other recipes will be used for magic item rerolling.
+
+	//Config.Recipes.push([Recipe.Reroll.Magic, "Grand Charm"]); // Reroll magic Grand Charm (ilvl 91+)
+	//Config.Recipes.push([Recipe.Reroll.Magic, "Small Charm"]); // Reroll magic Small Charm (ilvl 91+)
+	//Config.Recipes.push([Recipe.Reroll.Magic, "Diadem"]); // Reroll magic Diadem
+	//Config.Recipes.push([Recipe.Reroll.Rare, "Diadem"]); // Reroll rare Diadem
+	
 	/* Runeword config. All recipes are available in Templates/Runewords.txt
 	 * Keep lines follow pickit format and any given runeword is tested vs ALL lines so you don't need to repeat them
 	 */
 	Config.MakeRunewords = true; // Set to true to enable runeword making/rerolling
 
-	//Config.Runewords.push([Runeword.Insight, "Thresher"]); // Make Insight Thresher
-	//Config.Runewords.push([Runeword.Insight, "Cryptic Axe"]); // Make Insight Cryptic Axe
+	Config.Runewords.push([Runeword.Insight, "Thresher"]); // Make Insight Thresher
+	Config.Runewords.push([Runeword.Insight, "Cryptic Axe"]); // Make Insight Cryptic Axe
+	//Config.Runewords.push([Runeword.Insight, "Colossus Voulge"]); // Make Insight Cryptic Axe
+	Config.Runewords.push([Runeword.Insight, "Great Poleaxe"]); // Make Insight Cryptic Axe
 
 	Config.Runewords.push([Runeword.Spirit, "Monarch"]); // Make Spirit Monarch
 	//Config.Runewords.push([Runeword.Spirit, "Sacred Targe"]); // Make Spirit Sacred Targe
 
-	Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] == 35"); // Keep Spirit
-	Config.KeepRunewords.push("[type] == polearm"); // # [meditationaura] == 17"); Keep insight
+	//Config.Runewords.push([Runeword.Smoke, "Boneweave"]); // Make Smoke Boneweave
+	
+	Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] >= 30"); // Keep Spirit
+	Config.KeepRunewords.push("[type] == polearm # [meditationaura] == 17"); // Keep insight
+	Config.KeepRunewords.push("[type] == armor"); // Keep Smoke
 
 	// Public game options
 
@@ -470,15 +476,14 @@ function LoadConfig() {
 	Config.AutoMap = false; // Set to true to open automap at the beginning of the game.
 	Config.LastMessage = ""; // Message or array of messages to say at the end of the run. Use $nextgame to say next game - "Next game: $nextgame" (works with lead entry point)
 	Config.MinGameTime = 120; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
-	Config.MaxGameTime = 1500; // Maximum game time in seconds. Quit game when limit is reached.
-	//Config.MaxGameTime = 500; // Chesting
+	Config.MaxGameTime = 1250; // Maximum game time in seconds. Quit game when limit is reached.
 	Config.TeleSwitch = false; // Switch to slot II when teleporting more than 1 node.
 	Config.OpenChests = true; // Open chests. Controls key buying.
 	Config.MiniShopBot = false; // Scan items in NPC shops.
 	Config.PacketShopping = false; // Use packets to shop. Improves shopping speed.
 	Config.TownCheck = true; // Go to town if out of potions
-	Config.LogExperience = false; // Print experience statistics in the manager.
-	Config.PingQuit = [{Ping: 0, Duration: 0}]; // Quit if ping is over the given value for over the given time period in seconds.
+	Config.LogExperience = true; // Print experience statistics in the manager.
+	Config.PingQuit = [{Ping: 200, Duration: 30}]; // Quit if ping is over the given value for over the given time period in seconds.
 
 	// Shrine Scanner - scan for shrines while moving.
 	// Put the shrine types in order of priority (from highest to lowest). For a list of types, see sdk/shrines.txt
@@ -487,7 +492,7 @@ function LoadConfig() {
 
 	// MF Switch
 	Config.MFSwitchPercent = 0; // Boss life % to switch weapons at. Set to 0 to disable.
-	Config.MFSwitch = 0; // MF weapon slot: 0 = slot I, 1 = slot II
+	Config.MFSwitch = 1; // MF weapon slot: 0 = slot I, 1 = slot II
 
 	// Speedup config. Full packet casting is not recommended for melee skills.
 	Config.FCR = 0; // 0 - disable, 1 to 255 - set value of Faster Cast Rate.
@@ -513,7 +518,7 @@ function LoadConfig() {
 	// Monster skip config
 	// Skip immune monsters. Possible options: "fire", "cold", "lightning", "poison", "physical", "magic".
 	// You can combine multiple resists with "and", for example - "fire and cold", "physical and cold and poison"
-	Config.SkipImmune = ["lightning"];
+	Config.SkipImmune = [];
 	// Skip enchanted monsters. Possible options: "extra strong", "extra fast", "cursed", "magic resistant", "fire enchanted", "lightning enchanted", "cold enchanted", "mana burn", "teleportation", "spectral hit", "stone skin", "multiple shots".
 	// You can combine multiple enchantments with "and", for example - "cursed and extra fast", "mana burn and extra strong and lightning enchanted"
 	Config.SkipEnchant = [];
@@ -529,8 +534,8 @@ function LoadConfig() {
 	 */
 	
 	// Chain Light
-	Config.AttackSkill[0] = 53; // Preattack skill.
-	Config.AttackSkill[1] = 53; // Primary skill to bosses.
+	Config.AttackSkill[0] = -1; // Preattack skill.
+	Config.AttackSkill[1] = 49; // Primary skill to bosses.
 	Config.AttackSkill[2] = -1; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
 	Config.AttackSkill[3] = 53; // Primary skill to others.
 	Config.AttackSkill[4] = -1; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
@@ -538,13 +543,22 @@ function LoadConfig() {
 	Config.AttackSkill[6] = -1; // Secondary untimed skill if monster is immune to primary untimed.
 
 	// Blizzard
-	//Config.AttackSkill[0] = 55; // Preattack skill.
+	//Config.AttackSkill[0] = -1; // Preattack skill.
 	//Config.AttackSkill[1] = 59; // Primary skill to bosses.
 	//Config.AttackSkill[2] = 55; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
 	//Config.AttackSkill[3] = 59; // Primary skill to others.
 	//Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
 	//Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
 	//Config.AttackSkill[6] = -1; // Secondary untimed skill if monster is immune to primary untimed.
+	
+	// Blizzard and Fireball
+	//Config.AttackSkill[0] = 55; // Preattack skill.
+	//Config.AttackSkill[1] = 59; // Primary skill to bosses.
+	//Config.AttackSkill[2] = 47; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
+	//Config.AttackSkill[3] = 59; // Primary skill to others.
+	//Config.AttackSkill[4] = 47; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
+	//Config.AttackSkill[5] = 59; // Secondary skill if monster is immune to primary.
+	//Config.AttackSkill[6] = 47; // Secondary untimed skill if monster is immune to primary untimed.
 	
 	// Low mana skills - these will be used if main skills can't be cast.
 	Config.LowManaSkill[0] = -1; // Timed low mana skill.
@@ -559,9 +573,9 @@ function LoadConfig() {
 		//"Monster Name": [-1, -1]
 	};
 
-	Config.Dodge = false; // Move away from monsters that get too close. Don't use with short-ranged attacks like Poison Dagger.
-	Config.DodgeRange = 15; // Distance to keep from monsters.
-	Config.DodgeHP = 100; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
+	Config.Dodge = true; // Move away from monsters that get too close. Don't use with short-ranged attacks like Poison Dagger.
+	Config.DodgeRange = 10; // Distance to keep from monsters.
+	Config.DodgeHP = 90; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = false; // Set to true to attack Unique/SuperUnique monsters first when clearing
 	Config.ClearType = 0xF; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
 	Config.TeleStomp = true; // Use merc to attack bosses if they're immune to attacks, but not to physical damage

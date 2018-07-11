@@ -167,7 +167,7 @@
 
 // ### UNIQUE SHIELDS ###
 // NORMAL
-[Name] == SpikedShield && [Quality] == Unique # [EnhancedDefense] == 60 // Swordback Hold
+//[Name] == SpikedShield && [Quality] == Unique # [EnhancedDefense] == 60 // Swordback Hold
 // EXCEPTIONAL
 [Name] == BarbedShield && [Quality] == Unique # [EnhancedDefense] == 120 // Lance Guard
 //[Name] == Defender && [Quality] == Unique && [Flag] != Ethereal # [EnhancedDefense] == 150 // Visceratuant

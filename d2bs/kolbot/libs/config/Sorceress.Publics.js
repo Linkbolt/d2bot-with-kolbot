@@ -115,7 +115,7 @@ function LoadConfig() {
 		
 	// Battle orders script - Use this for 2+ characters (for example BO barb + sorc)
 	Scripts.BattleOrders = false;
-		Config.BattleOrders.Mode = 0; // 0 = give BO, 1 = get BO
+		Config.BattleOrders.Mode = 1; // 0 = give BO, 1 = get BO
 		Config.BattleOrders.Wait = false; // Idle until the player that received BO leaves.
 		Config.BattleOrders.Getters = []; // List of players to wait for before casting Battle Orders (mode 0). All players must be in the same area as the BOer.
 		
@@ -220,7 +220,7 @@ function LoadConfig() {
 	// *** Guest scripts ***
 
 	// Baal Assistant by YourGreatestMember
-	Scripts.BaalAssistant = true; // Used to leech or help in baal runs.
+	Scripts.BaalAssistant = false; // Used to leech or help in baal runs.
 		Config.BaalAssistant.Wait = 120; // Seconds to wait for a runner to be in the throne / portal wait / safe TP wait / hot TP wait...
 		Config.BaalAssistant.KillNihlathak = false; // Kill Nihlathak before going to Throne
 		Config.BaalAssistant.FastChaos = false; // Kill Diablo before going to Throne
@@ -299,11 +299,11 @@ function LoadConfig() {
 	Config.PickitFiles.push("LinkSockets.nip");
 	Config.PickitFiles.push("LinkMisc.nip");
 	
-	Config.PickitFiles.push("DubCharms.nip");
-	Config.PickitFiles.push("DubMagic.nip");
-	Config.PickitFiles.push("DubRare.nip");
-	Config.PickitFiles.push("DubUnique.nip");
-	Config.PickitFiles.push("DubWhite.nip");
+	//Config.PickitFiles.push("DubCharms.nip");
+	//Config.PickitFiles.push("DubMagic.nip");
+	//Config.PickitFiles.push("DubRare.nip");
+	//Config.PickitFiles.push("DubUnique.nip");
+	//Config.PickitFiles.push("DubWhite.nip");
 	Config.PickRange = 40; // Pick radius
 	Config.FastPick = false; // Check and pick items between attacks
 
@@ -379,12 +379,12 @@ function LoadConfig() {
 	Config.Recipes.push([Recipe.Rune, "Fal Rune"]); // Upgrade Fal to Lem
 	Config.Recipes.push([Recipe.Rune, "Lem Rune"]); // Upgrade Lem to Pul
 	Config.Recipes.push([Recipe.Rune, "Pul Rune"]); // Upgrade Pul to Um
-	//Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
+	Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
 	Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
 	Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
 	Config.Recipes.push([Recipe.Rune, "Gul Rune"]); // Upgrade Gul to Vex
 	Config.Recipes.push([Recipe.Rune, "Vex Rune"]); // Upgrade Vex to Ohm
-	//Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
+	Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
 	Config.Recipes.push([Recipe.Rune, "Lo Rune"]); // Upgrade Lo to Sur
 	Config.Recipes.push([Recipe.Rune, "Sur Rune"]); // Upgrade Sur to Ber
 
@@ -456,7 +456,7 @@ function LoadConfig() {
 
 	//Config.Runewords.push([Runeword.Smoke, "Boneweave"]); // Make Smoke Boneweave
 	
-	Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] >= 35"); // Keep Spirit
+	Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] >= 30"); // Keep Spirit
 	Config.KeepRunewords.push("[type] == polearm # [meditationaura] == 17"); // Keep insight
 	Config.KeepRunewords.push("[type] == armor"); // Keep Smoke
 
@@ -475,16 +475,15 @@ function LoadConfig() {
 	// General config
 	Config.AutoMap = false; // Set to true to open automap at the beginning of the game.
 	Config.LastMessage = ""; // Message or array of messages to say at the end of the run. Use $nextgame to say next game - "Next game: $nextgame" (works with lead entry point)
-	Config.MinGameTime = 120; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
+	Config.MinGameTime = 100; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
 	Config.MaxGameTime = 1250; // Maximum game time in seconds. Quit game when limit is reached.
-	//Config.MaxGameTime = 500; // Chesting
 	Config.TeleSwitch = false; // Switch to slot II when teleporting more than 1 node.
 	Config.OpenChests = true; // Open chests. Controls key buying.
 	Config.MiniShopBot = false; // Scan items in NPC shops.
 	Config.PacketShopping = false; // Use packets to shop. Improves shopping speed.
 	Config.TownCheck = true; // Go to town if out of potions
 	Config.LogExperience = true; // Print experience statistics in the manager.
-	Config.PingQuit = [{Ping: 0, Duration: 0}]; // Quit if ping is over the given value for over the given time period in seconds.
+	Config.PingQuit = [{Ping: 200, Duration: 30}]; // Quit if ping is over the given value for over the given time period in seconds.
 
 	// Shrine Scanner - scan for shrines while moving.
 	// Put the shrine types in order of priority (from highest to lowest). For a list of types, see sdk/shrines.txt

@@ -379,12 +379,12 @@ function LoadConfig() {
 	Config.Recipes.push([Recipe.Rune, "Fal Rune"]); // Upgrade Fal to Lem
 	Config.Recipes.push([Recipe.Rune, "Lem Rune"]); // Upgrade Lem to Pul
 	Config.Recipes.push([Recipe.Rune, "Pul Rune"]); // Upgrade Pul to Um
-	//Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
+	Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
 	Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
 	Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
 	Config.Recipes.push([Recipe.Rune, "Gul Rune"]); // Upgrade Gul to Vex
 	Config.Recipes.push([Recipe.Rune, "Vex Rune"]); // Upgrade Vex to Ohm
-	//Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
+	Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
 	Config.Recipes.push([Recipe.Rune, "Lo Rune"]); // Upgrade Lo to Sur
 	Config.Recipes.push([Recipe.Rune, "Sur Rune"]); // Upgrade Sur to Ber
 
@@ -456,7 +456,7 @@ function LoadConfig() {
 
 	//Config.Runewords.push([Runeword.Smoke, "Boneweave"]); // Make Smoke Boneweave
 	
-	Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] >= 35"); // Keep Spirit
+	Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] >= 30"); // Keep Spirit
 	Config.KeepRunewords.push("[type] == polearm # [meditationaura] == 17"); // Keep insight
 	Config.KeepRunewords.push("[type] == armor"); // Keep Smoke
 
