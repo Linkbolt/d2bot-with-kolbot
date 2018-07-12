@@ -146,6 +146,16 @@ function BaalHelper() { // experi-mental
 		return true;
 	};
 
+	if (Config.BaalHelper.ChestMania) {
+		include("bots/ChestMania.js");
+		
+		try {
+			ChestMania.call();
+		} catch (e) {
+			print(e);
+		}
+	}
+	
 	if (Config.BaalHelper.KillNihlathak) {
 		include("bots/Nihlathak.js");
 
@@ -251,17 +261,17 @@ WSKLoop:
 	}
 
 	Precast.doPrecast(false);
-	Attack.clear(15);
-	this.clearThrone();
+	//Attack.clear(15);
+	//this.clearThrone();
 
 	tick = getTickCount();
 
-	Pather.moveTo(15093, me.classid === 3 ? 5029 : 5039);
+	Pather.moveTo(15107, me.classid === 3 ? 5029 : 5039);
 
 MainLoop:
 	while (true) {
-		if (getDistance(me, 15093, me.classid === 3 ? 5029 : 5039) > 3) {
-			Pather.moveTo(15093, me.classid === 3 ? 5029 : 5039);
+		if (getDistance(me, 15107, me.classid === 3 ? 5029 : 5039) > 3) {
+			Pather.moveTo(15107, me.classid === 3 ? 5029 : 5039);
 		}
 
 		if (!getUnit(1, 543)) {
@@ -273,7 +283,8 @@ MainLoop:
 			Attack.clear(40);
 
 			tick = getTickCount();
-
+			
+			delay(1500);
 			Precast.doPrecast(true);
 
 			break;
@@ -291,7 +302,7 @@ MainLoop:
 			break;
 		case 3:
 			Attack.clear(40);
-			this.checkHydra();
+			//this.checkHydra();
 
 			tick = getTickCount();
 
@@ -321,6 +332,7 @@ MainLoop:
 	}
 
 	if (Config.BaalHelper.KillBaal) {
+		delay(1500);
 		Pather.moveTo(15092, 5011);
 		Precast.doPrecast(false);
 
@@ -328,17 +340,18 @@ MainLoop:
 			delay(500);
 		}
 
-		delay(1000);
 		Pather.moveTo(15092, 5011);
 
 		portal = getUnit(2, 563);
 
 		if (portal) {
 			Pather.usePortal(null, null, portal);
+			delay(1000);
 		} else {
 			throw new Error("Couldn't find portal.");
 		}
 
+		delay(1000);
 		Pather.moveTo(15134, 5923);
 		Attack.kill(544); // Baal
 		Pickit.pickItems();
@@ -348,5 +361,7 @@ MainLoop:
 		}
 	}
 
+	delay(1500);
+	
 	return true;
 }

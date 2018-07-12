@@ -4,7 +4,7 @@ var StarterConfig = {
 	ChatActionsDelay: 3, // Seconds to wait in lobby before entering a channel
 
 	// D2BotChannel settings
-	Games: ["moh-baal-"], // List of games to look for. Example: Games: ["some baal-", "chaos run-"],
+	Games: ["moh-baal-", "Adiabaal-", "Vipidiabaal", "Easybaal-", "Probaal1", "Fazediabaal-", "Dxdiabaal-", "Gediabaal-", "Tru-diabaal", "Joebaalz", "Diabaalrun", "Xindiabaal", "Fazediabaal-"], // List of games to look for. Example: Games: ["some baal-", "chaos run-"],
 	Passwords: [""], // List of game passwords. Each array in Games array should have a matching element in Passwords. Use "" for blank pw.
 	JoinDelay: 5, // Seconds to wait between announcement and clicking join
 	FriendListQuery: 0, // Seconds between "/f l" retries. 0 = disable
@@ -450,6 +450,24 @@ MainLoop:
 					break MainLoop;
 				}
 			}
+		}
+		
+		try {
+			regex = new RegExp("..:::| .+ |:::..");
+			joinInfo.gameName = fullText.match(regex);
+			
+			if (joinInfo.gameName) {
+				
+				joinInfo.gameName = joinInfo.gameName[joinInfo.gameName.length - 1].toString().replace("..:::| ", "");
+				joinInfo.gameName = joinInfo.gameName.replace(" |:::..", "");
+				print(joinInfo.gameName);
+
+				if (joinInfo.gameName && joinInfo.gameName !== joinInfo.oldGame && badGames.indexOf(joinInfo.gameName) === -1) {
+					ControlAction.click(6, 652, 469, 120, 20);
+				}
+			}
+		} catch (e) {
+			print(e);
 		}
 
 		break;

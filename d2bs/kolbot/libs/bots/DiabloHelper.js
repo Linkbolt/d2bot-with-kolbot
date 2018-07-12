@@ -361,9 +361,11 @@ function DiabloHelper() {
 	Town.doChores();
 
 	if (Config.DiabloHelper.SkipIfBaal) {
+		var count = 0;
 AreaInfoLoop:
 		while (true) {
-			me.overhead("Getting party area info");
+			delay(5000);
+			print("Getting party area info"); //me.overhead("Getting party area info");
 
 			if (Misc.getPlayerCount() <= 1) {
 				throw new Error("Empty game"); // Alone in game
@@ -378,8 +380,12 @@ AreaInfoLoop:
 					}
 				} while (party.getNext());
 			}
-
-			delay(1000);
+			
+			count++;
+			if (count >= 3) {
+				quit(); // quit game
+			}
+				
 		}
 
 		party = getParty();
@@ -458,10 +464,13 @@ CSLoop:
 	Pather.moveTo(7774, 5305);
 	Attack.clear(35, 0, false, this.sort);
 	this.vizierSeal();
+	delay(1500);
 	this.seisSeal();
-	Precast.doPrecast(true);
+	delay(1500);
+	Precast.doPrecast(false);
 	this.infectorSeal();
-
+	delay(1500);
+	
 	switch (me.classid) {
 	case 1:
 		Pather.moveTo(7793, 5291);
@@ -476,6 +485,7 @@ CSLoop:
 	this.diabloPrep();
 	Attack.kill(243); // Diablo
 	Pickit.pickItems();
-
+	delay(1500);
+	
 	return true;
 }

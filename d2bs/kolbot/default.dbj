@@ -178,7 +178,7 @@ function main() {
 			Town.goToTown();
 
 			while (getTickCount() - startTime < Config.MinGameTime * 1000) {
-				me.overhead("Stalling for " + Math.round(((startTime + (Config.MinGameTime * 1000)) - getTickCount()) / 1000) + " Seconds");
+				print("Stalling for " + Math.round(((startTime + (Config.MinGameTime * 1000)) - getTickCount()) / 1000) + " Seconds"); //me.overhead("Stalling for " + Math.round(((startTime + (Config.MinGameTime * 1000)) - getTickCount()) / 1000) + " Seconds");
 				delay(1000);
 			}
 		} catch (e1) {

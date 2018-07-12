@@ -347,6 +347,7 @@ var Config = {
 		BaalMessage: "Baal!"
 	},
 	BaalAssistant: {
+		ChestMania: false,
 		KillNihlathak: false,
 		FastChaos: false,
 		Wait: 120,

@@ -145,6 +145,7 @@ function LoadConfig() {
 		Config.AutoBaal.LongRangeSupport = true; // Cast long distance skills from a safe spot
 	Scripts.BaalHelper = true;
 		Config.BaalHelper.Wait = 120; // Seconds to wait for a runner to be in Throne
+		Config.BaalHelper.ChestMania = true; // Open super chests before going to Throne
 		Config.BaalHelper.KillNihlathak = false; // Kill Nihlathak before going to Throne
 		Config.BaalHelper.FastChaos = false; // Kill Diablo before going to Throne
 		Config.BaalHelper.DollQuit = false;  // End script if Dolls (Undead Soul Killers) are found.
@@ -194,10 +195,8 @@ function LoadConfig() {
 		Config.ShopBot.ScanIDs = [];
 		Config.ShopBot.CycleDelay = 0; // Delay between shopping cycles in milliseconds, might help with crashes.
 		Config.ShopBot.QuitOnMatch = false; // Leave game as soon as an item is shopped.
-	Scripts.ChestMania = false; // Open chests in configured areas. See sdk/areas.txt
-		// mfing
-		Config.ChestMania.Act3 = [79, 80, 81, 82, 83, 93];
-		Config.ChestMania.Act5 = [125, 126, 127];
+	Scripts.ChestMania = true; // Open chests in configured areas. See sdk/areas.txt
+		Config.ChestMania.Act3 = [79, 80, 81, 82];
 		
 		// chesting
 		//Config.ChestMania.Act1 = [2, 8, 3, 18, 19, 4, 5, 6, 21, 22, 23, 24, 25, 7, 12, 16, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36];
@@ -476,7 +475,7 @@ function LoadConfig() {
 	Config.AutoMap = false; // Set to true to open automap at the beginning of the game.
 	Config.LastMessage = ""; // Message or array of messages to say at the end of the run. Use $nextgame to say next game - "Next game: $nextgame" (works with lead entry point)
 	Config.MinGameTime = 100; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
-	Config.MaxGameTime = 1250; // Maximum game time in seconds. Quit game when limit is reached.
+	Config.MaxGameTime = 500; // Maximum game time in seconds. Quit game when limit is reached.
 	Config.TeleSwitch = false; // Switch to slot II when teleporting more than 1 node.
 	Config.OpenChests = true; // Open chests. Controls key buying.
 	Config.MiniShopBot = false; // Scan items in NPC shops.
@@ -492,7 +491,7 @@ function LoadConfig() {
 
 	// MF Switch
 	Config.MFSwitchPercent = 0; // Boss life % to switch weapons at. Set to 0 to disable.
-	Config.MFSwitch = 0; // MF weapon slot: 0 = slot I, 1 = slot II
+	Config.MFSwitch = 1; // MF weapon slot: 0 = slot I, 1 = slot II
 
 	// Speedup config. Full packet casting is not recommended for melee skills.
 	Config.FCR = 0; // 0 - disable, 1 to 255 - set value of Faster Cast Rate.
@@ -573,7 +572,7 @@ function LoadConfig() {
 		//"Monster Name": [-1, -1]
 	};
 
-	Config.Dodge = true; // Move away from monsters that get too close. Don't use with short-ranged attacks like Poison Dagger.
+	Config.Dodge = false; // Move away from monsters that get too close. Don't use with short-ranged attacks like Poison Dagger.
 	Config.DodgeRange = 10; // Distance to keep from monsters.
 	Config.DodgeHP = 90; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = false; // Set to true to attack Unique/SuperUnique monsters first when clearing
