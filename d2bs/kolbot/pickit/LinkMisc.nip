@@ -141,9 +141,10 @@
 [name] == grandcharm && [quality] == unique
 
 // ##### small charms ##################
-[name] == smallcharm && [quality] == magic # [itemmagicbonus] >= 7 // mf
+//[name] == smallcharm && [quality] == magic # [itemmagicbonus] >= 7 // mf
+[name] == smallcharm && [quality] == magic # [itemmagicbonus] >= 7 && ([fireresist] >= 5 || [lightresist] >= 5 || [coldresist] >= 5 || [poisonresist] >= 5 || [maxhp] >= 10) // mf
 //[name] == smallcharm && [quality] == magic # [itemgoldbonus] >= 10 // gold find
-[name] == smallcharm && [quality] == magic # [poisonmaxdam] >= 100 // poison damage
+//[name] == smallcharm && [quality] == magic # [poisonmaxdam] >= 100 // poison damage
 [name] == smallcharm && [quality] == magic # ([fireresist] >= 11 || [lightresist] >= 11 || [coldresist] >= 11 || [poisonresist] >= 11 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 12) // resists
 [name] == smallcharm && [quality] == magic # ([defense] >= 30 || [attackrate] >= 36 || [maxmana] >= 17 || [fireresist] >= 11 || [lightresist] >= 11 || [coldresist] >= 11 || [poisonresist] >= 11 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 20 || [poisonmaxdam] >= 100) && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3 || [poisonmaxdam] >= 50) // perfect any sufix + perfect any affix
 

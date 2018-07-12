@@ -451,7 +451,7 @@ function LoadConfig() {
 	//Config.Runewords.push([Runeword.Insight, "Colossus Voulge"]); // Make Insight Cryptic Axe
 	Config.Runewords.push([Runeword.Insight, "Great Poleaxe"]); // Make Insight Cryptic Axe
 
-	Config.Runewords.push([Runeword.Spirit, "Monarch"]); // Make Spirit Monarch
+	//Config.Runewords.push([Runeword.Spirit, "Monarch"]); // Make Spirit Monarch
 	//Config.Runewords.push([Runeword.Spirit, "Sacred Targe"]); // Make Spirit Sacred Targe
 
 	//Config.Runewords.push([Runeword.Smoke, "Boneweave"]); // Make Smoke Boneweave
