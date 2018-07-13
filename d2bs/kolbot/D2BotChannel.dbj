@@ -434,7 +434,22 @@ MainSwitch:
 		}
 
 		fullText = lines.join(" ").replace(/\s+/g, " ");
+		
+		regex = new RegExp("\\.\\.\\:\\:\\:\\| .+ \\|\\:\\:\\:\\.\\.");
+		joinInfo.gameName = fullText.match(regex);
+		
+		if (joinInfo.gameName) {
+			
+			joinInfo.gameName = joinInfo.gameName[joinInfo.gameName.length - 1].toString();
+			joinInfo.gameName = joinInfo.gameName.replace("..:::| ", "");
+			joinInfo.gameName = joinInfo.gameName.replace(" |:::..", "");
 
+			if (joinInfo.gameName && joinInfo.gameName !== joinInfo.oldGame && badGames.indexOf(joinInfo.gameName) === -1) {
+				ControlAction.click(6, 652, 469, 120, 20);
+				break;
+			}
+		}
+		
 MainLoop:
 		for (n = 0; n < StarterConfig.Games.length; n += 1) {
 			regex = new RegExp("\\W+" + StarterConfig.Games[n].toLowerCase() + "\\d+", "gi");
@@ -452,24 +467,6 @@ MainLoop:
 			}
 		}
 		
-		try {
-			regex = new RegExp("..:::| .+ |:::..");
-			joinInfo.gameName = fullText.match(regex);
-			
-			if (joinInfo.gameName) {
-				
-				joinInfo.gameName = joinInfo.gameName[joinInfo.gameName.length - 1].toString().replace("..:::| ", "");
-				joinInfo.gameName = joinInfo.gameName.replace(" |:::..", "");
-				print(joinInfo.gameName);
-
-				if (joinInfo.gameName && joinInfo.gameName !== joinInfo.oldGame && badGames.indexOf(joinInfo.gameName) === -1) {
-					ControlAction.click(6, 652, 469, 120, 20);
-				}
-			}
-		} catch (e) {
-			print(e);
-		}
-
 		break;
 	case 4: // Create Game
 		break;

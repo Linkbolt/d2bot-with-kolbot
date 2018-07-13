@@ -217,8 +217,8 @@
 //[Type] == Ring && [Quality] == Unique # [MaxHp] == 40 && [MagicDamageReduction] == 15 // Dwarf Star
 [Type] == Ring && [Quality] == Unique # [ToHit] == 250 && [Dexterity] == 20 // Raven Frost
 [Type] == Ring && [Quality] == Unique # [LifeLeech] == 5 && [ItemAllSkills] == 1 // Bul-Kathos' Wedding Band
-[Type] == Ring && [Quality] == Unique # [PoisonResist] == 30 && [NormalDamageReduction] == 11 // Nature's Peace
-[Type] == Ring && [Quality] == Unique # [ItemAbsorbLightPercent] == 20 // Wisp Projector
+//[Type] == Ring && [Quality] == Unique # [PoisonResist] == 30 && [NormalDamageReduction] == 11 // Nature's Peace
+//[Type] == Ring && [Quality] == Unique # [ItemAbsorbLightPercent] == 20 // Wisp Projector
 
 
 // ### UNIQUE BELTS ###
