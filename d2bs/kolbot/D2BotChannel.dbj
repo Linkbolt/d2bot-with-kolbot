@@ -4,7 +4,7 @@ var StarterConfig = {
 	ChatActionsDelay: 3, // Seconds to wait in lobby before entering a channel
 
 	// D2BotChannel settings
-	Games: ["Ophidiabaal-", "Adiabaal", "moh-baal-", "Adiabaal-", "Vipidiabaal", "Easybaal-", "Probaal1", "Fazediabaal-", "Dxdiabaal-", "Gediabaal-", "Tru-diabaal", "Joebaalz", "Diabaalrun", "Xindiabaal", "Fazediabaal-"], // List of games to look for. Example: Games: ["some baal-", "chaos run-"],
+	Games: ["Ophidiabaal-", "Adiabaal", "Adiabaal-"], // List of games to look for. Example: Games: ["some baal-", "chaos run-"],
 	Passwords: [""], // List of game passwords. Each array in Games array should have a matching element in Passwords. Use "" for blank pw.
 	JoinDelay: 5, // Seconds to wait between announcement and clicking join
 	FriendListQuery: 0, // Seconds between "/f l" retries. 0 = disable
@@ -435,7 +435,7 @@ MainSwitch:
 
 		fullText = lines.join(" ").replace(/\s+/g, " ");
 		
-		regex = new RegExp("\\.\\.\\:\\:\\:\\| .+ \\|\\:\\:\\:\\.\\.");
+		regex = new RegExp("\\.\\.\\:\\:\\:\\| .+baal.+ \\|\\:\\:\\:\\.\\.");
 		joinInfo.gameName = fullText.match(regex);
 		
 		if (joinInfo.gameName) {

@@ -147,7 +147,7 @@ function BaalHelper() { // experi-mental
 	};
 
 	if (Misc.getPlayerCount() <= 1) {
-		throw new Error("Empty game"); // Alone in game
+		return false; // Alone in game
 	}
 	
 	if (Config.BaalHelper.ChestMania) {
@@ -185,6 +185,11 @@ function BaalHelper() { // experi-mental
 
 	Town.goToTown(5);
 	Town.doChores();
+	
+	if (Misc.getPlayerCount() <= 1) {
+		return false; // Alone in game
+	}
+	
 	Pather.useWaypoint(Config.RandomPrecast ? "random" : 129);
 	Precast.doPrecast(true);
 
@@ -248,7 +253,7 @@ WSKLoop:
 		for (i = 0; i < Config.BaalHelper.Wait; i += 1) {
 			
 			if (Misc.getPlayerCount() <= 1) {
-				throw new Error("Empty game"); // Alone in game
+				return false; // Alone in game
 			}
 			
 			if (Pather.getPortal(131, Config.Leader || null) && Pather.usePortal(131, Config.Leader || null)) {
