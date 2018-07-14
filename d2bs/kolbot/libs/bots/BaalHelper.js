@@ -146,6 +146,10 @@ function BaalHelper() { // experi-mental
 		return true;
 	};
 
+	if (Misc.getPlayerCount() <= 1) {
+		throw new Error("Empty game"); // Alone in game
+	}
+	
 	if (Config.BaalHelper.ChestMania) {
 		include("bots/ChestMania.js");
 		
@@ -242,6 +246,11 @@ WSKLoop:
 		Town.move("portalspot");
 
 		for (i = 0; i < Config.BaalHelper.Wait; i += 1) {
+			
+			if (Misc.getPlayerCount() <= 1) {
+				throw new Error("Empty game"); // Alone in game
+			}
+			
 			if (Pather.getPortal(131, Config.Leader || null) && Pather.usePortal(131, Config.Leader || null)) {
 				break;
 			}

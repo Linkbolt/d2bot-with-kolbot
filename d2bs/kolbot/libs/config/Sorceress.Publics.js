@@ -195,8 +195,8 @@ function LoadConfig() {
 		Config.ShopBot.ScanIDs = [];
 		Config.ShopBot.CycleDelay = 0; // Delay between shopping cycles in milliseconds, might help with crashes.
 		Config.ShopBot.QuitOnMatch = false; // Leave game as soon as an item is shopped.
-	Scripts.ChestMania = true; // Open chests in configured areas. See sdk/areas.txt
-		Config.ChestMania.Act3 = [79, 80, 81, 82];
+	Scripts.ChestMania = false; // Open chests in configured areas. See sdk/areas.txt
+		Config.ChestMania.Act3 = [79, 80, 81];
 		
 		// chesting
 		//Config.ChestMania.Act1 = [2, 8, 3, 18, 19, 4, 5, 6, 21, 22, 23, 24, 25, 7, 12, 16, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36];
@@ -304,7 +304,7 @@ function LoadConfig() {
 	//Config.PickitFiles.push("DubUnique.nip");
 	//Config.PickitFiles.push("DubWhite.nip");
 	Config.PickRange = 40; // Pick radius
-	Config.FastPick = false; // Check and pick items between attacks
+	Config.FastPick = true; // Check and pick items between attacks
 
 	// Additional item info log settings. All info goes to \logs\ItemLog.txt
 	Config.ItemInfo = true; // Log stashed, skipped (due to no space) or sold items.
@@ -435,8 +435,8 @@ function LoadConfig() {
 
 	// The gems not used by other recipes will be used for magic item rerolling.
 
-	//Config.Recipes.push([Recipe.Reroll.Magic, "Grand Charm"]); // Reroll magic Grand Charm (ilvl 91+)
-	//Config.Recipes.push([Recipe.Reroll.Magic, "Small Charm"]); // Reroll magic Small Charm (ilvl 91+)
+	Config.Recipes.push([Recipe.Reroll.Magic, "Grand Charm"]); // Reroll magic Grand Charm (ilvl 91+)
+	Config.Recipes.push([Recipe.Reroll.Magic, "Small Charm"]); // Reroll magic Small Charm (ilvl 91+)
 	//Config.Recipes.push([Recipe.Reroll.Magic, "Diadem"]); // Reroll magic Diadem
 	//Config.Recipes.push([Recipe.Reroll.Rare, "Diadem"]); // Reroll rare Diadem
 	
@@ -474,7 +474,7 @@ function LoadConfig() {
 	// General config
 	Config.AutoMap = false; // Set to true to open automap at the beginning of the game.
 	Config.LastMessage = ""; // Message or array of messages to say at the end of the run. Use $nextgame to say next game - "Next game: $nextgame" (works with lead entry point)
-	Config.MinGameTime = 100; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
+	Config.MinGameTime = 60; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
 	Config.MaxGameTime = 500; // Maximum game time in seconds. Quit game when limit is reached.
 	Config.TeleSwitch = false; // Switch to slot II when teleporting more than 1 node.
 	Config.OpenChests = true; // Open chests. Controls key buying.
@@ -572,7 +572,7 @@ function LoadConfig() {
 		//"Monster Name": [-1, -1]
 	};
 
-	Config.Dodge = false; // Move away from monsters that get too close. Don't use with short-ranged attacks like Poison Dagger.
+	Config.Dodge = true; // Move away from monsters that get too close. Don't use with short-ranged attacks like Poison Dagger.
 	Config.DodgeRange = 10; // Distance to keep from monsters.
 	Config.DodgeHP = 90; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = false; // Set to true to attack Unique/SuperUnique monsters first when clearing
