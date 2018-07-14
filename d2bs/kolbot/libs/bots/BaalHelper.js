@@ -369,13 +369,7 @@ MainLoop:
 		Pather.moveTo(15134, 5923);
 		Attack.kill(544); // Baal
 		Pickit.pickItems();
-	} else {
-		while (true) {
-			delay(500);
-		}
 	}
-
-	delay(1500);
 	
 	return true;
 }
