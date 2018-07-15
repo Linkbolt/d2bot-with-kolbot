@@ -114,7 +114,7 @@ function LoadConfig() {
 
 		
 	// Battle orders script - Use this for 2+ characters (for example BO barb + sorc)
-	Scripts.BattleOrders = true;
+	Scripts.BattleOrders = false;
 		Config.BattleOrders.Mode = 0; // 0 = give BO, 1 = get BO
 		Config.BattleOrders.Wait = false; // Idle until the player that received BO leaves.
 		Config.BattleOrders.Getters = []; // List of players to wait for before casting Battle Orders (mode 0). All players must be in the same area as the BOer.

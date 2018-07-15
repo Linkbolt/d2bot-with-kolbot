@@ -79,7 +79,7 @@
 //[name] == gothicplate && [quality] == set # [defense] >= 170 # [maxquantity] == 1 // sigon's shelter
 //[name] == greaves && [quality] == set # [defense] >= 15 # [maxquantity] == 1 // sigon's sabot
 //[name] == towershield && [quality] == set # [defense] >= 25 # [maxquantity] == 1 // sigon's guard
-[name] == platedbelt && [quality] == set # [defense] >= 11 # [maxquantity] == 1 // sigon's warp
+//[name] == platedbelt && [quality] == set # [defense] >= 11 # [maxquantity] == 1 // sigon's warp
 //[name] == gauntlets && [quality] == set # [defense] >= 15 # [maxquantity] == 1 // sigon's gage
 
 

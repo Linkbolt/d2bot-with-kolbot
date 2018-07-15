@@ -26,7 +26,7 @@ function LoadConfig() {
 		Config.Corpsefire.ClearDen = false;
 	Scripts.Mausoleum = false;
 		Config.Mausoleum.KillBloodRaven = false;
-		Config.Mausoleum.ClearCrypt = true;
+		Config.Mausoleum.ClearCrypt = false;
 	Scripts.Rakanishu = false;
 		Config.Rakanishu.KillGriswold = false;
 	Scripts.UndergroundPassage = false;
@@ -85,7 +85,7 @@ function LoadConfig() {
 	// *** act 5 ***
 	Scripts.Pindleskin = false;
 		Config.Pindleskin.UseWaypoint = false;
-		Config.Pindleskin.KillNihlathak = false;
+		Config.Pindleskin.KillNihlathak = true;
 		Config.Pindleskin.ViperQuit = true; // End script if Tomb Vipers are found.
 	Scripts.Nihlathak = false;
 		Config.Nihlathak.ViperQuit = false; // End script if Tomb Vipers are found.
@@ -108,14 +108,14 @@ function LoadConfig() {
 		//Config.Baal.HotTPMessage = "Hot TP!";
 		//Config.Baal.SafeTPMessage = "Safe TP!";
 		//Config.Baal.BaalMessage = "Baal!";
-		Config.Baal.SoulQuit = false; // End script if Souls (Undead Soul Killers) are found.
-		Config.Baal.DollQuit = false; // End script if Dolls (Undead Stigyan Dolls) are found.
+		Config.Baal.SoulQuit = true; // End script if Souls (Undead Soul Killers) are found.
+		Config.Baal.DollQuit = true; // End script if Dolls (Undead Stigyan Dolls) are found.
 		Config.Baal.KillBaal = true; // Kill Baal. Leaves game after wave 5 if false.
 
 		
 	// Battle orders script - Use this for 2+ characters (for example BO barb + sorc)
 	Scripts.BattleOrders = false;
-		Config.BattleOrders.Mode = 1; // 0 = give BO, 1 = get BO
+		Config.BattleOrders.Mode = 0; // 0 = give BO, 1 = get BO
 		Config.BattleOrders.Wait = false; // Idle until the player that received BO leaves.
 		Config.BattleOrders.Getters = []; // List of players to wait for before casting Battle Orders (mode 0). All players must be in the same area as the BOer.
 		
@@ -196,7 +196,7 @@ function LoadConfig() {
 		Config.ShopBot.CycleDelay = 0; // Delay between shopping cycles in milliseconds, might help with crashes.
 		Config.ShopBot.QuitOnMatch = false; // Leave game as soon as an item is shopped.
 	Scripts.ChestMania = false; // Open chests in configured areas. See sdk/areas.txt
-		Config.ChestMania.Act3 = [79, 80, 81];
+		Config.ChestMania.Act3 = [79]; //, 80, 81];
 		
 		// chesting
 		//Config.ChestMania.Act1 = [2, 8, 3, 18, 19, 4, 5, 6, 21, 22, 23, 24, 25, 7, 12, 16, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36];
