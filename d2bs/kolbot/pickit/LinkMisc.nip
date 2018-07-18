@@ -152,7 +152,9 @@
 [name] == largecharm && [quality] == magic # ([defense] >= 60 || [attackrate] >= 77 || [maxmana] >= 34 || [fireresist] >= 15 || [lightresist] >= 15 || [coldresist] >= 15 || [poisonresist] >= 15 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 32) && ([dexterity] >= 5 || [strength] >= 5 || [fhr] >=  8 || [maxhp] >= 35) // perfect any sufix + perfect any affix
 
 // ##### grand charms ##################
-[name] == grandcharm && [quality] == magic # [itemaddskilltab] == 1 // any skiller
+[name] == grandcharm && [quality] == magic # [itemaddskilltab] == 1 && ([maxhp] >= 15 || [maxmana] >= 20 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 1 || [fhr] >= 1) // good skillers
+[name] == grandcharm && [quality] == magic # [lightningskilltab] == 1 || [palicombatskilltab] == 1 || [trapsskilltab] == 1 || [martialartsskilltab] == 1 || [poisonandboneskilltab] == 1 || [elementalskilltab] == 1 // usefull skillers
+//[name] == grandcharm && [quality] == magic # [fireskilltab] == 1 || [coldskilltab] == 1 || [defensiveaurasskilltab] == 1 || [offensiveaurasskilltab] == 1 ||[shadowdisciplinesskilltab] == 1 || [warcriesskilltab] == 1 || [barbcombatskilltab] == 1 || [cursesskilltab] == 1 || [necromancersummoningskilltab] == 1 || [shapeshiftingskilltab] == 1 || [druidsummoningskilltab] == 1 // less usefull skillers
 [name] == grandcharm && [quality] == magic # ([defense] >= 100 || [attackrate] >= 132 || [maxdamage] >= 10 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [itemaddskilltab] == 1)  && ([maxdamage] >= 4 || [fhr] >= 12 || [frw] >= 7 || [strength] >= 6 || [dexterity] >= 6 || [itemgoldbonus] >= 40) // perfect any sufix + perfect any affix
 
 
@@ -169,11 +171,11 @@
 //[name] == chargedessenceofhatred # # [maxquantity] == 3
 //[name] == burningessenceofterror # # [maxquantity] == 1
 //[name] == festeringessenceofdestruction # # [maxquantity] == 3
-[name] == tokenofabsolution
-[name] == diablo'shorn
-[name] == mephisto'sbrain
-[name] == baal'seye
-[name] == standardofheroes # # [maxquantity] == 1
+//[name] == tokenofabsolution
+//[name] == diablo'shorn
+//[name] == mephisto'sbrain
+//[name] == baal'seye
+//[name] == standardofheroes # # [maxquantity] == 1
 
 
 
