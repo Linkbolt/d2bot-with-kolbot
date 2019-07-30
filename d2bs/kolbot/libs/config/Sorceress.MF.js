@@ -74,7 +74,7 @@ function LoadConfig() {
 	Scripts.Hephasto = false;
 	Scripts.Vizier = false; // Intended for classic sorc, kills Vizier only.
 	Scripts.FastDiablo = false;
-	Scripts.Diablo = false;
+	Scripts.Diablo = true;
 		Config.Diablo.Entrance = true; // Start from entrance
 		//Config.Diablo.SealWarning = "Leave the seals alone!";
 		//Config.Diablo.EntranceTP = "Entrance TP up";
@@ -83,7 +83,7 @@ function LoadConfig() {
 	Scripts.SealLeader = false; // Clear a safe spot around seals and invite leechers in. Leechers should run SealLeecher script. Don't run with Diablo or FastDiablo.
     
 	// *** act 5 ***
-	Scripts.Pindleskin = true;
+	Scripts.Pindleskin = false;
 		Config.Pindleskin.UseWaypoint = false;
 		Config.Pindleskin.KillNihlathak = true;
 		Config.Pindleskin.ViperQuit = true; // End script if Tomb Vipers are found.
@@ -386,7 +386,7 @@ function LoadConfig() {
 	Config.Recipes.push([Recipe.Rune, "Vex Rune"]); // Upgrade Vex to Ohm
 	Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
 	Config.Recipes.push([Recipe.Rune, "Lo Rune"]); // Upgrade Lo to Sur
-	Config.Recipes.push([Recipe.Rune, "Sur Rune"]); // Upgrade Sur to Ber
+	//Config.Recipes.push([Recipe.Rune, "Sur Rune"]); // Upgrade Sur to Ber
 
 	/* Base item for the following recipes must be in pickit. The rest of the ingredients will be auto-picked.
 	 * Use Roll.Eth, Roll.NonEth or Roll.All to determine what kind of base item to roll - ethereal, non-ethereal or all.
@@ -414,7 +414,7 @@ function LoadConfig() {
 	
 	Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]); // Socket Thresher
 	Config.Recipes.push([Recipe.Socket.Weapon, "Giant Thresher", Roll.Eth]); // Socket Giant Thresher
-	//Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]); // Socket Cryptic Axe
+	Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]); // Socket Cryptic Axe
 	//Config.Recipes.push([Recipe.Socket.Weapon, "Colossus Voulge", Roll.Eth]); // Socket Cryptic Axe
 	Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]); // Socket Cryptic Axe
 	

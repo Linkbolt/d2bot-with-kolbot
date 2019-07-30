@@ -58,7 +58,7 @@
 [name] == grimhelm && [quality] == unique && [flag] != ethereal # //[lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // vampire gaze
 [name] == shako && [quality] == unique && [flag] != ethereal # //[defense] >= 135  // harlequin crest
 [name] == spiredhelm && [quality] == unique # [passivecoldmastery] == 15 && [dexterity] >= 20   // nightwing's veil
-[name] == demonhead && [quality] == unique && [flag] != ethereal # //[lifeleech] >= 10 && [enhanceddefense] >= 140 && [strength] >= 30 // andariel's visage
+[name] == demonhead && [quality] == unique && [flag] != ethereal # [lifeleech] >= 10 && [enhanceddefense] >= 140 && [strength] >= 30 // andariel's visage
 [name] == corona && [quality] == unique  // crown of ages
 //[name] == basinet && [quality] == unique # [fireresist] >= 40 // darksight helm || darians iso
 //[name] == bonevisage && [quality] == unique // giant skull
